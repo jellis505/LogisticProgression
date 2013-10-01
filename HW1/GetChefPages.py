@@ -43,9 +43,9 @@ def GetRecipeURLs(html_string):
 def StoreHTMLPages(recipe_urls,folder_path):
     # This function outputs the urls to a specific directory
     for recipe_url in recipe_urls:
-        hmtl_string = GetURL(recipe_url,None)
+        new_html_string = GetURL(recipe_url,None)
         
-        # Now store the html_string
+        # Now fidn the name for the new_html_string
         last_slash = recipe_url.rfind('/');
         second_to_last_slash = recipe_url[0:last_slash-1].rfind('/')
         recipe_name = recipe_url[second_to_last_slash+1:last_slash] + ".html"
@@ -55,7 +55,7 @@ def StoreHTMLPages(recipe_urls,folder_path):
         
         #Now output the html string
         with open(output_file_name, 'w') as f:
-            f.write(html_string)
+            f.write(new_html_string)
     
     return
         
