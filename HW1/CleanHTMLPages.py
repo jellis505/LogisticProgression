@@ -13,7 +13,7 @@ def CleanHTML(html_string):
     # This function returns the ingredients and directions for each Food Network recipe
     # The python parser for Python 2.7.2 can not process the foodnetwork pages, therefore,
     # you should install the lxml library for this code to work.
-    soup = BeautifulSoup(html_string,"lxml")
+    soup = BeautifulSoup(html_string,"html5lib")
     
     # Find the ingredients that are used
     ingredients_list = []
@@ -21,7 +21,9 @@ def CleanHTML(html_string):
     for li in lis:
         if li.has_attr('itemprop'):
             if li['itemprop'] == "ingredients" and (li.string != None):
-                ingredients_list.append(li.string.replace("\r",""))
+                cleaned_string = li.string.replace("\r","")
+                cleaned_string = cleaned_string.replace("\n","")
+                ingredients_list.append(cleaned_string)
     
     # Now let's get the portions of the html page that correspond to the actual
     # instructions
@@ -57,7 +59,8 @@ def CleanHTML(html_string):
     # Create strings out of the lists we have
     ingredients_string = ",".join(ingredients_list)
     instructions_text = instructions_text.replace('\n', ' ')
-    instructions_string = instructions_text.replace('\r','')        
+    instructions_string = instructions_text.replace('\r','')
+    instrecutions_string = instructions_string.replace("\t"," ")        
     
     
     return ingredients_string,instructions_string
@@ -76,7 +79,7 @@ if __name__ == "__main__":
     # Create a list of all of the html files from each directory
     html_files = []
     for author_dir in author_dirs: 
-        html_files.extend([os.path.join(author_dir,o) for o in os.listdir(author_dir)])
+        html_files.extend([os.path.join(author_dir,o) for o in os.listdir(author_dir) if ".html" in o])
 
     # Now clean each html file
     
@@ -94,9 +97,25 @@ if __name__ == "__main__":
             
             if len(ingredients) > 0 and len(directions) > 0:
                 with open(file.replace(".html",'.txt'),'w') as g:
-                    g.write(ingredients)
+                    
+                    # Some of the Food Network Pages have malformed unicode characters, 
+                    # Therefore, we just use this to make sure the program does not break
+                    try:
+                        g.write(ingredients)
+                    except:
+                        print "Screwed up writing out to the file, due to unicode issue"
+                        bad.write(file+"\n")
+                    
+                    
                     g.write('\n')
-                    g.write(directions)
+                    
+                    # Some of the Food Network Pages have malformed unicode characters, 
+                    # Therefore, we just use this to make sure the program does not break
+                    try:
+                        g.write(directions)
+                    except:
+                        print "Screwed up writing out to the file, due to unicode issue"
+                        bad.write(file+"\n")
             else:
                 bad.write(file + '\n')
 
