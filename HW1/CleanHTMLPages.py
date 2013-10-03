@@ -57,7 +57,7 @@ def CleanHTML(html_string):
     """
     
     # Create strings out of the lists we have
-    ingredients_string = ",".join(ingredients_list)
+    ingredients_string = ", ".join(ingredients_list)
     instructions_text = instructions_text.replace('\n', ' ')
     instructions_string = instructions_text.replace('\r','')
     instrecutions_string = instructions_string.replace("\t"," ")        
@@ -70,6 +70,8 @@ if __name__ == "__main__":
     # This function takes each html file, and parses it and then finds
     # outputs the appropriate portions of each file to .html_cleaned
     
+    
+    #########Get the Files that we want##############
     # Input the directory that holds the author recipe folders
     top_level_dir = sys.argv[1]
     
@@ -81,8 +83,7 @@ if __name__ == "__main__":
     for author_dir in author_dirs: 
         html_files.extend([os.path.join(author_dir,o) for o in os.listdir(author_dir) if ".html" in o])
 
-    # Now clean each html file
-    
+    ######## Now clean each html file #############
     # This file will let us know if anything went wrong with any of the cleaning for the files
     bad_file = "bad_cleaning_record.txt"
     bad = open(bad_file,'w')
