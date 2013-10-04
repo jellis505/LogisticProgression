@@ -43,6 +43,10 @@ class FeatureExtractor:
                 term_vec[index] += 1
         
         return term_vec
+        
+    def CreateBoW(plain_text_file):
+        return
+    
 
     def GetCleanWords(content_string):
     
