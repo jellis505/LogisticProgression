@@ -1,0 +1,38 @@
+<project name="ChefDetector" default="dist" basedir=".">
+  <!-- set global properties for this build -->
+  <property name="src" location="src"/>
+  <property name="lib" location="lib"/>
+  <property name="bin" location="bin"/>
+  <property name="doc" location="doc"/>
+  <property name="java_version" value="1.6"/>
+
+  <target name="init">
+    <!-- Create the time stamp -->
+    <tstamp/>
+    <!-- Create directories used by compile and doc -->
+    <mkdir dir="${bin}"/>
+    <mkdir dir="${doc}"/>
+  </target>
+
+  <target name="compile" depends="init"
+        description="compile the source" >
+    <!-- Compile the java code from ${src} into ${build} -->
+    <javac source="${java_version}" 
+	   srcdir="${src}"
+	   destdir="${bin}"
+	   classpath="${lib}/mallet.jar:${lib}/mallet-deps.jar"/>
+  </target>
+
+  <target name="doc" depends="init" 
+	  description="generate documentation">
+    <javadoc sourcepath="${src}" 
+	     destdir="${doc}"
+	     classpath="${{lib}/mallet.jar:${lib}/mallet-deps.jar}"/>
+  </target>
+
+  <target name="clean"
+        description="clean up" >
+    <!-- Delete the ${build} directory -->
+    <delete dir="${bin}"/>
+  </target>
+</project>

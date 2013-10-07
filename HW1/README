@@ -1,0 +1,79 @@
+NLP, ML, and the Web 
+Homework 1
+Joe Ellis and Jessica Ouyang
+
+--------------------
+
+FILES INCLUDED:
+
+ChefDetector/
+	bin/ - Compiled Java .class files.
+	build.xml - Ant buildfile.
+	doc/ - Javadocs.
+	lib/ - Library packages.
+	     mallet-deps.jar
+	     mallet.jar
+	src/ - Java files.
+	temp/ - Saved Mallet data structures (feature/label dictionaries, training/testing instances).  This is created by train.sh.
+	test.sh - Testing script.
+	train.sh - Training script.
+
+--------------------
+
+COMPILING:
+
+
+ChefDetector:
+train.sh compiles and generates Javadocs (ant compile and ant doc, respectively). 
+
+-------------------
+
+RUNNING:
+
+ChefDetector:
+train.sh and test.sh.
+
+Command line arguments for train.sh:
+1) Which representation to use (bagofwords, backoff, trigram).
+2) Training label file.
+3) Testing label file.
+4) Data directory.
+5) Filename for saving the trained model.
+
+Command line arguments for test.sh:
+1) Which representation to use (bagofwords, backoff, trigram).
+2) Filename for the saved model.
+3) Filename for output.
+
+--------------------
+
+TASK:
+
+Our goal was to classify recipes by chef.  We downloaded 200 recipes for each of 5 Food Network chefs: Bobby Flay, Giada de Laurentiis, Guy Fieri, Paula Deen, and Rachel Ray.  
+
+We treated each recipe as three parts: the title, which usually lists the most important ingredients; the ingredients list, including ingredients that require preparation; and the instructions.  We represented the title with a bag of words.  The ingredients list was represented with features mapping ingredient names to the amounts used, as well as a single feature counting the number of ingredients that required preparation (for example, the ingredient "peach puree" came with the instructions "put peaches and ice in a blender, blend, etc").  These features did not change among experiments.
+
+The three representations that we tested for the instructions were bag of words, a back-off bag of words (words appearing in fewer than 5 recipes were considered rare), and trigrams.  
+
+--------------------
+
+EXPERIMENTS:
+
+We ran all experiments with MaxEnt in Mallet.  We chose MaxEnt because a highly-cited paper by David Madigan on author identification, which we thought might be similar to chef identification, used logistic regression.  
+
+Using all features, all three representations achieved 99.8% accuracy on the test set.  
+
+We tried feature ablation and got these results:
+title - 95.4%
+ingredients - 99.8%
+instructions
+      bag of words - 31.2%
+      back-off - 25.4%	
+      trigram - 28.6%
+
+title and instructions
+      bag of words - 96.2%
+      back-off - 95.0%
+      trigram - 95.6%
+
+
