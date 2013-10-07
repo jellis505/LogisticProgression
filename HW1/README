@@ -32,7 +32,10 @@ ChefDetector/
 COMPILING:
 
 web_scraping:
-pip install -r requirements.txt
+if you do not already have the python package installer pip installed, please install pip.  
+	This can be completed by running the command "easy_install pip" in the terminal, or installing from source.
+
+run_command: pip install -r requirements.txt
 	- this command will automatically install the additional necessary libraries beyond what comes packaged with the base python distribution
 
 ChefDetector:
