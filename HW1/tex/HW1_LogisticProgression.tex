@@ -24,7 +24,7 @@
 \usepackage{fourier} % Use the Adobe Utopia font for the document - comment this line to return to the LaTeX default
 \usepackage[english]{babel} % English language/hyphenation
 \usepackage{amsmath,amsfonts,amsthm} % Math packages
-
+\usepackage{color}
 \usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
 
 \usepackage{sectsty} % Allows customizing section commands
@@ -40,11 +40,11 @@
 \renewcommand{\footrulewidth}{0pt} % Remove footer underlines
 \setlength{\headheight}{13.6pt} % Customize the height of the header
 
-\numberwithin{equation}{section} % Number equations within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
-\numberwithin{figure}{section} % Number figures within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
-\numberwithin{table}{section} % Number tables within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+%numberwithin{equation}{section} % Number equations within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+%\numberwithin{figure}{section} % Number figures within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+%\numberwithin{table}{section} % Number tables within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
 
-\setlength\parindent{0pt} % Removes all indentation from paragraphs - comment this line for an assignment with lots of text
+%\setlength\parindent{0pt} % Removes all indentation from paragraphs - comment this line for an assignment with lots of text
 
 %----------------------------------------------------------------------------------------
 %	TITLE SECTION
@@ -68,9 +68,49 @@
 
 \maketitle % Print the title
 
-%----------------------------------------------------------------------------------------
-%	PROBLEM 1
-%----------------------------------------------------------------------------------------
+%---
+% Task 
+%---
+
+\section{Task -- Chef Recipe Classification}
+In this section we discuss the project that we attempted and the progress that we have made. {\color{red} Put Overview Here.}
+
+\subsection{Web Scraping}
+
+\paragraph{}
+We have chosen to try to classify recipes on FoodNetwork.com based on which famous chef devised the paticular recipe.  
+FoodNetwork is a great resource for many recipes and is widely utilized by many people.
+
+\paragraph{}
+However, there is no very easy way to gain access to each of the recipes, as they are not organized by chef pages.  However, we can gain access to the recipes by using the website’s recipe search ability, and then filtering the results by chef.  The FoodNetwork also will only show 12 recipes per html page for a given search query, therefore we must iterate through the search results automatically, and extract the links to each recipe and then iterate through the results.  We have created a command line program that takes as input the name of the chef to search and filter FoodNetwork.com for, and downloads each of the html files for each recipe into a directory.  The url that is queried by the program can be seen in the ``GetChefPages.py'' fuction within our source code directory.  Where the search finds the recipes created by “Guy Fieri” and returns the 12th to 24th recipe in the list.  We then parsed the html file to extract the links for each recipe’s html page.
+
+\paragraph{}
+After we had downloaded all of the recipes, we then moved on to extracting the recipe from the html page.  We have created a program that systematically removes the ingredients and directions from each html file, and outputs them to a plain-text file with the same name as the html file, but a .txt file extension.  To perform the parsing we used the python BeautifulSoup library.
+
+\subsection{Representation and Classification}
+\paragraph{}
+Our goal was to classify recipes by chef.  
+We downloaded 200 recipes for each of 5 Food Network chefs: Bobby Flay, Giada de Laurentiis, Guy Fieri, Paula Deen, and Rachel Ray.  
+
+We treated each recipe as three parts: the title, which usually lists the most important ingredients; the ingredients list, including ingredients that require preparation; and the instructions.  We represented the title with a bag of words.  The ingredients list was represented with features mapping ingredient names to the amounts used, as well as a single feature counting the number of ingredients that required preparation (for example, the ingredient "peach puree" came with the instructions "put peaches and ice in a blender, blend, etc").  These features did not change among experiments.
+
+The three representations that we tested for the instructions were bag of words, a back-off bag of words (words appearing in fewer than 5 recipes were considered rare), and trigrams.  
+
+
+\section{Results}
+We explored a mixture of different word representations for our testing, and looked to understand which portions of each document would be the most useful for chef classification.  For each author we trained on 100 randomly selected recipes, from which we extracted the title, ingredients, and instructions.  We utilized three 
+
+\begin{table}
+
+\label{tab:results}
+\end{table}
+
+
+
+
+%---
+% Linguistic Section
+%---
 
 \section{Linguistic Analysis of Word Representations}
 
@@ -128,5 +168,40 @@ Then to gain the TF-IDF vector we multiply IDF by whatever the TF (word-represen
 The TF could be BoW, Term Vector, or some other type of representation.  
 This representation allows for us to prioritize the words that are discriminant across the document sets, and then downgrade those words that appear in every document.  
 It is a very useful strategy, and this technique is also widely used in the field of Computer Vision.  I have personally often used TF-IDF in CV tasks to great effect, and I believe that this representation is one of the most useful and intuitive document representations available to us.
+
+\section{Ideal Representation and Results Discussion}
+
+We expected the ingredients to be the most informative features, and we were right.  
+Our best feature, ingredients and their counts, alongwith the number of ingredients that need preparation, achieved 99.8\% accuracy, which is very close to ideal. 
+
+\paragraph{}
+The second best feature, the bag of words from the recipe title,achieved 95.4\% accuracy, which is also very high. 
+This makes sense. 
+The title of the recipe generally consists of the main
+ingredients and the cooking technique used. 
+For example, the title``baked mashed potatoes with parmesan cheese and bread crumb'' names the main ingredients (potatoes, parmesan, and bread crumbs) and the cooking technique (baking). The other ingredients (milk, butter, mozzarella, salt, and pepper) are not included.  While ingredients like, salt, and pepper, might not be very useful in distinguishing between recipes because they are so common, ingredients like butter and mozzarella are useful. The title of a recipe omits some important ingredients.
+
+\paragraph{}
+In addition, the title of a recipe does not indicate how much of each ingredient is used. 
+Our ingredient features each consisted of an ingredient name and the amount used. This is important information because different chefs favor different ingredients -- Paula Deen, for example, uses a lot of butter in her recipes, while Rachel Ray uses smaller amounts, often mixed with olive oil.
+
+\paragraph{}
+However, our ingredient features could have been better. Ingredients are usually listed in the format  <number> <unit> <ingredient> (1 tablespoon butter). Our ingredient feature would treat the ingredient name as ``tablespoon butter'' and the amount as ``1''. 
+A better representation would be to convert all the ingredient amounts to a common unit so that we could distinguish between 1 tablespoon of butter and 1 pound of butter. 
+However, this would be difficult to implement because converting weight to volume requires world
+knowledge.  
+For example, a human who has seen the wrapper on a stick of butter knows that 8 tablespoons is equivalent to 1/4 pound, but it would be difficult to code this information into a program. 
+
+\paragraph{}
+An additional problem with our ingredient representation is due to the way we process the list of ingredients. 
+We tokenize the list by commas, but some ingredients are followed by instructions for how to
+prepare them.  
+For example, the ingredient ``peach puree'' might be followed by the parenthetical ``(blend peaches and ice)''. 
+For the most part, this is not a problem: we extract the parenthetical instructions and add them to the instructions for preparing the dish itself to produce the instruction features. 
+However, some of the parenthetical instructions contain commas: ``blend peaches, ice, and ice cream''. 
+We do not detect this, so we treat this as three ingredients: ``peach pure'', with the accompanying instruction ``blend peaches''; ``ice''; and ``and ice cream''.  While ice can be considered an igredient in this recipe, "and ice cream" is a nonsensical ingredient name. 
+
+\paragraph{}
+Thus an ideal representation for classifying recipes by chef would be an mapping from ingredients to the amounts, where the amounts were all given in terms of a common unit of measurement, and where parenthetical instructions could be completely removed.  
 
 \end{document}
