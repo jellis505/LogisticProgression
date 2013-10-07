@@ -57,13 +57,13 @@ CreateDesiredStructure.py
 
 ChefDetector:
 Command line arguments for train.sh:
-1) Which representation to use (bagofwords, backoff, trigram).
+1) Which representation to use (bagofwords, rares, trigram).
 2) Training label file.
 3) Testing label file.
 4) Data directory.
 5) Filename for saving the trained model.
 Command line arguments for test.sh:
-1) Which representation to use (bagofwords, backoff, trigram).
+1) Which representation to use (bagofwords, rares, trigram).
 2) Filename for the saved model.
 3) Filename for output.
 

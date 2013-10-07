@@ -20,7 +20,7 @@ public class Trainer {
 
 	/**
 	 * @param args Expected arguments are
-	 * 0 - mode ("bagofwords", "backoff", or "trigram")
+	 * 0 - mode ("bagofwords", "rares", or "trigram")
 	 * 1 - directory of saved Instances
 	 * 2 - filename where the model is to be saved
 	 */
