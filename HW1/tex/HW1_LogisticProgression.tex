@@ -73,7 +73,10 @@
 %---
 
 \section{Task -- Chef Recipe Classification}
-In this section we discuss the project that we attempted and the progress that we have made. {\color{red} Put Overview Here.}
+\paragraph{}
+For this project we chose to attempt to identify Famous Chef's that appear on the FoodNetwork based on the characteristics of their recipes.
+FoodNetwork.com has many recipes from some of their most famous chefs available on their website, and with some effort we were able to extract around 200 of these recipes from various chefs automatically using web technologies.  We then extracted the useful portions of the webpages, such as the ingredients, title, and instructions.  Using this cleaned text we created different word representations based on these documents, and attempted to identify the author/chef for each recipe.  
+
 
 \subsection{Web Scraping}
 
@@ -103,6 +106,7 @@ The three representations that we tested for the instructions were bag of words,
 
 \paragraph{}
 We explored a mixture of different word representations for our testing, and looked to understand which portions of each document would be the most useful for chef classification.  For each author we trained on 100 randomly selected recipes, from which we extracted the title, ingredients, and instructions.
+We then tested the learned classifier with 50 held-out test recipes from each author.
 
 \paragraph{}
 We ran all experiments with MaxEnt in Mallet.  
