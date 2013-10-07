@@ -11,10 +11,27 @@ import random
 
 
 def ReplaceExt(file,ext):
+    # This function replaces the extension on a file
+    #INPUTS:
+        # file = the filepath
+        # ext = the desired extension
+    # OUTPUTS:
+        # return_object = file with the new extension
+    
     last_dot = file.rfind('.')
     return file[0:last_dot] + ext
 
 def GetFilesNotInBadFile(top_level_dir,bad_file):
+    # This function makes sure that we do not use any of the html files we were not able to parse correctly, and removes them as possible
+    # candidates for train and test
+    #INPUTS:
+        # top_level_dir = the directory that holds all of the author folders with recipes
+        # bad_file = the filepath to the file that holds any recipes that did not parse correctly
+    #OUTPUTS:
+        # html_files = the html files that will be used in a list of lists format seperated by authors
+        # txt_files = the .txt files that will be used in a list of lists format seperated by authors
+        # author_dires = the author_folders, which double as author names.  They tell us which recipe was created by who
+    
     
     # This get the files we don't want to use for some reason, because the parsing wasn't great
     bad_files = []
@@ -47,7 +64,15 @@ def GetFilesNotInBadFile(top_level_dir,bad_file):
     return html_files,txt_files,author_dirs
     
 def CreateTrainandTest(html_files,txt_files,author_dirs,bad_file):
-    # This createst the train and test split
+    # This randomly createst the train and test split, and outputs them to files that will be used for training and testing
+    # INPUTS:
+        # html_files = the html files that will be used in a list of lists format seperated by authors
+        # txt_files = the .txt files that will be used in a list of lists format seperated by authors
+        # author_dires = the author_folders, which double as author names.  They tell us which recipe was created by who
+        # bad_file = the filepath to the file that holds any recipes that did not parse correctly
+    # OUTPUTS:
+        # train_files = a list of tuples, with the filename without ext and the correct author for training
+        # test_files = a list of tuples, with the filename without ext and the correct author for testing
     
     # This get the files we don't want to use for some reason, because the parsing wasn't great
     bad_files = []
@@ -71,7 +96,7 @@ def CreateTrainandTest(html_files,txt_files,author_dirs,bad_file):
         else:
             author_name = author_dir[last_slash+1:]
     
-        # Kill the extension on the files
+        # Kill the extension on the files, and remove any files that were in the bad_files
         html_file_no_ext = [ReplaceExt(o,"") for o in html_file_list]
         html_file_no_ext = [o for o in html_file_no_ext if o not in bad_files]
         
