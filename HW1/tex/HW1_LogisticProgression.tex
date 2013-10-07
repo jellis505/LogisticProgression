@@ -88,24 +88,66 @@ However, there is no very easy way to gain access to each of the recipes, as the
 After we had downloaded all of the recipes, we then moved on to extracting the recipe from the html page.  We have created a program that systematically removes the ingredients and directions from each html file, and outputs them to a plain-text file with the same name as the html file, but a .txt file extension.  To perform the parsing we used the python BeautifulSoup library.
 
 \subsection{Representation and Classification}
+
 \paragraph{}
 Our goal was to classify recipes by chef.  
 We downloaded 200 recipes for each of 5 Food Network chefs: Bobby Flay, Giada de Laurentiis, Guy Fieri, Paula Deen, and Rachel Ray.  
 
+\paragraph{}
 We treated each recipe as three parts: the title, which usually lists the most important ingredients; the ingredients list, including ingredients that require preparation; and the instructions.  We represented the title with a bag of words.  The ingredients list was represented with features mapping ingredient names to the amounts used, as well as a single feature counting the number of ingredients that required preparation (for example, the ingredient "peach puree" came with the instructions "put peaches and ice in a blender, blend, etc").  These features did not change among experiments.
 
+\paragraph{}
 The three representations that we tested for the instructions were bag of words, a back-off bag of words (words appearing in fewer than 5 recipes were considered rare), and trigrams.  
 
-
 \section{Results}
-We explored a mixture of different word representations for our testing, and looked to understand which portions of each document would be the most useful for chef classification.  For each author we trained on 100 randomly selected recipes, from which we extracted the title, ingredients, and instructions.  We utilized three 
 
-\begin{table}
+\paragraph{}
+We explored a mixture of different word representations for our testing, and looked to understand which portions of each document would be the most useful for chef classification.  For each author we trained on 100 randomly selected recipes, from which we extracted the title, ingredients, and instructions.
 
-\label{tab:results}
+\paragraph{}
+We ran all experiments with MaxEnt in Mallet.  
+We chose MaxEnt because of a highly-cited paper by David Madigan on author identification, which we thought might be similar to chef identification, used logistic regression.  
+Using all features, all three representations achieved 99.8\% accuracy on the test set.
+We tried feature ablation and got the results displayed in the tables provided.
+
+\begin{table}[h]
+\centering
+\label{tab:3results}
+\caption{Results using all 3 feature representations}
+\begin{tabular}{|c|c|}
+\hline
+ Features Used & Accuracy \\ \hline \hline
+title-only & 95.4\% \\  \hline
+ingredients only & 99.8\% \\ \hline
+\end{tabular}
 \end{table}
 
 
+\begin{table}[h]
+\centering
+\label{tab:instructions only}
+\caption{Results using 3 feature representations seperately on only instructions}
+\begin{tabular}{|c|c|}
+\hline
+ Representation Used & Accuracy \\ \hline \hline
+BoW & 31.2\% \\  \hline
+back-off & 25.4\% \\ \hline
+trigram & 28.6\% \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{table}[h]
+\centering
+\label{tab:instructions only}
+\caption{Results using 3 feature representations seperately on title and instructions}
+\begin{tabular}{|c|c|}
+\hline
+ Representation Used & Accuracy \\ \hline \hline
+BoW & 96.2\% \\  \hline
+back-off & 95.0\% \\ \hline
+trigram & 95.6\% \\ \hline
+\end{tabular}
+\end{table}
 
 
 %---
@@ -114,6 +156,7 @@ We explored a mixture of different word representations for our testing, and loo
 
 \section{Linguistic Analysis of Word Representations}
 
+\paragraph{}
 Document Classification is an interesting and widely studied task in the field of Natural Language Processing.  
 It allows for unique challenges based on the type of classification that is attempted, and many open questions still exist.   
 We will be discussing in this section different word representations, and how they effect the performance of given classification tasks.  
