@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # 
-# Created by Joe Ellis 
+# Created by Joe Ellis and Jessica Ouyang
 # Logistic Progression 
 # Natural Language Processing, Machine Learning, and the Web
 
@@ -12,7 +12,13 @@ def CleanHTML(html_string):
     
     # This function returns the ingredients and directions for each Food Network recipe
     # The python parser for Python 2.7.2 can not process the foodnetwork pages, therefore,
-    # you should install the lxml library for this code to work.
+    # you should install the html5lib library for this code to work.
+    # INPUTS:
+        # html_string = an html formatted recipe page string from foodnewtork.com
+    #OUTPUTS:
+        # ingredients_string = The list of ingredients comma seperated by ingredient
+        # instructions_string = The instructions from the recipe html in the form of a string 
+    
     soup = BeautifulSoup(html_string,"html5lib")
     
     # Find the ingredients that are used
@@ -68,7 +74,20 @@ def CleanHTML(html_string):
 
 if __name__ == "__main__":
     # This function takes each html file, and parses it and then finds
-    # outputs the appropriate portions of each file to .html_cleaned
+    # outputs the appropriate portions of each file to .txt
+    # INPUTS:
+        # The input to this function is the top level directory of files that were downloaded using 
+        # GetCheefPages.py
+        # The directory structure should be as follows
+        # / top_level_directory
+            # /author1 directory
+                # /recipe1.html
+                # /recipe2.html
+            # /author2 directory
+                # /recipe1.html
+                # /recipe2.html 
+    # OUTPUTS:
+        # This functiom will output a .txt file with the same name as every given recipe, based on 
     
     
     #########Get the Files that we want##############

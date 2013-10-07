@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # 
-# Created by Joe Ellis 
+# Created by Joe Ellis and Jessica Ouyang
 # Logistic Progression 
 # Natural Language Processing, Machine Learning, and the Web
 
@@ -88,9 +88,18 @@ def CreateTrainandTest(html_files,txt_files,author_dirs,bad_file):
     return train_files, test_files
 
 if __name__ == "__main__":
-    """ This script takes the desired directory that we have all of the files in, 
-    chooses the test files, and then moves over them to the desired directory,
+    """ This script takes the desired directory that we have all of the files in by author, 
+    chooses the test files, and then moves over them to the directory structure as discussed in the 
+    report as the desired format
     """
+    
+    #INPUTS:
+        # top_level_dir = the directory that contains the folder with each authors recipes
+    #OUTPUTS:
+        # ../train_labels.txt = The training file in the desired format as described in the HW write-up
+        # ../test_labels.txt = The Testing file in the desired format as described in the HW write-up
+        # data/ = The flat directory with each of the .html and .txt files that were created using 
+            # GetChefPages.py and CleanHTMLPages.py
     
     #########Get the Files that we want##############
     # Input the directory that holds the author recipe folders
@@ -104,14 +113,14 @@ if __name__ == "__main__":
     train_files,test_files = CreateTrainandTest(html_files,txt_files,author_dirs,bad_file)
     
     # Output the train and test_files to the head directory
-    with open("train_labels.txt","w") as f:
+    with open("../train_labels.txt","w") as f:
         for train_file in train_files:
             f.write(train_file[0])
             f.write(",")
             f.write(train_file[1])
             f.write("\n")
     
-    with open("test_labels.txt","w") as f:
+    with open("../test_labels.txt","w") as f:
         for test_file in test_files:
             f.write(test_file[0])
             f.write(",")

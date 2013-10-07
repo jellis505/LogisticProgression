@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # 
-# Created by Joe Ellis 
+# Created by Joe Ellis and Jessica Ouyang
 # Logistic Progression 
 # Natural Language Processing, Machine Learning, and the Web
 
