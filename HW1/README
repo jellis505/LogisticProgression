@@ -6,6 +6,15 @@ Joe Ellis and Jessica Ouyang
 
 FILES INCLUDED:
 
+web_srcaping/
+	CleanHTMLPages.py - Python Functions and script
+	CreateDesiredStructure.py - Python Functions and script
+	GetChefPages.py - Python Functions and script
+	non_used_files/
+		- These files were not used, because we decided to use Java
+		for the word representations.  Please do not grade, but they can
+		be looked at if you desire.
+
 ChefDetector/
 	bin/ - Compiled Java .class files.
 	build.xml - Ant buildfile.
@@ -22,6 +31,10 @@ ChefDetector/
 
 COMPILING:
 
+web_scraping:
+pip install -r requirements.txt
+	- this command will automatically install the additionaly necessary libraries beyond what comes packaged
+	with the base python distribution
 
 ChefDetector:
 train.sh compiles and generates Javadocs (ant compile and ant doc, respectively). 
@@ -29,6 +42,17 @@ train.sh compiles and generates Javadocs (ant compile and ant doc, respectively)
 -------------------
 
 RUNNING:
+
+web_scraping:
+CleanHTMLPages.py
+	-Usage: ./CleanHTMLPages.py <top_level_directory containing the author directories>
+
+GetChefPages.py
+	-Usage: ./GetChefPages.py -i "<name to be searched>" -n <top_level_dir/author_name>
+
+CreateDesiredStructure.py
+	-Usage: ./CreateDesiredStructure.py <top_level_directory containing the author directories>
+
 
 ChefDetector:
 train.sh and test.sh.
@@ -49,6 +73,12 @@ Command line arguments for test.sh:
 
 TASK:
 
+Web_Scraping:
+We have chosen to try to classify recipes on FoodNetwork.com based on which famous chef came up with this particular recipe.  FoodNetwork is a great resource for many recipes and is widely utilized by many people.  
+However, there is no very easy way to gain access to each of the recipes, as they are not organized by chef pages.  However, we can gain access to the recipes by using the website’s recipe search ability, and then filtering the results by chef.  The FoodNetwork also will only show 12 recipes per html page for a given search query, therefore we must iterate through the search results automatically, and extract the links to each recipe and then iterate through the results.  We have created a command line program that takes as input the name of the chef to search and filter FoodNetwork.com for, and downloads each of the html files for each recipe into a directory.  The url that is queried by the program is, http://www.foodnetwork.com/search/delegate.do?Nr=Record%20Type:Result&N=501%204294959872&fnSearchString=guy%20fieri&No=12, where this search finds the recipes created by “Guy Fieri” and returns the 12th to 24th recipe in the list.  We then parsed the html file to extract the links for each recipe’s html page.
+After we had downloaded all of the recipes, we then moved on to extracting the recipe from the html page.  We have created a program that systematically removes the ingredients and directions from each html file, and outputs them to a plain-text file with the same name as the html file, but a .txt file extension.  To perform the parsing we used the python BeautifulSoup library
+
+Representation and Classification:
 Our goal was to classify recipes by chef.  We downloaded 200 recipes for each of 5 Food Network chefs: Bobby Flay, Giada de Laurentiis, Guy Fieri, Paula Deen, and Rachel Ray.  
 
 We treated each recipe as three parts: the title, which usually lists the most important ingredients; the ingredients list, including ingredients that require preparation; and the instructions.  We represented the title with a bag of words.  The ingredients list was represented with features mapping ingredient names to the amounts used, as well as a single feature counting the number of ingredients that required preparation (for example, the ingredient "peach puree" came with the instructions "put peaches and ice in a blender, blend, etc").  These features did not change among experiments.
