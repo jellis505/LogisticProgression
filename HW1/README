@@ -33,8 +33,7 @@ COMPILING:
 
 web_scraping:
 pip install -r requirements.txt
-	- this command will automatically install the additionaly necessary libraries beyond what comes packaged
-	with the base python distribution
+	- this command will automatically install the additional necessary libraries beyond what comes packaged with the base python distribution
 
 ChefDetector:
 ant clean - remove old bin/, doc/, and temp/
