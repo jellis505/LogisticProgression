@@ -116,7 +116,7 @@ public class Utils {
 			int end = rawToken.length() - 1;
 			for (int j = 0; j < endingPunctuation.length; j++) {
 				if (end > 0 && rawToken.charAt(end) == endingPunctuation[j]) 
-					temp = Character.toString(endingPunctuation[j]);
+					temp = Character.toString(endingPunctuation[j]); // save trailing punctuation to append at end of token list
 					rawToken = rawToken.substring(0, end);
 					break;
 			}

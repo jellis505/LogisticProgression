@@ -39,20 +39,20 @@ public class RecipeReader {
 			String ingredientStr = ingredientList[i].trim();
 					
 			// Get ingredient count.
-			float ingredientCount = 1.0f;
+			float ingredientCount = 1.0f; // default is just 1
 			int splitIndex = ingredientStr.indexOf(' ');
 			if (splitIndex > 0) {
 				String countStr = ingredientStr.substring(0, splitIndex);
 				Matcher countMatcher = countPat.matcher(countStr);
 				if (countMatcher.matches()) {
-					if (countStr.length() > 1 && countStr.charAt(1) == '/') {
+					if (countStr.length() > 1 && countStr.charAt(1) == '/') { // fractions
 						if (countStr.length() > 2)
 							ingredientCount = Float.parseFloat(countMatcher.group(1)) / Float.parseFloat(countMatcher.group(2));
 						else
-							ingredientCount = Float.parseFloat(countStr.substring(0, countStr.length() - 1));
+							ingredientCount = Float.parseFloat(countStr.substring(0, countStr.length() - 1)); // weird formatting mistakes
 					}
 					else 
-						ingredientCount = Float.parseFloat(countStr);
+						ingredientCount = Float.parseFloat(countStr); 
 					ingredientStr = ingredientStr.substring(splitIndex+1, ingredientStr.length());
 				}
 			}
@@ -71,7 +71,7 @@ public class RecipeReader {
 		// Process instructions.
 		List<String> instructions = new ArrayList<String>(); // this needs to be an array for access by index when building trigrams
 		for (String ingredientInstruction: ingredientInstructions)
-			instructions.addAll(Utils.tokenize(ingredientInstruction));
+			instructions.addAll(Utils.tokenize(ingredientInstruction)); // add ingredient instructions
 		for (int j = 1; j < lines.size(); j++) 
 			instructions.addAll(Utils.tokenize(lines.get(j)));
 		recipe.setInstructions(instructions);

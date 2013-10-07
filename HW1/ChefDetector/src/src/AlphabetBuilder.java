@@ -110,6 +110,8 @@ public class AlphabetBuilder {
 			backoff(rareFeatures, trainProtos);
 			backoff(rareFeatures, testProtos);
 		}
+		
+		// Build Alphabets (feature/label dictionaries).
 		Alphabet featureAlphabet = new Alphabet();
 		LabelAlphabet labelAlphabet = new LabelAlphabet();
 		for (ProtoInstance proto: trainProtos) {

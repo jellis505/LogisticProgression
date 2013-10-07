@@ -23,7 +23,7 @@
 	   classpath="${lib}/mallet.jar:${lib}/mallet-deps.jar"/>
   </target>
 
-  <target name="doc" depends="init" 
+  <target name="javadoc" depends="init" 
 	  description="generate documentation">
     <javadoc sourcepath="${src}" 
 	     destdir="${doc}"

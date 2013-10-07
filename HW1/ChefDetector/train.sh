@@ -5,10 +5,6 @@ then
     exit 2
 fi
 
-ant clean
-ant compile
-ant doc
-
 mkdir -p ./temp/
 
 java -Xmx2G -cp ./bin:./lib/mallet.jar:./lib/mallet-deps.jar src.AlphabetBuilder $1 $2 $3 $4 temp/
