@@ -4,24 +4,12 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.InputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Properties;
 
 import cc.mallet.classify.MaxEntTrainer;
-import cc.mallet.classify.NaiveBayesTrainer;
-import cc.mallet.types.Alphabet;
 import cc.mallet.types.InstanceList;
-
-import src.classify.ProtoInstance;
-import src.data.RecipeReader;
-import src.data.types.Recipe;
 
 /**
  * Main class for this project.
@@ -32,7 +20,7 @@ public class Trainer {
 
 	/**
 	 * @param args Expected arguments are
-	 * 0 - mode ("bagofwords", "backoff", or "trigram")
+	 * 0 - mode ("bagofwords", "rares", or "trigram")
 	 * 1 - directory of saved Instances
 	 * 2 - filename where the model is to be saved
 	 */
@@ -56,7 +44,7 @@ public class Trainer {
 		
 		// Train and save model.
 		ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream(new File(outputFilename)));
-		out.writeObject(new MaxEntTrainer().train(instances));
+		out.writeObject(new MaxEntTrainer().train(instances)); // this can be any trainer
 		out.close();
 		System.out.println("...Done.");
 	}

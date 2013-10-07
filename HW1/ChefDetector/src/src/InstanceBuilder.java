@@ -43,7 +43,7 @@ public class InstanceBuilder {
 
 	/**
 	 * @param args Expected arguments are
-	 * 0 - mode ("bagofwords", "backoff", or "trigram")
+	 * 0 - mode ("bagofwords", "rares", or "trigram")
 	 * 1 - directory of saved Alphabets and ProtoInstances
 	 */
 	public static void main(String[] args) throws IOException {

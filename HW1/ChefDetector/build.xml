@@ -4,6 +4,7 @@
   <property name="lib" location="lib"/>
   <property name="bin" location="bin"/>
   <property name="doc" location="doc"/>
+  <property name="temp" location="temp"/>
   <property name="java_version" value="1.6"/>
 
   <target name="init">
@@ -12,6 +13,7 @@
     <!-- Create directories used by compile and doc -->
     <mkdir dir="${bin}"/>
     <mkdir dir="${doc}"/>
+    <mkdir dir="${temp}"/>
   </target>
 
   <target name="compile" depends="init"
@@ -23,7 +25,7 @@
 	   classpath="${lib}/mallet.jar:${lib}/mallet-deps.jar"/>
   </target>
 
-  <target name="doc" depends="init" 
+  <target name="javadoc" depends="init" 
 	  description="generate documentation">
     <javadoc sourcepath="${src}" 
 	     destdir="${doc}"
@@ -34,5 +36,7 @@
         description="clean up" >
     <!-- Delete the ${build} directory -->
     <delete dir="${bin}"/>
+    <delete dir="${doc}"/>
+    <delete dir="${temp}"/>
   </target>
 </project>

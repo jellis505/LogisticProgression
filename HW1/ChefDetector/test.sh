@@ -1,7 +1,7 @@
 !/bin/bash                                                                                                                                                                                                 
 if [ $# -ne 3 ]
 then
-    echo "Unexpected number of arguments: please give (1) which feature set to use (\"bagofwords\", \"backoff\", \"trigram\"), (2) the saved trained model, and (3) the output filename."
+    echo "Unexpected number of arguments: please give (1) which feature set to use (\"bagofwords\", \"rares\", \"trigram\"), (2) the saved trained model, and (3) the output filename."
     exit 2
 fi
 

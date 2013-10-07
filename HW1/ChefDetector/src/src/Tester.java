@@ -19,7 +19,7 @@ public class Tester {
 
 	/**
 	 * @param args Expected values are
-	 * 0 - mode ("bagofwords", "backoff", "trigram")
+	 * 0 - mode ("bagofwords", "rares", "trigram")
 	 * 1 - directory of saved Instances
 	 * 2 - filename where the trained model is saved
 	 * 3 - output filename

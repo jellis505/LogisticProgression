@@ -87,7 +87,7 @@ public class AlphabetBuilder {
 	
 	/**
 	 * @param args Expected arguments are
-	 * 0 - which feature set to use: "bagofwords", "backoff", "trigram"
+	 * 0 - which feature set to use: "bagofwords", "rares", "trigram"
 	 * 1 - training label file
 	 * 2 - testing label file
 	 * 3 - directory of recipe text files
@@ -105,11 +105,13 @@ public class AlphabetBuilder {
 		List<ProtoInstance> testProtos = buildProtos(mode, testFilename, inputDirname);
 		
 		// Adjust features for backoff.
-		if (mode.equals("backoff")) {
+		if (mode.equals("rares")) {
 			List<String> rareFeatures = getRares(trainProtos);
 			backoff(rareFeatures, trainProtos);
 			backoff(rareFeatures, testProtos);
 		}
+		
+		// Build Alphabets (feature/label dictionaries).
 		Alphabet featureAlphabet = new Alphabet();
 		LabelAlphabet labelAlphabet = new LabelAlphabet();
 		for (ProtoInstance proto: trainProtos) {
