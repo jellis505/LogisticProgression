@@ -6,10 +6,16 @@ Joe Ellis and Jessica Ouyang
 
 FILES INCLUDED:
 
+recipes_by_chef/: This is the top level directory where the author directories sit.
+	author directories/: Each directory is the name of the chef/author, and the .html and .txt files sit here.
+
+data/
+	Flat directory where every recipe .html and .txt file should be moved to before the ChefDetector code is run.
+
 web_srcaping/
-	CleanHTMLPages.py - Python Functions and script
-	CreateDesiredStructure.py - Python Functions and script
-	GetChefPages.py - Python Functions and script
+	CleanHTMLPages.py - Python Functions and script used to clean the downloaded html files
+	CreateDesiredStructure.py - Python Functions and script used to choose the test and the train files
+	GetChefPages.py - Python Functions and script used to download the recipes for each famous chef
 	non_used_files/
 		- These files were not used, because we decided to use Java
 		for the word representations.  Please do not grade, but they can
@@ -48,14 +54,19 @@ ant javadoc - generate documentation
 RUNNING:
 
 web_scraping:
+1.) This program will download around 200 recipes for each chef.  Before running the command below make sure that the top level directory that will store the author directories with recipes exists.  The author directory does not need to exist it should be created in the program, the author name should be the same as the name searched.  The name searched must be in quotations.
+GetChefPages.py
+▸   -Usage: ./GetChefPages.py -i "<name to be searched>" -n <top_level_dir/author_name>
+
+2.) This program will create .txt files for each .html file available in the author directories.  These are then parsed and cleaned files for classification.
 CleanHTMLPages.py
 	-Usage: ./CleanHTMLPages.py <top_level_directory containing the author directories>
 
-GetChefPages.py
-	-Usage: ./GetChefPages.py -i "<name to be searched>" -n <top_level_dir/author_name>
-
+3.) This program will create the train and test label files in the HW1/ directory.
 CreateDesiredStructure.py
 	-Usage: ./CreateDesiredStructure.py <top_level_directory containing the author directories>
+
+4.) Move all of the files from the respective author directories into  HW1/data/.  Do this however you desire.
 
 ChefDetector:
 ant clean
