@@ -1,0 +1,121 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Short Sectioned Assignment
+% LaTeX Template
+% Version 1.0 (5/5/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Frits Wenneker (http://www.howtotex.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[paper=a4, fontsize=11pt]{scrartcl} % A4 paper and 11pt font size
+
+\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+\usepackage{fourier} % Use the Adobe Utopia font for the document - comment this line to return to the LaTeX default
+\usepackage[english]{babel} % English language/hyphenation
+\usepackage{amsmath,amsfonts,amsthm} % Math packages
+\usepackage{color} % This is used for highlighting text whenever you need to come back to something
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+\usepackage{sectsty} % Allows customizing section commands
+\allsectionsfont{\centering \normalfont\scshape} % Make all sections centered, the default font and small caps
+\usepackage{fancyhdr} % Custom headers and footers
+\pagestyle{fancyplain} % Makes all pages in the document conform to the custom headers and footers
+\fancyhead{} % No page header - if you want one, create it in the same way as the footers below
+\fancyfoot[L]{} % Empty left footer
+\fancyfoot[C]{} % Empty center footer
+\fancyfoot[R]{\thepage} % Page numbering for right footer
+\renewcommand{\headrulewidth}{0pt} % Remove header underlines
+\renewcommand{\footrulewidth}{0pt} % Remove footer underlines
+\setlength{\headheight}{13.6pt} % Customize the height of the header
+
+%numberwithin{equation}{section} % Number equations within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+%\numberwithin{figure}{section} % Number figures within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+%\numberwithin{table}{section} % Number tables within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+
+%\setlength\parindent{0pt} % Removes all indentation from paragraphs - comment this line for an assignment with lots of text
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\newcommand{\horrule}[1]{\rule{\linewidth}{#1}} % Create horizontal rule command with 1 argument of height
+
+\title{	
+\normalfont \normalsize 
+\textsc{Columbia University -- CUNY} \\ [25pt] % Your university, school and/or department name(s)
+\horrule{0.5pt} \\[0.4cm] % Thin top horizontal rule
+\huge Multimodal Sentiment Analysis \\ % The assignment title
+\horrule{2pt} \\[0.5cm] % Thick bottom horizontal rule
+}
+
+\author{Logistic Progression -- Jessica Ouyang and Joe Ellis} % Your name
+
+\date{\normalsize\today} % Today's date or a custom date
+
+\begin{document}
+
+\maketitle % Print the title
+
+%---
+% Overview 
+%---
+
+\section{Overview}
+
+% Task
+
+\subsection{Task}
+In this project we propose to take a multi-modal approach to sentiment analysis, and create the capability to extract sentiment from a variety of differnet source, including videos, pictures, and text.
+Sentiment Analysis is a widely studied area of text analysis \cite{Pang}, but recently some work has been completed on visual sentiment analysis, such as SentiBank \cite{MM13:sentibank_long}.
+We propose to fuse information from visual, audio, and text signals to achieve a more complete representation of sentiment, and more accurately classify sentiment within a variety of sources. 
+We propose to also study the difference in sentiment between varying mediums.
+For example, the change in sentiment on a subject between Twitter, Youtube, and Broadcast Video News may change drastically.
+We propose to explore these differences and propose new models for multi-modal sentiment analysis.
+
+% Data Used
+
+\subsection{Data Used}
+We will use a variety of on-line data sources for this project, as well as manually downloaded cable and broadcast news stories. 
+We propose to utilize social media sites such as Twitter, Facebook, and Instagram, to gain real-time text and image data that can be processed for sentiment.
+We also have access to the past years worth of on-line news articles and news stories through the NewsRover project \cite{MM13:structurednews}.
+
+% Ideas on Techniques
+\subsection{Ideas on Techniques}
+{\color{red} Need to add this point for the next section.}
+{\color{blue} Add some stuff on socially aware content analysis of video/audio content.}
+
+%Groundbreaking
+\subsection{Why is it cool?}
+This work builds on a very popular portion of research in a way that has not currently been explored. 
+Multimodal analysis has shown promise in a variety of fields and sensor fusion techniques have become widely used.
+As we move more toward high-bandwidth data sources such as video and audio content, much of the sentiment that we create will be tied up in mediums other than text.
+Therefore, the lucrative field of sentiment analysis would benefit from the creation of a framework for multimodal data processing.
+
+%NLP portion
+\section{Subject Contributions}
+\subsection{NLP Contribution}
+This core of this project will be sentiment analysis, and the medium in which sentiment analysis is the most thoroughly developed is in text.
+The NLP novelty within this project is the ability to automatically combine text information from multiple different text sources (Twitter, social media, on-line news articles, tv transcripts).
+Combining these sources in interesting ways could add a novel portion to the typical NLP processing pipeline.
+
+%ML Portioin
+\subsection{ML Contributions}
+The core of this portion of the contribution is the fusion of features extracted from different modalities.
+These features 
+
+
+
+\bibliographystyle{plain}
+\bibliography{LogisticProg_proposal}
+
+\end{document}

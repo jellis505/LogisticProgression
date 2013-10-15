@@ -1,0 +1,20 @@
+\begin{thebibliography}{1}
+
+\bibitem{MM13:sentibank_long}
+Damian Borth, Rongrong Ji, Tao Chen, Thomas Breuel, and Shih-Fu Chang.
+\newblock Large-scale visual sentiment ontology and detectors using adjective
+  noun pairs.
+\newblock In {\em ACM Multimedia}, October 2013.
+
+\bibitem{MM13:structurednews}
+Brendan Jou, Hongzhi Li, Joseph~G. Ellis, Daniel Morozoff, and Shih-Fu Chang.
+\newblock Structured exploration of who, what, when, and where in heterogeneous
+  multimedia news sources.
+\newblock In {\em ACM Multimedia}, Grand Challenge, October 2013.
+
+\bibitem{Pang}
+Bo~Pang and Lillian Lee.
+\newblock Opinion mining and sentiment analysis.
+\newblock {\em Found. Trends Inf. Retr.}, 2(1-2):1--135, January 2008.
+
+\end{thebibliography}
