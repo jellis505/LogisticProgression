@@ -39,7 +39,7 @@ class NGramModel():
         # This file runs the creation of the n-gram
         # Read in the file
         with open(file,"r") as f:
-            content_string = f.read()
+            content_string = f.read().lower()
         
         # Get the tokenized files
         tokenized_sentences = self.Tokenize_File(content_string)
@@ -74,8 +74,8 @@ class NGramModel():
             ngram_models.append((ngrams,counts,total_grams))
         
         # Now let's get our V value for smoothing
-        self.V = float(len(ngram_models[self.N-1][1]))
-        
+        self.V = float(len(ngram_models[0][1]))
+        print len(ngram_models)
         # Let's make this a class variable to make everything easier
         self.ngram_models = ngram_models
         test_grams,test_counts = self.TrainNGramModel(test_file)
@@ -89,11 +89,14 @@ class NGramModel():
             total_count += count
             entropy,unseen = self.GetEntropyofGram(gram)
             entropy_vec.append(count*entropy)
-            unseen_count += unseen
+            unseen_count += count*unseen
             
         print "The total entropy of the test text for n=%d is: %f" % (self.N,sum(entropy_vec))
-        print "These are the total number of unseen grams:", unseen_count
+        print "These are the total number of percentage of unseen grams form seen gram:", unseen_count/(float(total_count))
+        print "The average perplexity is: ", math.pow(2.0,(-sum(entropy_vec)))
         return 
+    
+    
     """ Utility Functions"""
     
     
@@ -213,6 +216,8 @@ class NGramModel():
         except:
             gram_exists = False
         
+        #Debug
+        
         # Get the entropy with Laplace smoothing
         if self.smoothing:
             # Now let's get the entropy with Laplace smoothing
@@ -237,15 +242,14 @@ if __name__ == "__main__":
     
     # This runs tests for this functiontionality
     """Training Script"""
-    """
-    train_file = "data/ATaleofTwoCities_train.txt"
-    model_file = "models/ATaleofTwoCities_1.model"
-    ngrammer = NGramModel(1)
-    ngrammer.TrainNGramModel(train_file,model_file,True)
-    """
-    
+    for N in range(1,7):
+        train_file = "data/ATaleofTwoCities_train.txt"
+        model_file = "models/ATaleofTwoCities_" + str(N) +".model"
+        ngrammer = NGramModel(N)
+        ngrammer.TrainNGramModel(train_file,model_file,True)
+    quit()
     """Testing Script"""
-    
+    """
     for N in range(1,7):
         train_file = "data/ATaleofTwoCities_train.txt"
         test_file = "data/ATaleofTwoCities_dev.txt"
@@ -260,7 +264,10 @@ if __name__ == "__main__":
         ngram_model = NgramModel(N,train_sents,False,False)
         entropy = ngram_model.entropy(test_words)    
         print "For %d: the perplexity is:", entropy
-        
-        
-        
+    """    
+    for N in range(2,7):
+        test_file = "data/ATaleofTwoCities_dev.txt"
+        ngrammer = NGramModel(N)
+        ngrammer.GetTestPerplexity(test_file, True)
+
     
