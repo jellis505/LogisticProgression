@@ -93,7 +93,6 @@ class NGramModel():
             
         print "The total entropy of the test text for n=%d is: %f" % (self.N,sum(entropy_vec))
         print "These are the total number of percentage of unseen grams form seen gram:", unseen_count/(float(total_count))
-        print "The average perplexity is: ", math.pow(2.0,(-sum(entropy_vec)))
         return 
     
     
@@ -242,12 +241,15 @@ if __name__ == "__main__":
     
     # This runs tests for this functiontionality
     """Training Script"""
+    """
     for N in range(1,7):
         train_file = "data/ATaleofTwoCities_train.txt"
         model_file = "models/ATaleofTwoCities_" + str(N) +".model"
         ngrammer = NGramModel(N)
         ngrammer.TrainNGramModel(train_file,model_file,True)
     quit()
+    """
+    
     """Testing Script"""
     """
     for N in range(1,7):
@@ -265,9 +267,9 @@ if __name__ == "__main__":
         entropy = ngram_model.entropy(test_words)    
         print "For %d: the perplexity is:", entropy
     """    
-    for N in range(2,7):
+    for N in range(1,7):
         test_file = "data/ATaleofTwoCities_dev.txt"
         ngrammer = NGramModel(N)
         ngrammer.GetTestPerplexity(test_file, True)
-
+    
     
