@@ -12,17 +12,20 @@ from nltk.util import ingrams
 import math
 from nltk.model.ngram import NgramModel
 
+
 class NGramModel():
     """This class creates an Ngram from a given amount of text"""
     
     """ Big Scale Function"""
-    def __init__(self,N):
+    def __init__(self,N,back_off_params=None):
         #This sets up our NGram Creator
         self.N = N
         self.use_sentences = True
         # Set these to true if we want to use padding on either side for creation of our n-grams
         self.leftpad = False
         self.rightpad = False
+        self.back_off_params = back_off_params
+        
         return
     
     def GetTokenizedSentences(self,file):
@@ -56,13 +59,13 @@ class NGramModel():
     
         return ([ a for a,b in ngram_model ], [ b for a,b in ngram_model ])
     
-    def GetTestPerplexity(self,test_file,smoothing=None):
+    def GetTestPerplexity(self,test_file,use_backoff=False,smoothing=None):
         # This reads in the trained model files and the new data, and compares the perplexity
         # Let's read in the ngram models that we will need
         
         # Let's see what type of smoothing we can use
         self.smoothing = smoothing
-        
+        self.V = []
         ngram_models = []
         for i in range(1,self.N+1):
             train_model_file = "models/ATaleofTwoCities_" + str(i) + ".model"
@@ -72,27 +75,47 @@ class NGramModel():
                 total_grams += count
             # Store the model in a vector
             ngram_models.append((ngrams,counts,total_grams))
-        
+            self.V.append(float(len(ngram_models[0][1])))
         # Now let's get our V value for smoothing
-        self.V = float(len(ngram_models[0][1]))
+        
         print len(ngram_models)
         # Let's make this a class variable to make everything easier
         self.ngram_models = ngram_models
         test_grams,test_counts = self.TrainNGramModel(test_file)
-        
+        print "Got the test values"
+        print len(test_grams)
         # Now we have the model to be tested, and our trained model
         total_count = 0
+        total_seen_count = 0
         total_perplexity = 0
         entropy_vec = []
+        seen_entropy_vec = []
         unseen_count = 0
-        for gram,count in zip(test_grams,test_counts):
+        for i,(gram,count) in enumerate(zip(test_grams,test_counts)):
+            #if not i % 1000:
+            #    print "Finished %d of %d test samples" % (i,len(test_counts))
             total_count += count
-            entropy,unseen = self.GetEntropyofGram(gram)
+            if not use_backoff:
+                entropy,unseen = self.GetEntropyofGram(gram)
+            else:
+                entropy,unseen = self.GetEntropyofGram_Backoff(gram)
+            if not unseen:
+                total_seen_count += count
+                seen_entropy_vec.append(count*entropy)
+            
+            # This does it for everything
             entropy_vec.append(count*entropy)
             unseen_count += count*unseen
             
-        print "The total entropy of the test text for n=%d is: %f" % (self.N,sum(entropy_vec))
-        print "These are the total number of percentage of unseen grams form seen gram:", unseen_count/(float(total_count))
+        # Output to screen what for pre-backoff tests
+        #print "The total entropy of the test text for n=%d is: %f" % (self.N,sum(entropy_vec))
+        #print "These are the total number of percentage of unseen grams form seen gram:", unseen_count/(float(total_count))
+        #print "The total seen entropy of the test text for n=%d is: %f" % (self.N,sum(entropy_vec)/float(total_seen_count))
+        #print "The total entropy of the test text for n=%d is: %f" % (self.N,sum(entropy_vec)/float(total_count))
+        
+        # Output to screen for each back off parameter
+        print "The total entropy of for lambda =", self.back_off_params
+        print "Average Entropy =", sum(entropy_vec)/float(total_count)
         return 
     
     
@@ -169,7 +192,8 @@ class NGramModel():
     
     def GetEntropyofGram_Backoff(self,gram):
         # This will calculate our grams
-        entropy_vec = [] 
+        entropy_vec = []
+        unseen = 0
         for i in range(0,len(gram)):
             # Find the gram
             a = tuple(gram[0:i+1])
@@ -186,23 +210,31 @@ class NGramModel():
             # If the gram is brand new we don't want it to kill our program, so we catch an error
             # if the value is not in the index
             try:
-                gram_num = self.ngram_models[i][0].index(a)
-                gram_num_b = self.ngram_models[i-1][0].index(b)
+                if i == 0:    
+                    gram_num = self.ngram_models[i][0].index(a)
+                else:
+                    gram_num = self.ngram_models[i][0].index(a)
+                    gram_num_b = self.ngram_models[i-1][0].index(b)
             except:
                 gram_exists = False
-            
+
             # Only calculate the probability if the value exists
             if gram_exists and i == 0:    
-                prob = self.ngram_models[i][1][gram_num]/float(self.ngram_models[i][2])
+                prob = (self.ngram_models[i][1][gram_num] + 1)/float(self.ngram_models[i][2] + self.V[i])
                 entropy_vec.append(prob*math.log(prob))
                 
             elif gram_exists:
-                self.ngram_models[i][1][gram_num]/float(self.ngram_models[i-1][1][gram_num_b])
-            
+                prob =  (self.ngram_models[i][1][gram_num] + 1)/float(self.ngram_models[i-1][1][gram_num_b] + self.V[i])
+                entropy_vec.append(prob*math.log(prob))
             else:
-                entropy_vec.append((1/1000.)*math.log(1/1000.))
+                unseen = 1
+                entropy_vec.append((1/self.V[i])*math.log(1/self.V[i]))
+
         
-        return sum(entropy_vec)
+        # Now this is where we multiply by our parameters for back off
+        entropy = entropy_vec[0]*self.back_off_params[0] + entropy_vec[1]*self.back_off_params[1] + entropy_vec[2]*self.back_off_params[2]
+        
+        return entropy, unseen
     
     def GetEntropyofGram(self,gram):
         # This will calculate our grams
@@ -218,14 +250,15 @@ class NGramModel():
         #Debug
         
         # Get the entropy with Laplace smoothing
+        
         if self.smoothing:
             # Now let's get the entropy with Laplace smoothing
             if gram_exists:
-                prob = (self.ngram_models[self.N-1][1][gram_num] + 1) /float(self.ngram_models[self.N-1][2] + self.V)
+                prob = (self.ngram_models[self.N-1][1][gram_num] + 1) /float(self.ngram_models[self.N-1][2] + self.V[self.N-1])
                 entropy = prob*math.log(prob)
             else:
                 unseen = 1
-                entropy = (1/self.V)*math.log(1/self.V)
+                entropy = (1/self.V[self.N-1])*math.log(1/self.V[self.N-1])
         else:
             #Now get the entropy
             if gram_exists:
@@ -233,7 +266,7 @@ class NGramModel():
                 entropy = prob*math.log(prob)
             else:
                 unseen = 1
-                entropy = (0.001)*math.log(0.001)
+                entropy = 0
 
         return entropy, unseen
         
@@ -267,9 +300,23 @@ if __name__ == "__main__":
         entropy = ngram_model.entropy(test_words)    
         print "For %d: the perplexity is:", entropy
     """    
-    for N in range(1,7):
+    
+    """ This is to test the best N"""
+    """
+    for N in range(1,7)
         test_file = "data/ATaleofTwoCities_dev.txt"
-        ngrammer = NGramModel(N)
-        ngrammer.GetTestPerplexity(test_file, True)
+        ngrammer = NGramModel(N,[0.33,0.33,0.33])
+        ngrammer.GetTestPerplexity(test_file, True, True)
+    """
+    
+    """ This is to test the best lambdas that we have here"""
+    lambdas = [[0.2,0.2,0.6], 
+    for back_off in lambdas:
+        N = 3
+        test_file = "data/ATaleofTwoCities_dev.txt"
+        ngrammer = NGramModel(N,back_off)
+        ngrammer.GetTestPerplexity(test_file, True, True)
+                
+        
     
     
