@@ -1,0 +1,33 @@
+Homework #2
+NLP, Machine Learning, and The Web
+Logistic Progression -- Jessica Ouyang and Joe Ellis
+
+Task:
+Our task was to create language models for given sets of text.  We chose to pursue this by using 2 novels that are freely available on the Gutenberg Project.  These two novels were "A Tale of Two Cities" and "The Scarlet Letter".
+
+Directory:
+ATaleofTwoCities.txt - The Tale of Two Cities novel in txt format
+TheScarletLetter.txt - The Scarlet Letter novel in txt format
+CreatePlots.py - Utility function to create the plots that are seen in the graphs
+CreateTestandTrain.py - Function that takes as input the large novel, and splits it into the train and test splits described in the report.  Approximate splits are 60% for training, 20% for development, and 20% for testing.
+data/
+	*_test.txt - The test file for a given file
+	*_train.txt - The training file for a given full novel
+	*_dev.txt - The development test file for a given full novel
+models/
+	TheScarletLetter_<N>.model - The file containing the N gram model for "The Scarlet Letter"
+	ATaleofTwoCities_<N>.model - The file containing the N gram model for "A Tale of Two Cities"
+NGramCreatory.py - Class for creating the NGram language models.  This class holds everything for the N-Gram model.
+RunExperiments.py - This wrapper function creates a language model and tests it's perplexity on the given model.  It also has a function to train a model of N-Grams.
+tex/
+	Contains the documents that were used to create the report
+
+Compliation:
+The code within this Homework Submission is all written in Python, and depends on a python library known as nltk.  To install NLTK and the necessary corpora with it please follow the instructions below.
+1.) Run the command "pip install nltk", you may need sudo permissions
+2.) Next open up a python interpreter and type "import nltk"
+3.) Type "nltk.download()" and press enter.
+4.) Use the provided GUI to download the punkt tokenizer corpora and resources.
+
+Usage:
+To Create the train, test, and dev splits first 
