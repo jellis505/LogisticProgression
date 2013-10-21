@@ -29,5 +29,10 @@ The code within this Homework Submission is all written in Python, and depends o
 3.) Type "nltk.download()" and press enter.
 4.) Use the provided GUI to download the punkt tokenizer corpora and resources.
 
-Usage:
-To Create the train, test, and dev splits first 
+Language Modeling Usage:
+1.) To Create the train, test, and dev splits first download the text file that you would like to model, and then run in the linux command line "./CreateTrainandTest.py <path_to_raw_text_file>".  This creates the partitions in the data directory
+2.)  Now if you would like to train a model off of this text_file use the command "./RunExperiments.py -c -t <path to training textfile>". This will create models in the model folder.
+3.) To Run the experiments use "./RunExperiments.py <proper input parameters>".  To see the input parameters please look at the description below.
+
+
+
