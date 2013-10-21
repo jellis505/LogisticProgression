@@ -20,6 +20,8 @@
 
 \documentclass[paper=a4, fontsize=11pt]{scrartcl} % A4 paper and 11pt font size
 
+\usepackage{fullpage}
+
 \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
 \usepackage{fourier} % Use the Adobe Utopia font for the document - comment this line to return to the LaTeX default
 \usepackage[english]{babel} % English language/hyphenation
@@ -86,13 +88,16 @@ We propose to explore these differences and propose new models for multi-modal s
 
 \subsection{Data Used}
 We will use a variety of on-line data sources for this project, as well as manually downloaded cable and broadcast news stories. 
-We propose to utilize social media sites such as Twitter, Facebook, and Instagram, to gain real-time text and image data that can be processed for sentiment.
-We also have access to the past years worth of on-line news articles and news stories through the NewsRover project \cite{MM13:structurednews}.
+We plan to harvest news clips from the CNN Youtube channel; each clip consists of a single story from a news broadcast.
+We propose to utilize social media sites such as Twitter, Facebook, and Instagram, to gain supplementary text and image data that can be processed for sentiment.
+If needed, we may also use the past year's worth of on-line news articles and news stories through the NewsRover project \cite{MM13:structurednews}.
 
 % Ideas on Techniques
 \subsection{Ideas on Techniques}
-{\color{red} Need to add this point for the next section.}
-{\color{blue} Add some stuff on socially aware content analysis of video/audio content.}
+
+We plan to use co-training to classify videos as containing either positive or negative sentiment.
+We will use one classifier based on the content of the video itself -- facial expressions, gestures, and transcript -- and one based on metadata -- the video's title, description, Youtube comments, and related posts on social media.
+Metadata from social media can be gathered by searching for posts published within a few days of the video upload date that contain keywords from the video title and description.
 
 %Groundbreaking
 \subsection{Why is it cool?}
@@ -123,11 +128,14 @@ We hope to create programs to process the public stream content that arrives fro
 % Class Member Contributions
 \section{Member Contributions}
 
+We will collaborate on gathering the data and on training our models.  We plan to split responsibility for feature extraction based on our backgrounds.
+
 \subsection{Joe Ellis}
-{\color{red} Need to add after we discuss with Jessica}
+{\color{red} Stuff about face/gesture recognition, etc.}
 
 \subsection{Jessica Ouyang}
-{\color{red} Need to add after we discuss with Jessica}
+I will work on text-based features extracted from the video transcripts, titles, descriptions, Youtube comments, and social media posts.  
+I have some experience in sentiment detection in Twitter posts based on the work of \cite{agarwal2009contextual}.  
 
 
 
