@@ -96,7 +96,70 @@ class NGramModel():
             #    print "Finished %d of %d test samples" % (i,len(test_counts))
             total_count += count
             if not use_backoff:
-                entropy,unseen = self.GetEntropyofGram(gram)
+                entropy,unseen,prob = self.GetEntropyofGram(gram)
+            else:
+                entropy,unseen,prob = self.GetEntropyofGram_Backoff(gram)
+            if not unseen:
+                total_seen_count += count
+                seen_entropy_vec.append(count*entropy)
+            
+            # This does it for everything
+            entropy_vec.append(count*entropy)
+            unseen_count += count*unseen
+            
+        # Output to screen what for pre-backoff tests
+        if not self.back_off_params:
+            print "The total entropy of the test text for n=%d is: %f" % (self.N,sum(entropy_vec))
+            print "These are the total number of percentage of unseen grams form seen gram:", unseen_count/(float(total_count))
+            print "The total seen entropy of the test text for n=%d is: %f" % (self.N,sum(entropy_vec)/float(total_seen_count))
+            print "The total entropy of the test text for n=%d is: %f" % (self.N,sum(entropy_vec)/float(total_count))
+        
+        # Output to screen for each back off parameter
+        else:
+            print "The total entropy of for lambda =", self.back_off_params
+            print "Average Entropy =", sum(entropy_vec)/float(total_count)
+            print "Seen Entropy =", sum(seen_entropy_vec)/float(total_seen_count)
+        return sum(entropy_vec)/float(total_count),sum(seen_entropy_vec)/float(total_seen_count)
+    
+    def GetTestPerplexity_2models(self,test_file,model_files, use_backoff=False,smoothing=None):
+        # This reads in the trained model files and the new data, and compares the perplexity
+        # Let's read in the ngram models that we will need
+        
+        # Let's see what type of smoothing we can use
+        self.smoothing = smoothing
+        self.V = []
+        ngram_models = []
+        for j in range(len(model_files)):
+            for i in range(1,self.N+1):
+                train_model_file ="models/" + model_file + "_" + str(i) + ".model"
+                ngrams,counts = self.ReadModelFile(train_model_file)
+                total_grams = 0
+                for count in counts:
+                    total_grams += count
+                # Store the model in a vector
+                ngram_models.append((ngrams,counts,total_grams))
+                self.V.append(float(len(ngram_models[0][1])))
+        # Now let's get our V value for smoothing
+        
+        print len(ngram_models)
+        # Let's make this a class variable to make everything easier
+        self.ngram_models = ngram_models
+        test_grams,test_counts = self.TrainNGramModel(test_file)
+        print "Got the test values"
+        print len(test_grams)
+        # Now we have the model to be tested, and our trained model
+        total_count = 0
+        total_seen_count = 0
+        total_perplexity = 0
+        entropy_vec = []
+        seen_entropy_vec = []
+        unseen_count = 0
+        for i,(gram,count) in enumerate(zip(test_grams,test_counts)):
+            #if not i % 1000:
+            #    print "Finished %d of %d test samples" % (i,len(test_counts))
+            total_count += count
+            if not use_backoff:
+                entropy1,unseen1 = self.GetEntropyofGram(gram)
             else:
                 entropy,unseen = self.GetEntropyofGram_Backoff(gram)
             if not unseen:
@@ -118,7 +181,11 @@ class NGramModel():
         else:
             print "The total entropy of for lambda =", self.back_off_params
             print "Average Entropy =", sum(entropy_vec)/float(total_count)
-        return 
+            print "Seen Entropy =", sum(seen_entropy_vec)/float(total_seen_count)
+        return sum(entropy_vec)/float(total_count),sum(seen_entropy_vec)/float(total_seen_count)
+    
+    
+    
     
     
     """ Utility Functions"""
@@ -194,7 +261,7 @@ class NGramModel():
     
     def GetEntropyofGram_Backoff(self,gram):
         # This will calculate our grams
-        entropy_vec = []
+        prob_vec = []
         unseen = 0
         for i in range(0,len(gram)):
             # Find the gram
@@ -223,20 +290,19 @@ class NGramModel():
             # Only calculate the probability if the value exists
             if gram_exists and i == 0:    
                 prob = (self.ngram_models[i][1][gram_num] + 1)/float(self.ngram_models[i][2] + self.V[i])
-                entropy_vec.append(prob*math.log(prob))
+                prob_vec.append(prob)
                 
             elif gram_exists:
                 prob =  (self.ngram_models[i][1][gram_num] + 1)/float(self.ngram_models[i-1][1][gram_num_b] + self.V[i])
-                entropy_vec.append(prob*math.log(prob))
+                prob_vec.append(prob)
             else:
                 unseen = 1
-                entropy_vec.append((1/self.V[i])*math.log(1/self.V[i]))
-
+                prob_vec.append((1/self.V[i]))
         
         # Now this is where we multiply by our parameters for back off
-        entropy = entropy_vec[0]*self.back_off_params[0] + entropy_vec[1]*self.back_off_params[1] + entropy_vec[2]*self.back_off_params[2]
-        
-        return entropy, unseen
+        total_prob = prob_vec[0]*self.back_off_params[0] + prob_vec[1]*self.back_off_params[1] + prob_vec[2]*self.back_off_params[2]
+        entropy = total_prob*math.log(total_prob)
+        return entropy, unseen, total_prob
     
     def GetEntropyofGram(self,gram):
         # This will calculate our grams
@@ -261,6 +327,7 @@ class NGramModel():
             else:
                 unseen = 1
                 entropy = (1/self.V[self.N-1])*math.log(1/self.V[self.N-1])
+                prob = 1/self.V[self.N-1]
         else:
             #Now get the entropy
             if gram_exists:
@@ -269,8 +336,9 @@ class NGramModel():
             else:
                 unseen = 1
                 entropy = 0
+                prob = 0
 
-        return entropy, unseen
+        return entropy, unseen,prob
         
 if __name__ == "__main__":
     

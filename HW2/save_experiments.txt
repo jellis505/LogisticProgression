@@ -105,3 +105,7 @@ Average Entropy = -0.0138538382871
 3
 Got the test values
 17654
+The total entropy of for lambda = [0.0, 0.5, 0.5]
+Average Entropy = -0.00623279632854
+
+
