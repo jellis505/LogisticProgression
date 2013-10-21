@@ -167,6 +167,7 @@ class NGramModel():
         # Output to screen for each back off parameter
         else:
             print "The total entropy of for lambda =", self.back_off_params
+            print "Total Entropy = ", sum(entropy_vec)
             print "Average Entropy =", sum(entropy_vec)/float(total_count)
             print "Seen Entropy =", sum(seen_entropy_vec)/float(total_seen_count)
             print "Total Seen =", total_seen_count
