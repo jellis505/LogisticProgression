@@ -1,0 +1,96 @@
+\documentclass[brown]{beamer}
+
+\usepackage{graphicx}
+\usepackage{beamerthemebars} 
+% Other themes include: beamerthemebars, beamerthemelined, 
+%                       beamerthemetree, beamerthemetreebars  
+
+\newcommand{\tab}{\hspace*{2em}}
+
+\title{Multimodal Sentiment Analysis} 
+\author{Joe Ellis and Jessica Ouyang}
+\institute{Columbia University}
+\date{21 October 2013}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\section{Overview}
+
+\begin{frame}
+  \frametitle{Task}
+  Sentiment analysis of Youtube news videos
+  \begin{itemize}
+  \item Fuse information from visual and text signals
+  \item Combine information from the video itself with Youtube metadata and related social media data
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Data Used}
+  \begin{itemize}
+  \item News clips from the CNN Youtube channel
+    \begin{itemize}
+    \item Video
+    \item Transcript
+    \item Title
+    \item Description
+    \item Comments
+    \end{itemize}
+  \item Related Twitter tweets
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Ideas on Techniques}
+  Co-training
+  \begin{itemize}
+  \item Video content
+    \begin{itemize}
+    \item Facial expressions
+    \item Gestures
+    \item Transcript
+    \end{itemize}
+  \item Metadata
+    \begin{itemize}
+      \item Youtube title
+      \item Youtube description
+      \item Youtube comments
+      \item Related tweets
+    \end{itemize}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Why Is It Cool?}
+  \begin{itemize}
+  \item Multimodal analysis has shown promise in a variety of fields
+  \item Sentiment is tied up in mediums other than text
+  \item The field of sentiment analysis would benefit from the creation of a framework for multimodal processing
+  \end{itemize}
+\end{frame}
+
+\section{Contributions}
+
+\begin{frame}
+  \frametitle{Contributions}
+  \begin{itemize}
+  \item Natural Language Processing
+    \begin{itemize}
+    \item Combining text from different fields (video title, description, comments, tweets)
+    \end{itemize}
+  \item Machine Learning
+    \begin{itemize}
+    \item Fusing features extracted from different modalities
+    \end{itemize}
+  \item Web Technologies
+    \begin{itemize}
+    \item Gathering related content from different sources (Youtube, Twitter)
+    \end{itemize}
+  \end{itemize}
+\end{frame}
+
+\end{document}
