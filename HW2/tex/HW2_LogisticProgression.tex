@@ -127,7 +127,7 @@ We attempted to use a variety of different lambdas for the language model and th
 \caption{lambda values and perplexity scores}
 \begin{tabular}{|c|c|c|c|}
 \hline
-$\lambda_0$ & $\lambda_1$ & $\lambda_2$ & Perplexity \\ \hline \hline
+$\lambda_0$ & $\lambda_1$ & $\lambda_2$ & $Perplexity_{ave}(dev)$ \\ \hline \hline
 0 & 0.5 & 0.5 & 1.0075  \\ \hline
 0.33 & 0.33 & 0.33 & 1.0181 \\ \hline
 0.2 & 0.4 & 0.4 & 1.0145 \\ \hline
@@ -159,7 +159,7 @@ These values outperform just the Scarlet Letter Model by itself on the test data
 \caption{lambda values and perplexity scores for linearly combined model}
 \begin{tabular}{|c|c|c|}
 \hline
-$\lambda_0$ & $\lambda_1$ & $Perplexity$ \\ \hline \hline
+$\lambda_0$ & $\lambda_1$ & $Perplexity(dev)$ \\ \hline \hline
 0.5 & 0.5 & $2^{88.62}$ \\ \hline
 0.2 & 0.8 & $2^{84.42}$ \\ \hline
 0.3 & 0.7 & $2^{85.88}$ \\ \hline
@@ -167,7 +167,7 @@ $\lambda_0$ & $\lambda_1$ & $Perplexity$ \\ \hline \hline
 \end{table}
 
 \paragraph{2e - Interpolated Model Performance}
-The testing was performed on the ``The Scarlet Letter'' test set, and the resulting perplexity using interpolation parameters $(\lambda_{int} = (0.2,0.7)$is 
+The testing was performed on the ``The Scarlet Letter'' test set, and the resulting perplexity using interpolation parameters $(\lambda_{int} = (0.2,0.7)$ is $Perplexity(test) = 2^{77.39}$.  This shows just how useful it is to have multiple models and broaden our training data.  The interpolated model outperforms both singluar models by itself.
 
 \section{Linguistic Oriented Section}
 
