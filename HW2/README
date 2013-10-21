@@ -34,5 +34,24 @@ Language Modeling Usage:
 2.)  Now if you would like to train a model off of this text_file use the command "./RunExperiments.py -c -t <path to training textfile>". This will create models in the model folder.
 3.) To Run the experiments use "./RunExperiments.py <proper input parameters>".  To see the input parameters please look at the description below.
 
-
+Functions:
+RunExperiments.py
+-Description = This is the wrapper function that is provided to run the experiments for language modeling
+                The inputs and the flags that are necessary can be seen below        
+        -Inputs:
+            n: the N gram model used
+            b: The back off parameters if we wanna use back_off (example: 0.5,0.1,0.4)
+               These must sum to one and be comma seperated.
+            t: The test textfile"
+            m: the name of the training models to be used in the model directory"
+                  Example: "TheScarletLetter"
+            c: The flag to state that we want to create the models"
+            h: The help setting, please use this if you have any errors
+            l: The interpolation parameters of the linear interpolation model
+            s: use this function if we want to have Laplace smoothing used
+        -Outputs:
+            None
+	-Examples = ./RunExperiments.py -n 3 -b 0.0,0.3,0.7 -t data/TheScarletLetter_test.txt -m ATaleofTwoCities,TheScarletLetter -s -l 0.2,0.8
+			This example runs a trigram with back off parameters [0.0.0.3.0.7] tests on file "data/TheScarletLetter_test.txt", and runs both models with linear
+			intperpolation parameters of 0.2 and 0.8.
 

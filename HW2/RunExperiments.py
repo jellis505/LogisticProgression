@@ -40,6 +40,9 @@ if __name__ == "__main__":
             # s: use this function if we want to have Laplace smoothing used
         # Outputs:
             # None
+        # -Examples = "./RunExperiments.py -n 3 -b 0.0,0.3,0.7 -t data/TheScarletLetter_test.txt -m ATaleofTwoCities,TheScarletLetter -s -l 0.2,0.8"
+			# This example runs a trigram with back off parameters [0.0.0.3.0.7] tests on file "data/TheScarletLetter_test.txt", and runs both models with linear
+			# intperpolation parameters of 0.2 and 0.8.
     
     
     # Now let's take the arguments and see what happens
@@ -67,8 +70,10 @@ if __name__ == "__main__":
             print "n: the N gram model used"
             print "b: The back off parameters if we wanna use back_off"
             print "t: The test textfile"
-            print "m: the name of the training models to be used in the model directory"
+            print "m: the name of the training models to be used in the model directory, use comma seperated if using two models"
             print "c: The flag to state that we want to create the models"
+            print "Example: ./RunExperiments.py -n 3 -b 0.0,0.3,0.7 -t data/TheScarletLetter_test.txt -m ATaleofTwoCities,TheScarletLetter -s -l 0.2,0.8"
+            quit()
         elif opt in ['-n']:
             N = int(arg)
         elif opt in ['-t']:
