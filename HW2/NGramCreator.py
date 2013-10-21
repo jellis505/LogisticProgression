@@ -59,7 +59,7 @@ class NGramModel():
     
         return ([ a for a,b in ngram_model ], [ b for a,b in ngram_model ])
     
-    def GetTestPerplexity(self,test_file,use_backoff=False,smoothing=None):
+    def GetTestPerplexity(self,test_file,model_file, use_backoff=False,smoothing=None):
         # This reads in the trained model files and the new data, and compares the perplexity
         # Let's read in the ngram models that we will need
         
@@ -68,7 +68,7 @@ class NGramModel():
         self.V = []
         ngram_models = []
         for i in range(1,self.N+1):
-            train_model_file = "models/ATaleofTwoCities_" + str(i) + ".model"
+            train_model_file ="models/" + model_file + "_" + str(i) + ".model"
             ngrams,counts = self.ReadModelFile(train_model_file)
             total_grams = 0
             for count in counts:
@@ -108,14 +108,16 @@ class NGramModel():
             unseen_count += count*unseen
             
         # Output to screen what for pre-backoff tests
-        #print "The total entropy of the test text for n=%d is: %f" % (self.N,sum(entropy_vec))
-        #print "These are the total number of percentage of unseen grams form seen gram:", unseen_count/(float(total_count))
-        #print "The total seen entropy of the test text for n=%d is: %f" % (self.N,sum(entropy_vec)/float(total_seen_count))
-        #print "The total entropy of the test text for n=%d is: %f" % (self.N,sum(entropy_vec)/float(total_count))
+        if not self.back_off_params:
+            print "The total entropy of the test text for n=%d is: %f" % (self.N,sum(entropy_vec))
+            print "These are the total number of percentage of unseen grams form seen gram:", unseen_count/(float(total_count))
+            print "The total seen entropy of the test text for n=%d is: %f" % (self.N,sum(entropy_vec)/float(total_seen_count))
+            print "The total entropy of the test text for n=%d is: %f" % (self.N,sum(entropy_vec)/float(total_count))
         
         # Output to screen for each back off parameter
-        print "The total entropy of for lambda =", self.back_off_params
-        print "Average Entropy =", sum(entropy_vec)/float(total_count)
+        else:
+            print "The total entropy of for lambda =", self.back_off_params
+            print "Average Entropy =", sum(entropy_vec)/float(total_count)
         return 
     
     
@@ -276,8 +278,8 @@ if __name__ == "__main__":
     """Training Script"""
     """
     for N in range(1,7):
-        train_file = "data/ATaleofTwoCities_train.txt"
-        model_file = "models/ATaleofTwoCities_" + str(N) +".model"
+        train_file = "data/TheScarletLetter_train.txt"
+        model_file = "models/TheScarletLetter_" + str(N) +".model"
         ngrammer = NGramModel(N)
         ngrammer.TrainNGramModel(train_file,model_file,True)
     quit()
@@ -286,8 +288,8 @@ if __name__ == "__main__":
     """Testing Script"""
     """
     for N in range(1,7):
-        train_file = "data/ATaleofTwoCities_train.txt"
-        test_file = "data/ATaleofTwoCities_dev.txt"
+        train_file = "data/TheScarletLetter_train.txt"
+        test_file = "data/TheScarletLetter_dev.txt"
         ngrammer = NGramModel(N)
         train_sents = ngrammer.GetTokenizedSentences(train_file)
         test_sents = ngrammer.GetTokenizedSentences(test_file)
@@ -299,23 +301,23 @@ if __name__ == "__main__":
         ngram_model = NgramModel(N,train_sents,False,False)
         entropy = ngram_model.entropy(test_words)    
         print "For %d: the perplexity is:", entropy
-    """    
-    
+    quit()   
+    """
     """ This is to test the best N"""
     """
-    for N in range(1,7)
-        test_file = "data/ATaleofTwoCities_dev.txt"
-        ngrammer = NGramModel(N,[0.33,0.33,0.33])
-        ngrammer.GetTestPerplexity(test_file, True, True)
+    for N in range(1,7):
+        test_file = "data/TheScarletLetter_dev.txt"
+        ngrammer = NGramModel(N)
+        ngrammer.GetTestPerplexity(test_file, False, True)
+    quit()
     """
-    
     """ This is to test the best lambdas that we have here"""
-    lambdas = [[0.2,0.2,0.6], 
+    lambdas = [[0.0,0.5,0.5]]
     for back_off in lambdas:
         N = 3
-        test_file = "data/ATaleofTwoCities_dev.txt"
+        test_file = "data/TheScarletLetter_dev.txt"
         ngrammer = NGramModel(N,back_off)
-        ngrammer.GetTestPerplexity(test_file, True, True)
+        ngrammer.GetTestPerplexity(test_file,"TheScarletLetter", True, True)
                 
         
     
