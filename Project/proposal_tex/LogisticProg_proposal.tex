@@ -20,6 +20,8 @@
 
 \documentclass[paper=a4, fontsize=11pt]{scrartcl} % A4 paper and 11pt font size
 
+\usepackage{fullpage}
+
 \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
 \usepackage{fourier} % Use the Adobe Utopia font for the document - comment this line to return to the LaTeX default
 \usepackage[english]{babel} % English language/hyphenation
@@ -75,9 +77,10 @@
 % Task
 
 \subsection{Task}
-In this project we propose to take a multi-modal approach to sentiment analysis, and create the capability to extract sentiment from a variety of differnet source, including videos, pictures, and text.
+In this project we propose to take a multi-modal approach to sentiment analysis, and create the capability to extract sentiment from a variety of different sources, including videos, pictures, and text.
 Sentiment Analysis is a widely studied area of text analysis \cite{Pang}, but recently some work has been completed on visual sentiment analysis, such as SentiBank \cite{MM13:sentibank_long}.
-We propose to fuse information from visual, audio, and text signals to achieve a more complete representation of sentiment, and more accurately classify sentiment within a variety of sources. 
+We propose to fuse information from visual and text signals to achieve a more complete representation of sentiment, and more accurately classify sentiment within a variety of sources. 
+Specifically, we plan to classify Youtube news clips as containing either positive or negative sentiment.
 We propose to also study the difference in sentiment between varying mediums.
 For example, the change in sentiment on a subject between Twitter, Youtube, and Broadcast Video News may change drastically.
 We propose to explore these differences and propose new models for multi-modal sentiment analysis.
@@ -86,13 +89,16 @@ We propose to explore these differences and propose new models for multi-modal s
 
 \subsection{Data Used}
 We will use a variety of on-line data sources for this project, as well as manually downloaded cable and broadcast news stories. 
-We propose to utilize social media sites such as Twitter, Facebook, and Instagram, to gain real-time text and image data that can be processed for sentiment.
-We also have access to the past years worth of on-line news articles and news stories through the NewsRover project \cite{MM13:structurednews}.
+We plan to harvest news clips from the CNN Youtube channel; each clip consists of a single story from a news broadcast.
+We propose to utilize social media sites such as Twitter, Facebook, and Instagram, to gain supplementary text and image data that can be processed for sentiment.
+If needed, we may also use the past year's worth of on-line news articles and news stories through the NewsRover project \cite{MM13:structurednews}.
 
 % Ideas on Techniques
 \subsection{Ideas on Techniques}
-{\color{red} Need to add this point for the next section.}
-{\color{blue} Add some stuff on socially aware content analysis of video/audio content.}
+
+We plan to use co-training to classify videos.
+We will use one classifier based on the content of the video itself -- facial expressions, gestures, and transcript -- and one based on metadata -- the video's title, description, Youtube comments, and related posts on social media.
+Metadata from social media can be gathered by searching for posts published within a few days of the video upload date that contain keywords from the video title and description.
 
 %Groundbreaking
 \subsection{Why is it cool?}
@@ -105,7 +111,7 @@ Therefore, the lucrative field of sentiment analysis would benefit from the crea
 \section{Subject Contributions}
 \subsection{NLP Contribution}
 This core of this project will be sentiment analysis, and the medium in which sentiment analysis is the most thoroughly developed is in text.
-The NLP novelty within this project is the ability to automatically combine text information from multiple different text sources (Twitter, social media, on-line news articles, tv transcripts).
+The NLP novelty within this project is the ability to automatically combine text information from multiple different text sources (Twitter, news transcripts, and Youtube titles, descriptions, and comments).
 Combining these sources in interesting ways could add a novel portion to the typical NLP processing pipeline.
 
 %ML Portion
@@ -117,17 +123,22 @@ Therefore, we look to find intelligent ways to fuse these different features, an
 % Web Technologies
 \subsection{Web Technologies}
 We plan to create a program that automatically analyses content from multiple sources of available on-line web data.
-These sources could include, but are not limited to, Youtube, Twitter, Facebook, Instagram, and Pinterest.
+These sources could include, but are not limited to, Youtube and Twitter.
 We hope to create programs to process the public stream content that arrives from the accounts.
 
 % Class Member Contributions
 \section{Member Contributions}
 
+We will collaborate on gathering the data and on training our models.  We plan to split responsibility for feature extraction based on our backgrounds.
+
 \subsection{Joe Ellis}
-{\color{red} Need to add after we discuss with Jessica}
+I will work on the visual and audio portions of the research proposal, focusing on gesture and visual depiction of sentiment. 
+Some features that can be used for visual sentiment are things such as gestures, scene, etc. 
+I also plan to utililze my knowledge of some areas of audio processing to also be able to gleam sentiment analysis from that audio that exists within the videos.
 
 \subsection{Jessica Ouyang}
-{\color{red} Need to add after we discuss with Jessica}
+I will work on text-based features extracted from the video transcripts, titles, descriptions, Youtube comments, and social media posts.  
+I have some experience in sentiment detection in Twitter posts based on the work of Agarwal, Biadsy, and McKeown \cite{agarwal2009contextual}.  
 
 
 

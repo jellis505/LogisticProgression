@@ -1,5 +1,13 @@
 \begin{thebibliography}{1}
 
+\bibitem{agarwal2009contextual}
+Apoorv Agarwal, Fadi Biadsy, and Kathleen~R Mckeown.
+\newblock Contextual phrase-level polarity analysis using lexical affect
+  scoring and syntactic n-grams.
+\newblock In {\em Proceedings of the 12th Conference of the European Chapter of
+  the Association for Computational Linguistics}, pages 24--32. Association for
+  Computational Linguistics, 2009.
+
 \bibitem{MM13:sentibank_long}
 Damian Borth, Rongrong Ji, Tao Chen, Thomas Breuel, and Shih-Fu Chang.
 \newblock Large-scale visual sentiment ontology and detectors using adjective

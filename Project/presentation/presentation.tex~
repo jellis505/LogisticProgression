@@ -1,0 +1,127 @@
+\documentclass[brown]{beamer}
+
+\usepackage{graphicx}
+\usepackage{beamerthemebars} 
+% Other themes include: beamerthemebars, beamerthemelined, 
+%                       beamerthemetree, beamerthemetreebars  
+
+\newcommand{\tab}{\hspace*{2em}}
+
+\title{Multimodal Sentiment Analysis} 
+\author{Joe Ellis and Jessica Ouyang}
+\institute{Columbia University}
+\date{21 October 2013}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\section{Problem}
+
+\begin{frame}
+  \frametitle{Problem}
+  How do readers engage with what they read?
+  \begin{itemize}
+  \item Do they linger over a section?
+  \item Do they backtrack and reread a section?
+  \end{itemize}
+  Annotate articles with some sort of narrative structure and track
+  readers' behavior relative to this structure
+  \begin{itemize}
+  \item Map the narrative structure to pixel offsets on the article page
+  \item Fire a Javascript event when a reader scrolls around on or
+    closes the page
+  \item Try to learn readers' opinions of articles based on their
+    scrolling behavior
+  \end{itemize}
+\end{frame}
+
+\section{Related Work}
+
+\begin{frame}
+  \frametitle{Related Work}
+  \begin{itemize}
+  \item Topic modeling
+  \item Rhetorical Structure Theory
+  \item Penn Discourse Treebank
+  \item William Labov's theory of narrative elements
+    \begin{itemize}
+    \item Abstract
+    \item Orientation
+    \item Complicating actions
+    \item Evaluation
+    \item Resolution
+    \item Coda
+    \end{itemize}
+  \end{itemize}
+\end{frame}
+
+\section{Experimental Design}
+
+\begin{frame}
+  \frametitle{Experimental Design}
+  \includegraphics[height=75mm]{flowchart.png}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Experimental Design}
+  \includegraphics[height=75mm]{flowchart2.png}
+\end{frame}
+
+\section{Data Needed}
+
+\begin{frame}
+  \frametitle{Data Needed}
+  \begin{itemize}
+  \item Annotated narratives
+    \begin{itemize}
+    \item \textit{The Language of Life and Death} contains only 24
+      narratives - not enough to train and test a classifier
+    \end{itemize}
+  \item Reader evaluations of annotated narratives
+  \end{itemize}
+\end{frame}
+
+\section{Evaluation}
+
+\begin{frame}
+  \frametitle{Evaluation}
+  \begin{itemize}
+  \item Performance of classifiers
+  \item Qualitative evaluation by authors
+    \begin{itemize}
+    \item Is this theory of narrative structure helpful?
+    \item Is there other information that would be useful?
+    \end{itemize}
+  \end{itemize}
+\end{frame}
+ 
+\section{References}
+
+\begin{frame}
+  \frametitle{References}
+  \begin{small}
+    \begin{itemize}
+    \item William Labov.  \textit{The Language of Life and Death.}
+      To be published, Cambridge University Press, 2013.  Manuscript
+      received in personal correspondence. 
+    \item Ziheng Lin, Min-Yen Kan, and Hwee Tou Ng.  2009.
+      Recognizing Implicit Discourse Relations in the Penn Discourse
+      Treebank.  In \textit{Proceedings of the 2009 Conference on
+        Empirical Methods in Natural Language Processing}, pages
+      343-351.  
+    \item Emily Pitler and Ani Nenkova.  2009.  Using Syntax to
+      Disambiguate Explicit Discourse Connectives in Text.  In
+      \textit{Proceedings of the ACL-IJCNLP 2009 Conference Short
+        Papers}, pages 13-16.
+    \item Emily Pitler, Annie Louis, and Ani Nenkova.  2009.
+      Automatic sense prediction for implicit discourse relations in
+      text.  In \textit{Proceedings of the 47th Annual Meeting of the
+        ACL and the 4th IJCNLP of the AFNLP}, pages 683-691.
+    \end{itemize}
+  \end{small}
+\end{frame}
+
+\end{document}
