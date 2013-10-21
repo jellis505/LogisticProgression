@@ -151,6 +151,7 @@ We also attempted to see how our first domain model, the model that was trained 
 
 \paragraph{2d- Interpolated Model}
 Finally, we also tested on the The Scarlet Letter an interpolated model, that allowed for us to utilized both trained models for modeling.  For this model we linearly combined the probablilty received from both models using $\lambda$ parameters and the results on the development set can be seen below for multiple $\lambda$.  We have $\lambda_0$ corresponding to ``A Tale of Two Cities'' trained model and $\lambda_1$ corresponds to ``The Scarlet Letter'' trained model.  
+These values outperform just the Scarlet Letter Model by itself on the test data, greatly.
 
 \begin{table}
 \centering
@@ -159,10 +160,9 @@ Finally, we also tested on the The Scarlet Letter an interpolated model, that al
 \begin{tabular}{|c|c|c|}
 \hline
 $\lambda_0$ & $\lambda_1$ & $Perplexity$ \\ \hline \hline
-0.5 & 0.5 & 0 \\$2^{88.62} \hline
-0.2 & 0.8 & 0 \\ \hline
-0.3 & 0.7 & 0 \\ \hline
-
+0.5 & 0.5 & $2^{88.62}$ \\ \hline
+0.2 & 0.8 & $2^{84.42}$ \\ \hline
+0.3 & 0.7 & $2^{85.88}$ \\ \hline
 \end{tabular}
 \end{table}
 
