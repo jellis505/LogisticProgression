@@ -64,6 +64,7 @@ class NGramModel():
         # Let's read in the ngram models that we will need
         
         # Let's see what type of smoothing we can use
+        prob_vec = []
         self.smoothing = smoothing
         self.V = []
         ngram_models = []
@@ -97,100 +98,41 @@ class NGramModel():
             total_count += count
             if not use_backoff:
                 entropy,unseen,prob = self.GetEntropyofGram(gram)
+                prob_vec.append(prob)
+                # This does it for everything
+                entropy_vec.append(count*entropy)
             else:
                 entropy,unseen,prob = self.GetEntropyofGram_Backoff(gram)
+                prob_vec.append(prob)
+                # This does it for everything
+                entropy_vec.append(count*entropy)
             if not unseen:
                 total_seen_count += count
                 seen_entropy_vec.append(count*entropy)
-            
-            # This does it for everything
-            entropy_vec.append(count*entropy)
-            unseen_count += count*unseen
-            
-        # Output to screen what for pre-backoff tests
-        if not self.back_off_params:
-            print "The total entropy of the test text for n=%d is: %f" % (self.N,sum(entropy_vec))
-            print "These are the total number of percentage of unseen grams form seen gram:", unseen_count/(float(total_count))
-            print "The total seen entropy of the test text for n=%d is: %f" % (self.N,sum(entropy_vec)/float(total_seen_count))
-            print "The total entropy of the test text for n=%d is: %f" % (self.N,sum(entropy_vec)/float(total_count))
-        
-        # Output to screen for each back off parameter
-        else:
-            print "The total entropy of for lambda =", self.back_off_params
-            print "Average Entropy =", sum(entropy_vec)/float(total_count)
-            print "Seen Entropy =", sum(seen_entropy_vec)/float(total_seen_count)
-        return sum(entropy_vec)/float(total_count),sum(seen_entropy_vec)/float(total_seen_count)
-    
-    def GetTestPerplexity_2models(self,test_file,model_files, use_backoff=False,smoothing=None):
-        # This reads in the trained model files and the new data, and compares the perplexity
-        # Let's read in the ngram models that we will need
-        
-        # Let's see what type of smoothing we can use
-        self.smoothing = smoothing
-        self.V = []
-        ngram_models = []
-        for j in range(len(model_files)):
-            for i in range(1,self.N+1):
-                train_model_file ="models/" + model_file + "_" + str(i) + ".model"
-                ngrams,counts = self.ReadModelFile(train_model_file)
-                total_grams = 0
-                for count in counts:
-                    total_grams += count
-                # Store the model in a vector
-                ngram_models.append((ngrams,counts,total_grams))
-                self.V.append(float(len(ngram_models[0][1])))
-        # Now let's get our V value for smoothing
-        
-        print len(ngram_models)
-        # Let's make this a class variable to make everything easier
-        self.ngram_models = ngram_models
-        test_grams,test_counts = self.TrainNGramModel(test_file)
-        print "Got the test values"
-        print len(test_grams)
-        # Now we have the model to be tested, and our trained model
-        total_count = 0
-        total_seen_count = 0
-        total_perplexity = 0
-        entropy_vec = []
-        seen_entropy_vec = []
-        unseen_count = 0
-        for i,(gram,count) in enumerate(zip(test_grams,test_counts)):
-            #if not i % 1000:
-            #    print "Finished %d of %d test samples" % (i,len(test_counts))
-            total_count += count
-            if not use_backoff:
-                entropy1,unseen1 = self.GetEntropyofGram(gram)
             else:
-                entropy,unseen = self.GetEntropyofGram_Backoff(gram)
-            if not unseen:
-                total_seen_count += count
-                seen_entropy_vec.append(count*entropy)
+                 unseen_count += count*unseen
             
-            # This does it for everything
-            entropy_vec.append(count*entropy)
-            unseen_count += count*unseen
+                
             
         # Output to screen what for pre-backoff tests
         if not self.back_off_params:
             print "The total entropy of the test text for n=%d is: %f" % (self.N,sum(entropy_vec))
             print "These are the total number of percentage of unseen grams form seen gram:", unseen_count/(float(total_count))
-            print "The total seen entropy of the test text for n=%d is: %f" % (self.N,sum(entropy_vec)/float(total_seen_count))
+            print "The total seen entropy of the test text for n=%d is: %f" % (self.N,sum(seen_entropy_vec)/float(total_seen_count))
             print "The total entropy of the test text for n=%d is: %f" % (self.N,sum(entropy_vec)/float(total_count))
-        
+            print "Total Seen =", total_seen_count
+            print "Total Elements=", total_count
         # Output to screen for each back off parameter
         else:
             print "The total entropy of for lambda =", self.back_off_params
             print "Average Entropy =", sum(entropy_vec)/float(total_count)
             print "Seen Entropy =", sum(seen_entropy_vec)/float(total_seen_count)
-        return sum(entropy_vec)/float(total_count),sum(seen_entropy_vec)/float(total_seen_count)
-    
-    
-    
+            print "Total Seen =", total_seen_count
+            print "Total Elements=", total_count
+        return sum(entropy_vec)/float(total_count),sum(seen_entropy_vec)/float(total_seen_count), prob_vec, total_count
     
     
     """ Utility Functions"""
-    
-    
     def Tokenize_File(self,content_string):
         # This section used the built in nltk tokenizer, which works on sentences at a time.
         # So in our language model we will only take into account sentences
@@ -380,12 +322,12 @@ if __name__ == "__main__":
     quit()
     """
     """ This is to test the best lambdas that we have here"""
-    lambdas = [[0.0,0.5,0.5]]
+    lambdas = [[0.0,0.5,0.5],[0.33,0.33,0.33],[0.2,0.4,0.4],[0.5,0.25,0.25],[0.25,0.5,0.25],[0.25,0.25,0.5],[0.1,0.2,0.7]]
     for back_off in lambdas:
         N = 3
-        test_file = "data/TheScarletLetter_dev.txt"
+        test_file = "data/ATaleofTwoCities_dev.txt"
         ngrammer = NGramModel(N,back_off)
-        ngrammer.GetTestPerplexity(test_file,"TheScarletLetter", True, True)
+        ngrammer.GetTestPerplexity(test_file,"ATaleofTwoCities", True, True)
                 
         
     
