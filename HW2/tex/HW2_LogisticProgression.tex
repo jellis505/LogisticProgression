@@ -85,10 +85,11 @@ For our first domain we chose to download and use the famous novel ``A Tale of T
 After this we had to find the N for the N gram model that would be utilized for this text.  The best result in our examples for the proper N-gram model was the tri-gram model.  This first example we did not do any smoothing, therefore we evaluated only on the seen grams from the development set, and chose N that provided the lowest perplexity.  Average Perplexity per gram was calculated using the formula,
 
 \begin{align}
-Perplexity_{ave}(text) = 2^{\frac{1}{N}\sum_1^N p(w_i)log(p(w_i))}
+Perplexity_{ave}(text) = 2^{-\frac{1}{N}\sum_1^N p(w_i)log(p(w_i))}
 \end{align}
 
-We chose tri-gram as the best model, and the graph of the results can be seen in Figure ~ref{fig:figure1}.
+We chose to use this formula, so that different models with differing data sizes can be compared $x$.
+We chose tri-gram as the best model, and the graph of the results can be seen in Figure ~ref{fig:figure1}.  The results on the test set for seen grams is $Perplexity(test)=15.426$
 
 \begin{figure}
 \centering
@@ -98,7 +99,9 @@ We chose tri-gram as the best model, and the graph of the results can be seen in
 \end{figure}
 
 \paragraph{1c -- Laplace Smoothing}
-We also utilized Laplace smoothing to solve for the best value of N with Laplace Smoothing utilized.  When we use Laplace smoothing instead of using simply $p(w)=\frac{N(w)}{N}$, we include and extra value of $V$ into the equation where $V$ is the number of distinct N-grams present.  Therefore, the new $p(w) = \frac{N(w)+1}{N+V}$.  This allows us to classify all of the values seen, but gives small probablities to unseen before grams.  The results of this modeling scheme can be seen below, and for this model tri-gram also wins out.  However, since many of the n-grams are unseen for $n=4$ or $n=5$, the penalty is not as high as before.  The results are shown in Figure ~\ref{fig:figure2}.
+We also utilized Laplace smoothing to solve for the best value of N with Laplace Smoothing utilized.  When we use Laplace smoothing instead of using simply $p(w)=\frac{N(w)}{N}$, we include and extra value of $V$ into the equation where $V$ is the number of distinct N-grams present.  Therefore, the new $p(w) = \frac{N(w)+1}{N+V}$.  This allows us to classify all of the values seen, but gives small probablities to unseen before grams.  The results of this modeling scheme can be seen below, and for this model tri-gram also wins out.  
+However, since many of the n-grams are unseen for $n=4$ or $n=5$, the penalty is not as high as before.  The results are shown in Figure ~\ref{fig:figure2}.  
+The result on the test set for all grams with smoothing is,  $Perplexity(test)=2553802833.55$, and the total entropy is -31.250.
 
 \begin{figure}
 \centering
@@ -114,7 +117,9 @@ Finally, we addressed the issue of unseen grams during training using the Back-O
 p(w)=\lambda_0p(w_0) + \lambda_1p(w_1|w_0) + \lambda_2p(w_2|w_1,w_0).
 \end{align}
 
-We attempted to use a variety of different lambdas for the language model and the results can be seen below in Table ~ref{tab:table1}
+We would have used 4-gram for back-off training, however once I got to 4-gram language representation 98\% of my grams were unseen.  
+So most of the values would be unseen for this case, and therefore we chose to only perform back-off from 3.
+We attempted to use a variety of different lambdas for the language model and the results can be seen below in Table ~ref{tab:table1}.  We have chosen our $\lambda$ wieghting scheme as $\lambda=(0.1,0.2,0.7)$, and this is because we wanted all $\lambda$s to be non-zero, but the unigram model was not useful for this problem. The perplexity score on our test dataset using these parameters was $Perplexity(test) = 2^{241.31}$.  
 
 \begin{table}
 \centering
@@ -123,11 +128,14 @@ We attempted to use a variety of different lambdas for the language model and th
 \begin{tabular}{|c|c|c|c|}
 \hline
 $\lambda_0$ & $\lambda_1$ & $\lambda_2$ & Perplexity \\ \hline \hline
-0 & 0 & 0 & 0 \\ \hline
-0 & 0 & 0 & 0 \\ \hline
-0 & 0 & 0 & 0 \\ \hline
-0 & 0 & 0 & 0 \\ \hline
-0 & 0 & 0 & 0\\ \hline
+0 & 0.5 & 0.5 & 1.0075  \\ \hline
+0.33 & 0.33 & 0.33 & 1.0181 \\ \hline
+0.2 & 0.4 & 0.4 & 1.0145 \\ \hline
+0.5 & 0.25 & 0.25 & 1.0223 \\ \hline
+0.25 & 0.5 & 0.25 & 1.0171 \\ \hline
+0.25 & 0.25 & 0.5 & 1.0148 \\ \hline
+0.1 & 0.2 & 0.7 & 1.0089 \\ \hline
+0.0 & 0.3 & 0.7 & 1.0055 \\ \hline
 \end{tabular}
 \end{table}
 
@@ -136,13 +144,13 @@ $\lambda_0$ & $\lambda_1$ & $\lambda_2$ & Perplexity \\ \hline \hline
 For our second domain, we utilized the famous novel ``The Scarlet Letter'' by Nathaniel Hawthorne.  This book contains over 50,000 words and the train and test split of the data was the same as was used above.
 
 \paragraph{2b - Find Optimal Language Model}
-The same tests were used as those described above to find the optimal language model for this text, and we received similar results.  Once again the highest performing model was the tri-gram model with smoothing.  This model appears to work well on many datasets, however it would be useful to have more training data as many of the grams remain unseen even in this model.  The perplexity of this model on the test-set is {\color{red} Add Value}, with back-off parameters as {\color{red}Add parameters}.
+The same tests were used as those described above to find the optimal language model for this text, and we received similar results.  Once again the highest performing model was the tri-gram model with smoothing.  This model appears to work well on many datasets, however it would be useful to have more training data as many of the grams remain unseen even in this model.  The perplexity of this model on the test-set on the seen grams is $Perplexity(test)=2^{0.2627}=1.2033$.  When we utilized the $\lambda=(0.0,0.6,0.4)$ parameters and performed back-off ad smoothing on the set we received a perplexity score on our dataset of $Perplexity(test)=2^{113.5347}$
 
 \paragraph{2c-Cross Domain Analysis}
-We also attempted to see how our first domain model, the model that was trained on Dickens performed on The Scarlet Letter.  The performance was similar but slightly degraded, and the resulting perplexity is {\color{red} Add Value}, which is a {\color{red} Add Value} decrease in performance across models.
+We also attempted to see how our first domain model, the model that was trained on Dickens performed on The Scarlet Letter.  The performance was similar but slightly degraded, and the resulting average entropy per n-gram is $-0.0120$, which over the 18,652 trigrams testsed gives us  a perplexity of, $Perplexity(crossdomain) = 2^{108.0305}$.
 
 \paragraph{2d- Interpolated Model}
-Finally, we also tested on the The Scarlet Letter an interpolated model, that allowed for us to utilized both trained models for modeling.  For this model we linearly combined the probablilty received from both models using $\lambda$ parameters and the results on the development set can be seen below for multiple $\lambda$. 
+Finally, we also tested on the The Scarlet Letter an interpolated model, that allowed for us to utilized both trained models for modeling.  For this model we linearly combined the probablilty received from both models using $\lambda$ parameters and the results on the development set can be seen below for multiple $\lambda$.  We have $\lambda_0$ corresponding to ``A Tale of Two Cities'' trained model and $\lambda_1$ corresponds to ``The Scarlet Letter'' trained model.  
 
 \begin{table}
 \centering
@@ -150,17 +158,16 @@ Finally, we also tested on the The Scarlet Letter an interpolated model, that al
 \caption{lambda values and perplexity scores for linearly combined model}
 \begin{tabular}{|c|c|c|}
 \hline
-$\lambda_0$ & $\lambda_1$ & Perplexity \\ \hline \hline
-0 & 0 & 0 \\ \hline
-0 & 0 & 0 \\ \hline
-0 & 0 & 0 \\ \hline
-0 & 0 & 0 \\ \hline
-0 & 0 & 0 \\ \hline
+$\lambda_0$ & $\lambda_1$ & $Perplexity$ \\ \hline \hline
+0.5 & 0.5 & 0 \\$2^{88.62} \hline
+0.2 & 0.8 & 0 \\ \hline
+0.3 & 0.7 & 0 \\ \hline
+
 \end{tabular}
 \end{table}
 
 \paragraph{2e - Interpolated Model Performance}
-The final test perplexity is, {\color{red} Add Value}
+The testing was performed on the ``The Scarlet Letter'' test set, and the resulting perplexity using interpolation parameters $(\lambda_{int} = (0.2,0.7)$is 
 
 \section{Linguistic Oriented Section}
 
