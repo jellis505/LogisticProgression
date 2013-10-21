@@ -16,8 +16,15 @@ from nltk.model.ngram import NgramModel
 class NGramModel():
     """This class creates an Ngram from a given amount of text"""
     
-    """ Big Scale Function"""
+    """ Big Scale Functions"""
     def __init__(self,N,back_off_params=None):
+        # Description = This intilializes the class that we have that is used for creation of the N-Gram language model
+        # Inputs:
+            # N = The N for our N-Gram model
+            # back_off_params = The parameters used in back_off 
+        # Outputs:
+            # None
+            
         #This sets up our NGram Creator
         self.N = N
         self.use_sentences = True
@@ -29,6 +36,14 @@ class NGramModel():
         return
     
     def GetTokenizedSentences(self,file):
+        # Description = Take a file and gets the tokenized sentences
+        # Inputs:
+            # file = Raw text file to be used for language modeling
+        # Outputs:
+            # tokenized_sentences = A list of all of the content in the file seperated by sentences.
+
+       # This function simply turns all of the work into a really long vector of ngrams
+        
         # This file runs the creation of the n-gram
         # Read in the file
         with open(file,"r") as f:
@@ -39,6 +54,16 @@ class NGramModel():
         return tokenized_sentences
     
     def TrainNGramModel(self,file,modelfile=None,output_file=False):
+        # Description = Wrapper function that takes in a plain text file and then outputs the modelfile
+        # Inputs:
+            # file = The raw text file
+            # modelfile = The output file that model will be output to
+            # output_file = If this is True we do output the model
+        # Outputs:
+            # output = A tuple with the list of grams and the list of counts of those grams
+
+       # This function simply turns all of the work into a really long vector of ngrams
+        
         # This file runs the creation of the n-gram
         # Read in the file
         with open(file,"r") as f:
@@ -60,6 +85,23 @@ class NGramModel():
         return ([ a for a,b in ngram_model ], [ b for a,b in ngram_model ])
     
     def GetTestPerplexity(self,test_file,model_file, use_backoff=False,smoothing=None):
+        # Description = Get the Test Perplexity of a given test text set based on a pre-trained model.  
+                        # This function has no outputs, all of the necessary outputs are output to standard output.
+        # Inputs:
+            # test_file = The path to the raw text file to be used
+            # model_file = The name without extension of the model that is going to be used.
+                            # The function will look for this model file in models
+            #use_backoff = this should be true if backoff is used
+            # smoothin = This is True if smoothing is used, False if not
+        # Outputs:
+            # entropy_average = returns the average entropy per n-gram = totalentropy/n_grams
+            # seen_entropy_average = the average entropy on only the seen n-grams we had in our model
+            # prob_vec = A vector that holds the probability of each n_gram, multiplied by the count of that n_gram.
+                        # Used for the interpolation
+            # total_count = The number of total non-unique n-grams modeled.
+            
+       # This function simply turns all of the work into a really long vector of ngrams
+        
         # This reads in the trained model files and the new data, and compares the perplexity
         # Let's read in the ngram models that we will need
         
@@ -134,6 +176,15 @@ class NGramModel():
     
     """ Utility Functions"""
     def Tokenize_File(self,content_string):
+        # Description = This function tokenizes a raw text file into a list of sentences
+        # Inputs:
+            # content_string = The raw string content for the given file
+        # Outputs:
+            # n_grams = This is the raw_string content seperated into different sentences,
+                #based on the punkt nltk tokenizer
+
+       # This function simply turns all of the work into a really long vector of ngrams
+        
         # This section used the built in nltk tokenizer, which works on sentences at a time.
         # So in our language model we will only take into account sentences
         if self.use_sentences:
@@ -146,7 +197,13 @@ class NGramModel():
         return tokenized_vec
     
     def GetNGrams(self,tokenized_sentences):
-        # This function simply turns all of the work into a really long vector of ngrams
+        # Description = Takes the tokenized sentences and outputs all of the n-grams from a given text
+        # Inputs:
+            # Tokenized Sentences = The sentences after we tokenize the file to be used.
+        # Outputs:
+            # n_grams = The list of n_grams found in the file, not unique
+
+       # This function simply turns all of the work into a really long vector of ngrams
         n_grams = []
         for token_sent in tokenized_sentences:
             sent_n_grams = ingrams(token_sent,self.N,self.leftpad,self.rightpad)
@@ -155,6 +212,13 @@ class NGramModel():
         return n_grams
     
     def CreateNGramVec(self,n_grams):
+        # Description = Given all the n-grams in a text, this functions creates a vector of unique n,grams and their counts
+        # Inputs:
+            # n_grams = The n_grams for a given text
+        # Outputs:
+            # output = tuple of two lists, list 1 is the unique grams and list 2 is the
+            # count that each gram appeared in this data
+        
         # This function creates the representation for our text
         unique_n_grams = []
         n_gram_count = []
@@ -176,6 +240,14 @@ class NGramModel():
         return zip(unique_n_grams, n_gram_count)
         
     def OutputNGrams(self,modelfile,output_data):
+        # Description = This function outputs the grams and counts for an n-gram model to the specified file
+        # Inputs:
+            # modelfile = The file to output the model too
+            # output_data = The data, grams and counts to be output too
+        # Outputs:
+            # None
+        
+        
         # Output the model file
         # it would be easier to pickle these, but then people can't look at the data
         # unless they know what they are doing which could be annoying
@@ -188,6 +260,13 @@ class NGramModel():
                 f.write("\n")
     
     def ReadModelFile(self,modelfile):
+        # Description = Reads in the grams and counts to variables for a particular n-gram model
+        # Inputs:
+            # modelfile = The model to be read into a list structure
+        # Outputs:
+            # grams = A list of list of the grams present
+            # counts = A list of the counts for each gram
+        
         with open(modelfile,"r") as f:
             l = f.readlines()
             lines = [line.rstrip("\n") for line in l]
@@ -202,6 +281,15 @@ class NGramModel():
         return grams,counts
     
     def GetEntropyofGram_Backoff(self,gram):
+        # Description = This function returns the entropy of a given gram using the back-off parameter
+        # Inputs:
+            # gram = The n-gram in tuple form
+        # Outputs:
+            # entropy = the entropy of the given gram for the trained model 
+            # total_prob = The probabliltiy of the given gram given back off
+            # unseen = Whether the gram was seen or unseen
+        
+        
         # This will calculate our grams
         prob_vec = []
         unseen = 0
@@ -247,22 +335,31 @@ class NGramModel():
         return entropy, unseen, total_prob
     
     def GetEntropyofGram(self,gram):
+        # Description = This function returns the entropy of a given gram with the used language model
+        # Inputs:
+            # gram = The n-gram in tuple form
+        # Outputs:
+            # entropy = the entropy of the given gram for the trained model 
+            # prob = The probabliltiy of the given gram
+            # unseen = Whether the gram was seen or unseen
+        
+        
         # This will calculate our grams
         a = tuple(gram)
         gram_exists = True
         unseen = 0;
-        # Try to find the correct gram count
+        # Try to find the correct gram count, if this gram does not exist then we won't 
+        # try to access it's counts
         try:
             gram_num = self.ngram_models[self.N-1][0].index(a)
         except:
             gram_exists = False
         
-        #Debug
         
         # Get the entropy with Laplace smoothing
-        
         if self.smoothing:
             # Now let's get the entropy with Laplace smoothing
+            # This is (N(w) + 1)/(N + V)
             if gram_exists:
                 prob = (self.ngram_models[self.N-1][1][gram_num] + 1) /float(self.ngram_models[self.N-1][2] + self.V[self.N-1])
                 entropy = prob*math.log(prob)
@@ -271,6 +368,8 @@ class NGramModel():
                 entropy = (1/self.V[self.N-1])*math.log(1/self.V[self.N-1])
                 prob = 1/self.V[self.N-1]
         else:
+            
+            # This is N(w)/N
             #Now get the entropy
             if gram_exists:
                 prob = self.ngram_models[self.N-1][1][gram_num]/float(self.ngram_models[self.N-1][2])
