@@ -101,7 +101,7 @@ We chose tri-gram as the best model, and the graph of the results can be seen in
 \paragraph{1c -- Laplace Smoothing}
 We also utilized Laplace smoothing to solve for the best value of N with Laplace Smoothing utilized.  When we use Laplace smoothing instead of using simply $p(w)=\frac{N(w)}{N}$, we include and extra value of $V$ into the equation where $V$ is the number of distinct N-grams present.  Therefore, the new $p(w) = \frac{N(w)+1}{N+V}$.  This allows us to classify all of the values seen, but gives small probablities to unseen before grams.  The results of this modeling scheme can be seen below, and for this model tri-gram also wins out.  
 However, since many of the n-grams are unseen for $n=4$ or $n=5$, the penalty is not as high as before.  The results are shown in Figure ~\ref{fig:figure2}.  
-The result on the test set for all grams with smoothing is,  $Perplexity(test)=2^{-31.25}$, and the total entropy is $-31.250$.
+The result on the test set for all grams with smoothing is,  $Perplexity(test)=2^{31.25}$, and the total entropy is $-31.250$.
 
 \begin{figure}
 \centering
