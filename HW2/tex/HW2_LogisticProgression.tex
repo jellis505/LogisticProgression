@@ -119,7 +119,7 @@ p(w)=\lambda_0p(w_0) + \lambda_1p(w_1|w_0) + \lambda_2p(w_2|w_1,w_0).
 
 We would have used 4-gram for back-off training, however once I got to 4-gram language representation 98\% of my grams were unseen.  
 So most of the values would be unseen for this case, and therefore we chose to only perform back-off from 3.
-We attempted to use a variety of different lambdas for the language model and the results can be seen below in Table ~ref{tab:table1}.  We have chosen our $\lambda$ wieghting scheme as $\lambda=(0.1,0.2,0.7)$, and this is because we wanted all $\lambda$s to be non-zero, but the unigram model was not useful for this problem. The perplexity score on our test dataset using these parameters was $Perplexity(test) = 2^{241.31}$.  
+We attempted to use a variety of different lambdas for the language model and the results can be seen below in Table ~ref{tab:table1}.  We have chosen our $\lambda$ wieghting scheme as $\lambda=(0.0,0.3,0.7)$, and this is because we wanted all $\lambda$s to be non-zero, but the unigram model was not useful for this problem. The perplexity score on our test dataset using these parameters was $Perplexity(test) = 2^{241.31}$.  
 
 \begin{table}
 \centering
