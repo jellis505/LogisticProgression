@@ -82,8 +82,32 @@ def DownloadWebpage(edu_links,query):
     text = soup.get_text()
     str_text = text.encode('utf-8')
     
+    # Now let's also try to see if there is a "bio" link
+    bio_link_names = ["bio", "about", "about me", "cv", "curriculum vitae", "biosketch"]
+    links = soup.find_all('a')
+    # Check to see if we can find an html bio link
+    bio_link = None
+    for link in links:
+        if link.string.lower() in bio_link_names:
+            bio_link = link["href"]
+            break
+            
+    # Now if we have a bio link then let's just download that link instead of the homepage
+    if bio_link:
+        # This gets the html files available
+        req = urllib2.Request(bio_link,None)
+        resp = urllib2.urlopen(req)
+        html_content = resp.read()
+    
+        # Now let's clean up these files
+        soup1 = BeautifulSoup(html_content, 'html5lib')
+        text = soup1.get_text()
+        str_text = text.encode('utf-8')
+        print "Downloading: ", bio_link
+    else:
+        print "Downloading: ", link_to_use
+        
     # Create filename to save the file
-    print "Downloading: ", link_to_use
     filename = os.path.join("../","non_famous_websites",query + ".txt")
     with open(filename,'w') as f:
         f.write(str_text)
@@ -93,9 +117,13 @@ def DownloadWebpage(edu_links,query):
 if __name__ == "__main__":
     
     # Education links are good
-    query = sys.argv[1]
-    links = getgooglelinks(query)
-    edu_links = ReturnHomepage(links)
-    DownloadWebpage(edu_links,query)
+    #query = sys.argv[1]
+    #links = getgooglelinks(query)
+    #edu_links = ReturnHomepage(links)
+    #DownloadWebpage(edu_links,query)
+    
+    # Now this function will download and find the bio pages for everyone
+    # in our list
+    
     
     
