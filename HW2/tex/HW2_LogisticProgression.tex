@@ -25,18 +25,17 @@
 \usepackage[english]{babel} % English language/hyphenation
 \usepackage{amsmath,amsfonts,amsthm} % Math packages
 \usepackage{color} % This is used for highlighting text whenever you need to come back to something
-\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
-\usepackage{sectsty} % Allows customizing section commands
-\allsectionsfont{\centering \normalfont\scshape} % Make all sections centered, the default font and small caps
-\usepackage{fancyhdr} % Custom headers and footers
-\pagestyle{fancyplain} % Makes all pages in the document conform to the custom headers and footers
-\fancyhead{} % No page header - if you want one, create it in the same way as the footers below
-\fancyfoot[L]{} % Empty left footer
-\fancyfoot[C]{} % Empty center footer
-\fancyfoot[R]{\thepage} % Page numbering for right footer
-\renewcommand{\headrulewidth}{0pt} % Remove header underlines
-\renewcommand{\footrulewidth}{0pt} % Remove footer underlines
-\setlength{\headheight}{13.6pt} % Customize the height of the header
+%\usepackage{sectsty} % Allows customizing section commands
+%\allsectionsfont{\centering \normalfont\scshape} % Make all sections centered, the default font and small caps
+%\usepackage{fancyhdr} % Custom headers and footers
+%\pagestyle{fancyplain} % Makes all pages in the document conform to the custom headers and footers
+%\fancyhead{} % No page header - if you want one, create it in the same way as the footers below
+%\fancyfoot[L]{} % Empty left footer
+%\fancyfoot[C]{} % Empty center footer
+%\fancyfoot[R]{\thepage} % Page numbering for right footer
+%\renewcommand{\headrulewidth}{0pt} % Remove header underlines
+%\renewcommand{\footrulewidth}{0pt} % Remove footer underlines
+%\setlength{\headheight}{13.6pt} % Customize the height of the header
 
 %numberwithin{equation}{section} % Number equations within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
 %\numberwithin{figure}{section} % Number figures within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
@@ -170,5 +169,21 @@ $\lambda_0$ & $\lambda_1$ & $Perplexity(dev)$ \\ \hline \hline
 The testing was performed on the ``The Scarlet Letter'' test set, and the resulting perplexity using interpolation parameters $(\lambda_{int} = (0.2,0.7)$ is $Perplexity(test) = 2^{77.39}$.  This shows just how useful it is to have multiple models and broaden our training data.  The interpolated model outperforms both singluar models by itself.
 
 \section{Linguistic Oriented Section}
+
+Pereira argues that formal grammar and statistical estimation are not as irreconcilable as they were once thought to be.  Not only are computational approaches functionally successful in natural language processing tasks, but they are becoming more acceptable to linguists.
+
+Opponents of the information theoretic approach to linguistics have argued purely statistical learning would leave humans unable to process strings that had never been encountered before.  Since no one could possibly experience all grammatical strings, and yet humans are able to parse new strings just fine, this must mean that language acquisition must not be based on statistics but rather on some innate sensitivity to Universal Grammar.  However, this argument assumes that all statistical learning overfits the training data, which is not true.  The success of a machine learning algorithm depends on its ability to generalize to new, previously unseen inputs, and there is no reason why a statistical language model in a human brain should be any different.  
+
+However, I do not think it is plausible for humans to learn language the same way a computer does.  Most humans are not comfortable with probabilities -- this is clear not only from such problems as the birthday "paradox" and the Monty Hall problem, but from all the wailing and gnashing of teeth that goes on in a randomized algorithms of machine learning class.  Even statistically-trained human brains can not handle the tremendous amounts of data that computers can, so it is unlikely that humans process language using the same statistical models that computers do.  It is possible that a human might be able to do sophisticated statistical modeling subconsciously, but I find it doubtful (although the ability of German speakers to keep track of their verbs is very impressive, so who knows).  I think that the right conclusion to draw from this argument is that there is no reason why humans cannot extrapolate from previously seen language -- in fact, humans are sometimes a little too good at generalization (the availability heuristic)!  The two views of language acquisition need not be in conflict; why not have Universal Grammar as a set of priors instead of a hard-and-fast set of rules?
+
+Pereira also shows that some of the arguments against statistical methods were based on older, less sophisticated models.  No one would argue, for instance, that the Markov assumption accurately models a human's mental state when processing language, even if it often works well enough in practice.  However, conditional random fields address this particular weakness by accounting for greater distances between dependent variables in a sequence, both hidden and observed.  Again, I think that conflating machine learning techniques with human language processing is a mistake.  While the use of statistical inference in human language processing is plausible, I doubt even its proponents would claim that all humans walk around with fully-trained CRFs in their heads.  
+
+The question of tractability goes in both directions.  Just as a human cannot do complex statistical modeling in his head, so a machine learning technique is subject to concerns of running time and space.  An algorithm must run reasonably quickly and not use too much memory -- the Markov assumption is used for precisely this reason.  It is not that computational linguists are trying to assert that formal linguistics is wrong.  Despite Fred Jelinek's famous claim that "Every time I fire a linguist, the performance of the speech recognizer goes up," linguistically-motivated features are in use.  Work on discourse relations, for example, depends heavily on syntactic features, from part-of-speech tags to partial trees.  However, the syntactic theories that formal linguists use are too complex to use in computational linguistics.  Even if computational linguists wanted to stay true to current theories in formal linguistics, it would be an impossible task.  
+
+Formal linguists do not agree even amongst themselves on just what Universal Grammar is.  How do we deal with Irish word order?  Do we allow ternary-branching for conjunctions, or do we resign ourselves to an unequal relationship where one conjunct is the head and the other is the complement?  Statistical parsers need an agreed-upon set of rules, and formal linguistics is unable to provide one.  In addition, linguists posit a good deal of movement in order to account for surface word order.  Verbs raise and lower, wh-words leap to the top of the tree, and all the while, case-checking is making sure no one goes where they should not go.  This is a lot for a computer to handle, and machine learning algorithms do pretty well without this extra information.  The choice not to precisely follow current formal linguistic theories is not made because computational linguists mistrust the work of formal linguists, but that to do so would require a tremendous amount of work for not a lot of expected performance gains.  
+
+Pereira rebuts the argument that the stimulus of observed language is too impoverished for a child to learn by comparing it to semi- or distantly-supervised learning.  First, I do not believe the claim that children receive no negative examples at all.  There are, of course, cases of speaker error, where an adult misspeaks and corrects himself in front of the child.  As semi-supervised learning techniques show, a very small seed of examples can be sufficient for learning.  But there has also been work on semi-supervised learning with a seed containing only positive examples.  This approach avoids having to hand-annotate negative training examples and allows the classifier to label slices of the data with positive and negative labels itself as it trains.  Analogously, we have a child who is presented with many positive examples by adults.  The child can generates candidate sentences in his head, some of which he may label as ungrammatical, and these serve as his negative examples for the next round of learning.  
+
+Another counterargument would be that bilingual children are frequently exposed to negative examples.  My parents' English is very good overall, but they make some systematic errors due to the differences between English and Mandarin grammars.  For example, my mother always moves wh- words, even when it is not necessary.  There is no wh- movement in Mandarin, but there is in English, and she has over-generalized the wh-movement rules (further evidence that humans can generalize!).  She produces sentences such as "I don't know what is that" instead of "I don't know what that is."  A child growing up with parents who are not native English speakers will hear many ungrammatical English sentences.  If he recognizes that the English he hears at school is more likely to be correct, and the English at home is more likely to be incorrect, he will have what amounts to some noisily-labeled negative examples in the English he hears at home. 
 
 \end{document}
