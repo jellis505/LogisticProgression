@@ -80,12 +80,13 @@ def DownloadWebpage(edu_links,query):
     # Now let's clean up these files
     soup = BeautifulSoup(html_content)
     text = soup.get_text()
+    str_text = text.encode('utf-8')
     
     # Create filename to save the file
     print "Downloading: ", link_to_use
     filename = os.path.join("../","non_famous_websites",query + ".txt")
     with open(filename,'w') as f:
-        f.write(text)
+        f.write(str_text)
     
     return
 

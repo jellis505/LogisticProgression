@@ -1,0 +1,136 @@
+HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"Julia Hirschberg@import "hirschberg_style.css";
+<!--
+span.GramE {mso-style-name:"";
+	mso-gram-e:yes;}
+span.SpellE {mso-style-name:"";
+	mso-spl-e:yes;}
+-->
+    
+Start Frame 
+
+Start Department Banner 
+
+
+
+End Department Banner 
+Start Content Frame 
+Start Navigation 
+
+
+Home
+Research
+Publications
+Teaching
+Service
+Awards & Honors
+Spoken Language Processing Group
+
+
+ Start Content for Dropdown Menus 
+Research drop down menu  
+Summary
+Past and Present Projects
+Recent Talks
+
+Publications drop down menu 
+
+Patents
+Grants
+Refereed Publications
+Book Chapters & Edited Volumes
+
+Service drop down menu 
+
+Journal Responsibilities
+Professional Activities
+Invited Talks, Panels, Workshops, and Tutorials
+Conference Presentations
+Columbia Service
+
+
+					//SYNTAX: tabdropdown.init("menu_id", [integer OR "auto"])
+					tabdropdown.init("bluemenu")
+					
+ End Navigation 
+Start Content 
+
+Start Left Column 
+Welcome
+
+ Julia Hirschberg is professor and Chair of
+						Computer Science at
+                          Columbia
+University.
+						She received her PhD in Computer Science from the
+University
+of
+Pennsylvania.  She worked at
+Bell Laboratories and AT&T
+Laboratories -- Research from 1985-2003 as a Member of Technical Staff and
+a Department Head, creating the Human-Computer Interface Research Department.   
+						She served as editor-in-chief of Computational
+  					    Linguistics from 1993-2003 and 
+						co-editor-in-chief of Speech
+			  Communication from 2003-2006 and is
+			  now on the Editorial Board. She was
+			  on the Executive Board of the Association
+			  for Computational Linguistics (ACL)
+  					    from 1993-2003, on the Permanent Council of International Conference on Spoken
+  					        Language Processing
+			  (ICSLP) since 1996, and on the board
+			  of the International Speech Communication
+  					          Association
+			  (ISCA) from 1999-2007 (as President
+			  2005-2007, Advisory Council 2007--). She now serves on the IEEE 
+						Speech and Language Processing Technical Committee, the 
+						Executive Board of the CRA, the AAAI Council, the 
+						Executive Board of the NAACL, and the board of the CRA-W.  
+						She has been active in working for diversity at
+			  AT&T and at Columbia.
+				              She has been a AAAI fellow since 1994, an ISCA
+			  Fellow since 2008, and a (founding) ACL Fellow since 2011. She received an Honorary Doctorate (Hedersdoktor) from KTH in 2007, a Columbia Engineering School Alumni Association (CESAA)
+  Distinguished Faculty Teaching Award in 2009, the IEEE James L. Flanagan Speech and Audio Processing Award 
+						in 2011, and the ISCA Medal for Scientific Achievement in 2011.
+ End Left Column 
+ Start Right Column 
+
+Julia Hirschberg
+				       Professor and Chair, Computer Science
+
+        Mailing Address:
+Columbia University
+		          Department of Computer Science
+		          1214 Amsterdam Avenue
+		          M/C 0401
+		          450 CS Building
+		          New York, NY 10027
+
+        email: julia@cs.columbia.edu
+				  phone: (212) 939-7114
+                                 
+				             
+				Download CV
+            
+				Fall 2012:
+				
+				EECS 6898 From Data to Solutions
+            
+				Spring 2012:
+				CS4706 Spoken Language Processing
+            
+				Fall 2011:
+				
+				CS 4995/6998 Computational Approaches                                   
+				     
+				to Emotional Speech
+ End Right Column 
+ End Content 
+Start Address 
+
+Columbia University Department of Computer Science
+             / 
+            Fu Foundation School of Engineering & Applied Science
+			450 Computer Science Building / 1214 Amsterdam Avenue, Mailcode: 0401 / New York, New York 10027-7003
+			Tel: 1.212.939.7000 / Fax: 1.212.666.0140
+End Address 
+End Frame 
