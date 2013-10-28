@@ -1,0 +1,120 @@
+HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"if(0){ if(window.attachEvent){//MS
+	window.attachEvent('onload',onLoadCallback);
+}else if(window.addEventListener){
+	window.addEventListener('load',onLoadCallback,false);
+}else{
+	window.onload=onLoadCallback;
+} }//:= 2013-10-28+15:24:38+146.96.130.201+0+http://fds.duke.edu/db/aas/math/ingrid =:
+  var _gaq = _gaq || []; _gaq.push(['b._setAccount', 'UA-21323719-1'],['b._setDomainName', '.duke.edu'],['b._setAllowHash', false],['b._trackPageview']); (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })();
+Ingrid Daubechies, Professor and James B. Duke Professor of Mathematics.
+
+
+
+Department of Mathematics
+
+
+          Search  | Help  | Login  |   |  
+
+
+
+
+
+
+
+Math @ Duke
+
+
+
+
+        	 random_image();
+            
+
+ 
+
+Math HOME
+.......................
+
+Faculty
+.......................
+WebpagePublications
+ tr><td>
+		<div  class="mathlinks">
+		<p style="color: #990000; font-weight:normal; margin-top:5px; margin-bottom: 8px">............................</p>
+           <nobr><a href="http://www.aas.duke.edu/" >Arts & Sciences</a></nobr>
+           <p style="color: #990000; margin-top:0px; font-weight:normal;  margin-bottom: 8px">............................</p>
+           <a href="http://www.duke.edu">Duke University</a><br>
+		</div 
+
+
+
+
+
+
+
+Ingrid Daubechies, Professor and James B. Duke Professor of Mathematics.
+  additional args: act= tid=0 // this line must be here Contact Info:
+
+Office Location:  111 PhysicsOffice Phone:  919-660-2805 Email Address: Teaching (Fall 2013):
+
+MATH 212.01, MULTIVARIABLE CALCULUS
+Synopsis
+Physics 259, TuTh 11:45 AM-01:00 PM
+		MATH 212.02, MULTIVARIABLE CALCULUS
+Synopsis
+Physics 259, TuTh 01:25 PM-02:40 PM
+		Specialties:
+
+Applied MathAnalysisPostdocs Mentored
+Rayan Saab (2012/01-present) 
+		  Recent Publications 
+	   (More Publications)
+
+B. Cornelis, T.Ruzic, E.Gezels, A.Dooms, A.Pizurica, L.Platisa, J.Cornelis, M. Martens, M.DeMey, I.Daubechies, Crack detection and inpainting for virtual restoration of paintings: The case of the Ghent Altarpiece,
+    	Signal Processing, vol. 93
+    	(2013),
+    	pp. 605-619, Elsevier [S0165168412002526]  [abs]
+I. Daubechies, Developing Mathematical Tools to Investigate Art,
+    	in Bridges 2012 Proceedings, edited by Robert Bosch, Douglas McKenna, and Reza Sarhangi
+    	(2012), Jacobs Publishing, http://www.mathartfun.com  [abs]
+G. Polatkan, M. Zhou, L. Carin, D. Blei, and I. Daubechies, A Bayesian nonparametric approach to image super-resolution
+    	(Submitted, 2012) [5019]  [abs]
+D. Boyer, Y. Lipman, E. St. Clair, J. Puente, T. Funkhouser, B. Patel, J. Jernvall, I. Daubechies, Algorithms to automatically quantify the geometric similarity of anatomical surfaces,
+    	Proceedings of the National Academy of Sciences, vol. 108 no. 45
+    	(November 8, 2011),
+    	pp. 18221-6, ISSN 1091-6490 [arXiv:1110.3649 [math.NA]]  [abs]
+J.M. Bunn, D.M. Boyer, Y. Lipman, E.M. St. Clair, J. Jernvall and I. Daubechies, Comparing Dirichlet Normal Surface Energy of Tooth Crowns, a New Technique of Molar Shape Quantification for Dietary Inference, With Previous Methods in Isolation and in Combination,
+    	Am. J. Physical Anthropology, vol. 145
+    	(2011),
+    	pp. 247-261  [abs]
+
+
+
+ 
+
+
+
+
+dept@math.duke.edu 
+
+
+           ph:  919.660.2800
+               fax: 919.660.2821
+            
+
+Mathematics Department
+              Duke University, Box 90320
+              Durham, NC 27708-0320
+          
+
+
+
+
+
+
+Mathematics Home  | Arts & Sciences | Duke University
+
+
+

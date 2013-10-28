@@ -1,0 +1,679 @@
+html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"[if lt IE 7 ]> <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class="ie ie6"> <![endif][if IE 7 ]>    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class="ie ie7"> <![endif][if IE 8 ]>    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class="ie ie8"> <![endif][if IE 9 ]>    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class="ie ie9"> <![endif][if (gt IE 9)|!(IE)]><!<![endif] PageID 322 - published by OpenText Web Site Management 10.1 - 10.1.2.391 
+        
+        
+        
+        
+                Brooklyn College | About
+
+        [if IE 6]>
+            <link rel="stylesheet" type="text/css" href="http://www.brooklyn.cuny.edu/web/css/ie6.css" media="all" />
+        <![endif]
+        
+        
+
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+
+ <script language="javascript" type="text/javascript" src="http://www.brooklyn.cuny.edu/web/js/jquery.reverseorder.packed.js"></script>
+  
+
+ 
+.admissions_feature_submit label     {color:#525252;}
+#admissions_feature .bar, 
+/*#admissions_feature .form .tray     {background-color:#FFFFFF;}*/    
+ 
+
+        
+
+
+     force update 
+    
+    
+
+
+         START HEADER 
+
+        
+
+ start feedback 
+
+
+ end feedback 
+
+
+            
+                
+                    About
+                    Academics
+                    Admissions
+                    Campus Life
+                    News & Media
+                    Athletics
+                    Support BC
+                    
+                        <a href="http://www.brooklyn.cuny.edu/web/search.php" rel="#search" class="search"></a>
+                        <div id="search" style="display:none">
+                            <form action="http://www.brooklyn.cuny.edu/web/search.php" method="post">
+                                <fieldset>
+                                    <input type="text" class="text" name="q" value="" />
+                                    <input type="image" src="http://www.brooklyn.cuny.edu/web/template_images/search_button.png" alt="SEARCH" />
+                                </fieldset>
+                            </form>
+                        </div>
+
+
+old search added eher
+
+ 
+   
+ 
+        
+     
+        
+        
+       
+       
+       
+  
+
+
+ end
+
+                    
+                
+            
+                        
+            
+    
+     
+        
+        
+        
+            Our CampusFast FactsAdministrationInitiatives, Plans and PoliciesInternational Education
+        
+        
+        
+        
+            ResearchOur Past, Our FutureOffices and ServicesContact Us
+        
+        
+            
+                
+                
+                    Welcome to Brooklyn College.
+                    
+                        Explore our campus with our new virtual tour.                    
+                
+            
+            
+        
+    
+
+    
+     
+        
+        
+        
+            SchoolsAcademic DepartmentsMajors, Minors and ConcentrationsInterdisciplinary ProgramsGraduate ProgramsDoctoral Programs
+        
+        
+        
+        
+            Fields of StudyGeneral EducationHonors and Special ProgramsInternational EducationAcademic Resources
+        
+        
+        
+        
+            LibraryCenters and InstitutesResearchFacultyCourse Schedules and Bulletins
+        
+        
+            
+            
+        
+    
+
+    
+     
+        
+        
+        
+            Incoming FreshmenTransfer StudentsGraduate StudentsInternational StudentsSecond-Degree Students
+        
+        
+        
+        
+            Other StudentsApplyTuition, Fees and PaymentsFinancial AidInformation Request
+        
+        
+        
+        
+            Visit CampusUndergraduate Admissions EventsGraduate Admissions Events
+        
+        
+            
+            
+        
+    
+
+    
+     
+        
+        
+        
+            BC NewsBC In the MediaResearchVideos
+        
+        
+        
+        
+            Office of Communications and Marketing
+        
+        
+            
+            
+            
+                
+                    Visit us on Facebook
+                
+                
+                    Follow us on Twitter
+                
+                
+                    Email us a question
+                
+            
+        
+    
+
+    
+     
+        
+        
+        
+            What the Campus Has to OfferDivision of Student AffairsStudent ClubsIntramurals / RecreationHealth and Wellness
+        
+        
+        
+        
+            CommencementVeteran Affairs and CounselingLiving in BrooklynResidential Life
+        
+        
+        
+        
+            
+        
+        
+            
+            
+        
+    
+
+    
+     
+        
+        
+        
+            Brooklyn College FoundationGet Involved and Give BackWhy GiveWhat I Get
+        
+        
+            
+                
+                
+                    Welcome to Brooklyn College.
+                    
+                        Explore our campus with our new virtual tour.                    
+                
+            
+            
+            
+                
+                    Visit us on Facebook
+                
+                
+                    Follow us on Twitter
+                
+                
+                    Email us a question
+                
+            
+        
+    
+
+            
+         #nav_container 
+        
+        
+            
+            
+                Brooklyn College
+                
+                
+                    BC WebCentralCalendarOffices and ServicesLibraryHonors and Special Programs
+                
+                
+                
+                    Prospective Students
+                    Current Students
+                    Faculty & Staff
+                    Alumni & Friends
+                
+
+                
+                  $(document).ready(function(){
+                    $('#consistent_nav li').last().addClass('last');
+                    
+                    $('#gateway_ps').click(function() {
+                      document.location.href = 'http://www.brooklyn.cuny.edu/web/prospective_students.php';
+                    });
+                    $('#gateway_cs').click(function() {
+                      document.location.href = 'http://www.brooklyn.cuny.edu/web/current_students.php';
+                    });
+                    $('#gateway_fs').click(function() {
+                      document.location.href = 'http://www.brooklyn.cuny.edu/web/faculty_staff.php';
+                    });
+                    $('#gateway_af').click(function() {
+                      document.location.href = 'http://www.brooklyn.cuny.edu/web/alumni.php';
+                    });
+
+                  });
+                
+                
+                
+                
+                
+                    
+                    
+                    
+                        AdmissionsApply OnlineCampus Life
+                    
+                    
+                    
+                        Financial AidHonors and Special ProgramsInternational EducationLibrary
+                    
+                    
+                    
+                        News and MediaRegistrarResidential Life
+                    
+                    
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+                
+                
+                    
+                    
+                    
+                        Academic AdvisingBookstoreBursarCalendarsCampus ConstructionCampus LifeCareer Development and InternshipsCommencementCourse Schedules and Bulletins
+                    
+                    
+                    
+                        CUNY Blackboard / PortalEnrollment Services CenterFinancial AidInitiatives, Plans and PoliciesInYourClassLibraryNew Students / Orientation InformationNews and Media
+                    
+                    
+                    
+                        Offices and ServicesPathwaysPublic SafetyRegistrarRegistration AppointmentsScholarships and AwardsStudent HandbookStudent Housing
+                    
+                    
+ 
+
+
+
+ 
+BC WebCentral LoginForgot Your Password?Forgot Your WebCentral ID?New Users
+ 
+
+ 
+College Directory
+ 
+
+                
+                
+                    
+                    
+                    
+                        Academic Affairs / Office of the ProvostBookstoreCalendarsCampus ConstructionCampus DirectoryCampus LifeCUNY Blackboard / Portal
+                    
+                    
+                    
+                        Faculty CouncilFaculty HandbookFaculty NewsletterFaculty and Staff Development Opportunities (CUNY)Human ResourcesInYourClass
+                    
+                    
+                    
+                        ITS (Information Technology Services)LibraryNews and MediaOffices and ServicesPublic SafetyWebmailWriting Across the Curriculum
+                    
+                    
+ 
+
+
+
+ 
+BC WebCentral LoginForgot Your Password?Forgot Your WebCentral ID?New Users
+ 
+
+ 
+College Directory
+ 
+
+                
+                
+                    
+                    
+                    
+                        Benefits and ServicesBrooklyn College Alumni AssociationBrooklyn College Foundation
+                    
+                    
+                    
+                        Calendar of EventsChapters and AffiliatesGet Involved and Give Back
+                    
+                    
+                    
+                        Office of Alumni AffairsStay in TouchTranscripts
+                    
+                    
+                    
+                        Contact Us
+                    
+                    
+                
+
+            
+
+ 
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-16095067-3']);
+  _gaq.push(['_trackPageview']);
+ 
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+ 
+
+
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+
+try {
+var pageTracker = _gat._getTracker("UA-16095067-1");
+pageTracker._trackPageview();
+} catch(err) {} #header 
+             END HEADER 
+
+  
+       headline_parent = "About";  
+
+
+
+
+
+
+
+
+        
+            
+            
+             START OPTIONAL PAGE PHOTO 
+            
+                
+                
+                
+
+                    
+                    
+                    
+                        Teamwork on the Quad.
+                    
+                
+                
+                
+
+                    
+                    
+                    
+                        Soccer is one of seven sports available for our men.
+                    
+                
+                
+                
+
+                    
+                    
+                    
+                        Our campus is one of the most beautiful in the country.
+                    
+                
+                
+                
+
+                    
+                    
+                    
+                        At the forefront of discovery.
+                    
+                
+            
+             END OPTIONAL PAGE PHOTO 
+
+            
+            
+                
+                    Home
+                    About Brooklyn College
+                
+                
+                About Brooklyn College
+
+
+
+
+
+
+
+                
+        Brooklyn College is an integral part of the civic, urban and artistic energy of New York and uses the entire city as a living classroom that broadens our students’ understanding of the world around them. 
+        For more than 80 years, the college has been attracting a wide variety of motivated students — many of them immigrants or the children of immigrants who wish to better their lives through a superb education. They come because of the college’s renowned faculty of academics, professionals and artists who are among the best in their field. They know they will be learning on a campus considered one of the most beautiful in the country, with well-equipped facilities, studios, smart classrooms, and production and practice rooms — all with a highly affordable tuition. 
+        Brooklyn College has a student enrollment of 16,524 students — 13,099 undergraduates and 3,425 graduates who come from 150 nations and speak 105 languages.
+        The college offers 120 undergraduate and graduate degree programs in the creative arts; humanities; social, behavioral and natural sciences; mathematics; education and business. Admissions criteria have become increasingly selective over the last decade, with a mean SAT score of 1134 for 2011. More than 4,000 students received bachelor’s and master’s degrees, as well as advanced certificates, at our last Commencement Exercises.
+        Academic Opportunities
+        Students seeking a highly challenging academic program beyond the college’s rigorous overall program are invited to apply to the Macaulay Honors College at Brooklyn College and the specialized programs in the Honors Academy. Admission into these programs is very competitive and offers tremendous benefits, which may include opportunities to engage in academically rigorous activities throughout the city and across the globe, free tuition and laptops, stipends for travel and much more.
+        For undergraduate students, the college’s highly regarded Core Curriculum creates a firm foundation in the liberal arts and sciences. Our strong advisement program guides them throughout their college years. Even before their first semester begins, freshmen are introduced to the First College Year, which helps them transition from high school to college through summer bridge programs and with Learning Communities that strengthen bonds between them and with the faculty. Preprofessional programs are available for students interested in engineering, law, medicine, optometry and podiatry.
+        Special programs for graduate students are provided as well. The Graduate Investment Program offers travel grants that support attendance at domestic and international conferences, research grants that fund supplies and materials, and workshops on topics of specific importance to graduate students — grant writing, thesis assistance and many more. Brooklyn College is also an active part of graduate-focused CUNY programs, including the New York City Louis Stokes Alliance for Minority Participation, the Bridges to the Doctorate Program and the Latin/Greek Institute.
+        The college encourages students to study abroad through special academic programs. Students have explored medicine in China, participated in archaeological digs in Israel and Iceland, studied political systems in Argentina, made documentary films in India, and sharpened their artistic skills in Italy and France, just to name a few. They often assist in their professors’ research, engaging in cutting-edge investigations while exploring a part of the world they may not have seen on their own.
+        A World-Class Faculty
+        Brooklyn College professors are award winners and recipients of national funding from institutions such as NASA, the National Science Foundation, the National Institutes of Health and the Department of Education. The faculty includes two Pulitzer Prize winners — journalist Paul Moses and historian Edwin Burrows — and two Pulitzer Prize nominees — historian Michael Rawson and composer Tania León. Ursula Oppens, a Grammy Award–nominated concert pianist and contemporary American music performer; Mac Wellman, an Obie Award–winning playwright; and Kristoff Diaz, a Tony Award–nominated playwright, are also on the faculty. Other illustrious faculty members include political scientist Alex Vitale, sociologist Carolina Bank Muñoz, NIH $1.7 million grant-winner and psychologist Anthony Sclafani, internationally recognized computer theorist Rohit Parikh, esteemed audiologist Shlomo Silman, leading expert in microalgae biotechnology Juergen Polle, and political scientist and author Corey Robin.
+        Student Life
+        Student life at Brooklyn College is active, diverse and multifaceted. Our students are engaged in more than 100 student clubs and organizations spanning a broad range of cultural, ethnic, community, media, artistic, social action, religious and other special interests. More than one dozen fraternities and sororities bring Greek life to campus. Intramural sports are popular, and the college’s award-winning basketball, cross country, soccer, softball, tennis and volleyball teams compete at the Division III level of the National Collegiate Athletic Association. 
+        Building for the Future
+        This spring, the Brooklyn College broke ground for a new center for the performing arts, which will provide a fitting home for its award-winning performance programs. The college is also deep into the planning stages for a new state-of-the-art science complex.
+    
+
+
+
+
+            
+         #main 
+        
+          
+
+
+
+
+
+
+
+
+
+
+            
+
+                Our CampusFast FactsAdministrationInitiatives, Plans and PoliciesInternational EducationResearchOur Past, Our FutureOffices and ServicesContact Us
+            
+
+
+
+
+            
+
+
+
+             
+                        
+
+
+        
+ #sidebar 
+
+
+      $(document).ready(function(){
+        
+         var headline = headline_parent; //from base 
+         
+        $("#sidebar ul.subpage a").each(function(){
+          if ($(this).text()== headline) {
+            $(this).addClass("selected");
+          }
+        });
+        if ($('#sidebar ul.subpage').length > 1) {
+          var item_found = false;
+          $('#sidebar ul.subpage').each(function() {
+            $selected_item = $(this).find('li a.selected');
+  
+            if ($selected_item.text() == '' && item_found == true) {
+              // sub list item
+              item_found = false;
+              $(this).insertAfter('#sidebar #subnav.subpage li a.selected');
+            } else if ($selected_item.text() == '') {
+              // empty item
+              $(this).attr('id','').css('display','none');
+            } else {
+              // selected list item
+              $(this).attr('id','subnav');
+              item_found = true;
+            }
+          });
+        }
+      });
+        
+        
+     #content_container 
+
+
+ START FOOTER - on every page 
+            
+                
+                    
+                    Apply Online
+
+                    
+        Apply now to one of more than 250 undergraduate and graduate degree and advance certificate programs.
+    
+
+                
+                    
+                    Virtual Tour
+
+                    
+        If you can’t be here in person, take our virtual tour and discover the beauty and vitality of our campus.
+         
+    
+
+                
+                    
+                    Research
+
+                    
+        Our faculty not only share their discoveries and knowledge with you, they invite you to be active members of their research teams.
+    
+
+                
+                    
+                    Residence Hall
+
+                    
+        Make Brooklyn College your home away from home when you move into an apartment in our new residence hall.
+    
+
+                
+             #content_footer 
+            
+            
+            
+                
+                    
+                        HomeDirectoryEmploymentPrivacy PolicyPoliciesText Only WebsiteMake This Website TalkSite Map
+                    
+                
+                
+                  $(document).ready(function() {
+                    $('#content_footer .column:last').addClass('last');
+                    $('#footer .footer_nav ul li:last').addClass('last');
+                  });
+                
+                
+                Follow us on Twitter
+                Watch our videos on YouTube
+                Visit us on Facebook
+                
+                
+                
+                    © 2013  
+        All Rights Reserved Brooklyn College
+        2900 Bedford Avenue, Brooklyn, NY 11210
+        718.951.5000
+     
+
+ipadress is-10.0.10.1
+
+                
+                
+             #footer 
+             END FOOTER 
+            
+         #container 
+
+
+ 
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-16095067-3']);
+  _gaq.push(['_trackPageview']);
+ 
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+    function trackClick(eventCategory,eventAction,eventLabel) {
+    _gaq.push(['_trackEvent',eventCategory,eventAction,eventLabel]);
+    };
+ 
+
+
+    
+
+
+
+

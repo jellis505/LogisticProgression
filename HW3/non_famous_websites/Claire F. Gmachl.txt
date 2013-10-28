@@ -1,0 +1,274 @@
+HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+#dropmenudiv{
+position: absolute;
+border: 1px solid;
+background-color: #eaeaea;
+border-bottom-width: 0;
+font:normal 12px Verdana;
+line-height: 14px;
+z-index:100;
+}
+#dropmenudiv a{
+width: 100%;
+display: block;
+text-indent: 3px;
+border-bottom: 1px solid black;
+padding: 1px 0;
+text-decoration: none;
+font-weight: bold;
+}
+#dropmenudiv a:hover{ /*hover background color*/
+background-color: #bfe587;
+}
+}
+  
+//Contents for menu 1
+var menu1=new Array()
+menu1[0]='<h3><a target="iframe" href="members/current.html">Current members</a>'
+menu1[1]='<h3><a target="iframe" href="members/former.html">Former Members</a>'
+menu1[2]='<h3><a target="iframe" href="members/photos.html">Group Photos</a>'
+var disappeardelay=50 //menu disappear speed onMouseout (in miliseconds)
+var horizontaloffset=-70 //horizontal offset of menu from default location. (0-5 is a good value)
+/////No further editting needed
+var ie4=document.all
+var ns6=document.getElementById&&!document.all
+if (ie4||ns6)
+document.write('<div id="dropmenudiv" style="visibility:hidden;width: 160px" onMouseover="clearhidemenu()" onMouseout="dynamichide(event)"></div>')
+function getposOffset(what, offsettype){
+var totaloffset=(offsettype=="left")? what.offsetLeft : what.offsetTop;
+var parentEl=what.offsetParent;
+while (parentEl!=null){
+totaloffset=(offsettype=="left")? totaloffset+parentEl.offsetLeft : totaloffset+parentEl.offsetTop;
+parentEl=parentEl.offsetParent;
+}
+return totaloffset;
+}
+function showhide(obj, e, visible, hidden, menuwidth){
+if (ie4||ns6)
+dropmenuobj.style.left=dropmenuobj.style.top=-500
+dropmenuobj.widthobj=dropmenuobj.style
+dropmenuobj.widthobj.width=menuwidth
+if (e.type=="click" && obj.visibility==hidden || e.type=="mouseover")
+obj.visibility=visible
+else if (e.type=="click")
+obj.visibility=hidden
+}
+function iecompattest(){
+return (document.compatMode && document.compatMode!="BackCompat")? document.documentElement : document.body
+}
+function clearbrowseredge(obj, whichedge){
+var edgeoffset=0
+if (whichedge=="rightedge"){
+var windowedge=ie4 && !window.opera? iecompattest().scrollLeft+iecompattest().clientWidth-15 : window.pageXOffset+window.innerWidth-15
+dropmenuobj.contentmeasure=dropmenuobj.offsetWidth
+if (windowedge-dropmenuobj.x-obj.offsetWidth < dropmenuobj.contentmeasure)
+edgeoffset=dropmenuobj.contentmeasure+obj.offsetWidth
+}
+else{
+var topedge=ie4 && !window.opera? iecompattest().scrollTop : window.pageYOffset
+var windowedge=ie4 && !window.opera? iecompattest().scrollTop+iecompattest().clientHeight-15 : window.pageYOffset+window.innerHeight-18
+dropmenuobj.contentmeasure=dropmenuobj.offsetHeight
+if (windowedge-dropmenuobj.y < dropmenuobj.contentmeasure){ //move menu up?
+edgeoffset=dropmenuobj.contentmeasure-obj.offsetHeight
+if ((dropmenuobj.y-topedge)<dropmenuobj.contentmeasure) //up no good either? (position at top of viewable window then)
+edgeoffset=dropmenuobj.y
+}
+}
+return edgeoffset
+}
+function populatemenu(what){
+if (ie4||ns6)
+dropmenuobj.innerHTML=what.join("")
+}
+function dropdownmenu(obj, e, menucontents, menuwidth){
+if (window.event) event.cancelBubble=true
+else if (e.stopPropagation) e.stopPropagation()
+clearhidemenu()
+dropmenuobj=document.getElementById? document.getElementById("dropmenudiv") : dropmenudiv
+populatemenu(menucontents)
+if (ie4||ns6){
+showhide(dropmenuobj.style, e, "visible", "hidden", menuwidth)
+dropmenuobj.x=getposOffset(obj, "left")
+dropmenuobj.y=getposOffset(obj, "top")
+dropmenuobj.style.left=dropmenuobj.x-clearbrowseredge(obj, "rightedge")+obj.offsetWidth+horizontaloffset+"px"
+dropmenuobj.style.top=dropmenuobj.y-clearbrowseredge(obj, "bottomedge")+"px"
+}
+return clickreturnvalue()
+}
+function clickreturnvalue(){
+if (ie4||ns6) return false
+else return true
+}
+function contains_ns6(a, b) {
+while (b.parentNode)
+if ((b = b.parentNode) == a)
+return true;
+return false;
+}
+function dynamichide(e){
+if (ie4&&!dropmenuobj.contains(e.toElement))
+delayhidemenu()
+else if (ns6&&e.currentTarget!= e.relatedTarget&& !contains_ns6(e.currentTarget, e.relatedTarget))
+delayhidemenu()
+}
+function hidemenu(e){
+if (typeof dropmenuobj!="undefined"){
+if (ie4||ns6)
+dropmenuobj.style.visibility="hidden"
+}
+}
+function delayhidemenu(){
+if (ie4||ns6)
+delayhide=setTimeout("hidemenu()",disappeardelay)
+}
+function clearhidemenu(){
+if (typeof delayhide!="undefined")
+clearTimeout(delayhide)
+}
+  
+var initHeight = 0;
+var slidedown_direction = 1;
+var slidedownContentBox = false;
+var slidedownContent = false;
+var slidedownActive = false;
+var contentHeight = false;
+var slidedownSpeed = 3; // Higher value = faster script
+var slidedownTimer = 4; // Lower value = faster script
+function slidedown_showHide()
+{
+if(initHeight==0)slidedown_direction=slidedownSpeed; else slidedown_direction = slidedownSpeed*-1;
+if(!slidedownContentBox){
+slidedownContentBox = document.getElementById('dhtmlgoodies_contentBox');
+slidedownContent = document.getElementById('dhtmlgoodies_content');
+contentHeight = document.getElementById('dhtmlgoodies_content').offsetHeight;
+}
+slidedownContentBox.style.visibility='visible';
+slidedownActive = true;
+slidedown_showHide_start();
+}
+function slidedown_showHide_start()
+{
+if(!slidedownActive)return;
+initHeight = initHeight/1 + slidedown_direction;
+if(initHeight <= 0){
+slidedownActive = false; slidedownContentBox.style.visibility='hidden';
+initHeight = 0;
+}
+if(initHeight>contentHeight){
+slidedownActive = false; }
+slidedownContentBox.style.height = initHeight + 'px';
+slidedownContent.style.top = initHeight - contentHeight + 'px';
+setTimeout('slidedown_showHide_start()',slidedownTimer); // Choose a lower value than 10 to make the script move faster
+}
+function setslidedownWidth(newWidth)
+{
+document.getElementById('dhtmlgoodies_slidedown').style.width = newWidth + 'px';
+document.getElementById('dhtmlgoodies_contentBox').style.width = newWidth + 'px';
+}
+function setSlideDownSpeed(newSpeed)
+{
+slidedownSpeed = newSpeed;
+}
+  Gmachl Group Homepage
+ ImageReady Slices (qclplan.psd) 
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+
+ 
+ slide down content goes here 
+
+
+
+      
+Enter keywords:      
+
+
+
+
+
+
+
+
+ End slide down content 
+
+
+
+
+ 
+
+
+
+
+
+
+
+Current
+Projects
+
+
+Group
+Members
+
+
+Lab
+& Equipment
+
+
+Publications
+
+
+Conferences
+
+
+In
+the Press
+
+
+Collaborators
+& Links
+
+
+
+
+ An iframe capable browser
+is required to view
+this web site.  
+
+
+
+
+
+
+
+
+
+ 
+
+
+©
+2006 Princeton
+University · Website Designed by Abhishek
+Agrawal '09
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+ End ImageReady Slices 

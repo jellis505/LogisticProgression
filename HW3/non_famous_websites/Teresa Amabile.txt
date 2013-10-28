@@ -1,0 +1,728 @@
+html
+
+	
+	 
+	
+	About - Harvard Business School
+	
+	
+	
+	
+   		
+
+
+
+        
+        
+		
+
+        
+        
+        analytics.settings({profile:'www'})
+
+        
+        
+        
+           
+        
+         
+	    
+        
+        
+        
+	    
+
+	
+	
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//<![CDATA[
+var MSOWebPartPageFormName = 'aspnetForm';
+var g_presenceEnabled = true;var _fV4UI=true;var _spPageContextInfo = {webServerRelativeUrl: "\u002fabout", webLanguage: 1033, currentLanguage: 1033, webUIVersion:4,pageListId:"{37aef6af-d652-44b2-987f-2c28248c45f4}",pageItemId:1, alertsEnabled:true, siteServerRelativeUrl: "\u002f", allowSilverlightPrompt:'True'};//]]>
+
+
+
+
+//<![CDATA[
+var dlc_fvsi = {"DefaultViews":[],"ViewUrls":[],"WebUrl":"\/about"};//]]>
+
+
+
+//<![CDATA[
+function _spNavigateHierarchy(nodeDiv, dataSourceId, dataPath, url, listInContext, type) {
+    CoreInvoke('ProcessDefaultNavigateHierarchy', nodeDiv, dataSourceId, dataPath, url, listInContext, type, document.forms.aspnetForm, "", "\u002fabout\u002fPages\u002fdefault.aspx");
+
+}
+//]]>
+
+
+
+
+
+
+RegisterSod = function(){}
+ExecuteOrDelayUntilScriptLoaded = function(){}
+RegisterSodDep = function(){}
+
+		
+
+         
+
+    
+        
+            
+                Home
+                Site map
+                Map / Directions
+            
+
+            
+                Search:
+                
+                
+                
+             .search-site 
+        
+     .toplinks 
+
+
+    
+      
+                                    
+      
+
+
+      
+         General Information
+         
+           HBS Home 
+           About
+           Annual Report
+           Campus
+           Commencement
+           Dean Nohria
+           Employment 
+           Fifty Years of Women
+           Give
+           News
+           New Construction
+         
+      
+
+      
+         Academic Programs
+         
+           Doctoral Programs
+           Executive Education
+           MBA
+           Summer Venture in Management
+         
+
+         Alumni
+         
+           Alumni
+           Alumni Bulletin
+           Clubs
+         
+      
+
+
+      
+         Faculty & Research
+         
+		   Business & Environment
+		   Business History
+		   Christensen Center for Teaching & Learning
+		   Entrepreneurship 
+		   Faculty & Research
+		   Global
+		   Healthcare 
+		   HBS Working Knowledge
+		   Institute for Strategy & Competitiveness
+		   Leadership
+		   Networked Business 
+		   Research Associates
+		   Social Enterprise
+		   U.S. Competitiveness
+         
+      
+
+      
+         Recruit
+         
+           Alumni Recruiting
+           MBA Recruiting
+           Recruiting
+         
+
+         Resources
+         
+           Alumni Bulletin
+           Baker Library | Bloomberg Center
+           Business History Review
+           Harvard Business Publishing
+           Harvard Business Review
+           HBS Working Knowledge
+         
+         Close
+
+      
+
+
+    
+
+      sitemap 
+
+    
+        
+            
+               Harvard Business School
+            
+            
+              
+              About
+              Faculty & Research
+              MBA
+              Doctoral
+              Executive Education
+              Alumni
+              
+            
+         school banner 
+    
+
+      
+
+
+					
+    
+  
+    About
+    
+       Newsroom
+       Social Media
+    
+    
+    
+      Academic Programs
+      
+      Facts & Figures
+      
+      Campus & Culture
+      
+      Pioneering Research
+      
+      About the Dean
+    
+    
+  
+
+
+
+	 content-area + 
+	 STARTINDEX 
+	
+		
+	 HBSAboutUsHome.aspx 
+	
+		 
+	
+				
+	 
+	                Harvard Business School→About	
+	                
+					
+						
+							Custom Page Content 1For over 100 years our students and faculty have shaped business around the world 
+
+							
+						
+						
+							Custom Page Content 4
+ 
+ 
+A Vital Residential Community
+ 
+Our self-contained residential campus forms its own vibrant community 
+ 
+
+ 
+→ More about Campus & Culture
+
+ 
+
+														
+						
+					
+				
+
+		
+
+		
+			
+				
+				  
+					
+						
+							Custom Page Content 2Facts & Figures
+
+
+MBA
+913
+Class of 2014 Enrollment​​
+
+More Statistics 
+
+
+Executive Education
+9,891
+Annual Enrollment
+
+ 
+Pioneering Research
+Our faculty members author numerous books, produce academic papers, and write an array of articles for general business publications.
+ 
+
+					    
+				    
+					
+						
+							 
+  From Our Faculty @GeorgeSerafeim
+  
+    
+            “Innovation:  No Measurement Means No Leadership  onforb.es/1d4ZbhA via @forbes #innovation #leadership #accounting #business”
+            
+  
+     
+	        
+	        @GeorgeSerafeim
+
+
+  
+    
+    
+      
+      
+    
+  
+
+→
+		  Other Faculty on Twitter
+						
+						
+								 
+  
+  
+    New Book
+    The Good Struggle: Responsible Leadership in an Unforgiving World
+    
+  
+
+
+  
+  
+    Latest Case
+    Zeswitz Music
+    Richard Ruback and Royce Yudkoff
+  
+
+→
+			  More Recently Published
+						
+					
+				  					    
+				
+				
+				 
+					Custom Page Content 3
+
+					 
+  News
+  
+  
+    
+      
+        
+          
+            
+              28
+			Oct
+			2013
+		
+              Wall Street Journal
+            
+            Case Study: The Nuts and Bolts of Nightlife
+            Re:  Anita Elberse
+          
+        
+      
+    
+    
+      
+        
+          
+            
+              25
+			Oct
+			2013
+		
+              Bloomberg Businessweek
+            
+            Why Hire an MBA When You Can Rent One?
+            Re:  Derek Van Bever &  Clayton Christensen
+          
+        
+      
+    
+    
+      
+        
+          
+          
+            
+              25
+			Oct
+			2013
+		
+              Business Insider
+            
+            The Vast Majority Of Music Online Goes Basically Unpurchased  
+            Re:  Anita Elberse
+          
+        
+      
+    
+    
+      
+        
+          
+            
+              25
+			Oct
+			2013
+		
+              Huffington Post
+            
+            The Benefits of a Productive Cocoon 
+            Re:  Teresa Amabile
+          
+        
+      
+    
+  
+  → Visit Newsroom
+
+                   
+				
+			
+		
+    		
+
+		
+	
+
+	
+	 ENDINDEX 
+	 content-area - 
+	
+	
+  container - 
+
+
+
+
+ 
+	 
+	 Contact
+	   
+				  
+					  Harvard Business School
+					  
+					  
+					  Soldiers Field
+					  
+					  Boston, MA 02163
+					  
+					  Phone: 1.617.495.6000
+					  Email:
+					  feedback@hbs.edu
+					  
+				  			Map/Directions
+		
+
+	 
+
+ 
+         Related Links
+         
+         Alumni
+         Doctoral
+         Executive Education
+         Faculty & Research
+       	 Initiatives & Projects
+			     
+			      Initiatives & Projects
+			      Business & Environment
+			      Business History
+				  Entrepreneurship (Rock Center)
+				  Forum for Growth & Innovation
+				  Global
+				  Healthcare
+				  Institute for Strategy & Competitiveness
+				  Leadership
+				  Networked Business
+				  Public Education Leadership Project
+				  Social Enterprise
+				  U.S. Competitiveness
+			        
+         
+         MBA
+          
+  info 
+
+
+
+
+
+
+ 
+
+    
+      
+     
+
+        
+			
+			 Resources
+             
+			 Baker Library | Bloomberg Center
+			 Harvard Business Review
+			 Harvard Business Review
+			  (LEFA login for full access.)
+             <li class="er-specific if-logged-in"><a class="widget-popup" href="https://www.alumni.hbs.edu/help/Pages/faqs.aspx#hbr">Harvard Business Review</a></li> 
+			 HBS Alumni Bulletin
+			 HBS Working Knowledge
+			 Jobs
+             
+			
+			
+              
+				Harvard University
+				Privacy Policy
+				Trademarks
+				Copyright © President & Fellows of Harvard College
+              
+			
+		 common 
+       inner 
+      
+      
+     infobar 
+
+    
+
+           
+
+              facebook 
+              
+               
+                   
+                       
+                       
+                        Harvard Business School
+                       
+                       
+                        Alumni
+                       
+                       
+                        Executive Education
+                       
+                       More HBS Facebook:
+                       Alumni
+                       Executive Education
+                       Harvard Business Review
+                       Harvard Business School
+                       HBS Working Knowledge
+                   
+                   
+               
+
+             
+
+              itunes 
+              
+
+              linkedin 
+              
+               
+                   
+                       
+                        Harvard Business School
+                       
+                       
+                        Alumni
+                       
+                       
+                        Executive Education Company Page
+                       
+                       
+                        Executive Education Participants
+                       
+                       
+                        Friends of Executive Education
+                       
+                       More HBS LinkedIn:
+                       Alumni
+                       Executive Education Company Page
+                       Executive Education Participants
+                       Friends of Executive Education
+                       Harvard Business School
+                       Leadership Fellows
+                   
+                   
+              
+             
+
+
+              rss 
+              
+               
+                   
+                         HBS News
+                         MBA
+                         Executive Education
+                        More HBS RSS Feeds:
+                        Alumni
+                        Baker Library New Books
+                        Executive Education
+                        HBS Alumni Bulletin
+                        HBS News
+                        HBS Working Knowledge
+                        MBA Admissions
+                   
+                   
+              
+             
+
+              twitter 
+              
+               
+                   
+                        Harvard Business School
+                        Alumni
+                        Business & Environment
+                        Executive Education
+                        MBA Recruiting
+                        Rock Center: Entrepreneurship
+                        Social Enterprise Initiative
+                        HBS Working Knoweldge
+                       More HBS Twitter:
+                       Alumni
+                       Business & Environment
+                       Executive Education
+                       Faculty Accounts
+                       Harvard Business Review
+                       Harvard Business School
+                       Jobs
+                       MBA Recruiting
+                       Rock Center: Entrepreneurship
+                       Social Enterprise Initiative
+                       HBS Working Knoweldge
+                   
+                   
+              
+             
+
+              youtube 
+              
+               
+                   
+                        Harvard Business School
+                        Executive Education
+                       More HBS YouTube:
+                       Executive Education
+                       Harvard Business Review
+                       Harvard Business School
+                   
+                   
+              
+             
+
+
+        
+
+     Contact Related Links Resources
+
+
+     bar 
+   wrap 
+  superfooter 
+
+
+
+
+         
+ =====  Hidden Placeholders ============================================================ 
+
+
+ Handle Search "enter" key and back button 
+
+
+
+
+RegisterSod("sp.core.js", "\u002f_layouts\u002fsp.core.js?rev=7ByNlH\u00252BvcgRJg\u00252BRCctdC0w\u00253D\u00253D");RegisterSod("sp.res.resx", "\u002f_layouts\u002fScriptResx.ashx?culture=en\u00252Dus\u0026name=SP\u00252ERes\u0026rev=b6\u00252FcRx1a6orhAQ\u00252FcF\u00252B0ytQ\u00253D\u00253D");RegisterSod("sp.ui.dialog.js", "\u002f_layouts\u002fsp.ui.dialog.js?rev=IuXtJ2CrScK6oX4zOTTy\u00252BA\u00253D\u00253D");RegisterSodDep("sp.ui.dialog.js", "sp.core.js");RegisterSodDep("sp.ui.dialog.js", "sp.res.resx");RegisterSod("core.js", "\u002f_layouts\u002f1033\u002fcore.js?rev=c3ROI4x\u00252BKHVTMbn4JuFndQ\u00253D\u00253D");
+
+//<![CDATA[
+var _spFormDigestRefreshInterval = 1440000;function loadMDN2() { EnsureScript('MDN.js', typeof(loadFilterFn), null); }
+function loadMDN1() { ExecuteOrDelayUntilScriptLoaded(loadMDN2, 'sp.ribbon.js'); }
+_spBodyOnLoadFunctionNames.push('loadMDN1');//]]>
+
+RegisterSod("sp.runtime.js", "\u002f_layouts\u002fsp.runtime.js?rev=9sKdsC9N6p2BiRk3313M7Q\u00253D\u00253D");RegisterSodDep("sp.runtime.js", "sp.core.js");RegisterSodDep("sp.runtime.js", "sp.res.resx");RegisterSod("sp.js", "\u002f_layouts\u002fsp.js?rev=JmFQMEfR9bYx6G6TrWzSLw\u00253D\u00253D");RegisterSodDep("sp.js", "sp.core.js");RegisterSodDep("sp.js", "sp.runtime.js");RegisterSodDep("sp.js", "sp.ui.dialog.js");RegisterSodDep("sp.js", "sp.res.resx");RegisterSod("cui.js", "\u002f_layouts\u002fcui.js?rev=wvoVpqlQb30nGo4DjDk8Kg\u00253D\u00253D");RegisterSod("inplview", "\u002f_layouts\u002finplview.js?rev=AohvE9XEf\u00252FI78tuaw1TGAA\u00253D\u00253D");RegisterSodDep("inplview", "core.js");RegisterSodDep("inplview", "sp.js");RegisterSod("ribbon", "\u002f_layouts\u002fsp.ribbon.js?rev=F\u00252BUEJ66rbXzSvpf7nN69wQ\u00253D\u00253D");RegisterSodDep("ribbon", "core.js");RegisterSodDep("ribbon", "sp.core.js");RegisterSodDep("ribbon", "sp.js");RegisterSodDep("ribbon", "cui.js");RegisterSodDep("ribbon", "sp.res.resx");RegisterSodDep("ribbon", "sp.runtime.js");RegisterSodDep("ribbon", "inplview");RegisterSod("sp.ui.policy.resources.resx", "\u002f_layouts\u002fScriptResx.ashx?culture=en\u00252Dus\u0026name=SP\u00252EUI\u00252EPolicy\u00252EResources\u0026rev=YhBHGmUAGyJ3lAgSdE4V\u00252Fw\u00253D\u00253D");RegisterSod("mdn.js", "\u002f_layouts\u002fmdn.js?rev=gwmFFJ2\u00252FfFacqXWAqG\u00252FqKg\u00253D\u00253D");RegisterSodDep("mdn.js", "sp.core.js");RegisterSodDep("mdn.js", "sp.runtime.js");RegisterSodDep("mdn.js", "sp.js");RegisterSodDep("mdn.js", "cui.js");RegisterSodDep("mdn.js", "ribbon");RegisterSodDep("mdn.js", "sp.ui.policy.resources.resx");
+
+//<![CDATA[
+
+function _spNavigateHierarchyEx(nodeDiv, dataSourceId, dataPath, url, listInContext, type, additionalQString) {
+    SetAdditionalNavigateHierarchyQString(additionalQString);
+    g_originalSPNavigateFunc(nodeDiv, dataSourceId, dataPath, url, listInContext, type);
+}
+
+g_originalSPNavigateFunc = _spNavigateHierarchy;
+_spNavigateHierarchy = _spNavigateHierarchyEx;
+var _fV4UI = true;//]]>
+
+RegisterSod("msstring.js", "\u002f_layouts\u002f1033\u002fmsstring.js?rev=QtiIcPH3HV7LgVSO7vONFg\u00253D\u00253D");RegisterSod("browserScript", "\u002f_layouts\u002f1033\u002fnon_ie.js?rev=f2kBY9hL5p1OItWycrU5cw\u00253D\u00253D");
+
+//<![CDATA[
+var __wpmExportWarning='This Web Part Page has been personalized. As a result, one or more Web Part properties may contain confidential information. Make sure the properties contain information that is safe for others to read. After exporting this Web Part, view properties in the Web Part description file (.WebPart) by using a text editor such as Microsoft Notepad.';var __wpmCloseProviderWarning='You are about to close this Web Part.  It is currently providing data to other Web Parts, and these connections will be deleted if this Web Part is closed.  To close this Web Part, click OK.  To keep this Web Part, click Cancel.';var __wpmDeleteWarning='You are about to permanently delete this Web Part.  Are you sure you want to do this?  To delete this Web Part, click OK.  To keep this Web Part, click Cancel.';//]]>
+
+
+
+
+
+

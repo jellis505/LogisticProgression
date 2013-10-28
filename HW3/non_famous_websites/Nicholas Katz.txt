@@ -1,0 +1,272 @@
+ Nicholas M. Katz's Home Page 
+Check out monodromy.com
+
+
+Bibliography of Nicholas M. Katz
+pdf file (302 KB)
+
+C.V. of Nicholas M. Katz
+pdf file (15 KB)
+
+Photo from 60'th Birthday Conference
+jpg file (807 KB)
+
+Photo from 60'th Birthday Conference (high resolution version)
+TIF file (123 MB)
+
+ 
+V-Strom DL650 suspension adjustment
+ Nicholas M. Katz PDF and DVI files available for download
+ 
+Some older work can be found HERE (listed alphabetically by title),
+recent work is below (most recent first)
+Wieferich past and future
+pdf file(335 K)
+A note on RH for curves and hypersurfaces over finite fields
+pdf file(300 K)
+Sato-Tate in the higher dimensional case: elaboration of 9.5.4 in
+Serre's N_X(p) book
+pdf file(351 K)
+On a question of Zannier
+pdf file(229 K)
+Elliptic convolution, G_2, and elliptic surfaces
+pdf file(283 K)
+Simple Things We Don't Know
+pdf file(252 K)
+On the graph attached to truncated big Witt vectors (Warning to the
+Reader, explaining relation to work of S.D.Cohen, added March 14, 2012)
+pdf file(176 K)
+Witt vectors and a question of Keating and Rudnick(to appear in IMRN)
+pdf file(369 K)
+On a question of Keating and Rudnick about primitive Dirichlet
+characters with squarefree conductor(new longer title: to appear in
+IMRN)
+pdf file(369 K)
+Rigid Local Systems and a Problem of Wootters(typo's corrected Sept.
+2012)
+pdf file(427 KB)
+Convolution and Equidistribution: Sato-Tate Theorems for Finite-Field
+Mellin Transforms(new title, now in book form, 
+updated July 14, 2011)
+pdf file(908 KB)
+2,3,5, Legendre:\pm Trace ratios in families of elliptic curves
+(typo's corrected August 18, 2010)
+
+pdf file(213 KB)
+(joint with Guralnick and Harris) Automorphic realization of residual
+Galois representations
+
+pdf file (269 KB)
+Lang-Trotter revisited (published version)
+
+pdf file
+(487 KB)
+(joint with Bombieri)A Note on Lower Bounds for Frobenius
+Traces(revised Sept. 10, 2009)
+
+pdf
+file (187 KB)
+(joint with Dettweiler) Appendix: On Galois Representations with
+values in G_2 (appendix to a paper of Dettweiler and Reiter, to appear
+in Compositio)
+pdf
+file (142 KB)
+pdf
+file (914 KB)(entire article, published version)
+From Clausen to Carlitz: low-dimensional spin groups and identities
+among character sums 
+
+pdf file (296 KB)
+pdf file (published
+version;368 KB)
+Estimates for nonsingular mixed character sums (Thm. 3.1 improved Feb
+19,2007, Appendix added and typo's corrected Feb. 24, more typo's fixed
+Aug 11, 2007)
+
+
+pdf file (201 KB)
+published IMRN version pdf file 187(
+KB)
+On a question of Bombieri and Bourgain(version of July 14, 2008; to appear in Forum Mathematicum)
+
+pdf file (159 KB)
+Another look at the Dwork family (revised Feb.4,2007; adds App.
+III,corrects more typo's)
+
+pdf file (331 KB)
+Manin Festschrift version (to appear) pdf file (354 KB)
+Estimates for mixed character sums (to appear in GAFA)
+
+pdf file (216 KB)
+version to appear in GAFA   pdf
+file (274 KB)
+On a question of Browning and Heath-Brown
+
+pdf file (254 KB)
+version to appear in Analytic Number Theory: Essays in Honor
+or Klaus Roth
+pdf file (253 KB)
+Appendix: Lefschetz pencils with imposed subvarieties 
+
+
+pdf file (164 KB)
+Report on the irreducibility of L-functions (to appear in Lang
+memorial volume)
+
+pdf file (280 KB)
+E-polynomials, zeta-equivalence, and polynomial-count varieties
+(appendix to a paper of Rodriguez-Villegas and Hausel)
+
+pdf file(138 KB)
+pdf file(entire article
+689KB)
+G_2 and hypergeometric sheaves (corrections to 10.1,10.2 added June
+11,2008)
+
+
+
+pdf file (370 KB)
+Corrections to "G_2 and hypergeometric sheaves" (as of June 11,2008)
+pdf file (65
+KB)
+On a question of Lillian Pierce
+
+dvi file (44  KB)
+pdf file (982 KB)
+Hooley parameters for families of exponential sums over finite fields
+
+pdf file (122KB)
+Notes on G_2, determinants, and equidistribution (typo's corrected
+Dec. 9, 2003)
+pdf file (213KB)
+pdf file (464KB:published version)
+(joint with Esnault) Cohomological divisibility and point count
+divisibility (corrected version of nov. 10, 2003)
+dvi file (41
+KB)
+pdf file (187 KB)
+Corrected version of Chapter 5 of "Twisted L-Functions and Monodromy"
+pdf file (201KB)
+ 
+
+Moments, Monodromy, and Perversity: a Diophantine Perspective
+Space filling curves over finite fields (see corrections below)
+pdf file (198 KB)
+Corrections to "Space filling curves over finite fields"
+dvi file (12
+KB)
+pdf file (88 KB)
+(joint with Pandharipande) Inequalities related to Lefschetz pencils
+and integrals of  Chern classes
+pdf file (80 KB)
+(joint with Fouvry) A general stratification theorem for exponential
+sums, and applications
+pdf file (368 KB)
+Estimates for "nonsingular" multiplicative character sums
+dvi file (60 KB)
+pdf file (206 KB)
+
+A semicontinuity result for monodromy under degeneration
+dvi file (36 KB)
+pdf file (163 KB)
+
+Sato-Tate Equidistribution of Kurlberg-Rudnick Sums
+pdf file (94 KB)
+
+AWS2000 Lectures: L -functions and monodromy: four lectures on Weil II  
+pdf file (184 KB)
+
+Larsen's Alternative, Moments, and the Monodromy of Lefschetz Pencils
+pdf file (539 KB)
+
+Sums of Betti numbers in arbitrary characteristic
+pdf file (83 KB)
+
+Frobenius-Schur indicator & the ubiquity of Brock-Granville Quadratic Excess
+pdf file (93 KB)
+
+Twisted L-Functions and Monodromy (whole book)
+pdf file (909 KB)
+
+Twisted L-Functions and Monodromy (introduction only)
+pdf file (95 KB)
+
+(joint with de Jong) Monodromy and the Tate Conjecture:Picard numbers
+
+and Mordell-Weil ranks in families
+pdf file (181 KB)
+
+Estimates for "singular" exponential sums
+pdf file (154 KB)
+
+(joint with Tate) Bernard Dwork (1923-1998)
+pdf file (128 KB)
+
+manuscript of Rigid Local Systems, with
+corrections
+pdf file (1.06 MB)
+
+Corrections to Rigid Local Systems
+pdf file (76 KB)
+
+manuscript of Exponential Sums and Differential Equations, with
+corrections
+pdf file (1.98 MB)
+
+Corrections to Exponential Sums and Differential Equations
+pdf file (105 KB) 
+
+scan of Katz-Mazur (now searchable; downloads but does not open in
+Safari)
+djvu file (7.38 MB)
+
+Corrected version of 6.16.6 in Katz-Sarnak 
+pdf file (75 KB)  
+
+Katz-Sarnak the book, blurry but searchable
+pdf file (6.88 MB)
+
+Katz,Sommes Exponentielles, blurry but searchable
+pdf file (14.18 MB)
+
+ Subject index to Katz-Sarnak
+pdf file (44 KB)
+
+ Notation index to Katz-Sarnak
+pdf file (73 KB)
+
+Katz, Gauss Sums, Kloosterman Sums, and Monodromy
+pdf file (6.4 MB)
+
+ Nicholas M. Katz books on Amazon
+
+In association with Amazon.com
+
+ Buy Moments, Monodromy, and Perversity:A Diophantine Perspective
+in paperback
+
+ Buy Twisted L-Functions and Monodromy in paperback
+
+Buy Katz-Sarnak
+
+ Buy Exponential Sums and Differential Equations in paperback
+
+ Buy Rigid Local Systems in hardcover
+
+ Buy Rigid Local Systems in softcover
+
+
+Buy Katz-Mazur
+
+ Search for Exponential Sums and Differential Equations in hardback
+
+Search for Gauss Sums, Kloosterman Sums, and Monodromy Groups in hardcover
+
+Search for Gauss Sums, Kloosterman Sums, and Monodromy Groups in softcover
+
+Buy
+TurboTaxDeluxe
+
+Buy
+New Joys of Yiddish
+

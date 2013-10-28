@@ -1,0 +1,258 @@
+html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"The Mathematics Genealogy Project - Andrew Wiles 
+body  {
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	background-color: #5E8059;
+}
+.twoColFixLtHdr #container {
+	width: 780px;  /* using 20px less than a full 800px width allows for browser chrome and avoids a horizontal scroll bar */
+	background: #FFFFFF; /* the auto margins (in conjunction with a width) center the page */
+	border: 1px solid #000000;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+} 
+.twoColFixLtHdr #header {
+	padding: 0 10px 0 20px;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+	text-align: right;
+	background-color: #CACC8F;
+	height: 57px;
+} 
+.twoColFixLtHdr #header h1 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 10px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
+}
+
+.twoColFixLtHdr #main-tile { background: #8BBC83; }
+.twoColFixLtHdr #column-tile { padding-right: 550px; background: white; width: 180px }
+.twoColFixLtHdr #sidebar1 {
+	float: left; /* since this element is floated, a width must be given */
+	width: 160px; /* the background color will be displayed for the length of the content in the column, but no further */
+	padding: 15px 10px 15px 10px;
+	background: #8BBC83;
+	font-size: small;
+	text-align: center;
+}
+   .twoColFixLtHdr #sidebar1 p a:link {
+ color: navy;
+    }
+.twoColFixLtHdr #mainContent { 
+  float: left;
+ width: 600px;
+  margin-right: -600px;
+ position: relative;
+
+
+} 
+   .twoColFixLtHdr #paddingWrapper {
+      padding: 5px 20px;
+	}
+.twoColFixLtHdr #footer {
+	padding: 10px 10px 0 10px;
+	text-align: center;
+	font-size: small;
+	font-weight: normal;
+	background-color: #CACC8F;
+} 
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+.clearfix {display: inline-table;}
+
+
+.twoColFixLtHdr #footer p {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+}
+.fltrt { /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain a float */
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+th {
+    text-align: center;
+}
+
+[if IE 5]>
+<style type="text/css"> 
+/* place css box model fixes for IE 5* in this conditional comment */
+.twoColFixLtHdr #sidebar1 { width: 190px; }
+</style>
+<![endif][if IE]>
+<style type="text/css"> 
+/* place css fixes for all versions of IE in this conditional comment */
+.twoColFixLtHdr #sidebar1 { padding-top: 30px; }
+.twoColFixLtHdr #mainContent { zoom: 1; }
+/* the above proprietary zoom property gives IE the hasLayout it needs to avoid several bugs */
+</style>
+<![endif]//
+
+
+    var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-16329138-2']);
+_gaq.push(['_setDomainName','none']);
+_gaq.push(['setAllowLinker',true]);
+_gaq.push(['_trackPageview']);
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+ })();
+
+
+
+
+
+Mathematics Genealogy Project
+ end #header 
+
+
+
+
+Home
+Search
+Extrema
+About MGP
+
+Mission
+News
+Staff
+Recognition
+Acknowledgments
+
+
+Links
+FAQs
+Posters
+Submit Data
+Mirrors
+
+NDSU (main)
+AMS
+Bielefeld
+IMPA
+
+
+
+A 
+service of the NDSU Department of Mathematics, in association with the American Mathematical Society.
+Please email us with feedback.
+ end #sidebar1 
+
+
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+    tex2jax: {inlineMath: [["$","$"],["\\(","\\)"]]}
+  });
+
+
+
+Andrew John Wiles 
+
+Biography MathSciNet
+
+
+
+Ph.D. University of Cambridge 1979
+
+
+Dissertation: 
+
+Reciprocity Laws and the Conjecture of Birch and Swinnerton-Dyer
+Advisor: John Henry Coates
+Students:
+
+
+Click 
+                here to see the students listed in chronological order.
+
+
+NameSchoolYearDescendantsManjul BhargavaPrinceton University20015
+Mirela CiperianiPrinceton University2006
+Brian ConradPrinceton University199611
+Ehud de ShalitPrinceton University19845
+Fred DiamondPrinceton University198810
+Robert HarronPrinceton University2009
+Andrei JorzaPrinceton University2010
+Ritabrata MunshiPrinceton University2006
+Luis NavasPrinceton University1993
+James ParsonPrinceton University2003
+Kartik PrasannaPrinceton University2003
+Ali RajaeiPrinceton University1998
+Ravi RamakrishnaPrinceton University19924
+Arash RastegarPrinceton University1998
+Karl RubinHarvard University198138
+Christopher SkinnerPrinceton University19978
+Andrew SnowdenPrinceton University2009
+Richard TaylorPrinceton University198837
+Vinayak VatsalPrinceton University1997
+Michael VolpatoPrinceton University2008
+
+According to our current on-line database, Andrew Wiles has 20 students and 137  descendants.
+
+We welcome any additional information.
+If you have additional information or
+ corrections regarding this mathematician, please use the update form. To submit students of this
+ mathematician, please use the new
+ data form.
+ end #paddingWrapper 
+ end #mainContent 
+ This clearing element should immediately follow the #mainContent div in order to force the #container div to contain all child floats 
+
+
+
+Search 
+Extrema 
+About MGP
+
+Mission
+News
+Staff
+Recognition
+Acknowledgments
+
+
+Links
+FAQs
+Posters
+Submit Data
+
+
+The Mathematics Genealogy Project is in need of funds 
+to help pay for student help and other associated costs. If you would like to 
+contribute, please donate online using credit card or bank transfer or mail  your tax-deductible contribution to:
+
+Mathematics Genealogy Project 
+Department of Mathematics
+North Dakota State University
+P. O. Box 6050
+  Fargo, North Dakota 58108-6050
+
+ end #container 
+
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+var MenuBar2 = new Spry.Widget.MenuBar("MenuBar2", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+
+ InstanceEnd 

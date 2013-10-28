@@ -1,0 +1,120 @@
+doctype PUBLIC "-//w3c//dtd html 4.0 transitional//en"Phil Sharp's Lab - Home
+<!--
+<!-- Hide from old browsers
+var NN3 = false;
+image1= new Image();
+image1.src = "Splitgene1.2.jpg";
+image1on = new Image();
+image1on.src = "Splitgene1.2inverse.jpg";
+image2= new Image();
+image2.src = "Splitgene2.2.jpg";
+image2on = new Image();
+image2on.src = "Splitgene2.2inverse.jpg";
+image3= new Image();
+image3.src = "Splitgene3.2.jpg";
+image3on = new Image();
+image3on.src = "Splitgene3.2inverse.jpg";
+image4= new Image();
+image4.src = "Splitgene4.2.jpg";
+image4on = new Image();
+image4on.src = "Splitgene4.2inverse.jpg";
+image5= new Image();
+image5.src = "mcbrain.jpg";
+image5on = new Image();
+image5on.src = "mcbraininverse.jpg";
+
+function on3(name)   {
+        document[name].src = eval(name + "on.src");
+}
+function off3(name)  {
+        document[name].src = eval(name + ".src");
+}
+NN3 = true;
+
+function on(name)  {
+        if (NN3) on3(name);
+}
+function off(name)  {
+        if (NN3) off3(name);
+}
+// -->
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+//-->
+
+<!--
+a:link {
+	color: #600;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+-->
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+(Media Lab Atrium, 20-Year Sharp Lab 
+        Reunion, June 6th, 1994)
+ (Stata Center, 30-Year Sharp Lab Reunion, June, 2004)
+
+
+
+
+
+
+
+WE HAVE MOVED - NEW MAILING ADDRESS:  The Koch Institute for Integrative Cancer Research, 77 Massachusetts Avenue, Cambridge, MA 02139 / Mail stop: 76-461
+
+
+
+
+Enter the Sharp Lab Website
+
+
+
+
+
+
+
+ 
+This is the original homepage of the Sharp Lab,  designed in 2000 by John Langrill and Margarita Siafaca.
+The current site was designed and conceived by Mary Lindstrom and Margarita Siafaca.
+This site is maintained by Mary Lindstrom.
+This page has been visited  times.
+
+
+
+
+
+
+
+
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+
+var pageTracker = _gat._getTracker("UA-4298356-2");
+pageTracker._initData();
+pageTracker._trackPageview();
+

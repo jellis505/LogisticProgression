@@ -1,0 +1,95 @@
+html PUBLIC "-//w3c//dtd html 4.0 transitional//en"Andrei Okounkov's home page
+
+
+Andrei Okounkov's Home Page
+ 
+ 
+ 
+
+
+
+
+
+ I moved to the Department of Mathematics of Princeton University. 
+My new home page may be found 
+here. 
+I am interested in representation theory (of combinatorial
+flavor) and its applications to algebraic geometry, mathematical physics,
+probability, special functions, and other fields.
+Here you can find  my  family
+tree.
+Most of my preprints can be found
+on the Los Alamos preprint server.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Some mathematical links that I find useful are:
+
+
+ Search Mathematics
+archives at Los Alamos
+
+ Today's
+postings on Los Alamos archive
+
+ MathSciNet
+full search
+
+ Penn
+State's list of Mathematics Information servers
+
+ UC Berkeley
+Astronomy/Mathematics/Statistics Library
+
+ Sloane's
+On-Line Encyclopedia of Integer Sequences
+
+More mathematical links can be found on the UCB Mathematics
+home
+page .
+(In case you are wondering about the meaning of the background
+pictures, those are zeros of
+some bivariate Jacobi polynomials of degree 26.)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  LocalWords:  Okounkov's Los MathSciNet UC UCB
+ 

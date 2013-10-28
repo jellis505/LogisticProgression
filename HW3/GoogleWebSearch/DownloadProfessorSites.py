@@ -9,6 +9,7 @@ import sys, os, getopt
 import urllib, urllib2
 import json
 from bs4 import BeautifulSoup
+import time
 
 # I found this hack around for doing a google search from the url below, altered slightly
 # http://stackoverflow.com/questions/1657570/google-search-from-a-python-app
@@ -60,7 +61,10 @@ def ReturnHomepage(links):
     for link in links:
         if link.find(".edu") != -1:
             education_links.append(link)
-
+    
+    if len(education_links) == 0:
+        education_links.append(links[0])
+    
     return education_links
 
 def DownloadWebpage(edu_links,query):
@@ -73,6 +77,7 @@ def DownloadWebpage(edu_links,query):
             
     # we will use the shortest link, which works because that will be the 
     # base url available
+    print "The homewebpage is: ", link_to_use
     req = urllib2.Request(link_to_use,None)
     resp = urllib2.urlopen(req)
     html_content = resp.read()
@@ -83,14 +88,22 @@ def DownloadWebpage(edu_links,query):
     str_text = text.encode('utf-8')
     
     # Now let's also try to see if there is a "bio" link
-    bio_link_names = ["bio", "about", "about me", "cv", "curriculum vitae", "biosketch"]
+    bio_link_names = ["bio", 
+    "about", 
+    "about me", 
+    "cv", 
+    "curriculum vitae", 
+    "biosketch", 
+    "biographical information"]
+    
     links = soup.find_all('a')
     # Check to see if we can find an html bio link
     bio_link = None
     for link in links:
-        if link.string.lower() in bio_link_names:
-            bio_link = link["href"]
-            break
+        if link.string is not None:
+            if link.string.lower() in bio_link_names:
+                bio_link = link["href"]
+                break
             
     # Now if we have a bio link then let's just download that link instead of the homepage
     if bio_link:
@@ -122,8 +135,25 @@ if __name__ == "__main__":
     #edu_links = ReturnHomepage(links)
     #DownloadWebpage(edu_links,query)
     
+    # This file holds all of the errors and queries that for some reason don't work
+    g = open("errors_downloading.txt","w");
+    
     # Now this function will download and find the bio pages for everyone
     # in our list
     
-    
+    with open('../non_famous_people.txt','r') as f:
+        raw_lines = f.readlines()
+        lines = [line.rstrip("\n") for line in raw_lines]
+        for query in lines:
+            
+            # We want to keep going even if we have som eerror
+            try:
+                links = getgooglelinks(query)
+                edu_links = ReturnHomepage(links)
+                DownloadWebpage(edu_links,query)
+            except:
+                g.write(query)
+                g.write("\n")
+            print "Waiting 10 seconds"
+            time.sleep(2)
     

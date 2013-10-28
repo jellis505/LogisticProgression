@@ -1,0 +1,176 @@
+html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"Barbara Liskov | MIT CSAIL
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "nice_menus_options": { "delay": "800", "speed": "fast" } });
+//--><!]]>
+
+.feature-page .breadcrumb { display: none; }
+#attachments { display: none; }
+@import url("/sites/all/themes/csail/csail-mobile.css") handheld;
+
+[if !IE]><link type="text/css" rel="stylesheet" media="only screen and (max-device-width: 480px)" href="/sites/all/themes/csail/iphone.css"><![endif]
+
+
+
+ 
+ 
+ 
+Login
+
+
+
+
+Search this site: 
+
+
+
+
+
+
+
+
+ nicemenu top  main menu 
+ 
+Site Map
+About CSAILOrganization Overview
+Visual Timeline
+Joining CSAIL
+Tours of CSAIL
+Outreach
+Staff Job Openings
+Industry Affiliate Program
+Contact
+
+
+ResearchCross-Area Initiatives
+Groups
+Partnerships
+publications
+playground
+Video Archive
+
+
+News + EventsMedia Press Kit
+CSAIL Spotlights
+In the Media
+Events Calendar
+News in Exhibit
+Awards
+
+
+ResourcesHQ
+TIG
+FAQ
+Book a Room
+Add event
+Book equipment
+Logos & Templates
+Student activities
+
+
+PeoplePrincipal Investigators
+All Members
+Student Spotlights
+
+
+Alumni & Friends
+
+
+
+  end #header 
+
+ del later 631 if !
+
+
+People
+Principal Investigators
+All Members
+Student Spotlights
+
+
+
+
+ end #sidebar1 
+
+ del if later 
+
+Home » People » Barbara Liskov  Barbara Liskov 
+
+
+
+
+
+
+ 
+
+ hrid = 30 
+
+Position: Institute Professor
+Office: 32-G942
+Phone: +1 (617) 253-5886
+Email: liskov@csail.mit.edu
+ <li>Research Directorate(s): Systems</li>
+Areas of Study: Systems & Networking
+Personal Website
+Last Update: May  6, 2013
+Download vCard
+
+
+
+Biography
+Barbara Liskov is an Institute Professor and head of the Programming Methodology Group. Liskov's research interests lie in programming methodology, programming languages and systems, and distributed computing. Major projects include: the design and implementation of CLU, the first language to support data abstraction; the design and implementation of Argus, the first high-level language to support implementation of distributed programs; and the Thor object-oriented database system, which provides transactional access to persistent, highly-available objects in wide-scale distributed environments. Her current research interests include Byzantine-fault-tolerant storage systems, peer-to-peer computing, and support for automatic deployment of software upgrades in large-scale distributed systems.
+Liskov is a member of the National Academy of Engineering, and a fellow of the American Academy of Arts and Sciences, and the Association for Computer Machinery. She received The Society of Women Engineers' Achievement Award in 1996 and the IEEE von Neumann medal in 2004.  At the ACM SIGPLAN Programming Languages Design and Implementation Conference in 2008, she was awarded the Programming Languages Achievement Award.  In 2009, she received the A.M. Turing Award from ACM.
+
+ 
+Publications
+Liskov, B., "Abstraction Mechanisms in CLU," Comm. Of the ACM 20, August 1977, 564-576 (with A. Snyder, R.Atkinson and C. Schaffert)
+Liskov, B., "Distributed Programming in Argus," Comm. Of the ACM 31, March 1988, 300-312
+Liskov, B., "Practical Uses of Synchronized Clocks in Distributed Systems," Distributed Computing 6, August 1993, 211-219
+Liskov, B., "A Behavioral Notion of Subtyping," ACM Transactions on Programming Languages nd Systems 16:6, November 1994, 1811-1841 (with J. Wing)
+Liskov, B., "HAC: Hybrid Adaptive Caching for Distributed Storage Systems," Proceedings of the 17th Symposium on Operating Systems Principles, October 1997, 102-115 (with M. Castro, A. Adya, and A. Myers)
+Liskov, B., "A Decentralized Model for Information Flow Control," Proceedings of the 17th Symposium on Operating Systems Principles, October 1997, 129-147 (with A. Myers)
+Liskov, B., "Practical Byzantine Fault Tolerance and Proactive Recovery," Transactions on Computer Systems 20(4), November 2002, 398-461 (with M. Castro)
+Liskov, B., "BASE: Using Abstraction to Improve Fault Tolerance," ACM Transactions on Computer Systems 21(3), August 2003, 236-269 (with R. Rodrigues and M. Castro)
+Path Vector Face Routing: Geographic Routing with Local Face Information. In Proceedings of the 13th IEEE International Conference on Network Protocols (ICNP 2005). Boston, Massachusetts, November 2005. (with B.Leong and S.Mitra).
+Geographic Routing Without Planarization. In Proceedings of the 3rd Symposium on Network Systems Design and Implementation (NSDI 2006). San Jose, California. April 2006. (with B.Leong and R.Morris).
+Tolerating Byzantine Faulty Clients in a Quorum System. In Proceedings of the 26th International Conference on Distributed Computing Systems (ICDCS 2006). Lisbon, Portugal. July 2006. (with R.Rodrigues).
+Automatic Software Upgrades for Distributed Systems. In Proceedings of the European Conference on Object-oriented Programming (ECOOP 2006). Nantes, France. July 2006. (with S.Ajmani and L.Shrira).
+HQ Replication: A Hybrid Quorum Protocol for Byzantine Fault Tolerance. To appear in Proceedings of the 7th Symposium on Operating Systems Design and Implementation (OSDI 2006). Seattle, Washington, November 2006. (with J.Cowling, D.Myers, R.Rodrigues, and L.Shrira).
+ Tolerating Byzantine Faults in Transaction Processing Systems Using Commit Barrier Scheduling (SOSP 2007). Stevenson, Washington, October, 2007. (with B.Vandiver, H.Balakrishnan, and S.Madden).
+
+
+AwardsMassachusetts Academy of Science: Fellow (2013)Massachusetts Academy of Science: Fellow (2013)National Academy of Inventors: Fellow (2013)Association for Computing Machinery: SIGOPS Hall of Fame Award (2012)Technical University of Catalonia: Honorary Doctorate (2012)Invent Now: Inductee into National Inventor's Hall of Fame (2012)National Academy of Sciences: Member (2012)National Inventors Hall of Fame: Inductee into National Inventor's Hall of Fame (2012)CMU and Tokyo University of Technology: Katayanagi Award for Research Excellence (2011)Northwestern University, Chicago: Honorary Doctorate (2011)University of Lugano: Honorary Doctorate (2011)Brown University: Honorary Doctorate (2010)Association for Computing Machinery: A.M. Turing Award (2009)ACM Special Interest Group on Programming Languages: Lifetime Achievement Award (2008)Association for Computing Machinery: Impact Paper Award (2007)ETH Zurich: Honorary doctorate (2005)Institute of Electrical and Electronics Engineers: John von Neumann Medal (2004)Association for Computing Machinery: Fellow (1996)Society of Women Engineers: Achievement Award (1996)American Academy of Arts and Sciences: Fellow (1992)National Academy of Engineering: Member (1989)submit new awards here: Award Registration Form
+
+
+
+
+
+      temp. hide feed for videoarchive. FIX- don't display feed for empty pages.  G. added feed 
+ end #mainContent 
+
+ 
+
+ 
+
+  
+
+
+
+ end #container 
+ end #channelID 
+ google analytics installed 10/07/08, changed on 01/2013
+
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-5382944-3']);
+  _gaq.push(['_setDomainName', 'mit.edu']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+
+

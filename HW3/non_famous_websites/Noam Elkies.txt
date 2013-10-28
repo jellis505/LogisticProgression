@@ -1,0 +1,102 @@
+Noam D. Elkies Home Page Noam D. Elkies
+
+Professor,
+ Department of Mathematics,
+ Harvard University.
+
+
+ E-Mail:  elkies@math.harvard.edu 
+
+ Work Address: 
+Department of Mathematics, Harvard University, Cambridge, MA 02138.
+
+ Work Telephone: (617) 495 4625;
+fax: (617) 495 5132
+
+
+
+<img src="http://www.math.harvard.edu/~elkies/bluesum.gif">
+<A HREF="http://www.math.harvard.edu/~elkies/math.html"><STRONG>Mathematics</STRONG></A>
+
+
+Mathematics papers & links
+
+
+
+<FONT SIZE="+2">
+<img src="http:/~elkies/exclam1.gif">
+The second performance of my <STRONG><EM>Rondo Concertante</EM></STRONG>
+for Piano and Orchestra, Op.46, will take place at Boston University's
+Tsai Center on Sunday, May 7 at 7PM.
+</FONT>
+<P>
+<EM>
+As with the March 12 premiere performance in Symphony Hall,
+this one will have me on the solo piano part
+and Joel Bard directing the Repertory Orchestra of the
+<A HREF="http://www.gbyso.org">Greater Boston Youth Symphony Orchestras</A>.
+Also on the program: </EM>Rienzi<EM> Overture (Wagner)
+and </EM>The Pines of Rome<EM> (Respighi).
+See the <A HREF="http://www.gbyso.org">GBYSO</A> site
+for further information concerning tickets etc.
+</EM>
+
+
+
+<img src="http:/~elkies/redclef.gif">
+<A HREF="http://www.math.harvard.edu/~elkies/music.html"><STRONG>Music</STRONG></A>
+
+
+Music scores & links
+
+
+
+<img src="http:/~elkies/greenrk.gif">
+<A HREF="http://www.math.harvard.edu/~elkies/chess.html"><STRONG>Chess</STRONG></A> links
+
+
+Chess links
+
+
+
+Miscellaneous writings etc.
+
+
+
+<FONT SIZE="+2">
+<img src="b7.gif">
+&nbsp;
+My <em>Brandenburg Concerto #7</em> (no kidding!)
+will be premiered by the 
+<A HREF="http://www.metamorphosen.org" target="_blank">Metamorphosen
+Chamber Orchestra</A> Saturday, September 27 at 8PM in Jordan Hall
+(New England Conservatory, near Symphony Hall).
+I'll speak at a pre-concert talk at 7:15.
+<A HREF="op49.txt" target="_blank">Here</A> are my program notes.
+</FONT>
+
+
+
+[Web page under construction; meanwhile you may also find some papers
+etc.  in my directory on the <A HREF="ftp://ftp.math.harvard.edu/">
+Math Department FTP server</A>]
+
+
+
+<H3> Please ignore these HTML tests. </H3>
+<A HREF="http:/~elkies/test.html">sample link #0</A> <BR>
+<A HREF="http:/~elkies/test1.html">sample link #1</A> <BR>
+<A HREF="http:/~elkies/test2.html">sample link #2</A> <BR>
+<A HREF="http:/~elkies/test1.html">sample link #3(<STRONG>?</STRONG>)</A>
+
+
+<img src="http:/~elkies/ys.gif">
+My first opera,
+<A HREF="http://hcs.harvard.edu/~lho">Yossele Solovey</A>,
+produced at Harvard's Lowell House for a run of six performances
+during March, 1999
+</H2>
+(and an early
+<A
+HREF="http://www-tech.mit.edu/V119/N12/Harvard_Opera_r.12a.html">review</A>
+thereof)

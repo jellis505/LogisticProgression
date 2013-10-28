@@ -1,0 +1,28 @@
+S.T. Yau's Home Page
+
+
+Prof. Shing-Tung Yau
+
+
+Professor of Mathematics
+Address:
+
+
+Director, The Institute of Mathematical Sciences, Unit 601, 6/F, Academic Building No.1,
+
+The Chinese University of Hong Kong, Shatin, Hong Kong.
+
+
+Department of Mathematics, Harvard University, Cambridge, MA 02138, USA.
+Telephone: Office: (852) 2609-8038, Facsimile: (852) 2603-7636.
+
+E-mail: mmsend('yau','ims.cuhk.edu.hk');
+
+or mmsend('yau','math.harvard.edu');
+Fields of Interest: Differential geometry, differential equations
+
+and Mathematics Physics.
+
+
+
+List of publications

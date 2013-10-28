@@ -1,0 +1,169 @@
+html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"Thomas Magnanti | MIT CSAIL
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "nice_menus_options": { "delay": "800", "speed": "fast" } });
+//--><!]]>
+
+.feature-page .breadcrumb { display: none; }
+#attachments { display: none; }
+@import url("/sites/all/themes/csail/csail-mobile.css") handheld;
+
+[if !IE]><link type="text/css" rel="stylesheet" media="only screen and (max-device-width: 480px)" href="/sites/all/themes/csail/iphone.css"><![endif]
+
+
+
+ 
+ 
+ 
+Login
+
+
+
+
+Search this site: 
+
+
+
+
+
+
+
+
+ nicemenu top  main menu 
+ 
+Site Map
+About CSAILOrganization Overview
+Visual Timeline
+Joining CSAIL
+Tours of CSAIL
+Outreach
+Staff Job Openings
+Industry Affiliate Program
+Contact
+
+
+ResearchCross-Area Initiatives
+Groups
+Partnerships
+publications
+playground
+Video Archive
+
+
+News + EventsMedia Press Kit
+CSAIL Spotlights
+In the Media
+Events Calendar
+News in Exhibit
+Awards
+
+
+ResourcesHQ
+TIG
+FAQ
+Book a Room
+Add event
+Book equipment
+Logos & Templates
+Student activities
+
+
+PeoplePrincipal Investigators
+All Members
+Student Spotlights
+
+
+Alumni & Friends
+
+
+
+  end #header 
+
+ del later 631 if !
+
+
+People
+Principal Investigators
+All Members
+Student Spotlights
+
+
+
+
+ end #sidebar1 
+
+ del if later 
+
+Home » People » Thomas Magnanti  Thomas Magnanti 
+
+
+
+
+
+
+ 
+
+ hrid = 4864 
+
+Position: Institute Professor
+Office: 32-D784
+Phone: +1 (617) 253-6604
+Email: magnanti@csail.mit.edu
+ <li>Research Directorate(s): Theory</li>
+Areas of Study: 
+Last Update: July  9, 2008
+Download vCard
+
+
+
+Biography
+Thomas L. Magnanti is an Institute Professor at MIT.  He has previously served as Dean of Engineering, Head of the Management Science Area of the MIT Sloan School, Co-Director of the interdepartmental Operations Research Center, and as founding Co-Director of the Leaders for Manufacturing and System Design and Management Programs.  He currently is the Founding Director of the Singapore-MIT Alliance for Research and Technology (SMART).  He was previously president of three professional societies as well as editor of the journal Operations Research.
+Professor Magnanti has devoted much of his professional career to education that combines engineering and management and to teaching and research in applied and theoretical aspects of large-scale optimization.  He has conducted research on optimization theory and on such topics as production planning and scheduling, transportation planning, facility location, logistics, and communication systems design.  His publications include co-authorship of two textbooks, Applied Mathematical Programming and Network Flows: Theory, Algorithms and Applications, and the co-editorship of two other books.
+
+ 
+Publications
+Applied Mathematical Programming (with S. Bradley and A. Hax), Addison-Wesley, 735 pages, 1977.
+Network Flows: Theory, Algorithms, and Applications  (with R. Ahuja and J. Orlin), Prentice Hall, 846 pages, 1993.
+Lagrange and Fenchel Duality Are Equivalent, Mathematical Programming, 7, 253-258, 1974.
+Network Design and Transportation Planning: Models and Algorithms (with R. T. Wong), Transportation Science, 18(1), 1-55, 1984.
+Extremum Properties of Hexagonal Partitioning and the Uniform Distribution in Euclidean Location (with M. Haimovich), SIAM Journal on Discrete Mathematics, (1), 50-64, February 1988.
+Separable Concave Optimization Approximately Equals Piecewise Linear Optimization (with Dan Stratila), IPCO Proceedings, Lecture Notes in Computer Science, 3064, 234-243, 2004.
+Strong Formulations for Network Design Problems with Connectivity Requirements (with S. Raghavan), Networks, 45 (2): 61-79, 2005.
+An Intersecting Tree Model for Odd-Diameter-Constrained Minimum Spanning and Steiner Trees (with Luis Gouveia and Cristina Requejo), Annals of Operations Research, 146: 19-39, 2006
+Variable Disaggregation in Network Flow Problems with Piecewise Linear Costs (with K. Croxton and B. Gendron), Operations Research 55 (1):146-157, 2007.
+
+AwardsJournal Networks: Glover-Klingman Prize| best paper published during the year (2005)MIT: Irwin Sizer Award for Significant Innovations in MIT Education (2001)American Academy of Arts and Sciences: Fellow (2000)Operations Research Society of America: Kimball Medal for Distinguished Service (1994)Operations Research Society of America: Lanchester Prize| Best Publication in Operations Research (1993)National Academy of Engineering: Member (1991)MIT: Billard Award for Distinguished Service ()Linkoping University: Honorary Doctorate ()University of Montreal: Honorary Doctorate ()Universite Catholique de Louvain: Honorary Doctorate ()The Technion: Honorary Doctorate ()submit new awards here: Award Registration Form
+
+
+
+
+
+      temp. hide feed for videoarchive. FIX- don't display feed for empty pages.  G. added feed 
+ end #mainContent 
+
+ 
+
+ 
+
+  
+
+
+
+ end #container 
+ end #channelID 
+ google analytics installed 10/07/08, changed on 01/2013
+
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-5382944-3']);
+  _gaq.push(['_setDomainName', 'mit.edu']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+
+

@@ -1,0 +1,46 @@
+HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd" InstanceBegin template="/Templates/Conway.dwt" codeOutsideHTMLIsLocked="false"  InstanceBeginEditable name="doctitle" John Conway InstanceEndEditable  InstanceBeginEditable name="head"  InstanceEndEditable 
+<!--
+body,td,th {
+	color: #003399;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+body {
+	background-color: #666666;
+}
+a:link {
+	color: #660000;
+	text-decoration: none;
+}
+a:visited {
+	color: #660000;
+	text-decoration: none;
+}
+a:active {
+	color: #660000;
+	text-decoration: none;
+}
+a:hover {
+	color: #660000;
+	text-decoration: none;
+}
+-->
+
+
+
+
+John S. Conway
+     Professor of Physics
+         University of California, Davis 
+
+
+
+contact
+vita
+talks/papers
+research
+ 
+ InstanceBeginEditable name="EditRegion3"  mailing address     Prof. John S. Conway            Department of Physics           1 Shields Ave.           University of California           Davis, CA 95616  office    Phy/Geo 311  phone    530-754-7639 (office)           530-220-4671 (cell) email    conway@physics.ucdavis.edu    InstanceEndEditable 
+
+
+ InstanceEnd 

@@ -1,0 +1,167 @@
+Brian Kernighan's Home Page
+
+
+Brian Kernighan 
+Department of Computer Science 
+Princeton University 
+Princeton, NJ 08544 
+bwk cs princeton edu 
+
+
+
+
+      
+
+D is for Digital: What a well-informed person should know about
+computers and communications is now available at
+ CreateSpace,
+a division of Amazon.  This book is based on COS 109, Computers in Our
+World.  It explains how today's computing and communications world
+operates, from hardware through software to the Internet and the web.
+It includes enough detail that you can understand how these systems
+work, no matter what the reader's technical background.  The social,
+political and legal issues that new technology creates are discussed as
+well, so one can understand the difficult issues we face and appreciate
+the tradeoffs that have to be made to resolve them.
+
+It's intended as a compact but detailed and thorough explanation of how
+computers and communications systems work, for non-technical readers who
+want to better understand the world they live in.  It should be a useful
+source for technical readers who want something that will help their
+friends and family learn about digital systems.  $14.95.
+
+ The 
+ Kindle edition
+is also available: $9.95.  Readable on any device that supports Amazon's Kindle
+reader app.
+ A Japanese translation is also available (March 2013).
+ A Chinese translation is also available (July 2013).
+
+
+
+      
+Hello, World! Opinion columns from The Daily Princetonian is now available as a 
+ Kindle book from Amazon.
+ Updated May 2013 with 9 new columns.  $0.99.
+
+
+ Research 
+
+  Document preparation archaeology
+ AMPL 
+  modeling language for mathematical optimization
+	
+ 
+		experimental user interfaces
+ 
+		try AMPL on the web
+
+ Scripting languages
+
+ AWK
+
+
+  Experiments with Scripting and User-Interface Languages
+
+
+ Teaching 
+
+
+  COS 109 home page, Fall 2011
+
+
+  COS 333 home page, Spring 2009
+ Independent work and senior theses
+   
+	advice on independent work
+   
+	letters of recommendation
+
+ Publications 
+
+NJ voting machine study (October 2008)
+ ;login: article on testing (USENIX Magazine, April 2006)
+ Bibliography 
+ Book home pages
+
+
+D is for Digital
+
+
+AMPL: A Modeling Language for Mathematical Programming
+
+The Practice of Programming
+
+The C Programming Language
+
+The Unix Programming Environment
+
+The AWK Programming Language
+
+ Daily Princetonian columns.  The columns through May 2013
+are available as a 
+ Kindle ebook.
+
+ Hack Princeton (4/15/13)
+ Somewhere in time (3/4/13)
+ The very model of a modern major major (2/4/13)
+ D construction (11/26/12)
+ Watchbirds (10/22/12)
+ I don't belong here! (9/24/12)
+ Preview of coming attractions (4/16/12)
+ So you want to write a book (3/12/12)
+ Who goes there? (12/5/11)
+ Give me your undivided attention (11/7/11)
+ Powerless (10/3/11)
+ Spring is sprung (5/2/11)
+ Read any good books lately? (4/4/11)
+ Enter to grow in wisdom (3/1/11)
+ Antisocial networking (1/31/11)
+ Sic transit (11/30/10)
+ We're number one! (10/25/10)
+ Call me Ned (9/27/10)
+ Friends and family (4/26/10)
+ Action figures (3/29/10)
+ Millions, billions, zillions (2/22/10)
+ A sense of where you are (11/23/09)
+ Home alone (10/19/09)
+ How was your summer? (9/21/09)
+ What makes smart phones smart? (4/20/09)
+ Gladly learn, and gladly teach (3/23/09)
+ Washington crossings (2/16/09)
+ The ratings game (1/7/09)
+ What would Orwell do? (11/24/08)
+ Leading indicators (10/20/08)
+ Native guide (9/11/08)
+ By the numbers (4/21/08)
+ The bleeding edge (3/24/08)
+ Where the books are (2/18/08)
+ Making the grade (1/21/08)
+ Other princes (11/19/07)
+ By the dawn's early light (10/15/07)
+ Sometimes the old ways are best (09/17/07)
+ The Sons of Martha (05/07/07)
+ Lost and found (04/02/07)
+ What do they teach in professor school? (03/05/07)
+ Too precious to waste on the young? (02/05/07)
+ The sounds of music (12/04/06)
+ Can you hear me now? (11/06/06)
+ Advise and consent (10/02/06)
+
+
+ Parallel Universe 
+
+home page at Bell Labs
+(mirror)
+Bell Labs 1127 alumni
+BTL Research in 1995:  (10 MB in 4 images)
+	1
+2
+3
+4
+
+
+
+Mon Aug 26 07:15:18 EDT 2013
+
+

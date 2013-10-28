@@ -1,0 +1,120 @@
+Department of Neuroscience Styles  javascript 
+
+ Header 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Main Nav 
+
+
+
+
+
+
+
+
+
+
+
+
+	
+        var image = document.getElementById('Faculty');
+        var name = image.src.substr(0,image.src.length - 4);
+		var extension = image.src.substr(image.src.length - 4,image.src.length);
+        image.src = name+"-over"+extension;
+
+    
+ About Us Sub Nav 
+
+
+
+
+
+ Faculty Sub Nav 
+
+
+
+
+
+ Training Sub Nav 
+
+
+
+
+
+
+
+ Facilities and Resources Sub Nav 
+
+
+
+
+
+
+
+ News and Calendar Sub Nav 
+
+
+
+
+
+
+
+
+
+
+
+ 
+	
+        var img = document.getElementById('27');
+		if (img){
+			var name = img.src.substr(0,img.src.length - 4);
+			var extension = img.src.substr(img.src.length - 4,img.src.length);
+			img.src = name+"-over"+extension;
+		}
+
+    
+
+
+
+
+
+Eric R. Kandel, M.D.University Professor  & Kavli Professor of Brain Science, Director, The Kavli Institute for Brain ScienceCo-director, The Mind Brain Behavior Initiative, Senior Investigator, Howard Hughes Medical Institute
+
+NYSPI, Unit 21Tel +1 212-543-5202Email erk5@columbia.edu
+
+
+
+
+Area of ResearchBiophysics/Ion Channels, Synapses & Circuits, Neurobiology of Learning & Memory, Animal Models of Psychiatric Disorders, NeurogeneticsSpecializationMolecular  biology of long term memory storage:  Initiation and maintenance of synaptic growth; Examination of features shared in simple forms of learning and memory in the Aplysia nervous system and in the mammalian hippocampus.RESEARCH THEMEWe combine behavioral, cellular, and molecular biological approaches to delineate the changes that underlie simple forms of learning and memory in invertebrates and vertebrates. In invertebrates the focus of our research is on the gill-withdrawal reflex of Aplysia. We study three elementary forms of learning: habituation, sensitization, and classical conditioning. Recently we have reconstituted critical components of this learning in dissociated cell culture, and we now use the reconstituted system to examine the molecular mechanisms which contribute to short- and long-term memory.In vertebrates we use genetically modified mice to examine the mechanisms of long-term potentiation in the mammalian hippocampus and its relation to spacial memory and maintenance.  SELECTED PUBLICATIONSMalleret G, Alarcon JM, Martel G, Takizawa S, Vronskaya S, Yin D, Chen IZ, Kandel ER, Shumyatsky GP. Bidirectional regulation of hippocampal long-term synaptic plasticity and its influence on opposing forms of memory. Journal of Neuroscience 30: 3813-25.Akil, H., Brenner, S., Kandel, E.R., Kendler, K.S., King, M-C., Scolnick, E., Watson, J.D., and Zoghbi, H.Y. (2010). The future of psychiatric research: Genomes and neural circuits. Science 327:1580-1581.Simpson, E.H., Kellendonk, C., and Kandel, E.R. (2010). A possible role for the striatum in the pathogenesis of the cognitive symptoms of schizophrenia. Neuron 65:585-596.Si, K., Choi, Y., White-Grindley, E., Majumbar, A., and Kandel, E.R. (2010). Aplysia CPEB can form prion-like multimers in sensory neurons that contribute to long-term facilitation. Cell 140:421-435.Rajasethupathy, P., Fiumara, F., Sheridan, R., Betel, D., Puthanveettil, S.V., James J. Russo, J.J., Sander, C., Tuschl, T., and Kandel, E.R. (2009). Characterization of small RNAs in Aplysia reveals a role for miR-124 in constraining long-term synaptic plasticity through CREB. Neuron 66:803-817.Kandel, E.R. (2009) The Biology of Memory: A Forty-Year Perspective. J Neurosci 29: 12748-12756.Muzzio, I.A., Levita, L., Kulkarni, J., Monaco, J., Kentros, C., Stead, M., Abbott, L.F., and Kandel, E.R. (2009) Attention enhances the retrieval and stability of visuospatial and olfactory representations in the dorsal hippocampus. PLoS Biol 7(6).
+
+
+
+
+
+
+
+
+
+
+
+
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+
+var pageTracker = _gat._getTracker("UA-1034126-13");
+pageTracker._initData();
+pageTracker._trackPageview();
+

@@ -1,0 +1,59 @@
+Peter Kronheimer's Home Page
+
+
+
+P E T E R   
+
+K R O N H E I M E R
+
+
+
+
+
+
+Office hours
+
+        and other contact details.
+
+Link
+
+
+Papers and preprints
+
+        Several of my papers are available here.
+
+Link
+
+
+Photographs
+A gallery of (mostly) family photos.
+
+Link
+
+
+Macro photography
+A few photos taken with close-up filters.
+
+Link
+
+
+Illustrations
+by Ann Kronheimer.
+
+Link
+
+
+
+
+
+
+
+Peter Kronheimer 
+
+emailE=('kronheim@' + 'math.harvard.edu')
+document.write(
+  '<A HREF="mailto:' + emailE + '">' 
+  + emailE + '</a>'
+)
+
+

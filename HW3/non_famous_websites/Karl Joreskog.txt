@@ -1,0 +1,67 @@
+Dr. Karl Joreskog
+
+
+Dr. Karl Joreskog's story 
+
+
+
+
+Karl Joreskog completed his studies to be a grammar school teacher in
+Sweden--a career path that had been his lifelong goal.  Following completion
+of his studies in June, just as he was about to go out on his first practice
+teaching assignment, a friend of his told Karl that he was getting married
+and wanted to go on a long honeymoon.  He asked if Karl Joreskog would take
+his summer job in a statistics lab for him instead.  So to help out a friend,
+Karl postponed his practice teaching assignment and worked in the stats lab
+over the summer, with full intention of taking up his teaching assingment in
+the fall.
+
+When fall came, a professor, who was the chair of the statistics department,
+told Karl, "we cannot let you become a grammar school teacher!  Instead, we
+want you to continue as a Ph.D. student in our statistics department."  This
+was because Karl had shown such a tremendous aptitude for statistics.  And
+the rest is history.
+
+I'm sure that Professor Joreskog could tell the story with a bit more gusto,
+but there are a couple points to it.  One of them is that ne never really
+gave up on his dream of teaching grammar school, and if you have ever heard
+him teach in his workshops, everything he presents is incredibly SIMPLE.
+ That is what makes him such a great teacher.
+
+DISCLAIMER:  I am telling this story from memory, having heard it from
+Professor Joreskog on a trip to Philadelphia to teach around 1988 or earlier.
+ I always found this story about how he got into statistics extremely
+interesting.  Life can be quite unpredictable!
+
+Additional Joreskog Trivia:  At that time he visited Philadelphia Professor
+Joreskog was especially excited about three things:  (1) the 386 computer was
+about to come out, and he was besides himself with excitement.  He thought of
+a 386 pc as a "little mainframe."  He was also exceptionally proud of his
+286-AT computer, and how fast it was compared with the old XT computers when
+iterating LISREL problems.  We worked together for  several days using LISREL
+on an old XT computer, a Compact portable I had in my office, and it seemed
+adequate at the time!  (2)  He was dying to obtain a copy of microsoft word,
+and got a copy at the Penn Bookstore.  He strongly advised me to purchase and
+use this program, which I did--and he could not believe how cheap software
+was in the US compared with Sweden.  (3)  He was debugging PRELIS, which he
+was just finishing up on.  He installed on of the first beta copies of PRELIS
+on the old XT PC in my office.
+
+Of the teachers I have had through the years, from college days to the
+present, I have noticed that the giants in any particular field are almost
+always extremely simple and clear in their teaching, just like Professor
+Joreskog, and I have often felt that things that seem complicated or
+difficult only appear that way because the person who is explaining them is
+either doing a poor job of teaching or is covering up a lack of understanding
+with big words and convoluted sentences.  We should all try to model our
+teaching on the wonderful and clear teaching of Dr. Joreskog and think of
+ourselves as teaching grammar school children!  Keep it simple and clear
+whenever possible!
+
+At any rate, we are lucky to have so many clear and helpful teachers on our
+SEMNET...  Hope you enjoyed the Trivia Quiz!
+
+David Burns
+
+
+

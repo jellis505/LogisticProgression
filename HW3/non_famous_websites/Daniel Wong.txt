@@ -1,0 +1,1385 @@
+html[if lt IE 7]> <html lang="en" class="ie ie6 lte9 lte8 lte7 os-other"> <![endif][if IE 7]> <html lang="en" class="ie ie7 lte9 lte8 lte7 os-other"> <![endif][if IE 8]> <html lang="en" class="ie ie8 lte9 lte8 os-other"> <![endif][if IE 9]> <html lang="en" class="ie ie9 lte9 os-other"> <![endif][if gt IE 9]> <html lang="en" class="os-other"> <![endif][if !IE]><!<![endif][if lte IE 8]>
+  <link rel="shortcut icon" href="http://s.c.lnkd.licdn.com/scds/common/u/images/logos/favicons/v1/16x16/favicon.ico">
+<![endif][if IE 9]>
+  <link rel="shortcut icon" href="http://s.c.lnkd.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico">
+<![endif]Daniel Wong  | LinkedIn
+
+document.body.className += " js ";
+
+
+
+
+
+
+
+Join Today
+Sign In
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Daniel Wong
+
+
+
+
+
+    
+    
+        Research Analyst at The Investment Fund for Foundations
+      
+    
+    
+
+Location
+
+
+    
+        
+          
+              Boston, Massachusetts
+            
+	    
+      
+    
+    
+      (Greater Boston Area)
+    
+    
+Industry
+
+    
+            Investment Management
+      
+    
+
+
+
+
+
+
+          Join LinkedIn and access Daniel Wong’s full profile. It's free!
+      
+
+
+
+As a LinkedIn member, you'll join 225 million other professionals who are sharing connections, ideas, and opportunities.
+
+See who you and Daniel Wong know in common
+Get introduced to Daniel Wong
+Contact Daniel Wong directly
+
+
+
+
+          View Daniel's full profile
+        
+
+
+
+Daniel Wong's Overview 
+
+
+    Current
+  
+
+
+
+              
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+
+
+      
+    
+  
+      
+      
+
+      
+        
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    Research Analyst
+      
+    
+    
+      at 
+The Investment Fund for Foundations
+
+
+
+  
+    Past
+  
+
+
+
+		        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+
+
+      
+    
+  
+      
+      
+
+      
+        
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    Research Assistant
+      
+    
+    
+      at 
+Stanford University
+
+
+		        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+
+
+      
+    
+  
+      
+      
+
+      
+        
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    Summer Analyst
+      
+    
+    
+      at 
+The Investment Fund for Foundations
+
+
+		        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+
+
+      
+    
+  
+      
+      
+
+      
+        
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    Program Analyst Intern
+      
+    
+    
+      at 
+US Department of Health and Human Services
+
+
+
+
+
+                  
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+
+
+      
+    
+  
+      
+      
+
+      
+        
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    Academic Theme Associate
+      
+    
+    
+      at 
+      Education and Society Theme House
+    
+	
+
+
+
+
+
+
+
+
+                
+
+                  
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+
+
+      
+    
+  
+      
+      
+
+      
+        
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    Branch Manager
+      
+    
+    
+      at 
+Ivy Insiders
+
+
+see less
+
+see all
+
+ 
+       Education
+    
+
+
+
+                
+	              Stanford University
+                
+		          
+
+                
+	              London School of Economics and Political Science
+                
+		          
+
+                
+	              Summit Senior High School
+                
+		          
+
+
+
+      Connections
+    
+
+
+242  connections
+      
+      
+
+
+
+  showHide.init('overview');
+
+
+
+
+				Daniel Wong's Summary
+				
+				
+			
+
+
+
+    I am a recent Stanford graduate currently working as a research analyst at The Investment Fund for Foundations in Cambridge, Massachusetts.
+
+
+
+
+
+Daniel Wong's Experience
+	  
+
+
+
+
+
+
+
+
+Research Analyst
+
+
+The Investment Fund for Foundations
+
+
+
+
+  	        Nonprofit; 51-200 employees;
+	  	      Investment Management industry
+  	    
+
+July 2013
+  	              – Present
+ (4 months)
+Cambridge, MA
+
+
+
+
+
+
+
+
+Research Assistant
+
+
+Stanford University
+
+
+
+
+  	        Educational Institution; 5001-10,000 employees;
+	  	      Higher Education industry
+  	    
+
+December 2012
+ – June 2013  (7 months)
+Stanford CA
+
+
+    * Research Assistant for Professor Joe Nation of the Stanford Public Policy Department.
+* Mined large health-care databases for an extensive collaborative database project.
+
+
+
+
+
+
+
+
+Summer Analyst
+
+
+The Investment Fund for Foundations
+
+
+
+
+  	        Nonprofit; 51-200 employees;
+	  	      Investment Management industry
+  	    
+
+June 2012
+ – August 2012  (3 months)
+Cambridge, Massachusetts
+
+
+
+
+
+
+
+
+Program Analyst Intern
+
+
+US Department of Health and Human Services
+
+
+
+
+  	        Government Agency; 10,001+ employees;
+	  	      Government Administration industry
+  	    
+
+April 2012
+ – June 2012  (3 months)
+Washington DC
+
+
+    Assistant Secretary for Policy and Evaluation (ASPE)
+Office of Health Policy
+Health Care Access and Coverage Division
+
+* Used Stata on a daily basis to analyze Current Population Survey (CPS) and American Community Survey (ACS) data 
+* Served as junior analyst on an external contract analyzing the Physician Workforce 
+* Co-wrote "The Affordable Care Act and Asian Americans and Pacific Islanders" policy brief
+
+
+
+
+
+
+
+
+Academic Theme Associate
+
+
+Education and Society Theme House
+
+
+
+
+
+
+June 2011
+ – April 2012  (11 months)
+Stanford CA
+
+
+    Designed education programming for EAST House and the larger Stanford community, specifically in education policy and finance.  Organized the fall keynote event for more than 100 guests.  Maintained the EAST House website and helped to coordinate house finances.
+
+
+
+
+
+
+
+
+Branch Manager
+
+
+Ivy Insiders
+
+
+
+
+  	        Privately Held; 51-200 employees;
+	  	      Education Management industry
+  	    
+
+June 2010
+ – September 2010  (4 months)
+Summit, New Jersey
+
+
+    Operated an SAT prep franchise for 22 students in the Summit area. Taught group classes and offered private tutoring services. Grossed more than $20,000 in revenue and finished as a Gold level peak performer for the company.
+
+
+
+
+
+
+
+
+Daniel Wong's Publications
+        
+    
+
+
+
+
+
+
+The Affordable Care Act and Asian Americans and Pacific Islanders
+
+
+
+Assistant Secretary for Planning and Evaluation (ASPE), US Department of Health and Human ServicesMay 1, 2012
+
+ Authors: 
+                  
+                    Daniel Wong, Rose Chu, Kenneth Finegold, Wilma Robinson
+                  
+                
+
+
+    This policy brief summarizes the benefits of the Affordable Care Act for Asian Americans and Pacific Islanders.
+
+
+            
+      
+        
+        
+        /* extlib: _showmore */
+          
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+LI.i18n.register( 'ShowMore-see-more', 'more' );
+LI.i18n.register( 'ShowMore-see-less',   'less' );
+LI.i18n.register( 'ShowMore-see-more-long',   'Show more' );
+LI.i18n.register( 'ShowMore-see-less-long',   'Show less' );
+
+        
+        
+        
+        
+      
+    
+            LI.Controls.addControl('control-http-12248-4454345-1', 'ShowMore', { charCount:400 });
+          
+
+
+
+
+
+
+
+Daniel Wong's Skills & Expertise
+        
+        
+      
+
+
+
+
+
+                        
+                          Microsoft Excel
+                        
+                      
+
+
+
+                        
+                          Stata
+                        
+                      
+
+
+
+                        
+                          Microsoft Office
+                        
+                      
+
+
+
+                        
+                          Data Analysis
+                        
+                      
+
+
+
+                        
+                          Public Policy
+                        
+                      
+
+
+
+
+
+
+
+        Daniel Wong's Education
+      
+
+
+
+
+
+                  
+Stanford University                  
+                
+
+Bachelor of Arts, 
+                  
+Public Policy, Economics                  
+
+
+2009 – 2013
+
+
+    Attended Stanford in Washington program Spring 2012 where I worked as a full-time intern during the day and took courses in economics and public policy at night.
+
+Financial Officer for Sigma Phi Epsilon (2012-2013)
+
+Activities and Societies:
+Sigma Phi Epsilon
+Bridge Peer Counseling Center                  
+
+
+
+                  
+London School of Economics and Political Science                  
+                
+
+Summer School Programme, 
+                  
+Economics                  
+
+
+2011 – 2011
+
+
+    EC 201- Intermediate Microeconomics (A+)
+EC 212- Introduction to Econometrics (A)
+
+
+
+
+                  
+Summit Senior High School                  
+                
+
+
+
+2005 – 2009
+
+
+
+
+
+
+
+
+
+Daniel Wong's Additional Information
+    
+
+
+
+Groups and Associations:
+
+
+Sigma Phi Epsilon, Stanford in Washington              
+
+
+ 
+
+
+Stanford Sigma Phi Epsilon
+
+
+
+ 
+
+
+Stanford University Alumni
+
+
+
+
+
+
+
+
+
+Contact Daniel for:
+        
+      
+
+
+
+
+career opportunities
+consulting offers
+new ventures
+job inquiries
+expertise requests
+business deals
+reference requests
+getting back in touch
+
+
+
+
+
+
+View Daniel Wong’s full profile to...
+
+
+
+See who you and Daniel Wong know in common
+Get introduced to Daniel Wong
+Contact Daniel Wong directly
+
+
+View Full Profile
+
+
+    
+    Not the Daniel Wong you were looking for?
+          
+    View more »
+
+
+
+
+
+
+Name Search:
+
+Search for people you know from over 225 million professionals already on LinkedIn.
+
+
+
+First Name
+
+            
+      
+        
+        
+        /* extlib: _ghostlabel */
+          
+        
+        
+        
+        
+      
+    
+            LI.Controls.addControl('control-http-12248-4454348-2', 'GhostLabel', {});
+          
+
+
+
+Last Name
+
+            
+      
+    
+            LI.Controls.addControl('control-http-12248-4454348-3', 'GhostLabel', {});
+          
+
+
+
+
+ Example: 
+        
+Daniel Wong
+
+
+
+
+
+
+
+
+Viewers of this profile also viewed...
+
+
+
+
+
+
+
+
+Alex Chang
+
+Business Development Analyst at Qualcomm
+
+
+
+
+
+
+Cyrus Pinto
+
+Oracle Linux and Virtual Machine (VM)...
+
+
+
+
+
+
+Jonathan York
+
+Student at Stanford University
+
+
+
+
+
+
+Alexander Chang-Sing
+
+Analyst at Goldman Sachs
+
+
+
+
+
+
+Gena Eddy
+
+Account Manager at Gartner
+
+
+
+
+
+
+Nicole DeMont
+
+Public Policy Intern at Facebook
+
+
+
+
+
+
+Demoni Newman
+
+Analyst at Cornerstone Research
+
+
+
+
+
+
+Ryan Mayfield
+
+Founder and Executive Director at...
+
+
+
+
+
+
+Sarah Flamm
+
+Research Analyst at Migration Policy...
+
+
+
+
+
+
+Jasmine Dehghan
+
+Global Partnerships and Data Analyst...
+
+
+
+
+
+
+Find a different Daniel Wong:
+
+
+
+
+Danny, Chin Whei Wong, Deputy Operations Manager and Technical Trainer
+Adelaide Area, Australia
+
+
+Daniel Wong, --
+San Francisco Bay Area
+
+
+Daniel Wong, President of Daniel Wireless LLC, researcher, teacher, author and leader
+San Francisco Bay Area
+
+
+Dan Chi (DC) Wong, Sustainability Consultant, ESG/SRI Analyst
+Singapore
+
+
+Dan Wong, Senior Director, Sales & Marketing at DG Mijo
+Toronto, Canada Area
+
+
+
+
+            More professionals named Daniel Wong »
+
+
+
+
+
+
+var dbl_page = 'public_profile';
+
+      /* <![CDATA[ */
+      
+        var dbl_src = "http://ad.doubleclick.net/adj/linkedin.dart/" + dbl_page + ";lang=en;tile=1;dcopt=ist;sz=300x250;;" + encodeURIComponent(';company=65632;pcntry=us') + ";s=0;ord=" + Math.random() * 10000000000000000 +"?";
+        document.write('<sc' + 'ript src="' + dbl_src + '" type="text/javascript"><\/scr' + 'ipt>');
+      /* ]]> */
+        
+
+
+
+
+LI.Controls.processQueue();
+
+
+
+
+    
+    
+        LinkedIn member directory - Browse members by country
+
+
+
+a
+
+
+b
+
+
+c
+
+
+d
+
+
+e
+
+
+f
+
+
+g
+
+
+h
+
+
+i
+
+
+j
+
+
+k
+
+
+l
+
+
+m
+
+
+n
+
+
+o
+
+
+p
+
+
+q
+
+
+r
+
+
+s
+
+
+t
+
+
+u
+
+
+v
+
+
+w
+
+
+x
+
+
+y
+
+
+z
+
+
+more
+
+
+
+
+ By using this site, you agree to LinkedIn's terms of use. Commercial use of this site without express authorization is prohibited.
+ 
+LinkedIn Corporation © 2013
+
+User Agreement
+Privacy Policy
+Cookie Policy
+Copyright Policy
+
+
+
+
+    LI.define("RUM.urls");
+    LI.define("RUM.flags");
+    LI.RUM.flags['host-flag'] = "control";
+    LI.RUM.urls['rum-track'] = "/lite/rum-track?csrfToken=ajax%3A1617444303321771777";
+    LI.RUM.urls['boomerang-bw-img'] = "http://s.c.lnkd.licdn.com/scds/common/u/lib/boomerang/0.9.edge.4ab208445a/img/";
+    
+    
+    
+    LI.RUM.serverStartTime = 1382988239.677*1000;
+    
+    
+    LI.RUM.enabled = true;
+    YEvent.on(window, 'load', function() {
+      YAHOO.util.Get.script(
+      
+        
+            
+              
+              
+                ["http://s.c.lnkd.licdn.com/scds/concat/common/js?h=ed29nkjpsa16bhrjq4na16owq-98wkc8drte3f4sgowwihu52bc-cxf4wsvkntx8ipnbh8aw32ci5-bntxs37tllhamgkqo8dp140n4-ej0bu8dhge4a5yggpk9bkobg0-2e50soneky56rf7x4eqnd3iqq&fc=2"]
+              
+            
+          
+        
+      
+    [0]);
+    });
+  
+
+ if ( window.LI && LI.showAllDeferredImg && !LI.imgDeferFoldCheckDone ) { 
+ LI.showAllDeferredImg( null, false );
+ }
+
+
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-3242811-1']);
+      _gaq.push(['_setDomainName', '.linkedin.com']);
+      _gaq.push(['_trackPageview', 'nprofile-public-success']);
+      _gaq.push(['_setVar', 'guest']);
+      
+      
+      YEvent.on( window, 'load', function() {
+        YAHOO.util.Get.script("http://www.google-analytics.com/ga.js");
+      });
+    
+/* <![CDATA[ */
+(function() {
+
+  var bcookie = escape( LI.readCookie("bcookie") ),
+    newTrkInfo = '132484607,' + document.referrer.substr(0,128),
+    alias_secure = 'https://www.linkedin.com/analytics/noauthtracker?type=leo%2EpageTracking&pageType=full_page&pageKey=nprofile_public_jsbeacon&trkInfo=REPLACEME',
+    alias_normal = '/analytics/noauthtracker?type=leo%2EpageTracking&pageType=full_page&pageKey=nprofile_public_jsbeacon&trkInfo=REPLACEME',
+    is_secure = false,
+    url = (is_secure) ? alias_secure : alias_normal;
+
+  url = url.replace("REPLACEME", newTrkInfo);
+
+  if (bcookie) {
+    if(window.$ && $.ajax){
+      $.ajax(url);
+    } else {
+      YAHOO.util.Connect.asyncRequest( 'get', url, {} );
+    }
+  }
+
+})();
+/* ]]> */
+
+        
+          
+      
+        
+          
+            
+              
+      
+    
+            
+          
+        
+          
+            
+              
+      
+    
+            
+          
+        
+          
+            
+              
+      
+    
+            
+          
+        
+        LI_WCT([
+        
+          
+            
+              "control-http-12248-4454345-1",
+            
+          
+        
+          
+            
+              "control-http-12248-4454348-2",
+            
+          
+        
+          
+            
+              "control-http-12248-4454348-3",
+            
+          
+        
+        ]);
+      
+    
+          
+            
+          
+        
+        
+      
+LI.Controls.processQueue();
+
+  LI.define('Tracking.Quantcast');
+  LI.Tracking.Quantcast = function() {
+    _qoptions = { qacct:"p-b3sGjMtCFrexE" };
+    YAHOO.util.Get.script( 'http://edge.quantserve.com/quant.js' );
+  };
+  YEvent.on( window, 'load', LI.Tracking.Quantcast);
+
+
+
+
+
+  LI.define('Tracking.Comscore');
+  LI.Tracking.Comscore = function() {
+    YAHOO.util.Get.script( 'http://b.scorecardresearch.com/beacon.js', {
+      onSuccess: function() {
+        COMSCORE.beacon({ c1:2, c2:6402952, c3:"", c4:"", c5:"", c6:"", c15:"" });
+      }
+    });
+  };
+  YEvent.on( window, 'load', LI.Tracking.Comscore);
+
+
+
+
+
+  YEvent.on( window, 'load', function() {
+    (function () {
+      var protocol = 'http:';
+      var d = new Image(1, 1);
+      d.onerror = d.onload = function () { d.onerror = d.onload = null; };    
+      d.src = [
+        protocol,
+        "//secure-us.imrworldwide.com/cgi-bin/m?ci=us-603751h&cg=0&cc=1&si=", 
+        escape(window.location.href), "&rp=", 
+        escape(document.referrer),   
+        "&ts=compact&rnd=", 
+        (new Date()).getTime()
+      ].join('');
+    })();
+  });
+
+
+
+

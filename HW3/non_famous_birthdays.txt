@@ -1,75 +1,76 @@
-Michael Collins
-Richard Axel
-Jagdish Bhagwati
-Ronald Breslow
-R. Kent Greenawalt
-Wayne Hendrickson
-Eric Kandel
-Rosalind Krauss
-Robert Mundell
-Simon Schama
-Gayatri Chakravorty Spivak
-Joseph Stiglitz
-Martin Chalfie
-Edmund Phelps
-Alfred Aho
-Dimitris Anastassiou
-Lee Bollinger
-Show-Wu Zhang
-Emilio Bizzi
-John M. Deutch
-Peter Diamond
-Ann Graybiel
-John Harbison
-Robert Langer
-Barbara Liskov
-John D. Little
-Thomas Magnati
-Joel Moses
-Phillip Sharp
-Daniel Wong
-Sheila Widnall
-Hal Abelson
-Scott Aaronson
-Madeleine Algright
-Paul Aime Fleury
-Mark Reed
-K. R. Sreenivasan
-Jill Abramson
-Julie Agoos
-Claire F. Gmachl
-Forman S. Acton
-John Conway
-Ingrid Daubechies
-Charles Fefferman
-James Edward Gunn
-Karl Joreskog
-Nicholas Katz
-Brian Wilson Kernighan
-Andrei Okounkov
-Elon Lindenstrauss
-Daniel Kahnehman
-Paul Seymour
-Elias M. Stein
-Andrew Chi-Chih Yao
-David Spergel
-J. Richard Gott
-Andrew Wiles
-Nathan Seiberg
-Eric Wieschaus
-Edward Witten
-Teresa Amabile
-Thierry Breton
-Noam Elkies
-Benedict Gross
-Joseph Harris
-Arthur Jaffe
-Peter Kronheimer
-Barry Mazur
-Shing-Tung Yau
-Cliff Taubes
-John Tate
-Charles Zuker
-Yann LeCun
-Donald Keene
-Harry R. Lewis
+03-04-2013
+07-02-1946
+07-26-1934
+03-14-1931
+06-25-1936
+04-25-1941
+11-07-1929
+11-30-1941
+10-24-1932
+02-13-1945
+02-24-1942
+02-09-1943
+01-15-1947
+07-26-1933
+08-09-1941
+xx-xx-1952
+04-30-1946
+10-09-1962
+02-22-1933
+07-27-1938
+04-29-1940
+xx-xx-1942
+12-20-1938
+08-29-1948
+11-7-1939
+02-1-1928
+xx-xx-1945
+xx-xx-1941
+07-6-1944
+04-12-1936
+07-13-2013
+04-26-1947
+05-21-1981
+05-15-1937
+xx-xx-1939
+01-04-1955
+xx-xx-1947
+04-19-1954
+xx-xx-1956
+xx-xx-1967
+xx-xx-1920
+12-26-1937
+08-17-1954
+04-18-1949
+10-21-1938
+04-25-1935
+10-7-1943
+01-01-1942
+06-26-1969
+08-01-1970
+04-05-1934
+07-26-1950
+01-13-1931
+12-24-1946
+04-25-1961
+02-08-1947
+04-11-1953
+09-22-1956
+06-08-1947
+08-26-1951
+xx-xx-1949
+01-15-1955
+08-25-1966
+06-22-1950
+xx-xx-1951
+12-22-1937
+xx-xx-1963
+12-19-1937
+04-4-1949
+xx-xx-1954
+04-13-1925
+xx-xx-1957
+xx-xx-1960
+06-18-1922
+04-19-1947
+

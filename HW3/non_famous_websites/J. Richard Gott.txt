@@ -1,0 +1,137 @@
+html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"J. Richard Gott, III - J. Richard Gott, III - Department of Astrophysical Sciences[if lte IE 7]><link href="/wwwdept_themes/common/css/msie.css" media="all" rel="stylesheet" type="text/css"><![endif][if lt IE 6]><link href="/wwwdept_themes/barebones/css/msie5.css" media="all" rel="stylesheet" type="text/css"><![endif][if IE 6]><nocache><link href="/wwwdept_themes/barebones/css/msie6.css" media="all" rel="stylesheet" type="text/css"></nocache><![endif]
+	// Permalinks option
+	function flashPutHref(href) { location.href = href; }
+	
+	// SWFObject embed
+	var flashvars = {
+		paramXMLPath: "/astro/people/faculty/jrg/albums/param.xml",
+		initialURL: escape(document.location)
+	}
+	var params = { 
+		base: ".",
+		bgcolor: "#FFFFFF",
+		allowfullscreen: "true"
+	}                
+	var attributes = {}
+	swfobject.embedSWF("/common/scripts/slideshowpro/1.9/slideshowpro.swf", "ssp-gallery", "530", "337", "9.0.0", false, flashvars, params, attributes);
+	
+		var _gaq = _gaq || [];
+		_gaq.push(
+			['_setAccount', 'UA-1512522-2'],
+			['_trackPageview'],
+			['b._setAccount', 'UA-10748911-1'],
+			['b._trackPageview']
+			
+		);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	
+Skip over navigation robots:noindex 
+
+Home Page
+Webmail
+Princeton A to Z
+Search this site
+
+ /robots:noindex 
+Department of Astrophysical Sciences
+ robots:noindex 
+
+About Us
+People
+News & Events
+Research
+Support & Resources
+For Postdocs
+Graduate Program
+Undergraduate Program
+Search
+
+
+ /robots:noindex Home page  /  People  /  Astronomy Faculty and Research Staff  /  J. Richard Gott, III robots:noindex 
+
+Astronomy Faculty and Research Staff
+
+Neta A. Bahcall
+Gaspar Bakos
+David Bowen
+Adam Burrows
+Renyue Cen
+Christopher Chyba
+Bruce Draine
+Jeremy Goodman
+J. Richard Gott, III
+James E. Gunn
+Jenny Greene
+Edward B. Jenkins
+Gillian R. Knapp
+Russell M. Kulsrud
+Robert Lupton
+Eve Ostriker
+Jeremiah P. Ostriker
+Roman Rafikov
+David N. Spergel
+Anatoly Spitkovsky
+James M. Stone
+Michael A. Strauss
+Scott D. Tremaine
+Edwin L. Turner
+
+
+Plasma Physics Faculty
+Associated Faculty
+Technical Staff
+Postdocs
+Graduate Students
+Undergraduate Students
+Department Staff
+Whom to see
+Visitors
+
+
+ /robots:noindex 
+
+J. Richard Gott, III
+
+
+
+J. Richard Gott is noted for his contributions to cosmology and general relativity.  He has received the Robert J. Trumpler Award, an Alfred P. Sloan Fellowship, the Astronomical League Award, and Princeton's President's Award for Distinguished Teaching.  He was for many years Chair of the Judges for the Westinghouse and Intel Science Talent Search. His paper “On the Infall of Matter into Clusters of Galaxies and Some Effects on Their Evolution” co-authored with Jim Gunn has received over 1500 citations.  He proposed that the clustering pattern of galaxies in the universe should be spongelike--a prediction now confirmed by numerous surveys.  He discovered exact solutions to Einstein's field equations for the gravitational field around one cosmic string (in 1985) and two moving cosmic strings (in 1991).  This second solution has been of particular interest because, if the strings move fast enough, at nearly the speed of light, time travel to the past can occur.  His paper with Li-Xin Li, “Can the Universe Create Itself?” explores the idea of how the laws of physics may permit the universe to be its own mother.  His book Time Travel in Einstein's Universe was selected by Booklist as one of four “Editors’ Choice” science books for 2001. He has published papers on map projections in Cartographica.  His picture has appeared Time, Newsweek, and the New York Times.  He wrote an article on time travel for Time magazine as part of its cover story on the future (April 10, 2000).  His and Mario Juric’s Map of the Universe appeared in the New York Times (January 13, 2004), New Scientist, and Astronomy. Gott and Juric are in Guinness World Records 2006 for finding the largest structure in the universe: the Sloan Great Wall of Galaxies (1.37 billion light years long). Gott’s Copernican argument for space colonization was the subject of an article in the New York Times (July 17, 2007).
+
+
+ 
+
+
+J. Richard Gott, III
+
+Professor of Astrophysical Sciences.
+
+
+Office Location: 
+118 Peyton Hall
+
+Interoffice Mailing Address: 
+
+   Astrophysical Sciences
+
+   Peyton Hall, Room 113
+
+Campus Phone: 609-258-3813
+
+Campus Fax: 609-258-8226
+E-mail: jrg@astro.princeton.edu
+
+
+
+Gott Interview
+
+ robots:noindex 
+© 2013 The Trustees of Princeton University, Princeton NJ 08544 
+ |  website feedback
+ |  top
+ robots:noindex 
+Last update: October 27, 2010
+ /robots:noindex  /robots:noindex 

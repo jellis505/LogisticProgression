@@ -1,0 +1,65 @@
+Paul Seymour, home page this must be for notes 
+ body bgcolor="#FFFFFF" vlink="#005D6B" 
+
+
+
+
+ img src="DSC00088.JPG" alt="me"
+ img src="DSC00088.JPG" width=250 height=250 alt="me"
+
+
+
+
+Paul Seymour
+Department of Mathematics 
+Princeton University
+
+
+Contact Info:
+
+Email:  pds@math.princeton.edu
+Office: 201 Fine Hall, Washington Rd, Princeton NJ 08544.
+Phone:  (609) 258-4685
+
+Affiliation:
+
+Professor, half 
+in the 
+Department of Mathematics   
+and half in the 
+
+Program in Applied and Computational Math
+at 
+Princeton University.
+
+Research:
+
+Discrete math, mostly in graph theory; I am currently working on 
+the structure of graphs with certain 
+induced subgraphs forbidden, and analogous questions for
+tournaments. In particular I am interested 
+in the Erdos-Hajnal
+conjecture, and in the various conjectures of Gyarfas and Sumner about
+chi-boundedness.
+The web pages of Maria Chudnovsky and 
+Robin Thomas have more information
+about our joint work.
+
+
+Click here for CV (ps, pdf)
+
+Click here for a list of publications (ps, pdf)
+
+
+Click here for papers available online
+
+Click here for Princeton
+Discrete Math Seminar (currently organized by Zeev Dvir, Stefan van Zwam and myself).
+
+
+
+WEBBOT bot="HTMLMarkup" startspan ALT="Site Meter" 
+
+
+WEBBOT bot="HTMLMarkup" Endspan 
+

@@ -1,0 +1,201 @@
+html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"Wieschaus Lab - Home JW "Tabs & Slides In Content Items" Plugin (v2.2) starts here 
+	@import "http://www.molbio1.princeton.edu/wieschaus/mambots/content/plugin_jw_tabs_slides/tabs_slides.css";
+.tabbernav {display:none;}var jw_slideSpeed = 10; var jw_timer = 10; JW "Tabs & Slides In Content Items" Plugin (v2.2) ends here [if IE 7]>
+<link href="http://www.molbio1.princeton.edu/wieschaus/templates/rt_vortex/css/template_ie7.css" rel="stylesheet" type="text/css" />
+<![endif][if lte IE 6]>
+<link href="http://www.molbio1.princeton.edu/wieschaus/templates/rt_vortex/css/template_ie6.css" rel="stylesheet" type="text/css" />
+<![endif]
+
+ top module above header 
+
+
+
+
+
+					Lab Login				
+
+
+Username
+
+
+
+Password
+
+
+
+Login
+
+
+
+
+
+
+
+
+
+
+
+
+ main header area 
+
+
+
+
+
+ 
+ 
+ 
+
+
+
+
+Home
+Publications
+People
+Media
+Contact Us
+ 
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ main body area 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Drosophila Melanogaster
+
+
+Drosophila
+
+Drosophila melanogaster (from the Greek for black-bellied dew-lover) is a two-winged insect that belongs to the Diptera, the order of the flies. The species is commonly known as the fruit fly, and is one of the most commonly used model organisms in biology, including studies in genetics, physiology and life-history evolution. 
+
+
+
+Molecular Biology 101
+
+
+Molecular Biology 101
+
+Bonnie Bassler (seated on table), Heather Thieringer (standing in rear) and Eric Wieschaus (leaning over computer screen) have teamed up to teach âMolecular Biology 101: From DNA to Human Complexity,â an introductory course for non-majors that takes a new approach to teaching the basics through lectures and labs.
+
+
+
+Ventral Furrow
+
+
+Ventral Furrow
+
+A photo..... 
+
+
+Gastrulation
+
+
+Gastrulation
+
+Twist and Myosin-2 during Drosophila gastrulation
+
+
+ 
+
+
+
+
+
+ 
+
+
+					Embryonic Development of Drosophila Melanogaster									
+
+
+
+
+
+We are interested in the patterning that occurs in the early Drosophila embryo. Most of the gene products used by the embryo at these stages are already present in the unfertilized egg and were produced by maternal transcription during oogenesis. A small number of gene products, however, are supplied by transcription in the embryo itself. We have focused on these "zygotically" active genes because we believe the temporal and spatial pattern of their transcription may provide the triggers controlling the normal sequence of embryonic development.The earliest requirements for zygotic gene activity become apparent at cellularization. The early cleavage divisions in Drosophila involve nuclear mitoses without intervening cytokinesis. Ultimately, they produce a syncytial blastoderm of 6,000 nuclei. "Cellularization" of these nuclei requires a massive, rapid reorganization of the embryonic cytoskeleton that occurs after the 13th cleavage cycle.  
+
+
+
+
+							Read more...
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ body/footer divider 
+
+
+
+
+
+ footer modules 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ footer shadow 
+
+
+
+
+
+
+ 1382988333 

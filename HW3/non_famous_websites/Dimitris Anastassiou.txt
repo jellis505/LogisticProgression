@@ -1,0 +1,102 @@
+Columbia University Department of Electrical Engineering - Dimitris Anastassiou
+ 
+ START 
+
+
+Dimitris Anastassiou
+
+Professor
+
+ 
+
+Phone: 212-854-3113
+Fax: 201-567-0799
+Email: anastas@ee.columbia.edu
+ 
+ --------------------------- CONTENT BEGIN --------------------------- 
+Background
+Dimitris Anastassiou is Charles Batchelor Professor and Director of Columbia University's Genomic Information Systems Laboratory, member of Columbia's Initiative in Systems Biology and of the Center for the Multiscale Analysis of Genomic and Cellular Networks (MAGNet). He is doing research on computational biology with emphasis on data mining and systems-based analysis of large biomolecular data sets. 
+
+Professor Anastassiou joined the E.E. faculty in 1983. From 1979 until 1983 he was a Research Staff member at the IBM Thomas J. Watson Research Center, Yorktown Heights, NY. He is an IEEE Fellow, the recipient of an IBM Outstanding Innovation Award, a National Science Foundation Presidential Young Investigator Award, and a Great Teacher Award from the Society of Columbia Graduates. His previous research was in the area of video technology. He is author of patents accepted as essential for the implementation of the international standards MPEG-2, AVC/H.264 and MVC used in DVDs including Blu-ray HDTV discs and digital television broadcasting.
+
+His current research in systems biology is focused on the discovery and elucidation of "pan-cancer" biomolecular mechanisms shared by multiple cancer types and the associated potential diagnostic, prognostic and therapeutic applications.  
+ 
+ 
+Education
+
+1979 Ph.D., University of California, Berkeley
+1975 M.S., University of California, Berkeley
+1974 B.S., National Technical University of Athens, Greece
+
+ 
+ --------------------------- PUBLICATIONS BEGIN --------------------------- 
+Selected Recent Publications
+
+W.Y. Cheng, T.H. Ou Yang, H. Shen, P.W. Laird, D. Anastassiou and The Cancer Genome Atlas Research Network, "Multi-cancer molecular signatures and their interrelationships," preprint available at "http://arxiv.org/pdf/1306.2584v2.pdf, 2013. 
+
+W.Y. Cheng, T.H. Ou Yang and D. Anastassiou, "Development of a prognostic model for breast cancer survival in an open challenge environment," Science Translational Medicine, Vol. 5, Issue 181, p. 181ra50, April 2013. This research article describes the winning model of the Sage Bionetworks/DREAM Breast Cancer Prognosis Challenge, which is the cover story of the journal. The winning model is also summarized in NPG's Science-Business eXchange and featured in a Research Highlight in Nature Reviews Cancer, Vol. 13, June 2013.  
+
+W.Y. Cheng, T.H. Ou Yang and D. Anastassiou, "Biomolecular events in cancer revealed by attractor metagenes," PLoS Computational Biology, Vol. 9, Issue 2, February 2013. 
+
+A. Iliadis, D. Anastassiou and X. Wang, "Fast and accurate haplotype frequency estimation for large haplotype vectors from pooled DNA data," BMC Genetics, Vol. 13, Issue 94, pp. 312-25, October 2012. 
+
+A. Iliadis, D. Anastassiou and X. Wang, "A unified framework for haplotype inference in nuclear families," Annals of Human Genetics, Vol. 76, Issue 4, pp. 312-25, July 2012. 
+
+W.Y. Cheng, J.J. Kandel, D.J. Yamashiro, P. Canoll and D. Anastassiou, "A multi-cancer mesenchymal transition gene expression signature is associated with prolonged time to recurrence in glioblastoma," PLoS ONE, Vol. 7, Issue 4, April 2012. 
+
+B. Andreopoulos and D. Anastassiou, "Integrated Analysis Reveals hsa-miR-142 as a Representative of a Lymphocyte-Specific Gene Expression and Methylation Signature," Cancer Informatics, Vol. 11, pp. 61-75, March 2012.
+
+D. Anastassiou, "Universality of a mesenchymal transition signature in invasive solid cancers," Preprint available from Nature Precedings, February 2012.
+
+D. Anastassiou, V. Rumjantseva, W.Y. Cheng, J. Huang, P. Canoll, D.J. Yamashiro and J.J. Kandel, "Human cancer cells express Slug-based epithelial-mesenchymal transition gene expression signature obtained in vivo," BMC Cancer, Vol. 11, Issue 529, December 2011. [Highly accessed] 
+
+H. Kim, J. Watkinson and D. Anastassiou, "Biomarker Discovery
+Using Statistically Significant Gene Sets," Journal of Computational Biology, Vol. 18, No. 10, pp. 1329-1338, October 2011. 
+
+Y.H. Cheung, J. Watkinson and D. Anastassiou, "Conditional meta-analysis stratifying on detailed HLA genotypes identifies a novel type 1 diabetes locus around TCF19 in the MHC," Human Genetics, Vol. 129, No. 2, pp. 161-176, February 2011. 
+
+H. Kim, J. Watkinson, V. Varadan and D. Anastassiou, "Multi-cancer computational analysis reveals invasion-associated variant of desmoplastic reaction involving INHBA, THBS2 and COL11A1," BMC Medical Genomics, Vol. 3, Issue 51, November 2010. [Highly accessed]
+
+A. Iliadis, J. Watkinson, D. Anastassiou and X. Wang, "A haplotype inference algorithm for trios based on deterministic sampling," BMC Genetics, Vol. 11, Issue 78, August 2010.  
+
+J. Watkinson and D. Anastassiou, "Synergy Disequilibrium Plots: graphical visualization of pairwise synergies and redundancies of SNPs with respect to a phenotype" Bioinformatics, Vol. 25, No. 11, pp. 1445-1446, June 2009.
+
+J. Watkinson, K.C. Liang, X. Wang, T. Zheng and D. Anastassiou, "Inference of regulatory gene interactions from expression data using three-way mutual information," Annals of the New York Academy of Sciences, best performer in the DREAM2 "Genome Scale" network inference challenge, Vol. 1158, pp. 302-313, March 2009.
+
+K.C. Liang, X. Wang and D. Anastassiou, "A sequential Monte Carlo Method for Motif Discovery," IEEE Transactions on Signal Processing, Vol. 56, No. 9, pp. 4496-4507, September 2008. 
+
+J. Watkinson, X. Wang, T. Zheng and D. Anastassiou, "Identification of gene interactions associated with disease from gene expression data using synergy networks," BMC Systems Biology, Vol. 2, Issue 10, February 2008. [Highly accessed]
+
+K.C. Liang, X. Wang and D. Anastassiou, "A Profile-Based Deterministic Sequential Monte Carlo Algorithm for Motif Discovery," Bioinformatics, Vol. 24, Issue 1, January 2008, pp. 46-55. 
+
+K.C. Liang, X. Wang and D. Anastassiou, "Bayesian basecalling for DNA sequence analysis using hidden Markov models," ACM/IEEE Transactions on Computational Biology and Bioinformatics, Vol. 4, No. 3, July-September 2007, pp. 430-440.
+
+D. Anastassiou, "Computational Analysis of the Synergy Among Multiple Interacting Genes," Molecular Systems Biology, Vol. 3, No. 83, February 2007.
+
+V. Varadan, D. Miller III and D. Anastassiou, "Computational Inference of the Molecular Logic for Synaptic Connectivity in C. elegans," Bioinformatics, Vol. 22, Issue 14 – ISMB 2006, pp. e497-e506, July 2006.
+
+V. Varadan and D. Anastassiou, "Inference of Disease-Related Molecular Logic from Systems-Based Microarray Analysis," PLoS Computational Biology, Vol. 2, Issue 6, June 2006, pp. 585-597.
+
+D. Anastassiou, H. Liu and V. Varadan, "Variable Window Binding for Mutually Exclusive Alternative Splicing," Genome Biology, Vol. 7, Issue 1, pp. R2.1-R2.12, January 2006. [Highly accessed]
+
+
+ 
+More Publications
+Some publications (unrelated to biology) from a previous lifetime.
+ 
+ 
+ --------------------------- CONTENT END --------------------------- 
+ 
+
+
+
+
+
+Department of Electrical Engineering, 1328 S.W. Mudd
+500 West 120th Street, New York, NY 10027
+Phone: (212) 854-3105 Fax: (212) 932-9421
+
+
+
+ END 
+

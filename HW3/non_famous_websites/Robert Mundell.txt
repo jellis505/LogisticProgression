@@ -1,0 +1,204 @@
+HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd"Home Page of Robert Mundell
+  body {  font-size: 12pt; font-family: arial, verdana, helvetica }
+  p { font-size: 12pt; font-family: arial, verdana, helvetica }
+  .head { font-size: 18pt; color: #0000ff }
+  .size9 { font-size: 9pt }
+  .size8 { font-size: 8pt }
+ 
+
+
+
+
+          
+      
+
+          
+      
+
+
+          Welcome to Robert Mundell's Home Page 
+        
+
+
+
+
+
+
+
+
+
+
+more portraits
+
+
+
+1999 Nobel Laureate
+
+Nobel Lecture
+
+CEMA2000 Lecture
+
+
+
+                  Dept. of Economics 
+                  
+                  Columbia University 
+                  
+                  New York, NY10027 
+                  
+                  U.S.A. 
+                
+
+                  Tel: (212) 854 3669 
+                  
+                  Fax: (212) 854 8059 
+                  
+ram15@columbia.edu
+
+
+C.V.
+
+
+Bibliography
+
+
+ Start of TheCounter.com Code 
+
+s="na";c="na";j="na";f=""+escape(document.referrer)
+
+
+s=screen.width;v=navigator.appName
+if (v != "Netscape") {c=screen.colorDepth}
+else {c=screen.pixelDepth}
+j=navigator.javaEnabled()
+
+
+function pr(n) {document.write(n,"\n");}
+NS2Ch=0
+if (navigator.appName == "Netscape" &&
+navigator.appVersion.charAt(0) == "2") {NS2Ch=1}
+if (NS2Ch == 0) {
+r="&size="+s+"&colors="+c+"&referer="+f+"&java="+j+""
+pr("<A HREF=\"http://www.TheCounter.com\" TARGET=\"_top\"><IMG"+
+" BORDER=0 SRC=\"http://c2.thecounter.com/id=1113897"+r+"\"><\/A>")}
+
+
+
+ End of TheCounter.com Code 
+
+
+
+
+
+
+          
+      
+
+
+
+
+
+
+
+ Thumbnails with hyperlinks 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Thumbnails with hyperlinks 
+
+
+Bob and Nicholas
+
+
+Nicholas at 10 months
+
+
+Nicholas at 1 1/2
+
+
+Nicholas at 2 1/2
+
+
+
+ Thumbnails with hyperlinks 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Thumbnails with hyperlinks 
+
+
+Alex and Horse
+
+
+The Family
+
+
+Valerie and Nicholas (1)
+
+
+Valerie and Nicholas (2)
+
+
+
+
+
+
+
+
+
+Major Works
+
+
+                Selections of my writings are split up into the four categories listed below. The titles of the publications are already there, and the complete articles or chapters will become available as they are digitalized. 
+              
+
+
+International Economics
+
+                  Monetary Theory 
+                
+Other Articles on Theory
+
+Recent Policy Essays
+
+
+Other Websites of Interests
+
+
+
+International Monetary Fund
+
+World Bank
+
+Polyconomics
+
+
+Please also visit The works of Robert A. Mundell.
+
+
+
+
+
+
+
+

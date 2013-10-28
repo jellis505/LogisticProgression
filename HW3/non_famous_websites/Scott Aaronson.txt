@@ -1,0 +1,75 @@
+html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" change this meta information as appropriate MIT EECS Faculty -  EECS Faculty webpages - AaronsonMIT EECS Faculty websites - Aaronson
+
+
+
+
+
+
+
+
+
+    Professor Scott Aaronson
+
+
+
+
+    Affiliated lab(s): CSAIL
+ 
+
+
+email: aaronson@csail.mit.edu
+ 
+
+
+phone: (617) 324-8356
+ 
+
+
+address: MIT Stata Center, 32-G638
+
+
+
+title:  TIBCO Career Development Associate Professor 
+ 
+
+
+url: 
+ 
+
+
+http://www.csail.mit.edu/user/1324
+
+
+ 
+research interests:
+ 
+
+
+ 
+ 
+
+
+
+Computational complexity, quantum computing. 
+
+
+
+ 
+
+Faculty Gallery | Faculty site | EECS | MIT campus maps 
+ 
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+

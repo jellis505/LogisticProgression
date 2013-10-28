@@ -1,0 +1,138 @@
+html PUBLIC "-//w3c//dtd html 4.0 transitional//en"ChalfieHome Page for Marty Chalfie's Lab
+
+
+
+Martin Chalfie
+Columbia University
+Biological Sciences
+1012 Fairchild Center, M.C. 2446
+New York, N.Y. 10027
+212-854-8870
+mc21@columbia.edu
+Neurolunch Schedule |
+Go to Chalfie
+HomePage
+Return
+to Biology HomePage
+We are using the nematode
+Caenorhabditis elegans
+to investigate aspects of nerve cell development and function. The wealth
+of developmental, anatomical, genetic, and molecular information available
+for
+C. elegans provides a powerful and multifaceted approach to
+these studies. Our work has focused on the study of a set of six neurons
+that are the sensory receptors for gentle touch (the touch cells), to address
+two questions: 1) How is neuronal cell fate determined? and 2) What is
+the molecular basis of mechanosensation, a sensory modality that underlies
+a variety of senses(e.g., touch, hearing, and balance)? We also work on
+neuronal degeneration, microtubule structure and function, channel structure
+and function, and, most recently, synapse specification and aging. Facilitating
+these studies is the development of new experimental methods, such as green
+fluorescent protein as a gene and protein marker and a novel method to
+generate subtractive cDNA libraries.
+We initially approached touch cell development by mutational
+analysis, obtaining more than 500 mutations (in 17 genes) that produce
+a touch insensitive phenotype. These touch genes are needed for the generation,
+specification, maintenance, and function of the cells. The first three
+groups contain genes that regulate touch cell development, and the last
+group (function) contains genes that are developmental targets of this
+regulation. Many of the genes that regulate touch cell differentiation
+are transcription factors. In addition we have identified seven other genes
+that in combination with these genes specify the number and differentiation
+of the touch cells. Twelve touch genes are needed for touch cell function.
+The cloning and characterization of these genes have provided the first
+molecular model for eukaryotic mechanosensation. In this model a channel
+similar to the epithelial sodium channel in vertebrates is attached to
+the extracellular matrix via an extracellular gating domain on the channel
+and is attached intracellularly to a unique form of the microtubule. An
+implication of this dual tethering is that the channel could be deformed
+(and opened) by displacement of the microtubules by the touch stimulus.
+We are currently testing the predictions of this model, biochemically and
+electrophysiologically. In addition, we have recently developed methods
+to quantify the forces needed to stimulate the touch cells, which we are
+adapting to look for mutants that are supersensitive to touch.
+The unc-4 gene encodes a homeodomain transcription
+factor needed for the formation of specific interneuron synapses onto a
+single class of C. elegans motor neurons. We have identified several genes
+whose expression is reduced in unc-4 animals using a new subtractive library
+method. Our working hypothesis is that these genes, several of which encode
+membrane or secreted proteins, permit appropriate synapse formation, prevent
+inappropriate synapse formation, or mature or maintain appropriate synapses
+once they have formed.
+The subtractive library method serendipitously allowed
+us to identify a mutation in a C. elegans catalase gene. Unlike
+previously known animal catalases, the product of this gene is not localized
+to peroxisomes, but is found throughout the cytosol. We have shown that
+this catalase is needed for the increase in adult life-span seen in several
+C. elegans mutants, suggesting that oxidative damage is an important
+factor in organismal aging. We are currently searching for other mutants
+that affect life-span in C. elegans.
+
+Representative Publications
+J. Wu, A. Duggan, and M. Chalfie (2001) Inhibition of
+touch cell fate by egl-44 and egl-46
+in C. elegans.  Genes Develop. 15: 789-802.
+
+H. Du and M. Chalfie (2001) Genes regulating touch cell
+development in C. elegans. Genetics 158: 197-207.
+Taub J., Lau, J. F., Ma, C., Hahn, J. H., Hoque, R., Rothblatt,
+J., and Chalfie M. (1999) A cytosolic catalase is needed to extend
+adult life-span in C. elegans daf-c and clk-1 mutants. Nature
+399: 162-166. Abstract
+Duggan, A., Ma, C., and Chalfie, M. (1998) Regulation
+of touch receptor differentiation by the
+C. elegans mec-3 and unc-86
+genes. Development 125: 4107-4119. Abstract
+Hall, D. H., Gu, G., Garcma-Aqoveros, J., Gong, L., Chalfie,
+M., and Driscoll, M. (1997) Neuropathology of degenerative cell death
+in C. elegans. J. Neurosci. 17: 1033-1045. Abstract
+Gu, G., Caldwell, G.A. & Chalfie, M. (1996)
+Genetic interactions affecting touch sensitivity in Caenorhabditis elegans.
+Proc. Natl. Acad. Sci. 93:6577-6582.Abstract
+Du, H., Gu, G., William, C.M. & Chalfie, M.
+(1996) Extracellular proteins needed for C. elegans mechanosensation. Neuron
+16:183-194.Abstract
+Garcia-Anoveros, J., Ma, C. and Chalfie, M. (1995)
+An extracellular domain regulates degenerin channel activity. Curr. Biol.
+5:441-448.Abstract
+Chalfie, M., Tu, Y., Euskirchen, G., Ward, W.W.,
+and Prasher, D.C. (1994) Green fluorescent protein as a marker for gene
+expression. Science 263:802-805.Abstract
+Huang, M., and Chalfie, M. (1994) Gene interactions
+affecting mechanosensory transduction in Caenorhabditis elegans. Nature
+367:467-470.Abstract
+Savage, C., Xue, Y., Mitani, S., Hall, D., Zakhary, R.
+&
+Chalfie, M. (1994) Mutations in the Caenorhabditis elegans
+beta-tubulin gene mec-7: effects on microtubule assembly and stability
+and on tubulin autoregulation. J. Cell. Sci. 107:2165-2175.
+Abstract
+Xue, D., Tu, Y. and Chalfie, M. (1993) Cooperative
+interaction between the C. elegans homeoproteins UNC-86 and MEC-3. Science
+261:1324-1328.Abstract
+Mitani, S., Du, H., Hall, D.H., Driscoll, M., and Chalfie,
+M. (1993) Combinatorial control of touch receptor neuron expression
+in Caenorhabditis elegans. Development 119:773-783.Abstract
+Driscoll, M. and Chalfie, M. (1991) The mec-4 gene
+is a member of a family of Caenorhabditis elegans genes that can mutate
+to induce neuronal degeneration. Nature 349:588-593.Abstract
+Chalfie, M. and Au, M. (1989) Genetic control of
+differentiation of the C. elegans touch receptor neurons. Science 243:1027-1033Abstract
+
+Courses Taught:
+
+
+Course Number 
+Title 
+
+
+W3032
+Genetics 
+
+
+
+Lab
+Members
+Back to the top | MedLine
+List of Chalfie's Publications | Return
+to Biology Homepage

@@ -1,0 +1,317 @@
+html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"About â€” Texas A&M University Institute for Advanced Study
+        jQuery(function($){
+            $.datepicker.setDefaults(
+                jQuery.extend($.datepicker.regional[''],
+                {dateFormat: 'mm/dd/yy'}));
+        });
+        
+
+    
+        
+        
+    
+    
+
+    HomeAboutFaculty FellowsLecture Series
+
+    
+
+        
+
+            
+
+
+            
+                
+
+                    
+
+                    
+
+    Info
+        
+    
+
+                            
+
+                            
+
+                             
+                             
+                                 
+                                 
+            
+                
+                    About
+                
+            
+            
+        
+                             
+                             
+
+
+                             
+                                 
+                                 
+            
+                
+            
+            
+        
+                             
+
+                             
+
+
+                             
+                                 
+    
+        
+        
+            
+The Texas A&M University Institute for Advanced Study (TIAS) provides a catalyst to enrich the intellectual climate and educational experiences at Texas A&M. It is a mechanism for attracting world-class talent to the University and is driven by nominations of National Academy and Nobel-prize caliber researchers that align with existing strengths and ambitions of the University. Each year TIAS invites a number of nationally and internationally prominent Faculty Fellows to pursue advanced study at TIAS in collaboration with faculty and student scholars at Texas A&M. The goal is to provide a stellar environment for research and scholarship with the Faculty Fellows having freedom to pursue their own research interests, as well as collaborate in disciplinary and multidisciplinary research. Each Faculty Fellow affiliates with one or more of the 70 doctoral degree granting academic departments housed in 10 colleges at Texas A&M. Additional resources provide Texas A&M fellowships for graduate students, as well as fund visiting graduate students and post-doctoral researchers affiliated with the Faculty Fellows.
+The Institute aims to enrich the educational experience and advance research productivity by combining the resources of a major tier-one research institution with distinguished faculty, which will deepen the intellectual climate throughout the state of Texas and beyond.
+The Texas A&M University System Board of Regents established (A&M System Board of Regents Minute Order, p.  19) TIAS in December 2010.Â The wide-ranging areas of advanced studies in TIAS include, but  are not limited to, architecture; arts, humanities, and social sciences;  business; education; engineering; physical, geophysical, agricultural,  and life sciences; public and foreign policy; and multiple disciplines.
+            
+        
+    
+    
+
+                             
+                             
+
+
+
+     
+
+    
+        
+
+        
+
+    
+
+
+                            
+                        
+                    
+
+                    
+                
+            
+
+            
+
+
+
+
+
+
+        
+
+        
+        
+
+        
+            
+                
+
+
+        
+        About
+        
+    
+
+    
+        
+
+    
+
+
+        
+            
+            Contact Us
+        
+
+    
+    
+
+
+
+
+
+    
+
+
+        
+            
+            News
+        
+
+    
+    
+
+
+
+
+
+    
+
+
+        
+            
+            Texas A&M Faculty
+        
+
+    
+    
+
+
+
+
+
+    
+
+
+        
+            
+            TIAS Administrative Council
+        
+
+    
+    
+
+
+
+
+
+    
+
+
+        
+            
+            TIAS Advisory Board
+        
+
+    
+    
+
+
+
+
+
+    
+
+
+        
+            TIAS Electorate
+        
+
+    
+    
+
+
+
+
+
+    
+
+
+        
+            
+            Scholarly Leaders on TIAS
+        
+
+    
+    
+
+
+
+
+
+    
+
+
+        
+            
+            Welcome
+        
+
+    
+    
+
+
+
+
+
+        
+        
+    
+
+
+
+
+
+            
+        
+        
+    
+
+    
+        
+        
+
+    You
+are here:
+    
+        Home
+        
+            â€º
+            
+        
+    
+    
+        
+            
+            
+            About
+         
+    
+
+
+        
+            
+            
+            
+            
+        
+    
+
+    
+        Â©2012 Texas A&M University
+        Division of Research
+        | Privacy & Security
+        | Contact Us
+        | Site Map
+    
+
+
+    State of Texas
+    | Compact With Texans
+    | Legal Notices
+    | Statewide Search
+    | Accessibility Policy
+ Status:OK 
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-28311776-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+
