@@ -5,7 +5,9 @@
 # Logistic Progression 
 # Natural Language Processing, Machine Learning, and the Web
 
-import sys, os
+import os
+import sys
+
 # Append the path to the FreeBase Module I created
 sys.path.append("FreeBase")
 from pyFreeBase import FreeBase
@@ -80,7 +82,7 @@ if __name__ == "__main__":
         g_day,g_month,g_year = SeperateDate(bday)
         result = free_base.GetQuery(name)
         month, day, year = free_base.GetBirthday(result)
-        error = GetDayError((g_month,g_day,g_year),(month,day,year))
+        error = GetDayError((g_month, g_day,g_year),(month,day,year))
         error_days.append(error)
         
         # Count up to see the number of correct and the number of errors
@@ -90,14 +92,5 @@ if __name__ == "__main__":
             missed += 1
     
     # Output the results to the screen
-    print "We correctly found %d birthdays out of %d for %f accuracy" % (correct, correct+missed, correct/float(correct+missed))
-    print "The total number of days in error was: %d", sum(error_days) 
-    
-        
-        
-        
-        
-    
-    
-    
-    
+    print "We correctly found %d birthdays out of %d for %f accuracy" % (correct, correct + missed, correct / float(correct + missed))
+    print "The total number of days in error was: %d" % sum(error_days)

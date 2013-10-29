@@ -136,7 +136,7 @@ if __name__ == "__main__":
     #DownloadWebpage(edu_links,query)
     
     # This file holds all of the errors and queries that for some reason don't work
-    g = open("errors_downloading.txt","w");
+    g = open("errors_downloading.txt","w")
     
     # Now this function will download and find the bio pages for everyone
     # in our list
@@ -146,7 +146,7 @@ if __name__ == "__main__":
         lines = [line.rstrip("\n") for line in raw_lines]
         for query in lines:
             
-            # We want to keep going even if we have som eerror
+            # We want to keep going even if we have some error
             try:
                 links = getgooglelinks(query)
                 edu_links = ReturnHomepage(links)
@@ -154,6 +154,6 @@ if __name__ == "__main__":
             except:
                 g.write(query)
                 g.write("\n")
-            print "Waiting 10 seconds"
+            print "Waiting 2 seconds"
             time.sleep(2)
     
