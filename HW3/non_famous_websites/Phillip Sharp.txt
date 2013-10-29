@@ -1,5 +1,4 @@
-doctype PUBLIC "-//w3c//dtd html 4.0 transitional//en"Phil Sharp's Lab - Home
-<!--
+html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" InstanceBegin template="/Templates/sharplab.dwt" codeOutsideHTMLIsLocked="false"  InstanceBeginEditable name="doctitle" Phil Sharp's Lab - Bio InstanceEndEditable  InstanceBeginEditable name="head" 
 <!-- Hide from old browsers
 var NN3 = false;
 image1= new Image();
@@ -15,9 +14,9 @@ image3.src = "Splitgene3.2.jpg";
 image3on = new Image();
 image3on.src = "Splitgene3.2inverse.jpg";
 image4= new Image();
-image4.src = "Splitgene4.2.jpg";
+image4.src = "Splitgene6.2.jpg";
 image4on = new Image();
-image4on.src = "Splitgene4.2inverse.jpg";
+image4on.src = "Splitgene6.2inverse.jpg";
 image5= new Image();
 image5.src = "mcbrain.jpg";
 image5on = new Image();
@@ -38,32 +37,68 @@ function off(name)  {
         if (NN3) off3(name);
 }
 // -->
-
-function MM_preloadImages() { //v3.0
-  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
-    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
-    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
-}
-//-->
-
-<!--
-a:link {
-	color: #600;
-	text-decoration: none;
-}
-a:visited {
-	text-decoration: none;
-}
-a:hover {
-	text-decoration: none;
-}
-a:active {
-	text-decoration: none;
-}
--->
+ InstanceEndEditable  InstanceParam name="Side Menu" type="boolean" value="true" 
 
 
 
+
+
+ InstanceBeginEditable name="Image"  InstanceEndEditable 
+
+ 
+
+
+
+
+ Home        
+ Research      
+
+Summary
+Lab Member's Research
+Publications
+Supplementary Data
+
+
+ People       
+
+Lab Members 
+Alumni/ae Links
+
+
+ In the News      
+ Phil Sharp      
+
+General Information
+CV
+Short Biography
+Nobel Prize
+
+
+ Gallery      
+
+Gallery Home
+P-Day
+30th Reunion
+CCR Reunion 2010
+Lab Pictures
+MIT 150 Exhibition
+
+
+ Resources       
+
+Site Map
+Useful Links
+KI Core Facilities
+Calendar
+Newcomer Guide
+Reagent Request
+Contact Info
+
+
+
+
+
+ InstanceBeginEditable name="content" 
 
 
 
@@ -74,9 +109,29 @@ a:active {
 
 
 
-(Media Lab Atrium, 20-Year Sharp Lab 
-        Reunion, June 6th, 1994)
- (Stata Center, 30-Year Sharp Lab Reunion, June, 2004)
+
+
+         Mailing Address: 
+  Phillip A. Sharp, Ph.D.  
+         Institute Professor
+            
+            Koch Institute for Integrative Cancer Research  
+            Room 76-461A 
+         Massachusetts Institute of Technology
+                 
+         77 Massachusetts Avenue (or 500 Main Street 
+           for  express mail or courier service) 
+           Cambridge, MA  02139-4307 
+Telephone: 617-253-6421 
+         Fax: 617-253-3867 
+         Email: sharppa@mit.edu
+
+
+
+
+
+ InstanceEndEditable 
+ InstanceBeginEditable name="EditRegion4" 
 
 
 
@@ -84,26 +139,21 @@ a:active {
 
 
 
-WE HAVE MOVED - NEW MAILING ADDRESS:  The Koch Institute for Integrative Cancer Research, 77 Massachusetts Avenue, Cambridge, MA 02139 / Mail stop: 76-461
-
-
-
-
-Enter the Sharp Lab Website
 
 
 
 
 
+ InstanceEndEditable 
 
 
- 
-This is the original homepage of the Sharp Lab,  designed in 2000 by John Langrill and Margarita Siafaca.
-The current site was designed and conceived by Mary Lindstrom and Margarita Siafaca.
-This site is maintained by Mary Lindstrom.
-This page has been visited  times.
 
 
+
+
+ InstanceBeginEditable name="footer" 
+
+ InstanceEndEditable 
 
 
 
@@ -117,4 +167,6 @@ document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.
 var pageTracker = _gat._getTracker("UA-4298356-2");
 pageTracker._initData();
 pageTracker._trackPageview();
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"../SpryAssets/SpryMenuBarDownHover.gif", imgRight:"../SpryAssets/SpryMenuBarRightHover.gif"});
 
+ InstanceEnd 

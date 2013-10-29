@@ -1,4 +1,4 @@
-html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"About â€” Texas A&M University Institute for Advanced Study
+html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"Dr. Katepalli R. Sreenivasan — Texas A&M University Institute for Advanced Study
         jQuery(function($){
             $.datepicker.setDefaults(
                 jQuery.extend($.datepicker.regional[''],
@@ -6,298 +6,161 @@ html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml
         });
         
 
-    
-        
-        
-    
-    
-
-    HomeAboutFaculty FellowsLecture Series
-
-    
-
-        
-
-            
-
-
-            
-                
-
-                    
-
-                    
-
-    Info
-        
-    
-
-                            
-
-                            
-
-                             
-                             
-                                 
-                                 
-            
-                
-                    About
-                
-            
-            
-        
-                             
-                             
-
-
-                             
-                                 
-                                 
-            
-                
-            
-            
-        
-                             
-
-                             
-
-
-                             
-                                 
-    
-        
-        
-            
-The Texas A&M University Institute for Advanced Study (TIAS) provides a catalyst to enrich the intellectual climate and educational experiences at Texas A&M. It is a mechanism for attracting world-class talent to the University and is driven by nominations of National Academy and Nobel-prize caliber researchers that align with existing strengths and ambitions of the University. Each year TIAS invites a number of nationally and internationally prominent Faculty Fellows to pursue advanced study at TIAS in collaboration with faculty and student scholars at Texas A&M. The goal is to provide a stellar environment for research and scholarship with the Faculty Fellows having freedom to pursue their own research interests, as well as collaborate in disciplinary and multidisciplinary research. Each Faculty Fellow affiliates with one or more of the 70 doctoral degree granting academic departments housed in 10 colleges at Texas A&M. Additional resources provide Texas A&M fellowships for graduate students, as well as fund visiting graduate students and post-doctoral researchers affiliated with the Faculty Fellows.
-The Institute aims to enrich the educational experience and advance research productivity by combining the resources of a major tier-one research institution with distinguished faculty, which will deepen the intellectual climate throughout the state of Texas and beyond.
-The Texas A&M University System Board of Regents established (A&M System Board of Regents Minute Order, p.  19) TIAS in December 2010.Â The wide-ranging areas of advanced studies in TIAS include, but  are not limited to, architecture; arts, humanities, and social sciences;  business; education; engineering; physical, geophysical, agricultural,  and life sciences; public and foreign policy; and multiple disciplines.
-            
-        
-    
-    
-
-                             
-                             
 
 
 
-     
 
-    
-        
-
-        
-
-    
-
-
-                            
-                        
-                    
-
-                    
-                
-            
-
-            
+HomeAboutFaculty FellowsLecture Series
 
 
 
 
 
+Info
 
-        
 
-        
-        
 
-        
-            
+
+                    Dr. Katepalli R. Sreenivasan
                 
 
 
-        
-        About
-        
-    
 
-    
-        
 
-    
 
 
-        
-            
-            Contact Us
-        
+Katepalli R. Sreenivasan is senior vice provost for science/technology for the Global Network University, and provost for the Polytechnic Institute of New York University (NYU). He is also university professor, Department of Physics at the Courant Institute of Mathematical Sciences at NYU. Sreenivasan was previously director of the International Centre for Theoretical Physics (Trieste, Italy), distinguished university professor and professor of physics and engineering at the University of Maryland, and director of the Institute for Physical Science and Technology. Sreenivasan is a member of the National Academy of Sciences and the National Academy of Engineering, and is a Fellow of the American Academy of Arts and Sciences. He plays a significant role in the planning and development of NYU as a Global Network University.
+ 
+Sreenivasan earned his bachelor’s in mechanical engineering from Bangalore University, India, in 1968, and both his master’s and doctorate in aeronautical engineering from the Indian Institute of Science in 1970 and 1975, respectively.
+ 
+He is an international leader on the nature of turbulent flows, including experiment, theory, and simulations; his expertise crosses the boundaries of physics, engineering, and mathematics. 
+ 
+His honors include the Guggenheim Fellowship, the Otto Laporte Memorial Award of American Physical Society, the TWAS Medal Lecture in Engineering Science, the Distinguished Alumnus Award and the Centennial Professorship of the Indian Institute of Science, the Sir C.V. Raman Visiting Professorship of the Indian Academy of Sciences, the International Prize and Gold Medal in memory of Professors Modesto Panetti and Carlo Ferrari, the Academia delle Scienze di Torino, Italy, the National Order of Scientific Merit by the Brazilian Government and the Academy of Sciences, the UNESCO Medal for Promoting International Scientific Cooperation and World Peace from the World Heritage Centre, Florence, Italy, the President Dr. Zakir Husain Memorial Award from the Duty Society and the Indian Society of Applied and Industrial Mathematics, an honorary member, Academia Torre e Tasso, Duino-Aurisina, Trieste, Italy, the Melvin Jones Fellow of the Lions Club (for humanitarian service), the Dwight Nicholson Medal of the American Physical Society for human outreach, and the 2009 Nusselt-Reynolds Prize from the Assembly of World Conference on Experimental Heat Transfer, Fluid Mechanics, and Thermodynamics. Sreenivasan has delivered a number of named lectures, is a fellow of several learned societies, and the recipient of three honorary doctorates.
+ 
+Sreenivasan is the author of more than 240 research papers and has served the scientific community in several capacities, in both official and scholarly capacities. He has been instrumental in creating new entities such as the Topical Group in Statistical and Nonlinear Physics of the American Physical Society. He is interested in human rights, especially as they apply to scientists, and presently holds a unique position with respect to international science and science policy, especially in developing countries.
+ 
+Sreenivasan will collaborate with Diego Donzis, assistant professor of aerospace engineering; Devesh Ranjan, assistant professor of mechanical engineering; and Adonios Karpetis, associate professor of aerospace engineering, in the Dwight Look College Engineering as well as several faculty members from the College of Science.
 
-    
-    
 
 
+ 
 
 
 
-    
 
 
-        
-            
-            News
-        
 
-    
-    
 
 
 
 
 
-    
 
+Faculty Fellows
 
-        
-            
-            Texas A&M Faculty
-        
 
-    
-    
 
 
 
+Faculty Fellows 2014-2015 Call for Nominations
 
 
-    
 
 
-        
-            
-            TIAS Administrative Council
-        
+ TIAS 2014-2015 Call for Nominations
 
-    
-    
 
 
 
+ TIAS 2014-2015 Nomination Form
 
 
-    
 
 
-        
-            
-            TIAS Advisory Board
-        
+2012-2013
 
-    
-    
 
 
+Dr. Jay C. Dunlap
 
 
 
-    
 
+Dr. Peter S. Liss
 
-        
-            TIAS Electorate
-        
 
-    
-    
 
 
+Dr. Alan Needleman
 
 
 
-    
 
+Dr. Aleda V. Roth
 
-        
-            
-            Scholarly Leaders on TIAS
-        
 
-    
-    
 
 
+Dr. Vernon L. Smith
 
 
 
-    
 
+Dr. Katepalli R. Sreenivasan
 
-        
-            
-            Welcome
-        
 
-    
-    
 
 
 
 
 
-        
-        
-    
 
 
 
 
-
-            
-        
-        
-    
-
-    
-        
-        
-
-    You
+You
 are here:
-    
-        Home
-        
-            â€º
+
+Home
+
+            ›
             
         
-    
-    
-        
-            
-            
-            About
-         
-    
 
 
-        
-            
-            
-            
-            
-        
-    
+Faculty Fellows
 
-    
-        Â©2012 Texas A&M University
-        Division of Research
+                ›
+                
+            
+
+
+2012-2013
+
+                ›
+                
+            
+
+
+Dr. Katepalli R. Sreenivasan
+
+
+
+
+
+
+
+
+
+
+©2012 Texas A&M University
+Division of Research
         | Privacy & Security
         | Contact Us
         | Site Map
-    
 
 
-    State of Texas
+State of Texas
     | Compact With Texans
     | Legal Notices
     | Statewide Search
@@ -313,5 +176,4 @@ are here:
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
-
 

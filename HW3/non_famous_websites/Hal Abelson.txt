@@ -1,4 +1,108 @@
-Hal Abelson's Home Page
+Hal Abelson
+
+Massachusetts Institute of Technology
+Department of Electrical Engineering and Computer Science
+ Hal Abelson
+ 
+<a xmlns:sioc="http://rdfs.org/sioc/ns#" rel="sioc:has_owner" href="https://creativecommons.net/hal"><img src="http://i.creativecommons.net/p/hal/80x15/" style="border:0px;" /></a>
+ 
+
+Portrait by  Joi
+Ito
+ 
+<p align="center" style="background: yellow">Hal is away for the month
+of January, 2005.  <a href="misc/vacation.html">Look here</a> for
+information on how to contact him.</p>
+ 
+
+Hal Abelson is Class of 1922 Professor of Computer Science and
+Engineering
+in the
+
+Department of Electrical Engineering and Computer Science
+at
+MIT.
 
 
-Redirecting to  http://groups.csail.mit.edu/mac/users/hal
+Hal Abelson
+MIT Computer Science and Artificial Intelligence Laboratory
+Room 386, The Stata Center
+32 Vassar Street
+Cambridge, MA 02139
+Phone: (617) 253-5856
+Fax: (617) 258-8682
+Email: hal at MIT dot edu
+
+MIT students interested in UROPs with me for fall 2013 should do this in
+    conjunction with 6.S198.  You don't need to formally register for
+    the course, but you should attend the meetings and the labs.  See
+    the 6.S198 home page and fill out the
+    Web form on that page, indicating that you are interested in a UROP.
+
+
+     Stodgy biography for public consumption.
+
+Wikipedia entry
+What I'm doing these days
+Selected publications
+Obligatory baby picture
+
+Various:
+
+
+My July 2013 report to MIT's president on 
+MIT and the prosecution of Aaron Swartz.
+
+
+
+Paper on information accountability in 
+CACM, June 08.  This link is restricted, and is an example of ACM's
+refusal to practice open-access publishing.
+Here's an open link to a prepublication draft.
+
+
+My book Blown to Bits,
+with Harry Lewis and Ken Ledeen, June 2008.
+
+
+Student final presentations from my mobile applications course in Spring 2008
+and Fall 2008.
+
+
+A 
+blushingly positive review of my keynote award talk at the 2012
+ACM SIGCSE conference.
+
+
+Everyone interested in university education should read Edwin Land's
+1957 speech Generation of
+Greatness.
+
+An on-line
+version of Structure and Interpretation of Computer
+Programs, and also a complete series of video lectures,
+made in 1986, of Gerry Sussman and me teaching the course.
+
+Some old phonograph records
+Microsoft's first explicit
+anti-GNU/Linux ad, which appeared in the October 23, 2000, issue of the
+German language magazine c't.
+
+Dr. Who at the Stata Center
+
+
+
+Creative Commons License
+
+Material on this web page is licensed under a Creative Commons Attribution 2.5  License.
+/Creative Commons License
+ <rdf:RDF xmlns="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<Work rdf:about="">
+		<license rdf:resource="http://creativecommons.org/licenses/by/2.5/" />
+	</Work>
+	<License rdf:about="http://creativecommons.org/licenses/by/2.5/"><permits rdf:resource="http://web.resource.org/cc/Reproduction"/><permits rdf:resource="http://web.resource.org/cc/Distribution"/><requires rdf:resource="http://web.resource.org/cc/Notice"/><requires rdf:resource="http://web.resource.org/cc/Attribution"/><permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/></License></rdf:RDF> 
+
+
+Last modified: September 13 2013, 10:21 PM
+
+

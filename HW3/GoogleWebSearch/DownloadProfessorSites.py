@@ -69,8 +69,16 @@ def ReturnHomepage(links):
 
 def DownloadWebpage(edu_links,query):
     # This will download and write out the webpage of the dude we want
+
+    # Remove all links with wikipedia
+    links = edu_links
+    good_links = []
+    for link in links:
+        if link.find("wikipedia") != -1:
+            good_links.append(link)
+
     low_length = 1000
-    for link in edu_links:
+    for link in good_links:
         if len(link) < low_length:
             link_to_use = link
             low_length = len(link)
@@ -103,20 +111,26 @@ def DownloadWebpage(edu_links,query):
         if link.string is not None:
             if link.string.lower() in bio_link_names:
                 bio_link = link["href"]
+                print bio_link[0:2]
+                if bio_link[0:2] != "htt" and (bio_link.find(".pdf") != -1):
+                    bio_link = link_to_use + bio_link
                 break
             
     # Now if we have a bio link then let's just download that link instead of the homepage
     if bio_link:
-        # This gets the html files available
-        req = urllib2.Request(bio_link,None)
-        resp = urllib2.urlopen(req)
-        html_content = resp.read()
-    
-        # Now let's clean up these files
-        soup1 = BeautifulSoup(html_content, 'html5lib')
-        text = soup1.get_text()
-        str_text = text.encode('utf-8')
-        print "Downloading: ", bio_link
+        try:
+            # This gets the html files available
+            req = urllib2.Request(bio_link,None)
+            resp = urllib2.urlopen(req)
+            html_content = resp.read()
+
+            # Now let's clean up these files
+            soup1 = BeautifulSoup(html_content, 'html5lib')
+            text = soup1.get_text()
+            str_text = text.encode('utf-8')
+            print "Downloading: ", bio_link
+        except:
+            print "Downloading", link_to_use
     else:
         print "Downloading: ", link_to_use
         
@@ -154,6 +168,7 @@ if __name__ == "__main__":
             except:
                 g.write(query)
                 g.write("\n")
+                raw_input("Press Enter")
             print "Waiting 2 seconds"
             time.sleep(2)
     
