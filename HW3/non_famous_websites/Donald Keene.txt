@@ -1,0 +1,201 @@
+html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd" InstanceBegin template="/Templates/interior_page.dwt" codeOutsideHTMLIsLocked="false"  InstanceBeginEditable name="doctitle" Donald Keene Center of Japanese Culture InstanceEndEditable  Meta-Tags  Stylesheets: Screen, Projection [if IE 6]>
+      <script src="javascripts/ie.pngfix.js" type="text/javascript"></script>
+      <script>DD_belatedPNG.fix('li, #logo a, #main, #preview, .post-data span, blockquote, .lightbox-image, .dropcap-circle, .breadcrumbs span.info');</script>
+      <style>li, #footer .nav li a, #sidebar .nav li a {zoom:1}</style>
+    <![endif][if lt IE 9]>
+      <style>#showcase .rounded-corners-top, #showcase .rounded-corners-bottom {display: none}</style>
+    <![endif] jQuery  Cufon  Nivo Slider  Fancybox 
+    <link href="plugins/fancybox/jquery.fancybox-1.3.1.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <script src="plugins/fancybox/jquery.fancybox-1.3.1.pack.js" type="text/javascript"></script>
+     prettyPhoto  Superfish  Forms  Custom JavaScript  InstanceBeginEditable name="head"  InstanceEndEditable 
+
+
+
+
+Donald Keene Center
+
+
+ABOUT
+
+Mission & History
+Donald Keene
+Staff
+Support
+Links
+
+
+EVENTS
+
+Current
+2012
+2011
+2010
+2009
+2008
+2007
+2006
+2005
+2004
+2003
+2002
+2001
+2000
+1999
+1998
+1997
+1996
+
+
+EXHIBITS
+
+Godzilla
+
+Godzilla Room 1
+Godzilla Room 2
+Godzilla Room 3
+
+Chushingura
+
+Chushingura Part 1
+Chushingura Part 2
+Chushingura Part 3
+Chushingura Part 4
+
+
+
+SEN LECTURES
+
+2012
+2011
+2010
+2009
+2008
+2007
+2006
+2005
+2004
+2003
+2002
+2001
+2000
+1996
+
+
+PROGRAMS
+
+Fellowships
+Translation Prize
+Keene Prize
+Visiting Fellows Program
+Ichiro Shirato Fund
+
+
+ Japanese menu link <li class="last"><a href="../index_jp.html">&#26085;&#26412;&#35486;</a></li>
+
+ END .nav 
+
+ END .wrapper 
+
+ END #header 
+
+
+          Put a cool and catchy slogan in here to make your newly purchased Template more interesting!
+        
+
+
+
+
+
+ InstanceBeginEditable name="body" 
+Mission & History
+Founded in 1986 at Columbia University, the Donald Keene Center of   Japanese Culture is named in honor of Professor Donald Keene,   internationally   	renowned scholar, Columbia University teacher, and interpreter of   Japanese   	literature and culture to the West. The Center is dedicated to   advancing the   	understanding of Japan and its culture in the United States through   	university instruction, research, and public education. In addition,   the   	Center seeks to encourage study of the interrelationships among the   cultures   	of Japan, other Asian countries, Europe, and the United States.
+Cultural & Educational Events
+The Donald Keene Center arranges and hosts numerous events throughout the   	academic year, inviting leading Japanese and non-Japanese scholars, writers,   	artists, performers, and other Japan specialists to Columbia University. Its many informal lectures and discussions permit casual interaction with prominent Japanese cultural figures, and its more formal lectures provide one of the few settings for introducing such figures to the American public. In recent years, the Center has hosted such diverse speakers as poet and literary critic Ooka Makoto, writer and photographer Fosco Maraini, Nobel prize winning author Oe Kenzaburo, distinguished architect Taniguchi Yoshio, noted film historian Donald Richie, composer Takemitsu Toru, Noh actors Kanze Hideo and Umewaka Rokuro, and the late novelist Shiba Ryotaro. The Donald Keene Center also organizes major international conferences and symposia on various aspects of Japanese culture. In April 1996, the Abe Kobo Commemorative Symposium explored the literary and artistic contributions of one of Japan's most esteemed modern writers. In October 1997, the International Chikamatsu Symposium brought many dramatists, theater   	specialists, and leading Japanese scholars, filmmakers, critics, and   	performers to examine the life and work of Japan's great 18th-century   	playwright Chikamatsu Monzaemon. 
+In addition to scholarly lectures, discussions, and symposia, the Center   	organizes a wide variety of cultural performances and exhibitions. These   	range from film series and art exhibits to musical performances, theatrical   	workshops, and lecture-demonstrations by leading artists, performers,   	writers, and scholars. Nearly all programs are open to the general public. 
+In recognition of its first decade of contributions to intellectual and cultural exchange between Japan and the United States, the Japan Foundation awarded the Donald Keene Center its Special Award for 1996.
+
+ InstanceEndEditable 
+
+ END .entry 
+
+ END #content 
+
+
+Events & Information
+
+
+Lectures
+About Donald Keene
+Sen Lectures
+
+
+
+ END .box 
+
+
+The Donald Keene Center
+
+In 2011, the Donald Keene Center celebrated a quarter century of free programs dedicated to introducing Japanese culture, in all its depth and diversity, to new audiences.
+                
+
+Read more »
+
+
+
+
+Donald Keene Center of Japanese Culture
+507 Kent Hall, MC 3920
+Columbia University
+New York, New York 10027
+Tel: 212-854-5036
+Fax: 212-854-4019
+                
+
+ Begin MailChimp Signup Form 
+
+
+Subscribe to our mailing list:
+
+Email Address 
+
+
+
+
+
+ 
+
+
+End mc_embed_signup
+
+
+ END .box 
+ END .box 
+ END .box 
+
+ END #sidebar 
+
+ END .wrapper 
+
+ END #main 
+
+
+
+            This is an HTML-Template by Ruven Pelka. You can purchase it at mojo-themes.com.
+          
+
+Here you are:
+Start
+ » 
+Blog
+ » 
+Quisque volutpat mattis
+
+
+
+ END #bottombar 
+ END #footer 
+ END .wrapper 
+
+ END .footerbar 
+ END #body-wrapper 
+ InstanceEnd 

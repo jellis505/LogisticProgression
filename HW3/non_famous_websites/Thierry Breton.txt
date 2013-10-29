@@ -1,0 +1,911 @@
+HTMLThierry Breton 
+CQURLInfo = {
+    "contextPath": null,
+    "requestPath": '\/content\/global\/en\/home\/we-are\/company-profile\/board-of-directors\/thierry-breton',
+    "selectorString": null,
+    "selectors": [],
+    "extension": 'html',
+    "suffix": null
+};
+<!--
+var slideInterval=20000;
+var slideTransition=3500;
+var slideArray=["/content/dam/global/background-images/manchester.jpg","/content/dam/global/background-images/aeirial-view-of_traffic-and_overpasses.jpg"];
+jQuery.fx.interval=33;
+// -->
+[if IE]>
+<link href="/etc/designs/neoweb/css/screen_ie.css" rel="stylesheet" type="text/css" media="screen" />
+<![endif][if IE 6]>
+<link href="/etc/designs/neoweb/css/screen_ie6.css" rel="stylesheet" type="text/css" media="screen" />
+<![endif][if IE 8]>
+<link href="/etc/designs/neoweb/css/screen_ie8.css" rel="stylesheet" type="text/css" media="screen" />
+<![endif]
+<!--
+$(window).load(function () {
+    disableUselessLinks();
+    enableBanner();
+    enableMMDD();
+    enableTabs();
+    setCurrentpageID();           
+    setListHover();
+    setShareButtonfunctions();
+    displaybody();
+});
+// -->
+    
+<!--
+function addPrintEnabledJSMethods() {
+    enableBannerForPrint();
+    setNewsCarouselForPrint(0);
+}
+function AfterPrint() {
+    enableBanner();
+    setNewsCarousel(newsCarouselSpeed);
+}
+window.onbeforeprint = addPrintEnabledJSMethods;
+window.onafterprint = AfterPrint;
+// -->
+
+    var _elqQ = _elqQ || [];
+    _elqQ.push(['elqSetSiteId', '224456044']);
+    _elqQ.push(['elqTrackPageView']);
+    
+    (function () {
+        function async_load() {
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+            s.src = '//img.en25.com/i/elqCfg.min.js';
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+        }
+        if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+        else if (window.attachEvent) window.attachEvent('onload', async_load); 
+    })();
+
+
+
+<!--
+bgStart();
+// -->
+
+
+
+
+
+
+
+
+
+
+Search this site
+
+
+
+var btnText = new Array();
+var newsCarouselSpeed = '';
+Skip to content
+
+Atos Global  
+
+
+
+close this window
+ Select country site
+
+Global Head Office
+Argentina
+Asia Pacific
+Austria
+Belgium
+Brazil
+Bulgaria
+Canada
+China
+Croatia
+Czech Republic
+Denmark
+Finland
+France
+Germany
+
+
+ 
+India
+Italy
+Japan
+Middle East & Africa
+Netherlands
+Poland
+Romania
+Serbia
+Slovakia
+South Africa
+Spain
+Switzerland
+United Kingdom
+United States
+More
+
+
+
+
+
+
+
+
+
+
+
+$(window).load(function () {
+  enableMMDD();
+});
+
+ start main navigation 
+
+
+
+we are
+
+
+
+
+ 
+
+
+The Business Technologists
+
+
+Atos Manifesto
+
+
+
+Company Profile
+
+Board of Directors
+Management & Executive Committee
+Company History
+
+
+Facts & Figures
+Corporate Values
+
+
+
+Newsroom
+
+Press Releases
+Awards
+RSS
+Atos News on the go!
+
+
+Events
+Media Resources
+Subscribe to Atos news
+Contacts
+
+
+
+
+Ascent Thought Leadership
+
+Ascent Journey 2016 - Enterprise without boundaries
+Ascent White Papers
+
+
+Ascent Look Out
+
+
+
+Insights & Innovation
+
+Business Technology & Innovation Center - BTIC Paris | Atos
+Research and Innovation
+
+
+Scientific Community
+Innovation at Atos Worldgrid
+
+
+
+
+Our Customers
+
+
+Zero email™
+
+
+
+Sustainability
+
+Commitments and Achievements
+Ambition Zero Carbon
+Sustainable Supply Chain
+
+
+Transforming our workplace
+Sustainable Solutions
+Sustainability Reporting
+
+
+
+Partners & Alliances
+
+
+
+Industry Analyst and Advisor Relations
+
+
+Joint Ventures
+
+Yunano
+
+
+Canopy
+
+
+
+
+Strategic Partnerships 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+ | 
+we do
+
+
+
+
+ 
+
+
+Adaptive Workplace
+
+
+Application Management Services
+
+
+
+Application Operations
+
+
+Atos Worldgrid
+
+
+
+Big data
+
+
+Business Integration Solutions
+
+
+
+Business Process Solutions
+
+
+Cloud Services
+
+
+
+Consulting & Technology Services
+
+
+Data Center Services
+
+
+
+Identity, Security and Risk Managment
+
+
+Managed Infrastructure Solutions
+
+
+
+Network & Communications
+
+
+Outsourcing
+
+
+
+SAP Business Process Solutions
+
+
+SAP Industry Solutions
+
+
+
+Social collaboration
+
+
+Sustainability Solutions
+
+
+
+Worldline
+
+
+
+
+
+
+ | 
+your business
+
+
+
+
+ 
+
+
+Banking
+
+
+Insurance
+
+
+
+Defense and Security
+
+
+Education
+
+
+
+Energy
+
+
+Government
+
+
+
+Healthcare 
+
+
+Manufacturing
+
+
+
+Media
+
+
+Retail
+
+
+
+Telecommunications
+
+
+Transport
+
+
+
+Utilities
+
+
+
+
+
+
+ | 
+olympic games
+
+
+
+
+ 
+
+
+Business Challenges
+
+Bring Your Own Device
+Identity Security and Risk Management
+Managed Services
+
+
+Enterprise Content Management
+Testing and Acceptance Management
+
+
+
+What We Deliver
+
+Delivering the results for the Olympic Games
+Information Diffusion Systems
+
+
+Games Management Systems
+
+
+
+
+Sochi 2014 
+
+
+Paralympic Games
+
+
+
+News and Media
+
+Olympic and Paralympic Press Releases
+
+
+Videos
+
+
+
+Past Games
+
+London 2012
+Beijing 2008
+
+
+Vancouver 2010
+Before 2008
+
+
+
+
+
+
+
+ | 
+contact us
+
+
+
+
+ 
+
+
+
+
+
+
+
+careers
+
+
+
+close this window
+ 
+
+
+Atos’ Student Program
+
+Become an Atos Graduate
+Apprenticeship Schemes
+
+
+International Internship
+
+
+Job Openings
+
+
+Application Process
+
+Career Directions
+
+Consulting
+Managed Operations
+
+
+Systems Integration
+Support & Sales
+
+
+
+Company Culture
+
+Benefits
+
+
+Learning & Development
+
+
+IT Challenge 2013
+
+
+Joining Us Through Outsourcing
+
+
+
+
+
+ | investors
+
+
+
+close this window
+ 
+
+
+The Group
+
+Group History
+Corporate Governance
+Auditors
+
+
+CEO Message
+Internal Control
+
+
+Shares
+
+Share Trading
+Investors Calculator
+Share Ownership
+
+
+Price Lookup
+Common Stock
+Dividend Policy
+
+
+
+Financial Information
+
+Financial press releases
+Reports
+
+
+Presentations
+
+
+AMF Regulated Information
+
+
+Legal Documents
+
+Annual General Meeting
+
+
+Financial Calendar
+
+Analyst Coverage
+
+
+Contacts
+
+
+
+
+
+
+
+ end main navigation 
+
+
+
+function getIEVersion() {
+    var rv = -1;
+    if (navigator.appName == 'Microsoft Internet Explorer') {
+       var ua = navigator.userAgent;
+       var re  = new RegExp("MSIE ([0-9]{1,}[\.0-9]{0,})");
+       if (re.exec(ua) != null)
+          rv = parseFloat( RegExp.$1 );
+       }
+       return rv;
+    }
+
+    function loadContentHeaderImg(applyMsFilter) {
+        //filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', 
+        //                                                          sizingMethod='image', 
+        //                              src=/etc/designs/neoweb/images/mood-images/moodimage_white_h150px.png');
+        if (applyMsFilter) {
+            // Get image src (image is by default hidden)
+            // apply it on div using msfilter, if filters property is available else remove 'hidden' class from img
+            $( "img#banner-img-hidden").each(function( index ) {
+                var src = $(this).attr('src');
+                var par = $(this).parent().get(0);
+                if (par.filters) {
+                    if (src != '') {
+                           par.filters.item(0).src = src;
+                    }
+                    par.filters.item(0).sizingMethod = 'image';
+                    par.filters.item(0).enabled = 'true';
+                    $(this).addClass('hidden');
+                } else {
+                    $(this).removeClass('hidden');
+                }
+            });
+            
+        } else {
+            $('.banner-img>img#banner-img-hidden').removeClass('hidden');
+            $('div.banner-img').removeClass('banner-def-image');
+        }
+    }
+    function checkIEVersion() {
+        var msg = "not using IE";
+        var ver = getIEVersion();
+        var applyMsFilter = false;
+        if ( ver > -1 ) {
+           if ( ver <= 8.0 ) {
+              msg = "using IE" + ver + ".";
+              applyMsFilter = true;
+           }
+        }
+        loadContentHeaderImg(applyMsFilter);
+    }
+
+    
+    if (window.addEventListener) {
+        window.addEventListener('load', checkIEVersion, false);
+    } else if (window.attachEvent) {
+        window.attachEvent('onload', checkIEVersion);
+    }
+
+
+
+
+
+
+
+
+
+Chairman and CEO 
+Thierry Breton was elected Chairman and CEO of Atos and a member of the Board of Directors in February 2009.
+
+
+
+ 
+
+
+
+ 
+
+
+Thierry Breton 
+
+
+
+
+
+
+We are
+
+The Business Technologists
+
+Atos Manifesto
+
+Company Profile
+
+Board of Directors
+
+Thierry Breton 
+
+
+
+Facts & Figures
+
+Management & Executive Committee
+
+Corporate Values
+
+Company History
+
+
+
+Newsroom
+
+Ascent Thought Leadership
+
+Insights & Innovation
+
+Our Customers
+
+Zero email™
+
+Sustainability
+
+Partners & Alliances
+
+Industry Analyst and Advisor Relations
+
+Joint Ventures
+
+
+
+
+
+
+
+
+
+
+
+     var addthis_config = 
+     {
+             ui_language: "en"
+     };
+     var oHead = document.getElementsByTagName('head').item(0); 
+     var oScript= document.createElement("script"); 
+     oScript.type = "text/javascript"; 
+     var  gaJsHost = (("https:" == document.location.protocol) ? "https:" : "http:");
+     if(gaJsHost =="https:"){
+          oScript.src += "https://s7.addthis.com/js/250/addthis_widget.js"; 
+      }else{
+          oScript.src += "http://s7.addthis.com/js/250/addthis_widget.js"; 
+      }
+     oHead.appendChild( oScript);
+ 
+Share this content 
+
+
+
+
+
+
+ 
+                           
+LinkedInFacebookViadeo
+EmailTwitterXINGGoogle+
+
+
+
+
+
+Chairman and CEO of Atos
+
+Thierry Breton was elected Chairman and CEO of Atos and a member of the Board of Directors in February 2009. He was previously Executive Managing Director and then Vice Chairman of the Bull Group from 1993 to 1996.
+
+He later became Chairman and CEO of Thomson from 1997 to 2002 and of France Telecom from 2002 to 2005. From February 2005 to May 2007, Thierry Breton was the French Minister of Economy, Finance and Industry. 
+
+A graduate of the Ecole supérieure d'électricité "Supelec" of Paris and of the Institut des Hautes Etudes de Défense Nationale, he has been honored with the prestigious awards of "Officier de la Légion d'Honneur" and "Commandeur de l'Ordre National du Mérite".
+
+
+
+Contact pane section start
+
+Contact us
+
+
+Atos 
+More Info
+
+
+
+
+ Contact Atos
+
+
+
+Contact pane section end
+Social Media
+
+Thierry Breton’s LinkedIn profile >>
+Thierry Breton’s blog (English) >>
+Thierry Breton’s blog (French) >>
+
+
+
+
+
+
+You are now here:Atos Global Homepage > We are > Company Profile > Board of Directors > Thierry Breton 
+
+
+
+    function fBookmarkPage(){
+        var title = document.title;
+        var url = location.href;
+        if(window.sidebar && window.sidebar.addPanel) { //Firefox        
+         window.sidebar.addPanel(title, url, ''); 
+        } 
+        else if (window.external) { // IE
+         window.external.AddFavorite(url, title); 
+        } 
+        else if (window.opera && window.print) { 
+            var elem = document.createElement('a');
+            elem.setAttribute('href', url);
+            elem.setAttribute('title', title);
+            elem.setattribute('rel', 'sidebar');
+            elem.click();    
+        } 
+        else {    
+         //alert("Sorry! Your browser doesn't appear to support this function.");
+          alert("To add this page to your bookmarks use CTRL+D on Windows and Linux and Command+D on the Mac."); } 
+    }
+
+
+
+
+© Atos SE 2013 all rights reserved
+
+
+
+
+RSS
+
+
+ 
+
+
+Accessibility
+
+
+Sitemap
+
+
+Terms of use
+
+
+Privacy
+
+
+Add to favorites
+
+
+
+
+
+
+<!--
+var _Domain = window.location.hostname.toLowerCase();
+var _GoogleID = "";
+var domainSplit = _Domain.split(".");
+var domainInd = domainSplit.length;
+domainInd = domainInd - 2;
+if (domainSplit[domainInd] == "atos" || domainSplit[domainInd] == "atosconsulting" || domainSplit[domainInd] == "worldline")
+{
+    _Host = _Domain.replace("cmsstg","cms").replace("cmsdev","cms").replace("prd.","").replace("dev.","").replace("stg.","").replace("www.","");
+    _Sites = new Array ("atos.net","ap.atos.net","ar.atos.net","ascentlookout.atos.net","au.atos.net","at.atos.net","be.atos.net","bg.atos.net","br.atos.net","ch.atos.net","cn.atos.net","co.atos.net","cz.atos.net","de.atos.net","dk.atos.net","ae.atos.net","es.atos.net","fi.atos.net","fr.atos.net","hr.atos.net","hu.atos.net","in.atos.net","it.atos.net","jp.atos.net","mx.atos.net","na.atos.net","nl.atos.net","nz.atos.net","ph.atos.net","pl.atos.net","pt.atos.net","ro.atos.net","rs.atos.net","ru.atos.net","se.atos.net","sk.atos.net","th.atos.net","tw.atos.net","uk.atos.net","za.atos.net","es.atosconsulting.com","fr.atosconsulting.com","nl.atosconsulting.com","uk.atosconsulting.com","worldline.com","be.worldline.com","cms.atos.net");
+    _Pos = -1;
+    for( var i = 0, l = _Sites.length; i < l; i++ ){if( _Sites[i]==_Host){_Pos = i;break;}}
+    if(_Pos>-1)
+    {
+       if (_Domain.indexOf("prd.")>-1) {
+            _GA = new Array ("UA-30995099-2","UA-30995099-38","UA-30995099-7","UA-30995099-14","UA-30995099-39","UA-30995099-18","UA-30995099-16","UA-30995099-19","UA-30995099-8","UA-30995099-32","UA-30995099-40","UA-30995099-9","UA-30995099-21","UA-30995099-6","UA-30995099-28","UA-30995099-17","UA-30995099-10","UA-30995099-29","UA-30995099-5","UA-30995099-20","UA-30995099-11","UA-30995099-3","UA-30995099-30","UA-30995099-41","UA-30995099-15","UA-30995099-42","UA-30995099-4","UA-30995099-43","UA-30995099-44","UA-30995099-22","UA-30995099-12","UA-30995099-23","UA-30995099-24","UA-30995099-13","UA-30995099-31","UA-30995099-25","UA-30995099-45","UA-30995099-46","UA-30995099-33","UA-30995099-47","UA-30995099-34","UA-30995099-35","UA-30995099-36","UA-30995099-37","UA-30995099-26","UA-30995099-27","UA-30995099-1");
+       } else if (_Domain.indexOf("stg.")>-1) {
+            _GA = new Array ("UA-31014983-2","UA-31014983-38","UA-31014983-7","UA-31014983-8","UA-31014983-39","UA-31014983-20","UA-31014983-18","UA-31014983-21","UA-31014983-9","UA-31014983-32","UA-31014983-40","UA-31014983-10","UA-31014983-23","UA-31014983-6","UA-31014983-28","UA-31014983-19","UA-31014983-11","UA-31014983-29","UA-31014983-4","UA-31014983-22","UA-31014983-13","UA-31014983-5","UA-31014983-30","UA-31014983-41","UA-31014983-14","UA-31014983-42","UA-31014983-3","UA-31014983-43","UA-31014983-44","UA-31014983-24","UA-31014983-16","UA-31014983-25","UA-31014983-26","UA-31014983-15","UA-31014983-31","UA-31014983-27","UA-31014983-45","UA-31014983-46","UA-31014983-33","UA-31014983-34","UA-31014983-35","UA-31014983-36","UA-31014983-37","UA-31014983-12","UA-31014983-17","UA-31014983-1");
+       } else if (_Domain.indexOf("dev.")>-1) {
+            _GA = new Array ("UA-30996938-1","UA-30996938-39","UA-30996938-7","UA-30996938-8","UA-30996938-40","UA-30996938-18","UA-30996938-16","UA-30996938-19","UA-30996938-9","UA-30996938-32","UA-30996938-41","UA-30996938-10","UA-30996938-21","UA-30996938-6","UA-30996938-28","UA-30996938-17","UA-30996938-11","UA-30996938-29","UA-30996938-2","UA-30996938-20","UA-30996938-12","UA-30996938-4","UA-30996938-30","UA-30996938-42","UA-30996938-13","UA-30996938-43","UA-30996938-3","UA-30996938-44","UA-30996938-45","UA-30996938-22","UA-30996938-14","UA-30996938-23","UA-30996938-24","UA-30996938-15","UA-30996938-31","UA-30996938-25","UA-30996938-46","UA-30996938-47","UA-30996938-33","UA-30996938-35","UA-30996938-36","UA-30996938-37","UA-30996938-38","UA-30996938-26","UA-30996938-27","UA-30996938-5");
+       } else {
+            _GA = new Array ("UA-4127892-1","UA-4128031-1","UA-4129068-1","UA-23954826-2","UA-44459233-1","UA-4128052-1","UA-4128126-1","UA-23934439-1","UA-23571989-1","UA-4128304-1","UA-4128148-1","UA-42062275-1","UA-23934624-1","UA-4128164-1","UA-23935205-1","UA-20794324-1","UA-6721949-1","UA-24098613-1","UA-4128182-1","UA-23935207-1","UA-23933972-1","UA-4128198-1","UA-23930356-1","UA-4128213-1","UA-42053163-1","UA-4128232-1","UA-4304042-1","UA-44456962-1","UA-44456270-1","UA-4128238-1","UA-42066167-1","UA-23934148-1","UA-23933765-1","UA-23932484-1","UA-23934519-1","UA-23934521-1","UA-44455459-1","UA-44455675-1","UA-4128251-1","UA-4128352-1","UA-11582732-1","UA-10075103-1","UA-4128260-1","UA-4128281-1","UA-6775504-1","UA-9047241-1","UA-30995099-1");
+       }
+       _GoogleID = _GA[_Pos];
+    } else {
+       _GoogleID = "UA-15465296-1";
+    }
+} else {
+    _GoogleID = "UA-15465296-1";
+}
+try {
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    document.write(unescape("%3Cscript src='/etc/designs/neoweb/js/googleanalytics.js' type='text/javascript'%3E%3C/script%3E"));
+} catch (err){}
+// -->
+
+
+<!--
+if(_GoogleID.length>0){
+    try {
+        var pageTracker = _gat._getTracker(_GoogleID);
+        pageTracker._initData();
+        pageTracker._setDomainName("none");
+        pageTracker._setAllowLinker(true);
+        _gat._anonymizeIp();
+        var filePath=window.location.pathname;
+        filePath= appendPath(filePath,false,false);
+        filePath=filePath+window.location.search;
+        pageTracker._trackPageview(filePath);
+        updateLinks();
+    } catch (err) {}
+}
+// -->
+
+
+

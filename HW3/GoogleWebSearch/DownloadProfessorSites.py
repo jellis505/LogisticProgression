@@ -56,29 +56,28 @@ def getgooglelinks(search,siteurl=False):
 
 # Get the real webpage of the professor
 def ReturnHomepage(links):
-    
-    education_links = []
+
+    # Remove all links with wikipedia
+    good_links = []
     for link in links:
+        if link.find("wikipedia") == -1:
+            good_links.append(link)
+
+    education_links = []
+    for link in good_links:
         if link.find(".edu") != -1:
             education_links.append(link)
     
     if len(education_links) == 0:
-        education_links.append(links[0])
+        education_links.append(good_links[0])
     
     return education_links
 
 def DownloadWebpage(edu_links,query):
     # This will download and write out the webpage of the dude we want
 
-    # Remove all links with wikipedia
-    links = edu_links
-    good_links = []
-    for link in links:
-        if link.find("wikipedia") != -1:
-            good_links.append(link)
-
     low_length = 1000
-    for link in good_links:
+    for link in edu_links:
         if len(link) < low_length:
             link_to_use = link
             low_length = len(link)
@@ -112,7 +111,7 @@ def DownloadWebpage(edu_links,query):
             if link.string.lower() in bio_link_names:
                 bio_link = link["href"]
                 print bio_link[0:2]
-                if bio_link[0:2] != "htt" and (bio_link.find(".pdf") != -1):
+                if bio_link[0:2] != "htt" and (bio_link.find(".pdf") == -1):
                     bio_link = link_to_use + bio_link
                 break
             
@@ -125,7 +124,7 @@ def DownloadWebpage(edu_links,query):
             html_content = resp.read()
 
             # Now let's clean up these files
-            soup1 = BeautifulSoup(html_content, 'html5lib')
+            soup1 = BeautifulSoup(html_content)
             text = soup1.get_text()
             str_text = text.encode('utf-8')
             print "Downloading: ", bio_link
@@ -171,4 +170,3 @@ if __name__ == "__main__":
                 raw_input("Press Enter")
             print "Waiting 2 seconds"
             time.sleep(2)
-    

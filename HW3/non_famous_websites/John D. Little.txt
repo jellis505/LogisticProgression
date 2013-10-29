@@ -1,0 +1,859 @@
+html[if lt IE 7]> <html lang="en" class="ie ie6 lte9 lte8 lte7 os-other"> <![endif][if IE 7]> <html lang="en" class="ie ie7 lte9 lte8 lte7 os-other"> <![endif][if IE 8]> <html lang="en" class="ie ie8 lte9 lte8 os-other"> <![endif][if IE 9]> <html lang="en" class="ie ie9 lte9 os-other"> <![endif][if gt IE 9]> <html lang="en" class="os-other"> <![endif][if !IE]><!<![endif][if lte IE 8]>
+  <link rel="shortcut icon" href="http://s.c.lnkd.licdn.com/scds/common/u/images/logos/favicons/v1/16x16/favicon.ico">
+<![endif][if IE 9]>
+  <link rel="shortcut icon" href="http://s.c.lnkd.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico">
+<![endif]John D. Little  | LinkedIn
+
+document.body.className += " js ";
+
+
+
+
+
+
+
+Join Today
+Sign In
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+John D. Little
+
+
+
+    
+    
+        CEO at Monet Graphics, Inc.
+      
+    
+    
+
+Location
+
+
+    
+        
+          
+	      Miami/Fort Lauderdale Area
+            
+	    
+      
+    
+
+Industry
+
+    
+            Packaging and Containers
+      
+    
+
+
+
+
+
+
+          Join LinkedIn and access John D. Little’s full profile. It's free!
+      
+
+
+
+As a LinkedIn member, you'll join 225 million other professionals who are sharing connections, ideas, and opportunities.
+
+See who you and John D. Little know in common
+Get introduced to John D. Little
+Contact John D. Little directly
+
+
+
+
+          View John D.'s full profile
+        
+
+
+
+John D. Little's Overview 
+
+
+    Current
+  
+
+
+
+              
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+
+
+      
+    
+  
+      
+      
+
+      
+        
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    Director
+      
+    
+    
+      at 
+      Monet Graphics, Inc.
+    
+	
+
+
+
+
+
+
+
+
+			        
+			      
+
+
+  
+    Past
+  
+
+
+
+		        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+
+
+      
+    
+  
+      
+      
+
+      
+        
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    CEO
+      
+    
+    
+      at 
+Monet Graphics, Inc.
+
+
+		        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+
+
+      
+    
+  
+      
+      
+
+      
+        
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    President U.S. Operations
+      
+    
+    
+      at 
+Nilpeter A/S
+
+
+
+ 
+       Education
+    
+
+
+
+                
+	              University of New Haven
+                
+		          
+
+
+
+      Connections
+    
+
+
+5  connections
+      
+      
+
+
+
+  showHide.init('overview');
+
+
+
+John D. Little's Experience
+	  
+
+
+
+
+
+
+
+
+Director
+
+
+Monet Graphics, Inc.
+
+
+
+
+  	        Privately Held; 11-50 employees;
+	  	      Packaging and Containers industry
+  	    
+
+ Currently holds this position   	    
+
+
+
+
+
+
+
+CEO
+
+
+Monet Graphics, Inc.
+
+
+
+
+  	        Privately Held; 11-50 employees;
+	  	      Packaging and Containers industry
+  	    
+
+September 2008
+ – February 2012  (3 years 6 months)
+
+
+
+
+
+
+
+
+President U.S. Operations
+
+
+Nilpeter A/S
+
+
+
+
+  	        Privately Held; 201-500 employees;
+	  	      Machinery industry
+  	    
+
+January 1991
+ – January 2005  (14 years 1 month)
+
+
+
+
+
+
+
+
+
+        John D. Little's Education
+      
+
+
+
+
+
+                  
+University of New Haven                  
+                
+
+MBA, 
+                  
+General Mgt                  
+
+
+1980 – 1983
+
+
+
+
+
+
+
+
+
+Contact John D. for:
+        
+      
+
+
+
+
+career opportunities
+consulting offers
+new ventures
+job inquiries
+expertise requests
+business deals
+reference requests
+getting back in touch
+
+
+
+
+
+
+View John D. Little’s full profile to...
+
+
+
+See who you and John D. Little know in common
+Get introduced to John D. Little
+Contact John D. Little directly
+
+
+View Full Profile
+
+
+
+
+
+
+Name Search:
+
+Search for people you know from over 225 million professionals already on LinkedIn.
+
+
+
+First Name
+
+            
+      
+        
+        
+        /* extlib: _ghostlabel */
+          
+        
+        
+        
+        
+      
+    
+            LI.Controls.addControl('control-http-12248-10959706-1', 'GhostLabel', {});
+          
+
+
+
+Last Name
+
+            
+      
+    
+            LI.Controls.addControl('control-http-12248-10959707-2', 'GhostLabel', {});
+          
+
+
+
+
+ Example: 
+        
+Jeff Weiner
+
+
+
+
+
+
+
+
+Viewers of this profile also viewed...
+
+
+
+
+
+
+
+
+Tamatha Deihm
+
+Prepress Technician at Monet Graphics,...
+
+
+
+
+
+
+Henrik Lindorf
+
+Production Manager  Gyproc Saint Gobain
+
+
+
+
+
+
+Rob Hopfensperger
+
+Owner, Press Works
+
+
+
+
+
+
+Rickard Ådén
+
+Sales at VISUTECH
+
+
+
+
+
+
+Gregory Smith
+
+Product Safety Engineer at MET...
+
+
+
+
+
+
+James Lee
+
+pastor at BIG ANT INTERNATIONAL
+
+
+
+
+
+
+Amy Clemmons
+
+Licensed Nursing Home Administrator at...
+
+
+
+
+
+
+Terry Craft
+
+Account Manager
+
+
+
+
+
+
+Lynn Messner
+
+Account Manager at Associated Paper Inc
+
+
+
+
+
+
+Bob Lindsey
+
+Branch Manager at Chosen Enterprises,...
+
+
+
+
+
+
+var dbl_page = 'public_profile';
+
+      /* <![CDATA[ */
+      
+        var dbl_src = "http://ad.doubleclick.net/adj/linkedin.dart/" + dbl_page + ";lang=en;tile=1;dcopt=ist;sz=300x250;;" + encodeURIComponent(';company=396708;pcntry=us') + ";s=0;ord=" + Math.random() * 10000000000000000 +"?";
+        document.write('<sc' + 'ript src="' + dbl_src + '" type="text/javascript"><\/scr' + 'ipt>');
+      /* ]]> */
+        
+
+
+
+
+LI.Controls.processQueue();
+
+
+
+
+    
+    
+        LinkedIn member directory - Browse members by country
+
+
+
+a
+
+
+b
+
+
+c
+
+
+d
+
+
+e
+
+
+f
+
+
+g
+
+
+h
+
+
+i
+
+
+j
+
+
+k
+
+
+l
+
+
+m
+
+
+n
+
+
+o
+
+
+p
+
+
+q
+
+
+r
+
+
+s
+
+
+t
+
+
+u
+
+
+v
+
+
+w
+
+
+x
+
+
+y
+
+
+z
+
+
+more
+
+
+
+
+ By using this site, you agree to LinkedIn's terms of use. Commercial use of this site without express authorization is prohibited.
+ 
+LinkedIn Corporation © 2013
+
+User Agreement
+Privacy Policy
+Cookie Policy
+Copyright Policy
+
+
+
+
+    LI.define("RUM.urls");
+    LI.define("RUM.flags");
+    LI.RUM.flags['host-flag'] = "control";
+    LI.RUM.urls['rum-track'] = "/lite/rum-track?csrfToken=ajax%3A3367510981862703404";
+    LI.RUM.urls['boomerang-bw-img'] = "http://s.c.lnkd.licdn.com/scds/common/u/lib/boomerang/0.9.edge.4ab208445a/img/";
+    
+    
+    
+    LI.RUM.serverStartTime = 1383059679.142*1000;
+    
+    
+    LI.RUM.enabled = true;
+    YEvent.on(window, 'load', function() {
+      YAHOO.util.Get.script(
+      
+        
+            
+              
+              
+                ["http://s.c.lnkd.licdn.com/scds/concat/common/js?h=ed29nkjpsa16bhrjq4na16owq-98wkc8drte3f4sgowwihu52bc-cxf4wsvkntx8ipnbh8aw32ci5-bntxs37tllhamgkqo8dp140n4-ej0bu8dhge4a5yggpk9bkobg0-2e50soneky56rf7x4eqnd3iqq&fc=2"]
+              
+            
+          
+        
+      
+    [0]);
+    });
+  
+
+ if ( window.LI && LI.showAllDeferredImg && !LI.imgDeferFoldCheckDone ) { 
+ LI.showAllDeferredImg( null, false );
+ }
+
+
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-3242811-1']);
+      _gaq.push(['_setDomainName', '.linkedin.com']);
+      _gaq.push(['_trackPageview', 'nprofile-public-success']);
+      _gaq.push(['_setVar', 'guest']);
+      
+      
+      YEvent.on( window, 'load', function() {
+        YAHOO.util.Get.script("http://www.google-analytics.com/ga.js");
+      });
+    
+/* <![CDATA[ */
+(function() {
+
+  var bcookie = escape( LI.readCookie("bcookie") ),
+    newTrkInfo = '82426655,' + document.referrer.substr(0,128),
+    alias_secure = 'https://www.linkedin.com/analytics/noauthtracker?type=leo%2EpageTracking&pageType=full_page&pageKey=nprofile_public_jsbeacon&trkInfo=REPLACEME',
+    alias_normal = '/analytics/noauthtracker?type=leo%2EpageTracking&pageType=full_page&pageKey=nprofile_public_jsbeacon&trkInfo=REPLACEME',
+    is_secure = false,
+    url = (is_secure) ? alias_secure : alias_normal;
+
+  url = url.replace("REPLACEME", newTrkInfo);
+
+  if (bcookie) {
+    if(window.$ && $.ajax){
+      $.ajax(url);
+    } else {
+      YAHOO.util.Connect.asyncRequest( 'get', url, {} );
+    }
+  }
+
+})();
+/* ]]> */
+
+        
+          
+      
+        
+          
+            
+              
+      
+    
+            
+          
+        
+          
+            
+              
+      
+    
+            
+          
+        
+        LI_WCT([
+        
+          
+            
+              "control-http-12248-10959706-1",
+            
+          
+        
+          
+            
+              "control-http-12248-10959707-2",
+            
+          
+        
+        ]);
+      
+    
+          
+            
+          
+        
+        
+      
+LI.Controls.processQueue();
+
+  LI.define('Tracking.Quantcast');
+  LI.Tracking.Quantcast = function() {
+    _qoptions = { qacct:"p-b3sGjMtCFrexE" };
+    YAHOO.util.Get.script( 'http://edge.quantserve.com/quant.js' );
+  };
+  YEvent.on( window, 'load', LI.Tracking.Quantcast);
+
+
+
+
+
+  LI.define('Tracking.Comscore');
+  LI.Tracking.Comscore = function() {
+    YAHOO.util.Get.script( 'http://b.scorecardresearch.com/beacon.js', {
+      onSuccess: function() {
+        COMSCORE.beacon({ c1:2, c2:6402952, c3:"", c4:"", c5:"", c6:"", c15:"" });
+      }
+    });
+  };
+  YEvent.on( window, 'load', LI.Tracking.Comscore);
+
+
+
+
+
+  YEvent.on( window, 'load', function() {
+    (function () {
+      var protocol = 'http:';
+      var d = new Image(1, 1);
+      d.onerror = d.onload = function () { d.onerror = d.onload = null; };    
+      d.src = [
+        protocol,
+        "//secure-us.imrworldwide.com/cgi-bin/m?ci=us-603751h&cg=0&cc=1&si=", 
+        escape(window.location.href), "&rp=", 
+        escape(document.referrer),   
+        "&ts=compact&rnd=", 
+        (new Date()).getTime()
+      ].join('');
+    })();
+  });
+
+
+
+

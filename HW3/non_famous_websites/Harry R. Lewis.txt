@@ -1,122 +1,90 @@
-html[if IEMobile 7]><html class="iem7"  lang="en" dir="ltr"><![endif][if lte IE 6]><html class="lt-ie9 lt-ie8 lt-ie7"  lang="en" dir="ltr"><![endif][if (IE 7)&(!IEMobile)]><html class="lt-ie9 lt-ie8"  lang="en" dir="ltr"><![endif][if IE 8]><html class="lt-ie9"  lang="en" dir="ltr"><![endif][if (gte IE 9)|(gt IEMobile 7)]><!<![endif]
-
-
-
-Brief Biography | Harry R. Lewis
-
-  
-  
-
-
-
-
-[if lt IE 10]>
+html[if IEMobile 7]><html class="iem7"  lang="en" dir="ltr"><![endif][if lte IE 6]><html class="lt-ie9 lt-ie8 lt-ie7"  lang="en" dir="ltr"><![endif][if (IE 7)&(!IEMobile)]><html class="lt-ie9 lt-ie8"  lang="en" dir="ltr"><![endif][if IE 8]><html class="lt-ie9"  lang="en" dir="ltr"><![endif][if (gte IE 9)|(gt IEMobile 7)]><!<![endif]Harry R. Lewis[if lt IE 10]>
 <link type="text/css" rel="stylesheet" href="http://lewis.seas.harvard.edu/files/css/css_AOq_orUDRUqMiR5omKb5BpCmLofIRV-spiwW7kmTCW4.css" media="screen" />
-<![endif]
+<![endif]var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-17689007-4"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"stripy","theme_token":"-jbFC10ZWHTzoB1E42KzeHRtRmxIdurD-4H5ZvWF_aM","js":{"profiles\/openscholar\/libraries\/respondjs\/respond.min.js":1,"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"profiles\/openscholar\/modules\/os\/theme\/os_colorbox.js":1,"profiles\/openscholar\/libraries\/colorbox\/jquery.colorbox-min.js":1,"profiles\/openscholar\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"profiles\/openscholar\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"profiles\/openscholar\/modules\/contrib\/colorbox\/js\/colorbox_inline.js":1,"profiles\/openscholar\/modules\/contrib\/nice_menus\/superfish\/js\/superfish.js":1,"profiles\/openscholar\/modules\/contrib\/nice_menus\/superfish\/js\/jquery.bgiframe.min.js":1,"profiles\/openscholar\/modules\/contrib\/nice_menus\/superfish\/js\/jquery.hoverIntent.minified.js":1,"profiles\/openscholar\/modules\/contrib\/nice_menus\/nice_menus.js":1,"profiles\/openscholar\/modules\/contrib\/views_slideshow\/js\/views_slideshow.js":1,"0":1,"profiles\/openscholar\/modules\/os\/theme\/os_dismiss.js":1,"profiles\/openscholar\/themes\/os_basetheme\/js\/os_base.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/book\/book.css":1,"profiles\/openscholar\/modules\/contrib\/calendar\/css\/calendar_multiday.css":1,"modules\/comment\/comment.css":1,"profiles\/openscholar\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/openscholar\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"profiles\/openscholar\/modules\/contrib\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"profiles\/openscholar\/modules\/contrib\/mollom\/mollom.css":1,"modules\/node\/node.css":1,"profiles\/openscholar\/modules\/os\/modules\/os_help\/os_help.css":1,"profiles\/openscholar\/modules\/os\/modules\/os_slideshow\/os_slideshow.css":1,"profiles\/openscholar\/modules\/os\/modules\/os_slideshow\/os_slideshow_aspect_ratio_form.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"profiles\/openscholar\/modules\/contrib\/views\/css\/views.css":1,"profiles\/openscholar\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"profiles\/openscholar\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/openscholar\/modules\/contrib\/nice_menus\/nice_menus.css":1,"profiles\/openscholar\/modules\/contrib\/nice_menus\/nice_menus_default.css":1,"profiles\/openscholar\/modules\/contrib\/oembed\/oembed.base.css":1,"profiles\/openscholar\/modules\/contrib\/oembed\/oembed.theme.css":1,"profiles\/openscholar\/modules\/contrib\/views_slideshow\/views_slideshow.css":1,"profiles\/openscholar\/modules\/contrib\/biblio\/biblio.css":1,"profiles\/openscholar\/themes\/adaptivetheme\/at_core\/css\/at.layout.css":1,"profiles\/openscholar\/themes\/os_basetheme\/css\/globals.css":1,"profiles\/openscholar\/themes\/stripy\/css\/stripy.responsive.layout.css":1,"profiles\/openscholar\/themes\/stripy\/css\/stripy.css":1,"profiles\/openscholar\/themes\/stripy\/css\/stripy-ie.css":1,"profiles\/openscholar\/modules\/os\/theme\/os_dismiss.css":1,"profiles\/openscholar\/themes\/stripy\/flavors\/sage\/sage.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true},"jcarousel":{"ajaxPath":"http:\/\/lewis.seas.harvard.edu\/jcarousel\/ajax\/views"},"nice_menus_options":{"delay":800,"speed":1},"ogContext":{"groupType":"node","gid":"82746"}});
 
+Skip to main content
 
-
-
-
-var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-17689007-4"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
-
-
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"stripy","theme_token":"LSIKAt4rC_rfuzN0P9VJ2i68Hplks-ZSxqBHGoHyd7Q","js":{"profiles\/openscholar\/libraries\/respondjs\/respond.min.js":1,"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"profiles\/openscholar\/modules\/os\/theme\/os_colorbox.js":1,"profiles\/openscholar\/libraries\/colorbox\/jquery.colorbox-min.js":1,"profiles\/openscholar\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"profiles\/openscholar\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"profiles\/openscholar\/modules\/contrib\/colorbox\/js\/colorbox_inline.js":1,"profiles\/openscholar\/modules\/contrib\/nice_menus\/superfish\/js\/superfish.js":1,"profiles\/openscholar\/modules\/contrib\/nice_menus\/superfish\/js\/jquery.bgiframe.min.js":1,"profiles\/openscholar\/modules\/contrib\/nice_menus\/superfish\/js\/jquery.hoverIntent.minified.js":1,"profiles\/openscholar\/modules\/contrib\/nice_menus\/nice_menus.js":1,"profiles\/openscholar\/modules\/contrib\/views_slideshow\/js\/views_slideshow.js":1,"0":1,"profiles\/openscholar\/modules\/os\/theme\/os_dismiss.js":1,"profiles\/openscholar\/themes\/os_basetheme\/js\/os_base.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/book\/book.css":1,"profiles\/openscholar\/modules\/contrib\/calendar\/css\/calendar_multiday.css":1,"modules\/comment\/comment.css":1,"profiles\/openscholar\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/openscholar\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"profiles\/openscholar\/modules\/contrib\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"profiles\/openscholar\/modules\/contrib\/mollom\/mollom.css":1,"modules\/node\/node.css":1,"profiles\/openscholar\/modules\/os\/modules\/os_help\/os_help.css":1,"profiles\/openscholar\/modules\/os\/modules\/os_slideshow\/os_slideshow.css":1,"profiles\/openscholar\/modules\/os\/modules\/os_slideshow\/os_slideshow_aspect_ratio_form.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"profiles\/openscholar\/modules\/contrib\/views\/css\/views.css":1,"profiles\/openscholar\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"profiles\/openscholar\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/openscholar\/modules\/contrib\/nice_menus\/nice_menus.css":1,"profiles\/openscholar\/modules\/contrib\/nice_menus\/nice_menus_default.css":1,"profiles\/openscholar\/modules\/contrib\/oembed\/oembed.base.css":1,"profiles\/openscholar\/modules\/contrib\/oembed\/oembed.theme.css":1,"profiles\/openscholar\/modules\/contrib\/views_slideshow\/views_slideshow.css":1,"profiles\/openscholar\/modules\/contrib\/biblio\/biblio.css":1,"profiles\/openscholar\/themes\/adaptivetheme\/at_core\/css\/at.layout.css":1,"profiles\/openscholar\/themes\/os_basetheme\/css\/globals.css":1,"profiles\/openscholar\/themes\/stripy\/css\/stripy.responsive.layout.css":1,"profiles\/openscholar\/themes\/stripy\/css\/stripy.css":1,"profiles\/openscholar\/themes\/stripy\/css\/stripy-ie.css":1,"profiles\/openscholar\/modules\/os\/theme\/os_dismiss.css":1,"profiles\/openscholar\/themes\/stripy\/flavors\/sage\/sage.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true},"jcarousel":{"ajaxPath":"http:\/\/lewis.seas.harvard.edu\/jcarousel\/ajax\/views"},"nice_menus_options":{"delay":800,"speed":1},"ogContext":{"groupType":"node","gid":"82746"}});
-
-
-  
-    Skip to main content
-  
-    
 FLEXIBLE ADMIN HEADER FOR USE BY SELECT GROUPS USING OS
 
 
-	
+header regions beg
 
-		
-					header regions beg
-			
-			 
-				 
-					  					    
-  
-  Harry R. Lewis
-    Gordon McKay Professor of Computer Science
-    Maxwell Dworkin 237School of Engineering and Applied Sciences
+
+
+
+Harry R. Lewis
+Gordon McKay Professor of Computer Science
+Maxwell Dworkin 237School of Engineering and Applied Sciences
     (email)
-  					  					    
-  
-  
+ 
 
 
 
-  					  				 
-			  
-		  
-      header regions end
-		
-				  main menu region beg
-		    
-  
-  BioBrief BiographyCVClassesFreshman Seminar 49y: Amateur AthleticsComputer Science 20: Discrete Mathematics for Computer ScienceComputer Science 121 and CSCI E-121: Introduction to the Theory of ComputationArticlesBooks
 
-  		  main menu region end
-		
-    
-		
-			
-				
-					
-					  
-						
-													
-								
-																									
-																					
-												Brief Biography											
-																															
-																									Biography(active tab)
-Curriculum Vitae
+ 
 
-																																															
-																			
-																
-																	
-										
-  
-  
-  
-  
-    Harry Lewis entered Harvard College in the fall of 1964. Having made no great progress despite his strenuous efforts in mathematics, physics, drama, and lacrosse, he stumbled upon computer programming through a part-time job in a Harvard psychology laboratory, and fell in love with the emerging field. Lewisâ€™s undergraduate thesis, written under the direction of computer graphics pioneer Ivan Sutherland, was on handwriting recognition, parsing handwritten mathematical notation, and their use in experimental mathematics. Lewis graduated from Harvard in 1968, summa cum laude in Applied Mathematics.
-During the Vietnam War, Harry Lewis served for two years as a commissioned officer of the US Public Health Service. He served at the National Institutes of Health in Bethesda, Maryland, doing work on image processing and on systems and application programming. He spent the academic year 1970-71 in Europe as Frederick Sheldon Traveling Fellow of Harvard University. Lewis returned to Harvard to begin his graduate study in the fall of 1971 and was awarded the PhD in Applied Mathematics in 1974. His PhD thesis was written under the direction of philosophy professor Burton Dreben, on the subject of computational unsolvability in mathematical logic.
-Upon receiving his PhD, Lewis joined the Harvard faculty. He became Gordon McKay Professor of Computer Science in 1981. From 2003â€“2008 he was honored with the title of Harvard College Professor in honor of his teaching excellence.
-Lewis is the author of numerous books and articles on various aspects of computer science. In the years since he joined the faculty in 1974, he has helped launch thousands of Harvard undergraduates into careers in computer science. His book about higher education, Excellence Without a Soul: Does Liberal Education Have a Future?  has appeared in a paperback edition (PublicAffairs, 2007). The hardcover edition was a Boston Globe best-seller and the subject of favorable reviews in both the Boston Globe and the Wall Street Journal. It has been translated into Chinese (in both Taiwanese and mainland editions) and Korean. A book on the origins and public consequences of the digital information flood, coauthored with Hal Abelson and Ken Ledeen, appeared in 2008 (Blown to Bits: Your Life, Liberty, and Happiness After the Digital Explosion, Addison-Wesley). It has been translated into Russian (under the title Ataka Bitov) and Chinese. His most recent book, co-edited with Ellen Condliffe Lagemann, is entitled What is College For? LewisÂ travels regularly to Hong Kong, where he serves as an external examiner for the Common Core Curriculum of Hong Kong University, and he has written several articles for the South China Morning Post.
-From 1995-2003 Lewis served as Dean of Harvard College. In this capacity he oversaw the undergraduate experience, including residential life, career services, public service, academic and personal advising, athletic policy, and intercultural and race relations. He is a long time member of the Collegeâ€™s Admissions Committee. In addition to teaching a variety of courses in Computer Science, Lewis offers a Freshman Seminar on Amateur Athletics, exploring the social history of sports in America and especially at Harvard.
-Lewis has been married since 1968 to Marlyn McGrath. They live in Brookline, Massachusetts and Bigfork, Montana and have two daughters, Elizabeth and Anne. Lewis is a graduate of the Roxbury Latin School, the oldest school in continuous existence in North America (founded 1645). When he is not worrying about the state of American education or the unforeseen consequences of digital technology, he worries instead about the Red Sox.  
 
-  
-  
-  
-									
-								
-							main content ends
-											
-				
+header regions end
+main menu region beg
 
-				
-				
-			
-		
-		footer region beg
-		
-		 Three column 3x33 Gpanel 
-		  
-  	Admin Login  	OpenScholar
-    
-  
-  
+BioBrief BiographyCVClassesFreshman Seminar 49y: Amateur AthleticsComputer Science 20: Discrete Mathematics for Computer ScienceComputer Science 121 and CSCI E-121: Introduction to the Theory of ComputationArticlesBooks
+ main menu region end
+
+
+
+
+
+
+front panel regions beg
+
+
+
+
+
+
+
+Blown to Bits -- Excellence Without a Soul -- Hong Kong Lectures --Baseball as a Second Language (NEW: 2012 election edition)
+The Hong Kong Lectures were delivered in January, 2011. Here are the ppts:  Civic Education-- Approaches to General Education -- Future of Ignorance --Idea Economy
+I blog sporadically about education, the digital explosion, and other topics of interest at my Bits and Pieces blog. This blog expands the subjects I had previously blogged at Blown to Bits, the site associated with the book of that name by Hal Abelson, Ken Ledeen, and myself.
+***
+Op-Eds, Newsletters, and Committee Reports
+Talks at Morning Prayers
+Committees and Boards
+PhDs I have supervised.
+An almost complete list of all those who have been teaching fellows in my courses
+A few articles written about me at the end of my deanship.
+A few personal details about me and my family.
+ 
+front panel regions end
+
+
+sidebar first region beg
+
+
+
+OFFICE HOURS:
+Th 10/24 3-4:30
+Tu 10/29 11:30-1
+Th 10/31 2-3:30
+or by appointment
+Maxwell Dworkin 237 School of Engineering and Applied Sciences Harvard University Cambridge, MA 02138
+
+
+Voice (617)496-2424
+
+FAX (617)495-2809
+Email me at LEWIS "AT" HARVARD "DOT" EDU. 
+If you'd rather risk Google reading it than Harvard reading it, use HARRYROYLEWIS "AT" GMAIL "DOT" COM.
+ sidebar first region end
+
+
+footer region beg
+
+ Three column 3x33 Gpanel 
+
+Admin Login OpenScholar
+
+
+
 page area ends
 
-
-
-  

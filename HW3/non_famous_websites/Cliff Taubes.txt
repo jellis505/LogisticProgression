@@ -1,0 +1,273 @@
+html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" Harvard Mathematics Department : Information  
+
+
+Home
+About
+People
+Courses
+Undergrad
+Graduate
+Research
+Admin
+News
+Seminars
+Conferences
+Computing
+Sitemap
+
+
+
+ 
+Harvard Mathematics Department Information 
+
+
+
+
+
+
+
+
+
+
+
+
+Department of Mathematics
+FAS
+Harvard University
+One Oxford Street
+Cambridge MA 02138 USA
+Tel: (617) 495-2171
+Fax: (617) 495-5132
+
+
+
+Chair
+
+As of July 1, 2013, the Chair of the Mathematics Department is
+Benedict Gross. Contact information:Benedict Gross, Science Center, 3th Floor
+5-9063, gross@math.harvard.edu
+
+Director of Undergraduate Studies
+
+The director of Undergraduate Studies is 
+Peter Kronheimer. 
+For questions about concentration in Mathematics, contact the 
+undergraduate student coordinator 
+Cindy Jiminez.
+
+
+Department Staff
+Irene Minder
+is the department's director of finance and 
+administration. You find
+a staff directory on the resources page.
+For visitors, there is
+some more information as well as
+some pointers on computing.
+
+Research
+
+Mathematics research is done in various research areas
+The junior faculty home pages, the 
+visitor interests page, 
+or the graduate student home pages contain more links.
+Check also the 
+dissertation titles, 
+senior thesis titles, 
+mathematics seminar archive, 
+the faculty colloquium or regular 
+conferences like the CDM conference,
+the JDG conference or a
+topology conference, the conference archive 
+or research programs like
+the eigenvarieties program 2006. 
+Also the seminar talk archive,
+the undergraduate math colloquium 
+can give clues about activities. A good starting point on the web is also
+the MathSciNet search for "Harvard Mathematics" at AMS
+or a 
+Google scholar search for "Harvard Mathematics". 
+
+Department 
+
+The Mathematics department is located on the floors 2-5 in the 
+Science center.
+Information how to reach the department is 
+here.
+During the semesters, there is tea at 4 o'clock in the Math common room.
+On Fridays, there is usually "wine and cheese" available. (The name does not exclude "beer" and nonalcoholic drinks to be available).
+
+Within Harvard
+
+The mathematics department is part of the 
+faculty of arts and sciences (FAS) at Harvard university.
+The department is located in the 
+Science Center
+at 1 Oxford street
+in Cambridge near Boston in the state of
+Massachusetts. 
+There is a virtual tour of Harvard.
+
+
+
+Calculus
+
+To search all Harvard courses, start here.
+Mathematics courses are listed  on this page.
+Calculus courses are mainly taught in smaller sections.
+The preceptor group led by Robin Gottlieb 
+coordinates the calculus program. 
+Information about sectioning,
+advising and placement tests is located here.
+For questions, contact the calculus coordinator 
+Susan Milano from the calculus office. 
+
+Computing
+
+The department senior system administrator is 
+Arthur Gaer. 
+ He is assisted by <a href="../people/ChvanyPete.html">Pete Chvany</a>. 
+For computing support, please email computing@math. 
+For information, start with the computing links and
+especially the frequently asked questions.
+Visitors wishing to use computing resources, find information here.
+The departmental Solaris server "Abel" can be reached
+by a web browser or with 
+webmail.
+For administrative purposes, there are Apple OSX and 
+several Linux servers like for example a newer Sunfire X4150 Server with 2 quadcore Xeons, 8G Ram. For scientific computing,
+there is a 64-bit quad Sun Fire V480 Server with 22GB RAM,
+a Linux cluster meccah 
+is now replaced by a Sun 16 core X4700 Opteron machine, called Alhambra.
+
+Courses
+Here is a list 
+of Math courses which are part of all FAS courses.
+Some department members also teach at the Summer school or the 
+Extension school and its
+teaching Masters program.
+During the semester
+or in the summer, tutorials are organized. Information about
+current tutorials can be found in the
+tutorial pamphlet. 
+All the pamphlets are listed 
+here in HTML and PDF form. You can download all pamphlets together
+as a 30 page PDF document. 
+
+Location
+
+Directions to reach the department are on this page. 
+To find your way around, 
+the Open customized street map,
+the Google map,
+the Harvard university map, or
+the Floorplans might help.
+Here are some pictures of the 
+science center.
+
+Libraries
+
+The Librarian of the "laptop and cellphone free" Birkhoff library in the department is 
+Nancy Miller. 
+Nancy also is the contact to the registrar
+as well as book stores for course material. The chair of the Library committee is 
+Curtis McMullen.
+The Science center locates also the Cabot library, 
+one of the many libraries
+at Harvard. For more information to all Harvard libraries, start 
+here. Downstairs in the Cabot science library, there is a scanner. 
+It is located near the periodicals and allows to scan papers to memory stick or via network to your 
+computer. 
+
+
+Graduate 
+
+The web page with information about the graduate school is 
+here. This page contains for example
+an archive of old qualifying exams.
+For questions about the graduate school, contact the graduate 
+coordinator Susan Gilbert. 
+The director of graduate studies is
+Joe Harris.
+
+Undergraduate 
+
+Most information for undergraduates is
+here. Math table talks are listed 
+here. Information on the Putnam exam is on this page.
+For undergraduate research opportunities look here.
+For questions about concentration in Mathematics, contact the undergraduate student coordinator
+Cindy Jiminez.
+The senior faculty undergraduate coordinator is 
+Peter Kronheimer.
+
+
+Seminars
+
+Some recent news can be accessed here.
+Events and seminars in the Boston area are listed 
+on this page.
+If you organize a seminar needing advertisement, fill out a form there. The current and future 
+seminar announcements at the
+Mathematics department are regularly moved to the
+archive. We also keep a 
+long term archive. These archives can 
+be sorted in different ways. Contact Susan Peterson
+to post an event, or make a room request. 
+You might also want to look at the the faculty colloquium talks, 
+the trivial notions talks 
+archived here,
+the undergraduate colloquium a weekly event which is also called the
+"Math Table", or the teaching seminars.
+
+Jobs
+
+Information on applying to the graduate school can be found on the admissions section of
+the graduate web page.
+To apply for a Benjamin Peirce Lectureship, use the application form 
+in  TXT or 
+ PDF format.
+To apply for the Preceptor position in Mathematics, use the application form
+in TXT or 
+PDF format. 
+For upper and lower level 
+course assistant positions
+check out the jobs page. 
+
+Conferences
+
+Here is an archive of recent conferences
+at the Mathematics department.
+
+History
+
+We have a collection of texts about the history
+of the Mathematics department. It contains also other resources like 
+scanned old department directories, 
+scanned old maps of Cambridge, 
+old lithographs in high resolution
+or photos of old math models exhibited in the 
+Math common room. 
+
+
+
+
+Department of Mathematics
+Harvard University
+Faculty of Arts & Sciences
+Harvard Science
+
+
+
+Webmaster
+   © 2012 The President and Fellows of Harvard College,
+   Feedback to this page
+
+
+
+Privacy
+
+
+HTML
+CSS
+

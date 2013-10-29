@@ -1,70 +1,25 @@
-html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"[if lt IE 7 ]> <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class="ie ie6"> <![endif][if IE 7 ]>    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class="ie ie7"> <![endif][if IE 8 ]>    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class="ie ie8"> <![endif][if IE 9 ]>    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class="ie ie9"> <![endif][if (gt IE 9)|!(IE)]><!<![endif] PageID 3051 - published by OpenText Web Site Management 10.1 - 10.1.2.391 
-        
-        
-        
-        
-                Brooklyn College | Faculty Profile
-
-        [if IE 6]>
+html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"[if lt IE 7 ]> <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class="ie ie6"> <![endif][if IE 7 ]>    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class="ie ie7"> <![endif][if IE 8 ]>    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class="ie ie8"> <![endif][if IE 9 ]>    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class="ie ie9"> <![endif][if (gt IE 9)|!(IE)]><!<![endif] PageID 3051 - published by OpenText Web Site Management 10.1 - 10.1.2.391 Brooklyn College | Faculty Profile[if IE 6]>
             <link rel="stylesheet" type="text/css" href="http://www.brooklyn.cuny.edu/web/css/ie6.css" media="all" />
-        <![endif]
-        
-        
-
-        
-
-        
-        
-        
-        
-        
-        
-        
-        
-        
-
-        
-        
-        
-
- <script language="javascript" type="text/javascript" src="http://www.brooklyn.cuny.edu/web/js/jquery.reverseorder.packed.js"></script>
-  
-
- 
+        <![endif]<script language="javascript" type="text/javascript" src="http://www.brooklyn.cuny.edu/web/js/jquery.reverseorder.packed.js"></script>
 .admissions_feature_submit label     {color:#525252;}
 #admissions_feature .bar, 
 /*#admissions_feature .form .tray     {background-color:#FFFFFF;}*/    
- 
-
-        
-
-
-     force update 
-    
-    
-
-
-         START HEADER 
-
-        
+  force update 
+ START HEADER 
 
  start feedback 
-
-
  end feedback 
 
 
-            
-                
-                    About
-                    Academics
-                    Admissions
-                    Campus Life
-                    News & Media
-                    Athletics
-                    Support BC
-                    
-                        <a href="http://www.brooklyn.cuny.edu/web/search.php" rel="#search" class="search"></a>
+About
+Academics
+Admissions
+Campus Life
+News & Media
+Athletics
+Support BC
+
+ <a href="http://www.brooklyn.cuny.edu/web/search.php" rel="#search" class="search"></a>
                         <div id="search" style="display:none">
                             <form action="http://www.brooklyn.cuny.edu/web/search.php" method="post">
                                 <fieldset>
@@ -73,204 +28,143 @@ html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml
                                 </fieldset>
                             </form>
                         </div>
-
-
 old search added eher
 
- 
-   
- 
-        
-     
-        
-        
-       
-       
-       
-  
+
+
+
+
+
+
+
 
 
  end
 
-                    
-                
-            
-                        
-            
-    
-     
-        
-        
-        
-            Our CampusFast FactsAdministrationInitiatives, Plans and PoliciesInternational Education
-        
-        
-        
-        
-            ResearchOur Past, Our FutureOffices and ServicesContact Us
-        
-        
-            
-                
-                
-                    Welcome to Brooklyn College.
-                    
+
+
+
+Our CampusFast FactsAdministrationInitiatives, Plans and PoliciesInternational Education
+
+
+ResearchOur Past, Our FutureOffices and ServicesContact Us
+
+
+
+
+
+Welcome to Brooklyn College.
+
                         Explore our campus with our new virtual tour.                    
-                
-            
-            
-        
-    
 
-    
-     
-        
-        
-        
-            SchoolsAcademic DepartmentsMajors, Minors and ConcentrationsInterdisciplinary ProgramsGraduate ProgramsDoctoral Programs
-        
-        
-        
-        
-            Fields of StudyGeneral EducationHonors and Special ProgramsInternational EducationAcademic Resources
-        
-        
-        
-        
-            LibraryCenters and InstitutesResearchFacultyCourse Schedules and Bulletins
-        
-        
-            
-            
-        
-    
 
-    
-     
-        
-        
-        
-            Incoming FreshmenTransfer StudentsGraduate StudentsInternational StudentsSecond-Degree Students
-        
-        
-        
-        
-            Other StudentsApplyTuition, Fees and PaymentsFinancial AidInformation Request
-        
-        
-        
-        
-            Visit CampusUndergraduate Admissions EventsGraduate Admissions Events
-        
-        
-            
-            
-        
-    
 
-    
-     
-        
-        
-        
-            BC NewsBC In the MediaResearchVideos
-        
-        
-        
-        
-            Office of Communications and Marketing
-        
-        
-            
-            
-            
-                
-                    Visit us on Facebook
-                
-                
-                    Follow us on Twitter
-                
-                
-                    Email us a question
-                
-            
-        
-    
 
-    
-     
-        
-        
-        
-            What the Campus Has to OfferDivision of Student AffairsStudent ClubsIntramurals / RecreationHealth and Wellness
-        
-        
-        
-        
-            CommencementVeteran Affairs and CounselingLiving in BrooklynResidential Life
-        
-        
-        
-        
-            
-        
-        
-            
-            
-        
-    
 
-    
-     
-        
-        
-        
-            Brooklyn College FoundationGet Involved and Give BackWhy GiveWhat I Get
-        
-        
-            
-                
-                
-                    Welcome to Brooklyn College.
-                    
+
+
+SchoolsAcademic DepartmentsMajors, Minors and ConcentrationsInterdisciplinary ProgramsGraduate ProgramsDoctoral Programs
+
+
+Fields of StudyGeneral EducationHonors and Special ProgramsInternational EducationAcademic Resources
+
+
+LibraryCenters and InstitutesResearchFacultyCourse Schedules and Bulletins
+
+
+
+
+
+
+
+Incoming FreshmenTransfer StudentsGraduate StudentsInternational StudentsSecond-Degree Students
+
+
+Other StudentsApplyTuition, Fees and PaymentsFinancial AidInformation Request
+
+
+Visit CampusUndergraduate Admissions EventsGraduate Admissions Events
+
+
+
+
+
+
+
+BC NewsBC In the MediaResearchVideos
+
+
+Office of Communications and Marketing
+
+
+
+
+Visit us on Facebook
+
+
+Follow us on Twitter
+
+
+Email us a question
+
+
+
+
+
+
+
+What the Campus Has to OfferDivision of Student AffairsStudent ClubsIntramurals / RecreationHealth and Wellness
+
+
+CommencementVeteran Affairs and CounselingLiving in BrooklynResidential Life
+
+
+
+
+
+
+
+
+
+Brooklyn College FoundationGet Involved and Give BackWhy GiveWhat I Get
+
+
+
+
+
+Welcome to Brooklyn College.
+
                         Explore our campus with our new virtual tour.                    
-                
-            
-            
-            
-                
-                    Visit us on Facebook
-                
-                
-                    Follow us on Twitter
-                
-                
-                    Email us a question
-                
-            
-        
-    
 
-            
-         #nav_container 
-        
-        
-            
-            
-                Brooklyn College
-                
-                
-                    BC WebCentralCalendarOffices and ServicesLibraryHonors and Special Programs
-                
-                
-                
-                    Prospective Students
-                    Current Students
-                    Faculty & Staff
-                    Alumni & Friends
-                
 
-                
+
+
+Visit us on Facebook
+
+
+Follow us on Twitter
+
+
+Email us a question
+
+
+
+
+
+ #nav_container 
+
+
+Brooklyn College
+
+BC WebCentralCalendarOffices and ServicesLibraryHonors and Special Programs
+
+
+Prospective Students
+Current Students
+Faculty & Staff
+Alumni & Friends
+
+
                   $(document).ready(function(){
                     $('#consistent_nav li').last().addClass('last');
                     
@@ -289,115 +183,85 @@ old search added eher
 
                   });
                 
-                
-                
-                
-                
-                    
-                    
-                    
-                        AdmissionsApply OnlineCampus Life
-                    
-                    
-                    
-                        Financial AidHonors and Special ProgramsInternational EducationLibrary
-                    
-                    
-                    
-                        News and MediaRegistrarResidential Life
-                    
-                    
- 
+
+
+AdmissionsApply OnlineCampus Life
+
+
+Financial AidHonors and Special ProgramsInternational EducationLibrary
+
+
+News and MediaRegistrarResidential Life
 
 
 
- 
-
- 
-
- 
-
- 
-
-                
-                
-                    
-                    
-                    
-                        Academic AdvisingBookstoreBursarCalendarsCampus ConstructionCampus LifeCareer Development and InternshipsCommencementCourse Schedules and Bulletins
-                    
-                    
-                    
-                        CUNY Blackboard / PortalEnrollment Services CenterFinancial AidInitiatives, Plans and PoliciesInYourClassLibraryNew Students / Orientation InformationNews and Media
-                    
-                    
-                    
-                        Offices and ServicesPathwaysPublic SafetyRegistrarRegistration AppointmentsScholarships and AwardsStudent HandbookStudent Housing
-                    
-                    
- 
 
 
 
- 
+
+
+
+
+
+
+
+Academic AdvisingBookstoreBursarCalendarsCampus ConstructionCampus LifeCareer Development and InternshipsCommencementCourse Schedules and Bulletins
+
+
+CUNY Blackboard / PortalEnrollment Services CenterFinancial AidInitiatives, Plans and PoliciesInYourClassLibraryNew Students / Orientation InformationNews and Media
+
+
+Offices and ServicesPathwaysPublic SafetyRegistrarRegistration AppointmentsScholarships and AwardsStudent HandbookStudent Housing
+
+
+
+
+
+
 BC WebCentral LoginForgot Your Password?Forgot Your WebCentral ID?New Users
- 
 
- 
+
 College Directory
- 
-
-                
-                
-                    
-                    
-                    
-                        Academic Affairs / Office of the ProvostBookstoreCalendarsCampus ConstructionCampus DirectoryCampus LifeCUNY Blackboard / Portal
-                    
-                    
-                    
-                        Faculty CouncilFaculty HandbookFaculty NewsletterFaculty and Staff Development Opportunities (CUNY)Human ResourcesInYourClass
-                    
-                    
-                    
-                        ITS (Information Technology Services)LibraryNews and MediaOffices and ServicesPublic SafetyWebmailWriting Across the Curriculum
-                    
-                    
- 
 
 
 
- 
+
+
+Academic Affairs / Office of the ProvostBookstoreCalendarsCampus ConstructionCampus DirectoryCampus LifeCUNY Blackboard / Portal
+
+
+Faculty CouncilFaculty HandbookFaculty NewsletterFaculty and Staff Development Opportunities (CUNY)Human ResourcesInYourClass
+
+
+ITS (Information Technology Services)LibraryNews and MediaOffices and ServicesPublic SafetyWebmailWriting Across the Curriculum
+
+
+
+
+
+
 BC WebCentral LoginForgot Your Password?Forgot Your WebCentral ID?New Users
- 
 
- 
+
 College Directory
- 
 
-                
-                
-                    
-                    
-                    
-                        Benefits and ServicesBrooklyn College Alumni AssociationBrooklyn College Foundation
-                    
-                    
-                    
-                        Calendar of EventsChapters and AffiliatesGet Involved and Give Back
-                    
-                    
-                    
-                        Office of Alumni AffairsStay in TouchTranscripts
-                    
-                    
-                    
-                        Contact Us
-                    
-                    
-                
 
-            
+
+
+
+Benefits and ServicesBrooklyn College Alumni AssociationBrooklyn College Foundation
+
+
+Calendar of EventsChapters and AffiliatesGet Involved and Give Back
+
+
+Office of Alumni AffairsStay in TouchTranscripts
+
+
+Contact Us
+
+
+
 
  
   var _gaq = _gaq || [];
@@ -420,35 +284,21 @@ try {
 var pageTracker = _gat._getTracker("UA-16095067-1");
 pageTracker._trackPageview();
 } catch(err) {} #header 
-             END HEADER 
+ END HEADER 
+ 
 
-  
        headline_parent = "Faculty Profile";  
 
 
 
 
 
+HomeAcademicsFacultyBrooklyn College Faculty
+Faculty Details
+
+<h1>Faculty Details</h1>
 
 
-    
-                    
-                            
-                
-                    HomeAcademicsFacultyBrooklyn College Faculty
-                    Faculty Details
-                
-                
-                <h1>Faculty Details</h1>
-                
-
-                                 
- 
-
-
- 
- 
- 
 
  
 <!-- 
@@ -459,278 +309,200 @@ var textValue = '<nobr><a href="mailto:' + id + '@' + server + '">\n' + id +
 return textValue; 
 } 
 // --> 
- 
 
-
-
-
-
-
- <div id="sidebar"> 
-sidebar </div> 
-
-Julie Agoos 
+ <div id="sidebar">
+sidebar </div>
+Julie Agoos
 Professor 
-English 
+English
 
 
-
- 
- 
  <h3> 
-Contact Information</h3> 
- 
-<b>Department:</b> English<br /> 
-Location: 3108   Boylan Hall 
-Phone: 718.951.4274         
- 
-Fax: 718.951.4612         
- 
- 
-Email: 
- 
-document.write (makeMailLink("jagoos","brooklyn.cuny.edu")); 
- 
- 
- 
- 
- 
+Contact Information</h3>
+
+<b>Department:</b> English<br />
+Location: 3108   Boylan Hall
+Phone: 718.951.4274        
+Fax: 718.951.4612        
+Email:
+document.write (makeMailLink("jagoos","brooklyn.cuny.edu"));
+
+
+
 Julie Agoos is the author of three collections of poetry.  Above the Land (1987), selected by James Merrill as winner of the Yale Younger Poets Prize, also received the Towson State University Prize for Literature. Calendar Year was published by the Sheep Meadow Press in 1996, and Property, for which she received the Brooklyn College/CUNY Creative Achivement Award in 2006, was published by Ausable Press in 2008. Agoos has been a resident Fellow of The Frost Place and was a member of the creative writing faculty at Princeton University for eight years. She came to Brooklyn College in 1994 and teaches courses in creative writing/poetry in both the undergraduate English Department and the M.F.A. Poetry Program. She also teaches courses in Victorian poetry, modern British and Irish poetry, and special topics tutorials in reading and writing, such as poetry and the source and the poetics of hell.
 
- 
-Show Scholarly Activities and Professional Accomplishments 
- 
+Show Scholarly Activities and Professional Accomplishments
 
+ Education: 
+M.A., The Johns Hopkins University - 1983 (The Writing Seminars)
+B.A. (magna cum laude), Harvard University - 1979 (English and American Literature and Language)
+Areas of Expertise: 
+Professor Agoos' primary interest is in dramatic and narrative modes of poetry, and in lyric strategies for the long poem. She is also interested in exploring, in book form, the ways in which  poems overlap and infiltrate each other to create a sustained form beyond the forms of individual lyrics.
 
-
- Education:  
- 
-M.A., The Johns Hopkins University - 1983 (The Writing Seminars) 
-
- 
-B.A. (magna cum laude), Harvard University - 1979 (English and American Literature and Language) 
-
- 
- 
- 
-
-Areas of Expertise:  
-Professor Agoos' primary interest is in dramatic and narrative modes of poetry, and in lyric strategies for the long poem. She is also interested in exploring, in book form, the ways in which  poems overlap and infiltrate each other to create a sustained form beyond the forms of individual lyrics. 
- 
-
- 
- 
- 
- 
-Books and Publications 
+Books and Publications
   
-"Fire and Ice," an essay commissioned by the Josef Albers Foundation for the Cork University Museum catalogue for "Sacred Modernism," a retrospective of work by Josef Albers opening on April 5, Cork City, Ireland.  (Books and Publications: Forthcoming Publications) 2012 
- 
- 
-Property, a collection of poems. Ausable/Copper Canyon Press.  (Books and Publications: Book) 2008 
- 
- 
-Poems. An Ausable Reader. Ausable Press.  (Books and Publications: Chapter) 2008 
- 
- 
-Poems. Under the Rock Umbrella: Contemporary American Poets, 1951-1971 anthology. Mercer University Press.  (Books and Publications: Chapter) 2007 
- 
- 
-Poems. A Poem a Day anthology. Steerforth Press.  (Books and Publications: Chapter) 2006 
- 
- 
-The Gift of Light, Tribute to Donald Sheehan (festschrift). Swamp Press.  (Books and Publications: Chapter) 2003 
- 
- 
-Foreword to Rattle, by Eloise Bruce. CavanKerry Press.  (Books and Publications: Other Article) 2002 
- 
- 
-Poems and critical comment. The Breath of Parted Lips anthology. CavanKerry Press.  (Books and Publications: Chapter) 1999 
- 
- 
-Calendar Year, a collection of poems comprising four interpenetrating sequences. The Sheep Press.  (Books and Publications: Book) 1997 
- 
- 
-Above the Land, poems, winner of the Yale Series of Younger Poets Award (selected by James Merrill) and the Towson State University Prize for Literature, YUP.  (Books and Publications: Book) 1987 
- 
- 
-Creative Work 
-  
-Poems from the series "Satires of Circumstance." Notre Dame Review, January.  2012 
- 
- 
-Poetry reading, Turnstyle Poetry Series of the Affiliated CUNY Writing Programs.  2010 
- 
- 
-Poetry reading for the New York Academy of Poets. New York Public Library, Mulberry Street Branch.  2009 
- 
- 
-Poetry reading with Ausable Press authors. New York Arts Club.  2009 
- 
- 
-Poetry reading, Blacksmith Poetry Series, Cambridge, Mass.  2009 
- 
- 
-Poetry reading, Nyack Center Women of Leadership and Vision Honoree ceremony.  2009 
- 
- 
-Poetry reading, The Wolfe Institute, Brooklyn College.  2008 
- 
- 
-Reading, St. Johnsbury Athenaeum, St. Johnsbury, Vt.  2008 
- 
- 
-Staged reading of Property, directed by Darrell Larson. Riverspace Arts Center.  2008 
- 
- 
-Awards, Honors and Fellowships 
-  
-Tow Professorship Award, Brooklyn College.  (Awards and Honors) 2008 
- 
- 
-Creative Achievement Award, Brooklyn College.  (Awards and Honors) 2006 
- 
- 
-Robert Frost Place Residency Fellowship.  (Grants and Fellowships) 1989 
- 
- 
-Towson State University Prize for Literature.  (Awards and Honors) 1988 
- 
- 
-Yale Series of Younger Poets Award.  (Awards and Honors) 1987 
- 
- 
-Briggs Literary Fellowship for one year of travel to Florence, Italy. Department of English, Harvard University.  (Awards and Honors) 1979 
- 
- 
-Grolier Poetry Prize, Grolier Book Shop, Cambridge, Mass.  (Awards and Honors) 1979 
- 
- 
-Lloyd McKim Garrison Poetry Prize, Department of English, Harvard University.  (Awards and Honors) 1979 
- 
- 
-Conferences, Seminars and Symposiums 
-  
-"The Long Poem" panel, AWP Conference. Washington, D.C., March 2011 (upcoming).  (Conferences, Seminars and Symposiums: Invited Talk) 2011 
- 
- 
-Professional Leadership 
-  
-Member, Borough President Marty Markowitz's Commmittee to select a new Brooklyn Poet Laureate.  (Professional Leadership: Committee Service) 2010 
- 
- 
-Community Activities 
-  
-Hopper House Art Center Book Fair, Nyack, N.Y.  2008 
- 
- 
-Other Professional Activities 
-  
-Judge, The Hopwood Poetry Contest, University of Michigan, March/April.  2012 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+"Fire and Ice," an essay commissioned by the Josef Albers Foundation for the Cork University Museum catalogue for "Sacred Modernism," a retrospective of work by Josef Albers opening on April 5, Cork City, Ireland.  (Books and Publications: Forthcoming Publications) 2012
 
- [ BACK TO FACULTY PROFILES ] 
+Property, a collection of poems. Ausable/Copper Canyon Press.  (Books and Publications: Book) 2008
+ 
+ 
+Poems. An Ausable Reader. Ausable Press.  (Books and Publications: Chapter) 2008
+ 
+ 
+Poems. Under the Rock Umbrella: Contemporary American Poets, 1951-1971 anthology. Mercer University Press.  (Books and Publications: Chapter) 2007
+ 
+ 
+Poems. A Poem a Day anthology. Steerforth Press.  (Books and Publications: Chapter) 2006
+ 
+ 
+The Gift of Light, Tribute to Donald Sheehan (festschrift). Swamp Press.  (Books and Publications: Chapter) 2003
+ 
+ 
+Foreword to Rattle, by Eloise Bruce. CavanKerry Press.  (Books and Publications: Other Article) 2002
+ 
+ 
+Poems and critical comment. The Breath of Parted Lips anthology. CavanKerry Press.  (Books and Publications: Chapter) 1999
+
+Calendar Year, a collection of poems comprising four interpenetrating sequences. The Sheep Press.  (Books and Publications: Book) 1997
+
+Above the Land, poems, winner of the Yale Series of Younger Poets Award (selected by James Merrill) and the Towson State University Prize for Literature, YUP.  (Books and Publications: Book) 1987
+
+Creative Work
+  
+Poems from the series "Satires of Circumstance." Notre Dame Review, January.  2012
+ 
+ 
+Poetry reading, Turnstyle Poetry Series of the Affiliated CUNY Writing Programs.  2010
+ 
+ 
+Poetry reading for the New York Academy of Poets. New York Public Library, Mulberry Street Branch.  2009
+ 
+ 
+Poetry reading with Ausable Press authors. New York Arts Club.  2009
+ 
+ 
+Poetry reading, Blacksmith Poetry Series, Cambridge, Mass.  2009
+ 
+ 
+Poetry reading, Nyack Center Women of Leadership and Vision Honoree ceremony.  2009
+ 
+ 
+Poetry reading, The Wolfe Institute, Brooklyn College.  2008
+ 
+ 
+Reading, St. Johnsbury Athenaeum, St. Johnsbury, Vt.  2008
+ 
+ 
+Staged reading of Property, directed by Darrell Larson. Riverspace Arts Center.  2008
+
+Awards, Honors and Fellowships
+  
+Tow Professorship Award, Brooklyn College.  (Awards and Honors) 2008
+ 
+ 
+Creative Achievement Award, Brooklyn College.  (Awards and Honors) 2006
+ 
+ 
+Robert Frost Place Residency Fellowship.  (Grants and Fellowships) 1989
+ 
+ 
+Towson State University Prize for Literature.  (Awards and Honors) 1988
+ 
+ 
+Yale Series of Younger Poets Award.  (Awards and Honors) 1987
+ 
+ 
+Briggs Literary Fellowship for one year of travel to Florence, Italy. Department of English, Harvard University.  (Awards and Honors) 1979
+ 
+ 
+Grolier Poetry Prize, Grolier Book Shop, Cambridge, Mass.  (Awards and Honors) 1979
+ 
+ 
+Lloyd McKim Garrison Poetry Prize, Department of English, Harvard University.  (Awards and Honors) 1979
+
+Conferences, Seminars and Symposiums
+  
+"The Long Poem" panel, AWP Conference. Washington, D.C., March 2011 (upcoming).  (Conferences, Seminars and Symposiums: Invited Talk) 2011
+
+Professional Leadership
+  
+Member, Borough President Marty Markowitz's Commmittee to select a new Brooklyn Poet Laureate.  (Professional Leadership: Committee Service) 2010
+
+Community Activities
+  
+Hopper House Art Center Book Fair, Nyack, N.Y.  2008
+
+Other Professional Activities
+  
+Judge, The Hopwood Poetry Contest, University of Michigan, March/April.  2012
 
 
-   
 
-                
+
+
+ [ BACK TO FACULTY PROFILES ]
+
+
+
 Back to Top
-            
-        
+
+
  #main 
-        
-    
+
  #content_container 
-
-
-
+ 
  START FOOTER - on every page 
-            
-                
-                    
-                    Apply Online
 
-                    
-        Apply now to one of more than 250 undergraduate and graduate degree and advance certificate programs.
-    
 
-                
-                    
-                    Virtual Tour
 
-                    
-        If you can’t be here in person, take our virtual tour and discover the beauty and vitality of our campus.
-         
-    
+Apply Online
+Apply now to one of more than 250 undergraduate and graduate degree and advance certificate programs.
 
-                
-                    
-                    Research
 
-                    
-        Our faculty not only share their discoveries and knowledge with you, they invite you to be active members of their research teams.
-    
+Virtual Tour
+If you can’t be here in person, take our virtual tour and discover the beauty and vitality of our campus.
+ 
 
-                
-                    
-                    Residence Hall
 
-                    
-        Make Brooklyn College your home away from home when you move into an apartment in our new residence hall.
-    
+Research
+Our faculty not only share their discoveries and knowledge with you, they invite you to be active members of their research teams.
 
-                
-             #content_footer 
-            
-            
-            
-                
-                    
-                        HomeDirectoryEmploymentPrivacy PolicyPoliciesText Only WebsiteMake This Website TalkSite Map
-                    
-                
-                
+
+Residence Hall
+Make Brooklyn College your home away from home when you move into an apartment in our new residence hall.
+
+ #content_footer 
+
+
+
+HomeDirectoryEmploymentPrivacy PolicyPoliciesText Only WebsiteMake This Website TalkSite Map
+
+
+
                   $(document).ready(function() {
                     $('#content_footer .column:last').addClass('last');
                     $('#footer .footer_nav ul li:last').addClass('last');
                   });
                 
-                
-                Follow us on Twitter
-                Watch our videos on YouTube
-                Visit us on Facebook
-                
-                
-                
-                    © ?php print(date("Y")); ?  
+Follow us on Twitter
+Watch our videos on YouTube
+Visit us on Facebook
+
+
+                    ©   
         All Rights Reserved Brooklyn College
         2900 Bedford Avenue, Brooklyn, NY 11210
         718.951.5000
      
 
-?php
-$ipAddress = $_SERVER['SERVER_ADDR'];
-echo "<font color=#D9D9D9ipadress is-$ipAddress";
+ipadress is-$ipAddress";
 ?>
 
 
-                
-                
-             #footer 
-             END FOOTER 
-            
-         #container 
 
+ #footer 
+ END FOOTER 
+ #container 
 
  
   var _gaq = _gaq || [];
@@ -748,9 +520,4 @@ echo "<font color=#D9D9D9ipadress is-$ipAddress";
     };
  
 
-
-    
-
-
-
-
+ 

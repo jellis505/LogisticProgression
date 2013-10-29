@@ -1,17 +1,8 @@
 html[if IE 8]>
 <html id="ie8" lang="en">
-<![endif][if !(IE 8) ]><!<![endif]
-
-
-CV | Joseph Harris
-
-
-[if lt IE 9]>
+<![endif][if !(IE 8) ]><!<![endif]CV | Joseph Harris[if lt IE 9]>
 <script src="http://s2.wp.com/wp-content/themes/pub/oxygen/js/html5.js?m=1335201688g" type="text/javascript"></script>
 <![endif]
-
-		
-		
 		/* <![CDATA[ */
 			if ( 'function' === typeof WPRemoteLogin ) {
 				document.cookie = "wordpress_test_cookie=test; path=/";
@@ -21,50 +12,14 @@ CV | Joseph Harris
 			}
 		/* ]]> */
 		
-		
-
-
 /* <![CDATA[ */
 function addLoadEvent(func){var oldonload=window.onload;if(typeof window.onload!='function'){window.onload=func;}else{window.onload=function(){oldonload();func();}}}
 /* ]]> */
 
-
-
-
-
-
-
 /* <![CDATA[ */
 var LoggedOutFollow = {"invalid_email":"Your subscription did not succeed, please try again with a valid email address."};
 /* ]]> */
-
-
-
- 
-
-
-
-
-
  Jetpack Open Graph Tags 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		
 		/* <![CDATA[ */
 		/* Block: reblog */
 		
@@ -97,10 +52,8 @@ var LoggedOutFollow = {"invalid_email":"Your subscription did not succeed, pleas
 
 		/* ]]> */
 		
-			
 		#page {
 			background-color: #ffffff		}
-	
 	
 		html {
 			font-size: 16px;
@@ -118,55 +71,36 @@ var LoggedOutFollow = {"invalid_email":"Your subscription did not succeed, pleas
 			background-color: #0da4d3;
 		}
 	
-
-
-	
 			.site-title a {
 			color: #222222;
 		}
 		
-	
 body.custom-background { background-color: #ffffff; }
 
 
 
 
+Joseph Harris
+cv, teaching, writing, workshops
 
 
-		
-		
-			Joseph Harris
-			cv, teaching, writing, workshops
-		
 
-		
-		
-			
-				
-			
 
-		
-		
-			Main Menu
-			Skip to content
 
-			About MeCVTeachingAcademic WritingCreative NonfictionDigital WritingReading GenresRepresenting LearningTeaching WritingOther teachingBooksRewritingA Teaching SubjectTeaching with Student TextsMedia JournalArticlesBrief WritingsEditingSWRCCCTalksFaculty Workshops
-		
-	 #masthead .site-header 
+Main Menu
+Skip to content
+About MeCVTeachingAcademic WritingCreative NonfictionDigital WritingReading GenresRepresenting LearningTeaching WritingOther teachingBooksRewritingA Teaching SubjectTeaching with Student TextsMedia JournalArticlesBrief WritingsEditingSWRCCCTalksFaculty Workshops
 
-	
-		
-			
+ #masthead .site-header 
 
-				
-					
 
-	
-		CV
-	 .entry-header 
 
-	
-		The following brief CV highlights the work I’ve done since coming to Duke University in 1999. For more information, consult the other pages on this site and/or download my full CV 2012.
+
+
+CV
+ .entry-header 
+
+The following brief CV highlights the work I’ve done since coming to Duke University in 1999. For more information, consult the other pages on this site and/or download my full CV 2012.
 Current Position
 
 Associate Professor of English
@@ -215,31 +149,17 @@ Writing and Social Class
 University Service
 Director of the Thompson Writing Program (TWP), 1999–2009
 Founding director of an independent, multidisciplinary writing program charged with teaching a first-year course in Academic Writing, staffing a tutorial Writing Studio, and consulting with faculty and graduate students who teach advanced, writing-designated courses in departments across the university. Supervised the work of three faculty Program Directors (First-Year Writing, Writing Studio, Writing in the Disciplines) and three staff employees. Responsible for the intellectual quality and coherence of over 140 sections of the required first-year course in Academic Writing; hired, trained, and supervised a multidisciplinary writing faculty of 26 Postdoctoral Fellows. Taught the annual Postdoctoral Seminar in Teaching Writing for new writing faculty; served as Project Director for grants, totaling $3.8 million, from Mellon Foundation focusing on professional development of postdoctoral fellows. The TWP was awarded the CCCC Writing Program Certificate of Excellence in 2006. In 2008 the program was renamed in honor of Dean Robert J. Thompson, Jr.
-Like this:Like Loading...			 .entry-content 
-	
-			
+Like this:Like Loading...  .entry-content 
+
+
  #post-9 
 
-					
-	
-	
-
-	
-	
-	
-			
  #comments .comments-area 
-				
-			 #content 
-		 #primary .site-content 
+ #content 
+ #primary .site-content 
 
 
-
-
-	
-
-	
-	CONTACT			Joseph Harris
+CONTACT Joseph Harris
 English Department
 University of Delaware
 134 Memorial Hall
@@ -247,58 +167,45 @@ Newark, DE 19716
 Phone: 919-475-6301
 Email: jdharris57@gmail.com
 
-			
-		Search
-		
-		
-	
-	 .widget-area 
+ 
+Search
 
+
+
+ .widget-area 
  #secondary 
 
+Books
 
-	
-	Books
-	
 Media Journal
 Teaching with Student Texts
 A Teaching Subject
 Rewriting
 
-	
 
 Spring 2013 Course
-	
-Digital Writing
 
-	
+Digital Writing
 
 
  #secondary .widget-area 
+ #main 
 
-	 #main 
 
-	
-		
-		Meta			
-			Register			Log in
-			Entries RSS
-			Comments RSS
-			Blog at WordPress.com.						
-	 #first .widget-area 
-	
-	
-	
-	 #supplementary 
-	
-		
-						Blog at WordPress.com.
+Meta 
+Register Log in
+Entries RSS
+Comments RSS
+Blog at WordPress.com. 
+  #first .widget-area 
+ #supplementary 
+
+
+Blog at WordPress.com.
 			 | 
-			The Oxygen Theme. 		 .site-info 
-			 .site-footer .site-footer 
+The Oxygen Theme. 		 .site-info 
+ .site-footer .site-footer 
  #page .hfeed .site 
-
-
 
 var _qevents = _qevents || [], wpcomQuantcastData = {"qacct":"p-18-mFEk4J448M","labels":",language.en,type.wpcom"};
 function wpcomQuantcastPixel( labels, options ) {
@@ -329,7 +236,6 @@ function wpcomQuantcastPixel( labels, options ) {
 (function() {var elem = document.createElement('script');elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";elem.async = true;elem.type = "text/javascript";var scpt = document.getElementsByTagName('script')[0];scpt.parentNode.insertBefore(elem, scpt);  })();
 _qevents.push( wpcomQuantcastData );
 
-<div style="display: none;"><img src="//pixel.quantserve.com/pixel/p-18-mFEk4J448M.gif?labels=%2Clanguage.en%2Ctype.wpcom" height="1" width="1" alt="" /></div>
 
 
 
@@ -339,7 +245,6 @@ var WPGroHo = {"my_hash":""};
 
 
 
-	
 		//initialize and attach hovercards to all gravatars
 		jQuery( document ).ready( function( $ ) {
 			Gravatar.profile_cb = function( hash, id ) {
@@ -350,41 +255,32 @@ var WPGroHo = {"my_hash":""};
 		});
 	
 
-		
-	
 
-	
-		Follow
-		
 
-					Follow “Joseph Harris”
+Follow
 
-			
-			Get every new post delivered to your Inbox.
+Follow “Joseph Harris”
 
-			
+Get every new post delivered to your Inbox.
 
-			
-			
 
-			
-			
-			
-			
 
-			
-			
-			
-					Powered by WordPress.com
-		 #bitsubscribe 
-	 #bit 
-	
+
+
+
+
+
+
+Powered by WordPress.com
+ #bitsubscribe 
+ #bit 
+
 	var skimlinks_pub_id = "725X584219"
 	var skimlinks_sitename = "58pfl9955.wordpress.com";
 	
-			
-		%d bloggers like this:
-		
+ 
+%d bloggers like this:
+
 		//<![CDATA[
 			var jetpackLikesWidgetQueue = [];
 			var jetpackLikesWidgetBatch = [];
@@ -636,10 +532,10 @@ try{
 
 
 st_go({'blog':'13554671','v':'wpcom','tz':'-4','user_id':'0','post':'9','subd':'josephdharris57'});
-ex_go({'crypt':'UE40eW5QN0p8M2Y/RE1LVmwrVi5vQS5fVFtfdHBbPyw1VXIrU3hWLHhzVndTdktBX0ddJnpXRjVaOTd6fj1YMX4ydzRUSk0wbVRfODlnNUZzfl9PdnZMcjNGdHlVSHhwTXRPdGpiTGJ+cix2Xy01Zm1NWGttcl9scmY/UmhiTCZjWDFrQ0xrTyZkPTh1Q0Y4K0dFOFF6NV9SalQrJS13VjJ8JXNKYUhuK3BCRXhGZWNZSkZLLFoubFBvU112SWcxfnRpLz9vSlA/MHdtMVpXZnVxa2diX3hpcGtQSnAyUGdtU3pKbHdrWVN8NDdtdjBCJUk1Sys/SzBraG9NVF1m'});
+ex_go({'crypt':'UE40eW5QN0p8M2Y/RE1LVmwrVi5vQS5fVFtfdHBbPyw1VXIrU3hWLHhzVndTdktBX0ddJnpXRjVaOTd6fj1YMX4ydzRUSk0wbVRfODlnNUZzfl9PdnZMcjNGdHlVSHhwTXRPdGpiTGJOWkRqbmlXQVM5S3hEOFI/SHU0a2UtOT14TU02Z1hVSiVsT2hNJW55aVpZJVpVP3lpYjVwZ0MtZmJiNTl4M2puTzcuYzc4fiVRXU9+dE14SWExX1s4K2Nkam4vQmddZkRXbEE4T1Q0R3ZIdFQmTllHfG0zJnZhcGNCKzBbfkt1NGxfUnVzVGxQVk04SXY0bF9XbEJVSm4='});
 addLoadEvent(function(){linktracker_init('13554671',9);});
 	
-<img src="http://stats.wordpress.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" />
+
 
 if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
 
@@ -660,5 +556,4 @@ if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
 	}
 	
 }
-
 

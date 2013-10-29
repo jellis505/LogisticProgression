@@ -1,0 +1,475 @@
+html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd" contentApiRelativeUrl is '/news/world-us-canada-24663215'  THIS FILE CONFIGURES SHARED HIGHWEB STATIC ASSETS  mapping_news.inc  THIS FILE CONFIGURES NEWS STATIC ASSETS   THIS FILE CONFIGURES VOTE 2012 STATIC ASSETS   hi/shared/head_initial.inc BBC News - Madeleine Albright says France spied on her[if IE]>
+                <link rel="stylesheet" href="http://static.bbci.co.uk/news/1.19.1-482/stylesheets/services/journalism/holepunch-ie.css">
+            <![endif] hi/news/head_first.inc  Chartbeat Web Analytics code - start var _sf_startpt=(new Date()).getTime() Chartbeat Web Analytics code - end  PULSE_ENABLED:yes /*<![CDATA[*/ (function(undefined){if(!window.bbc){window.bbc={}}var ROLLING_PERIOD_DAYS=30;window.bbc.Mandolin=function(id,segments,opts){var now=new Date().getTime(),storedItem,DEFAULT_START=now,DEFAULT_RATE=1,COOKIE_NAME="ckpf_mandolin";opts=opts||{};this._id=id;this._segmentSet=segments;this._store=new window.window.bbc.Mandolin.Storage(COOKIE_NAME);this._opts=opts;this._rate=(opts.rate!==undefined)?+opts.rate:DEFAULT_RATE;this._startTs=(opts.start!==undefined)?new Date(opts.start).getTime():new Date(DEFAULT_START).getTime();this._endTs=(opts.end!==undefined)?new Date(opts.end).getTime():daysFromNow(ROLLING_PERIOD_DAYS);this._signupEndTs=(opts.signupEnd!==undefined)?new Date(opts.signupEnd).getTime():this._endTs;this._segment=null;if(typeof id!=="string"){throw new Error("Invalid Argument: id must be defined and be a string")}if(Object.prototype.toString.call(segments)!=="[object Array]"){throw new Error("Invalid Argument: Segments are required.")}if(opts.rate!==undefined&&(opts.rate<0||opts.rate>1)){throw new Error("Invalid Argument: Rate must be between 0 and 1.")}if(this._startTs>this._endTs){throw new Error("Invalid Argument: end date must occur after start date.")}if(!(this._startTs<this._signupEndTs&&this._signupEndTs<=this._endTs)){throw new Error("Invalid Argument: SignupEnd must be between start and end date")}removeExpired.call(this,now);if((storedItem=this._store.getItem(this._id))){this._segment=storedItem.segment}else{if(this._startTs<=now&&now<this._signupEndTs&&now<=this._endTs&&this._store.isEnabled()===true){this._segment=pick(segments,this._rate);if(opts.end===undefined){this._store.setItem(this._id,{segment:this._segment})}else{this._store.setItem(this._id,{segment:this._segment,end:this._endTs})}log.call(this,"mandolin_segment")}}log.call(this,"mandolin_view")};window.bbc.Mandolin.prototype.getSegment=function(){return this._segment};function log(actionType,params){var that=this;require(["istats-1"],function(istats){istats.log(actionType,that._id+":"+that._segment,params?params:{})})}function removeExpired(expires){var items=this._store.getItems(),expiresInt=+expires;for(var key in items){if(items[key].end!==undefined&&+items[key].end<expiresInt){this._store.removeItem(key)}}}function getLastExpirationDate(data){var winner=0,rollingExpire=daysFromNow(ROLLING_PERIOD_DAYS);for(var key in data){if(data[key].end===undefined&&rollingExpire>winner){winner=rollingExpire}else{if(+data[key].end>winner){winner=+data[key].end}}}return(winner)?new Date(winner):new Date(rollingExpire)}window.bbc.Mandolin.prototype.log=function(params){log.call(this,"mandolin_log",params)};window.bbc.Mandolin.prototype.convert=function(params){log.call(this,"mandolin_convert",params);this.convert=function(){}};function daysFromNow(n){var endDate;endDate=new Date().getTime()+(n*60*60*24)*1000;return endDate}function pick(segments,rate){var picked,min=0,max=segments.length-1;if(typeof rate==="number"&&Math.random()>rate){return null}do{picked=Math.floor(Math.random()*(max-min+1))+min}while(picked>max);return segments[picked]}window.bbc.Mandolin.Storage=function(name){this._cookieName=name;this._isEnabled=(bbccookies.isAllowed(this._cookieName)===true&&bbccookies.cookiesEnabled()===true)};window.bbc.Mandolin.Storage.prototype.setItem=function(key,value){var storeData=this.getItems();storeData[key]=value;this.save(storeData);return value};window.bbc.Mandolin.Storage.prototype.isEnabled=function(){return this._isEnabled};window.bbc.Mandolin.Storage.prototype.getItem=function(key){var storeData=this.getItems();return storeData[key]};window.bbc.Mandolin.Storage.prototype.removeItem=function(key){var storeData=this.getItems();delete storeData[key];this.save(storeData)};window.bbc.Mandolin.Storage.prototype.getItems=function(){return deserialise(this.readCookie(this._cookieName)||"")};window.bbc.Mandolin.Storage.prototype.save=function(data){window.bbccookies.set(this._cookieName+"="+serialise(data)+"; expires="+getLastExpirationDate(data).toUTCString()+";")};window.bbc.Mandolin.Storage.prototype.readCookie=function(name){var nameEQ=name+"=",ca=window.bbccookies.get().split(";"),i,c;for(i=0;i<ca.length;i++){c=ca[i];while(c.charAt(0)===" "){c=c.substring(1,c.length)}if(c.indexOf(nameEQ)===0){return c.substring(nameEQ.length,c.length)}}return null};function serialise(o){var str="";for(var p in o){if(o.hasOwnProperty(p)){str+='"'+p+'"'+":"+(typeof o[p]==="object"?(o[p]===null?"null":"{"+serialise(o[p])+"}"):'"'+o[p].toString().replace(/"/g,'\\"')+'"')+","}}return str.replace(/,\}/g,"}").replace(/,$/g,"")}function deserialise(str){var o;eval("o = {"+str+"}");return o}})(); /*]]>*//*<![CDATA[*/ if (typeof bbccookies_flag === 'undefined') { bbccookies_flag = 'ON'; } showCTA_flag = false; cta_enabled = (showCTA_flag && (bbccookies_flag === 'ON') ); (function(){var e="ckns_policy",m="Thu, 01 Jan 1970 00:00:00 GMT",k={ads:true,personalisation:true,performance:true,necessary:true};function f(p){if(f.cache[p]){return f.cache[p]}var o=p.split("/"),q=[""];do{q.unshift((o.join("/")||"/"));o.pop()}while(q[0]!=="/");f.cache[p]=q;return q}f.cache={};function a(p){if(a.cache[p]){return a.cache[p]}var q=p.split("."),o=[];while(q.length&&"|co.uk|com|".indexOf("|"+q.join(".")+"|")===-1){if(q.length){o.push(q.join("."))}q.shift()}f.cache[p]=o;return o}a.cache={};function i(o,t,p){var z=[""].concat(a(window.location.hostname)),w=f(window.location.pathname),y="",r,x;for(var s=0,v=z.length;s<v;s++){r=z[s];for(var q=0,u=w.length;q<u;q++){x=w[q];y=o+"="+t+";"+(r?"domain="+r+";":"")+(x?"path="+x+";":"")+(p?"expires="+p+";":"");bbccookies.set(y,true)}}}window.bbccookies={_setEverywhere:i,cookiesEnabled:function(){var o="ckns_testcookie"+Math.floor(Math.random()*100000);this.set(o+"=1");if(this.get().indexOf(o)>-1){g(o);return true}return false},set:function(o){return document.cookie=o},get:function(){return document.cookie},_setPolicy:function(o){return h.apply(this,arguments)},readPolicy:function(o){return b.apply(this,arguments)},_deletePolicy:function(){i(e,"",m)},isAllowed:function(){return true},_isConfirmed:function(){return c()!==null},_acceptsAll:function(){var o=b();return o&&!(j(o).indexOf("0")>-1)},_getCookieName:function(){return d.apply(this,arguments)},_showPrompt:function(){var o=(!this._isConfirmed()&&window.cta_enabled&&this.cookiesEnabled()&&!window.bbccookies_disable);return(window.orb&&window.orb.fig)?o&&(window.orb.fig("no")||window.orb.fig("ck")):o}};bbccookies._getPolicy=bbccookies.readPolicy;function d(p){var o=(""+p).match(/^([^=]+)(?==)/);return(o&&o.length?o[0]:"")}function j(o){return""+(o.ads?1:0)+(o.personalisation?1:0)+(o.performance?1:0)}function h(r){if(typeof r==="undefined"){r=k}if(typeof arguments[0]==="string"){var o=arguments[0],q=arguments[1];if(o==="necessary"){q=true}r=b();r[o]=q}else{if(typeof arguments[0]==="object"){r.necessary=true}}var p=new Date();p.setYear(p.getFullYear()+1);p=p.toUTCString();bbccookies.set(e+"="+j(r)+";domain=bbc.co.uk;path=/;expires="+p+";");bbccookies.set(e+"="+j(r)+";domain=bbc.com;path=/;expires="+p+";");return r}function l(o){if(o===null){return null}var p=o.split("");return{ads:!!+p[0],personalisation:!!+p[1],performance:!!+p[2],necessary:true}}function c(){var o=new RegExp("(?:^|; ?)"+e+"=(\\d\\d\\d)($|;)"),p=document.cookie.match(o);if(!p){return null}return p[1]}function b(o){var p=l(c());if(!p){p=k}if(o){return p[o]}else{return p}}function g(o){return document.cookie=o+"=;expires="+m+";"}function n(){var o='<script type="text/javascript" src="http://static.bbci.co.uk/frameworks/bbccookies/0.6.2/script/bbccookies.js"><\/script>';if(window.bbccookies_flag==="ON"&&!bbccookies._acceptsAll()&&!window.bbccookies_disable){document.write(o)}}n()})(); /*]]>*/ if (! window.gloader) { window.gloader = [ "glow", {map: "http://node1.bbcimg.co.uk/glow/glow/map.1.7.7.js"}]; }   bbcRequireMap = {"jquery-1":"http://static.bbci.co.uk/frameworks/jquery/0.3.0/sharedmodules/jquery-1.7.2", "jquery-1.4":"http://static.bbci.co.uk/frameworks/jquery/0.3.0/sharedmodules/jquery-1.4", "jquery-1.9":"http://static.bbci.co.uk/frameworks/jquery/0.3.0/sharedmodules/jquery-1.9.1", "swfobject-2":"http://static.bbci.co.uk/frameworks/swfobject/0.1.10/sharedmodules/swfobject-2", "demi-1":"http://static.bbci.co.uk/frameworks/demi/0.10.0/sharedmodules/demi-1", "gelui-1":"http://static.bbci.co.uk/frameworks/gelui/0.9.13/sharedmodules/gelui-1", "cssp!gelui-1/overlay":"http://static.bbci.co.uk/frameworks/gelui/0.9.13/sharedmodules/gelui-1/overlay.css", "istats-1":"http://static.bbci.co.uk/frameworks/istats/0.16.1/modules/istats-1", "relay-1":"http://static.bbci.co.uk/frameworks/relay/0.2.4/sharedmodules/relay-1", "clock-1":"http://static.bbci.co.uk/frameworks/clock/0.1.9/sharedmodules/clock-1", "canvas-clock-1":"http://static.bbci.co.uk/frameworks/clock/0.1.9/sharedmodules/canvas-clock-1", "cssp!clock-1":"http://static.bbci.co.uk/frameworks/clock/0.1.9/sharedmodules/clock-1.css", "jssignals-1":"http://static.bbci.co.uk/frameworks/jssignals/0.3.6/modules/jssignals-1", "jcarousel-1":"http://static.bbci.co.uk/frameworks/jcarousel/0.1.10/modules/jcarousel-1"}; require({ baseUrl: 'http://static.bbci.co.uk/', paths: bbcRequireMap, waitSeconds: 30 }); [if IE 6]>
+        <script type="text/javascript">
+        try {
+            document.execCommand("BackgroundImageCache",false,true);
+        } catch(e) {}
+    </script>
+        <style type="text/css">
+        /* Use filters for IE6 */
+        #blq-blocks a {
+            background-image: none;
+            filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/3.5//img/blq-blocks_white_alpha.png', sizingMethod='image');
+        }
+        .blq-masthead-focus #blq-blocks a,
+        .blq-mast-text-dark #blq-blocks a {
+            background-image: none;
+            filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/3.5//img/blq-blocks_grey_alpha.png', sizingMethod='image');
+        }
+        #blq-nav-search button span {
+            background-image: none;
+            filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/3.5//img/blq-search_grey_alpha.png', sizingMethod='image');
+        }
+        #blq-nav-search button img {
+            position: absolute;
+            left: -999em;    
+        }
+    </style>
+<![endif][if (IE 7])|(IE 8)>
+    <style type="text/css">
+        .blq-clearfix {
+            display: inline-block;
+        }
+    </style>
+<![endif]
+     blq.setEnvironment('live');  if (blq.setLabel) blq.setLabel('searchSuggestion', "Search");  if (! /bbc\.co\.uk$/i.test(window.location.hostname) ) { document.documentElement.className += ' blq-not-bbc-co-uk'; }  if (! window.gloader) { window.gloader = [ "glow", {map: "http://node1.bbcimg.co.uk/glow/glow/map.1.7.7.js"}]; }  BBCDOTCOM template:server-side journalismVariant: true ipIsAdvertiseCombined: true adsEnabled: false showDotcom: true flagpole: ON  shared/head [if !(lt IE 6)]>
+   	<link rel="stylesheet" type="text/css" href="http://news.bbcimg.co.uk/view/3_0_17/cream/hi/shared/type.css" />
+
+
+		<link rel="stylesheet" type="text/css" media="screen" href="http://news.bbcimg.co.uk/view/3_0_17/cream/hi/shared/global.css" />
+
+
+	<link rel="stylesheet" type="text/css" media="print" href="http://news.bbcimg.co.uk/view/3_0_17/cream/hi/shared/print.css" />
+
+	<link rel="stylesheet" type="text/css" media="screen and (max-device-width: 976px)" href="http://news.bbcimg.co.uk/view/3_0_17/cream/hi/shared/mobile.css" />
+	
+
+
+
+<link rel="stylesheet" type="text/css" href="http://news.bbcimg.co.uk/view/3_0_17/cream/hi/shared/components/components.css" />
+
+<![endif][if !IE]><![endif]
+/*<![CDATA[*/
+gloader.load(["glow","1","glow.dom"],{onLoad:function(glow){glow.dom.get("html").addClass("blq-js")}});
+gloader.load(["glow","1","glow.dom"],{onLoad:function(glow){glow.ready(function(){if (glow.env.gecko){var gv = glow.env.version.split(".");for (var i=gv.length;i<4;i++){gv[i]=0;}if((gv[0]==1 && gv[1]==9 && gv[2]==0)||(gv[0]==1 && gv[1]<9)||(gv[0]<1)){glow.dom.get("body").addClass("firefox-older-than-3-5");}}});}});
+
+window.disableFacebookSDK=true;
+if (window.location.pathname.indexOf('+')>=0){window.disableFacebookSDK=true;}
+
+/*]]>*/
+
+<!--
+	bbc.fmtj.page = {
+		serverTime: 1383059701000,
+		editionToServe: 'us',
+		queryString: null,
+		section: 'us-and-canada',
+		sectionPath: '/World/US and Canada',
+		siteName: 'BBC News',
+		siteToServe: 'news',
+		siteVersion: 'cream',
+		storyId: '24663215',
+		assetType: 'media_asset',
+		uri: '/news/world-us-canada-24663215',
+		country: 'us',
+		masthead: false,
+		adKeyword: null,
+		templateVersion: 'v1_0'
+	}
+-->
+$useMap({map:"http://news.bbcimg.co.uk/js/map/map_0_0_33.js"});$loadView("0.0",["bbc.fmtj.view"]);$render("livestats-heatmap");
+    //<![CDATA[
+        require(['jquery-1'], function($){
+            
+            // set up EMP once it's loaded
+            var setUp = function(){
+                // use our own pop out page
+        	    embeddedMedia.setPopoutUrl('/player/emp/2_0_55/popout/pop.stm');
+
+        	    // store EMP's notifyParent function
+        	    var oldNotifyParent = embeddedMedia.console.notifyParent;
+        	    // use our own to add livestats to popout
+        	    embeddedMedia.console.notifyParent = function(childWin){
+        	        oldNotifyParent(childWin);
+        	        // create new live stats url
+                    var liveStatsUrl = bbc.fmtj.av.emp.liveStatsForPopout($('#livestats').attr('src'));
+                    var webBug = $('<img />', {
+                                     id:  'livestats',
+                                     src: liveStatsUrl
+                                 });
+                    // append it to popout
+                    $(childWin.document).find('body').append(webBug);
+                }
+            }
+                
+            // check if console is available to manipulate
+            if(window.embeddedMedia && window.embeddedMedia.console){
+                setUp();
+            }
+            // otherwise emp is still loading, so add event listener
+            else{
+                $(document).bind('empReady', function(){
+                    setUp();
+                });
+            }
+        });
+    //]]>
+ get BUMP from cdn  load glow and required modules 
+    //<![CDATA[
+        gloader.load(['glow', '1', 'glow.dom']);
+    //]]>
+ pull in our emp code  pull in compatibility.js 
+	//<![CDATA[
+	    
+	
+	    
+	        
+	    
+	
+	    
+	        
+	    
+	
+	    // set site specific config
+	    
+	        bbc.fmtj.av.emp.configs.push('news');
+	    
+	    
+	    // when page loaded, write all created emps
+	    glow.ready(function(){
+			if(typeof bbcdotcom !== 'undefined' && bbcdotcom.av && bbcdotcom.av.emp){
+				bbcdotcom.av.emp.configureAll();
+			}
+			embeddedMedia.each(function(emp){
+				emp.set('enable3G', true);
+				emp.setMediator('href', '{protocol}://{host}/mediaselector/5/select/version/2.0/mediaset/{mediaset}/vpid/{id}');						
+			});
+			embeddedMedia.writeAll();
+	        // mark the emps as loaded
+	        bbc.fmtj.av.emp.loaded = true;
+			
+			
+	    });
+	//]]>
+ Check for advertising testing  shared/head_media_asset  THESE STYLESHEETS VARY ACCORDING TO PAGE CONTENT  js mediaAsset view $loadView("0.0",["bbc.fmtj.view.news.mediaAsset"]); EMP  /EMP  #CREAM hi news US head.inc  is suitable for ads adding isadvertise ... /*<![CDATA[*/if(bbcdotcom===undefined){var bbcdotcom={}}bbcdotcom.objects=function(d,e,f){var b,c,a;b=d.split(".");if(e===undefined){e="valid"}if(f===undefined){f=window}for(c=0,a=b.length;c<a;c++){if(f[b[c]]===undefined){if(e==="create"){f[b[c]]={}}else{return false}}else{if(typeof f[b[c]]==="function"){if(f[b[c]]()!==undefined){return f[b[c]]()}}}f=f[b[c]]}return f};bbcdotcom.objects("bbcdotcom.config","create");bbcdotcom.config=(function(e,c){var b=e,a=c,d="",f="";return{setAdsEnabled:function(g){b=(b!==0)?g:0},isAdsEnabled:function(){return b},setAnalyticsEnabled:function(g){a=(a!==0)?g:0},isAnalyticsEnabled:function(){return a},setJsPrefix:function(g){d=g},getJsPrefix:function(){return d},setSwfPrefix:function(g){f=g},getSwfPrefix:function(){return f}}}(1,1));bbcdotcom.objects("bbcdotcom.stats","create");if(BBC===undefined){var BBC={}}if(BBC.adverts===undefined){BBC.adverts={setZone:function(){},configure:function(){},write:function(){},show:function(){},isActive:function(){return false},setScriptRoot:function(){},setImgRoot:function(){},getAdvertTag:function(){},getSectionPath:function(){}}};/*]]>*/ BBCCOM Server-side /*<![CDATA[*/
+bbcdotcom.objects('page', 'create', bbcdotcom);
+bbcdotcom.page.edition = '(none)';
+bbcdotcom.page.url = '/news/world-us-canada-24663215';
+bbcdotcom.page.zoneFile = '3pt_zone_file';
+bbcdotcom.page.http_host = 'www.bbc.co.uk';
+
+
+/*]]>*/
+/*<![CDATA[*/
+bbcdotcom.config.setAdsEnabled(1);
+/*]]>*//*<![CDATA[*/(function(){switch(bbcdotcom.page.url){case"/":case"/default.stm":bbcdotcom.page.url=(bbcdotcom.page.edition==="domestic")?"/1/hi/default.stm":"/2/hi/default.stm";break;case"/sport":case"/sport/":case"/sport/default.stm":bbcdotcom.page.url=(bbcdotcom.page.edition==="domestic")?"/sport1/hi/default.stm":"/sport2/hi/default.stm";break}if(bbcdotcom.page.bddUseLatestFromTest){BBC.adverts.setScriptRoot("http://wwwpreview.test.newsonline.tc.nca.bbc.co.uk/js/app/bbccom/"+bbcdotcom.latest_version+"/");bbcdotcom.config.setJsPrefix("http://wwwpreview.test.newsonline.tc.nca.bbc.co.uk/js/app/bbccom/"+bbcdotcom.latest_version)}else{BBC.adverts.setScriptRoot("http://news.bbcimg.co.uk/js/app/bbccom/0.3.208/");bbcdotcom.config.setJsPrefix("http://news.bbcimg.co.uk/js/app/bbccom/0.3.208")}bbcdotcom.config.setSwfPrefix("http://news.bbcimg.co.uk/swf/bbccom/0.3.208");BBC.adverts.setImgRoot("http://news.bbcimg.co.uk/shared/img/bbccom/");BBC.adverts.init({domain:bbcdotcom.page.http_host,location:bbcdotcom.page.url,zoneVersion:bbcdotcom.page.zoneFile,zoneReferrer:document.referrer})}());(function(){if(typeof require!=="undefined"){require({paths:{bbcdotcom:"http://news.bbcimg.co.uk/js/app/bbccom/0.3.208"}})}})();if(BBC.adverts.getV6Gvl3()&&"undefined"!==typeof bbcdotcom.page.bddUseLatestFromTest){document.write(unescape('%3Cscript type="text/javascript" src="http://wwwpreview.test.newsonline.tc.nca.bbc.co.uk/js/app/bbccom/'+bbcdotcom.latest_version+'/advert.js"'))}else{if(BBC.adverts.getV6Gvl3()){document.write(unescape('%3Cscript type="text/javascript" src="http://news.bbcimg.co.uk/js/app/bbccom/0.3.208/advert.js"%3E%3C/script%3E'))}}if(/[?|&]metadata=yes(&|$)/.test(window.location.search)){document.write("http://www.test.bbc.com/wwscripts/metadata?bbcdotcom_asset="+window.location.hostname+window.location.pathname)};/*]]>*/
+
+	if(typeof BBC.adverts != 'undefined' && typeof BBC.adverts.setPageVersion != 'undefined'){
+		BBC.adverts.setPageVersion('(none)');
+	}
+
+ hi/news/head_last.inc 
+
+
+
+    bbcRequireMap['module/weather'] = '/inc/specials/cream/hi/news/personalisation/weather';
+    bbcRequireMap['module/local'] = '/inc/specials/cream/hi/news/personalisation';
+    bbcRequireMap['translation'] = 'module/translations/en-GB';
+    require({ baseUrl: 'http://static.bbci.co.uk/', paths: bbcRequireMap, waitSeconds: 30 });
+
+
+
+
+
+require(['jquery-1'], function(jQuery) {
+    jQuery.ajaxSetup({cache: true})
+});
+
+require(["jquery-1", "istats-1"], function ($, istats) {
+    $(function() {
+        istats.track('external', {region: $('.story-body'), linkLocation : 'story-body'});
+        istats.track('external', {region: $('.story-related .related-links'), linkLocation : 'related-links'});
+        istats.track('external', {region: $('.story-related .newstracker-list'), linkLocation : 'newstracker'});
+    });
+});
+
+
+ CPS COMMENT STATUS: false 
+Rendered by NOLAPPS201-6007 
+
+
+
+[if lte IE 6]><body class="news ie disable-wide-advert"><![endif]
+[if IE 7]><body class="news ie7 disable-wide-advert"><![endif]
+[if IE 8]><body class="news ie8 disable-wide-advert"><![endif]
+[if !IE]><![endif]
+
+
+	var referrer = document.referrer;
+
+	var livestatsBug = "<img alt='' id='livestats' src='http://stats.bbc.co.uk/o.gif?~RS~s~RS~News~RS~t~RS~HighWeb_AV~RS~i~RS~24663215~RS~p~RS~99127~RS~a~RS~US~RS~u~RS~/news/world-us-canada-24663215~RS~r~RS~"+referrer+"~RS~q~RS~~RS~z~RS~01~RS~'>";
+
+
+	document.getElementById('livestats-web-bug-tag').innerHTML = livestatsBug;
+
+
+
+
+ BBCDOTCOM body first include 
+BBC.adverts.write("wallpaper",false);
+/*<![CDATA[*/BBC.adverts.wallpaperBodyTag=document.getElementsByTagName("body");BBC.adverts.wallpaperATag=document.getElementsByTagName("a");if("undefined"!=typeof BBC.adverts.wallpaperATag&&"undefined"!=typeof BBC.adverts.wallpaperATag[0]&&"undefined"!=typeof BBC.adverts.wallpaperBodyTag&&"undefined"!=typeof BBC.adverts.wallpaperBodyTag[0]&&-1!==BBC.adverts.wallpaperATag[0].href.indexOf("http://ad.doubleclick.net")){BBC.adverts.wallpaperBodyTag[0].removeChild(BBC.adverts.wallpaperATag[0])};/*]]>*/
+ BBCDOTCOM body first spectrum 
+ ISTATS 
+/*<![CDATA[*/ bbcFlagpoles_istats = 'ON'; istatsTrackingUrl = '//sa.bbc.co.uk/bbc/bbc/s?name=news.world.us_and_canada.media_asset.24663215.page&cps_asset_id=24663215&page_type=media_asset&section=us-and-canada&app_version=6.2.160-RC3&first_pub=2013-10-24T21:41:21+00:00&last_editorial_update=2013-10-24T21:41:21+00:00&title=Ex-US+diplomat%3A+%27France+spied+on+me%27&comments_box=false&cps_media_type=video&cps_media_state=ondemand&by_nation=&app_type=web&ml_name=SSI&ml_version=0.16.1&language=en-GB'; if (window.istats_countername) { istatsTrackingUrl = istatsTrackingUrl.replace(/([?&]name=)[^&]+/ig, '$1' + istats_countername); } (function() { if ( /\bIDENTITY=/.test(document.cookie) ) { istatsTrackingUrl += '&bbc_identity=1'; } var c = (document.cookie.match(/\bckns_policy=(\d\d\d)/)||[]).pop() || ''; istatsTrackingUrl += '&bbc_mc=' + (c? 'ad'+c.charAt(0)+'ps'+c.charAt(1)+'pf'+c.charAt(2) : 'not_set'); if ( /\bckns_policy=\d\d0/.test(document.cookie) ) { istatsTrackingUrl += '&ns_nc=1'; } var screenWidthAndHeight = 'unavailable'; if (window.screen && screen.width && screen.height) { screenWidthAndHeight = screen.width + 'x' + screen.height; } istatsTrackingUrl += ('&screen_resolution=' + screenWidthAndHeight); istatsTrackingUrl += '&blq_s=3.5&blq_r=3.5&blq_v=journalism-worldwide'; })(); /*]]>*/  Begin iStats 20100118 (UX-CMC 1.1009.3)  /*<![CDATA[*/ (function() { window.istats || (istats = {}); var cookieDisabled = (document.cookie.indexOf('NO-SA=') != -1), hasCookieLabels = (document.cookie.indexOf('sa_labels=') != -1), hasClickThrough = /^#sa-(.*?)(?:-sa(.*))?$/.test(document.location.hash), runSitestat = !cookieDisabled && !hasCookieLabels && !hasClickThrough && !istats._linkTracked; if (runSitestat && bbcFlagpoles_istats === 'ON') { sitestat(istatsTrackingUrl); } else { window.ns_pixelUrl = istatsTrackingUrl; /* used by Flash library to track */ } function sitestat(n){var j=document,f=j.location,b="";if(j.cookie.indexOf("st_ux=")!=-1){var k=j.cookie.split(";");var e="st_ux",h=document.domain,a="/";if(typeof ns_!="undefined"&&typeof ns_.ux!="undefined"){e=ns_.ux.cName||e;h=ns_.ux.cDomain||h;a=ns_.ux.cPath||a}for(var g=0,f=k.length;g<f;g++){var m=k[g].indexOf("st_ux=");if(m!=-1){b="&"+unescape(k[g].substring(m+6))}}document.cookie=e+"=; expires="+new Date(new Date().getTime()-60).toGMTString()+"; path="+a+"; domain="+h}ns_pixelUrl=n;n=ns_pixelUrl+"&ns__t="+(new Date().getTime())+"&ns_c="+((j.characterSet)?j.characterSet:j.defaultCharset)+"&ns_ti="+escape(j.title)+b+"&ns_jspageurl="+escape(f&&f.href?f.href:j.URL)+"&ns_referrer="+escape(j.referrer);if(n.length>2000&&n.lastIndexOf("&")){n=n.substring(0,n.lastIndexOf("&")+1)+"ns_cut="+n.substring(n.lastIndexOf("&")+1,n.lastIndexOf("=")).substring(0,40)}(j.images)?new Image().src=n:j.write('<p><i'+'mg src="'+n+'" height="1" width="1" alt="" /></p>')}; })(); /*]]>*/   End iStats (UX-CMC)     Pre mast   BBCDOTCOM leaderboard template:server-side journalismVariant: true ipIsAdvertiseCombined: true adsEnabled: false showDotcom: true flagpole: ON conf->showAdAboveBlq: true showAdAboveBlq: true blqLeaderboardAd: true  
+  <![CDATA[ <div id="bbccookies-prompt" class="bbccookies-w"> <h2> Cookies on the BBC website </h2> <p> We use cookies to ensure that we give you the best experience on our website.<span class="bbccookies-international-message"> We also use cookies to ensure we show you advertising that is relevant to you.</span> If you continue without changing your settings, we'll assume that you are happy to receive all cookies on the BBC website. However, if you would like to, you can <a href="/privacy/cookies/managing/cookie-settings.html">change your cookie settings</a> at any time. </p> <ul> <li id="bbccookies-continue"> <button type="button" id="bbccookies-continue-button">Continue</button> </li> <li id="bbccookies-more"><a href="/privacy/cookies/bbc">Find out more</a></li></ul> </div> ]]> /*<![CDATA[*/ (function(){if(bbccookies._showPrompt()){var i=document,b=i.getElementById("blq-pre-mast"),f=i.getElementById("blq-global"),h=i.getElementById("blq-container"),c=i.getElementById("blq-bbccookies-tmpl"),a,g,e;if(b&&i.createElement){a=i.createElement("div");a.id="bbccookies";e=c.innerHTML;e=e.replace("<"+"![CDATA[","").replace("]]"+">","");a.innerHTML=e;if(f){f.insertBefore(a,b)}else{h.insertBefore(a,b)}g=i.getElementById("bbccookies-continue-button");g.onclick=function(){a.parentNode.removeChild(a);return false};bbccookies._setPolicy()}}})(); /*]]>*/             Accessibility links  Skip to content Skip to local navigation Accessibility Help      bbc.co.uk navigation   News   Sport   Weather   Capital   Culture   Autos   TV   Radio   More…         Search term:             
+
+
+
+
+US & Canada
+
+
+$render("advert","advert-sponsor-section");
+
+$render("advert-post-script-load");
+
+
+Home
+US & Canada
+Latin America
+UK
+Africa
+Asia
+Europe
+Mid-East
+Business
+Health
+Sci/Environment
+Tech
+Entertainment
+Video
+
+
+
+ START CPS_SITE CLASS: us 
+
+
+
+
+
+        /*<![CDATA[*/
+        if(typeof bbcdotcom.objects('bbcdotcom.branding.init') === 'function') {
+            bbcdotcom.branding.init(BBC.adverts.getZoneData().zone, BBC.adverts.getAdKeyword());
+            bbcdotcom.branding.write();
+        }
+        /*]]>*/
+    
+
+
+        /*<![CDATA[*/
+        $render("advert","advert-sponsor-subsection");
+        /*]]>*/
+    
+
+
+
+        /*<![CDATA[*/
+	$render("advert-post-script-load");
+        /*]]>*/
+
+ START CPS_SITE CLASS: media_asset 
+
+ No EWA 
+ responsive page is /forge-pal/news/ssi/world-us-canada-24663215 
+
+ if (document.getElementById("responsive-news")) { window.bbcNewsResponsive = true; } var isIE = (function() { var undef, v = 3, div = document.createElement('div'), all = div.getElementsByTagName('i'); while ( div.innerHTML = '<!--[if gt IE ' + (++v) + ']><i></i><![endif]-->', all[0] ); return v > 4 ? v : undef; }()); if (('querySelector' in document && 'localStorage' in window && 'addEventListener' in window) || (isIE > 6 && document.getElementById('js-holepunched'))) { window.cutsTheMustard = true; var insertPoint = document.getElementById('news-loader'), config = {"asset":{"asset_id":"24663215","asset_uri":"\/news\/world-us-canada-24663215","first_created":{"date":"2013-10-24 22:33:22","timezone_type":3,"timezone":"Europe\/London"},"last_updated":{"date":"2013-10-24 22:41:21","timezone_type":3,"timezone":"Europe\/London"},"options":{"allowHeadline":true,"allowDateStamp":true,"allowRelatedStoriesBox":true,"allowRightHandSide":true,"includeComments":false,"allowPrintingSharingLinks":true,"allowAdvertising":true},"section":{"name":"US & Canada","uri":"\/news\/world\/us_and_canada"},"edition":"US","audience":null,"iStats_counter_name":"news.world.us_and_canada.media_asset.24663215.page","type":"MAP","headline":"Madeleine Albright says France spied on her"},"staticHost":"http:\/\/static.bbci.co.uk","environment":"live","locatorVersion":"0.46.3","pathPrefix":"\/nfp","jsPath":"http:\/\/static.bbci.co.uk\/news\/1.19.1-482\/js","cssPath":"http:\/\/static.bbci.co.uk\/news\/1.19.1-482\/stylesheets\/services\/news","features":{"localnews":true,"video":true,"liveeventcomponent":true,"mediaassetpage":true,"travel":true,"gallery":true,"rollingnews":true,"rumanalytics":true,"topstoriespromo":true,"featuresandanalysis":true,"mostpopular":true,"sportstories":true,"radiopromo":true,"fromothernewssites":true,"locallive":true,"weather":true},"configuration":{"showtabpopular":"1","showshare":"1","showtimestamp":"1","showweather":"1","showsport":"1","showolympics":"1","showaudio":"","showfeaturemain":"1","showindextabs":"1","showrollingnews":"","showsitecatalyst":"","numoftopstories":"9","numofmostread":"10","candyplatform":"EnhancedMobile","showmap":"1","showwatchlisten":"1","showspecialreports":"1","suitenamemap":"unknown","videotopiccandyid":"","showvideofeedsections":"1","showadverts":"1","localiseadverts":"","rtl":"","channelpagecandyid":"10318089","showmaprelatedmedia":"1","showmapmostwatched":"1","showmaptopstories":"1","showstorytopstories":"1","showstoryfeaturesandanalysis":"1","showstorymostpopular":"1","showtimezone":"","showgallery":"1","showgalleryenhanced":"1","showpulsesurvey":"","cms":"cps","showfeaturesanalysissummary":"1"},"pollingHost":"http:\/\/polling.bbc.co.uk","service":"news","locale":"en-GB","locatorHost":null,"locatorFlagPole":true,"local":{"allowLocationLookup":true},"isWorldService":false,"rumAnalytics":{"server":"http:\/\/bbc.api.mashery.com\/analytics?api_key=7xwaqy8j5uj2wehn2pcqhrp2","key":"news","probability":1},"isChannelPage":false}; config.configuration['get'] = function (key) { return this[key.toLowerCase()]; };  define('config', function () { return config; }); require.config({ baseUrl: 'http://static.bbci.co.uk/news/1.19.1-482/js', paths: {"jquery-1.9.1":"vendor\/jquery-1\/jquery","jquery-1":"http:\/\/static.bbci.co.uk\/frameworks\/jquery\/0.3.0\/sharedmodules\/jquery-1.7.2","demi-1":"http:\/\/static.bbci.co.uk\/frameworks\/demi\/0.10.0\/sharedmodules\/demi-1","swfobject-2":"http:\/\/static.bbci.co.uk\/frameworks\/swfobject\/0.1.10\/sharedmodules\/swfobject-2","jquery":"vendor\/jquery-2\/jquery.min","domReady":"vendor\/require\/domReady","translation":"module\/translations\/en-GB","bbcdotcom":"http:\/\/static.bbci.co.uk\/bbcdotcom\/0.3.206\/script"}, map: { '*': { 'jquery': 'jquery-1.9.1' } } });  } 
+        Media playback is unsupported on your device    companion banner   $render("advert","advert-companion","70699992");  $render("advert-post-script-load");  END - companion banner    Madeleine Albright says France spied on her 24 October 2013 Last updated at 22:41 BST   Former US Secretary of State Madeleine Albright has accused France of eavesdropping on her in the 1990s. "I will very much remember when I was at the United Nations, the French ambassador coming up to me saying, 'Why did you say that to somebody, about why do you want women in the government?'" "And I said, 'Excuse me?' They had an intercept," she said at the Center for American Progress in Washington.Ms Albright's remarks came as a growing number of world leaders accuse the US of spying on them. Revelations in the global news media are based on a cache of documents leaked by Edward Snowden, a former US intelligence contractor."This is not a surprise to people," she said. "Countries spy on each other."Ms Albright was secretary of state 1997-2001. Prior to that, she was US ambassador to the UN.
+       
+
+
+        Share this story        About sharing
+
+
+
+
+Email
+
+
+
+
+Facebook
+
+
+
+
+Twitter
+
+
+
+
+         mpu   $render("advert","advert-mpu");  $render("advert-post-script-load");    Related   Most watched   Top stories      Related video / audio       video 0:23   Spying on friends 'unacceptable'24 October 2013
+       video 2:47   Did US spy on Germany's Merkel?24 October 2013
+       video 0:49   Obama and Merkel 'spoke on phone'23 October 2013
+       Most watched       Top stories       World       UK       Business       Politics       Health       Science &amp Environment       Technology       Entertainment           When we start implementing the new grid, all content should soon be moved inside this element    if (('querySelector' in document && 'localStorage' in window && 'addEventListener' in window) || isIE > 6) {  require([ 'module/mediaAssetPage/mediaAssetPage', 'module/stats/statsSubscriber', 'module/stats/statsConfig' ], function( mediaAssetPage, StatsSubscriber, statsConfig ) { new StatsSubscriber(statsConfig); mediaAssetPage.init({"images":{"index":{"70700170":{"height":490,"width":872,"href":"http:\/\/news.bbcimg.co.uk\/media\/images\/70700000\/jpg\/_70700170_albright.jpg","altText":"Madeleine Albright appeared at the Center for American Progress on 24 October 2013"}},"index-thumbnail":{"70700172":{"height":180,"width":320,"href":"http:\/\/news.bbcimg.co.uk\/media\/images\/70700000\/jpg\/_70700172_albright.jpg","altText":"Madeleine Albright appeared at the Center for American Progress on 24 October 2013"}}},"videos":{"primary":{"70699992":{"duration":"PT1M11S","available":true,"mimeType":"application\/xml","href":"http:\/\/playlists.bbc.co.uk\/news\/world-us-canada-24663215A\/playlist.sxml","externalId":"p01k9dnf","caption":"Former US ambassador to the United Nations Madeleine Albright has alleged France eavesdropped on her in the 1990s","allowOffSiteEmbedding":false,"live":false,"image":{"height":360,"width":640,"href":"http:\/\/news.bbcimg.co.uk\/media\/images\/70700000\/jpg\/_70700217_albright.jpg","altText":"Madeleine Albright appeared at the Center for American Progress on 24 October 2013"}}}}}, "/news/world-us-canada-24663215"); });  } 
+
+ END #MAIN-CONTENT & CPS_ASSET_TYPE CLASS: media_asset 
+
+ END CPS_AUDIENCE CLASS: us 
+
+
+
+Services
+
+ Mobile
+ Connected TV
+ News feeds
+ Alerts
+ E-mail news
+
+
+
+About BBC News
+
+Editors' blog
+BBC College of Journalism
+News sources
+Media Action
+Editorial Guidelines
+
+
+
+ close us-and-canada 
+ [if IE 6]> <div id="blq-ie6-upgrade"> <p> <span>You're using the Internet Explorer 6 browser to view the BBC website. Our site will work much better if you change to a more modern browser. It's free, quick and easy.</span> <a href="http://www.browserchoice.eu/">Find out more <span>about upgrading your browser</span> here&hellip;</a> </p> </div> <![endif]   BBC links    Mobile siteTerms of UseAbout the BBC     Advertise With UsPrivacyAccessibility Help     Ad ChoicesCookiesContact the BBC     Parental Guidance    /*<![CDATA[*/ (function() { var mLink = document.getElementById('blq-footer-mobile'), stick = function() { var d = new Date (); d.setYear(d.getFullYear() + 1); d = d.toUTCString(); window.bbccookies.set('ckps_d=m;domain=.bbc.co.uk;path=/;expires=' + d ); window.bbccookies.set('ckps_d=m;domain=.bbc.com;path=/;expires=' + d ); }; if (mLink) {  if (mLink.addEventListener) { mLink.addEventListener('click', stick, false); } else if (mLink.attachEvent) { mLink.attachEvent('onclick', stick); } } })(); /*]]>*/   BBC © 2013 The BBC is not responsible for the content of external sites. Read more. This page is best viewed in an up-to-date web browser with style sheets (CSS) enabled. While you will be able to view the content of this page in your current browser, you will not be able to get the full visual experience. Please consider upgrading your browser software or enabling style sheets (CSS) if you are able to do so.  
+ BBCDOTCOM analytics template:server-side journalismVariant: true ipIsAdvertiseCombined: true adsEnabled: false showDotcom: true flagpole: ON 
+ BBCCOM analytics server-side 
+
+
+    /*<![CDATA[*/
+    if('undefined' != typeof(bbcdotcom) && 'undefined' != typeof(bbcdotcom.stats)) {
+        bbcdotcom.stats.contentType = "HTML";
+    }
+    /*]]>*/
+
+
+ Start Audience Science 
+
+
+        /*<![CDATA[*/
+        var adKeyword = document.getElementsByName('ad_keyword');
+        if('/news/uk-11767495' == window.location.pathname) {
+            J08781.DM_addEncToLoc("Section","Royal Wedding");
+        } else if (undefined != adKeyword[0]) {
+            J08781.DM_addEncToLoc("Section",adKeyword[0].content);
+        } else if ("undefined" != typeof bbc &&
+            "undefined" != typeof bbc.fmtj &&
+            "undefined" != typeof bbc.fmtj.page &&
+            "undefined" != typeof bbc.fmtj.page.section) {
+                J08781.DM_addEncToLoc("Section", bbc.fmtj.page.section);
+        }
+        J08781.DM_tag();
+        /*]]>*/
+    
+ End Audience Science 
+ SiteCatalyst code version: H.21.
+    Copyright 1996-2010 Adobe, Inc. All Rights Reserved
+    More info available at http://www.omniture.com 
+
+            var s_account = "bbcwglobalprod";
+        
+
+<!--
+        /************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+        var s_code=scw.t();if(s_code)document.write(s_code)//-->
+<!--
+        if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+        //-->/DO NOT REMOVE/
+ End SiteCatalyst code version: H.21. 
+ Begin comScore Tag 
+
+        document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
+
+        COMSCORE.beacon({
+            c1:2,
+            c2:"6035051",
+            c3:"",
+            c4:"www.bbc.co.uk/news/world-us-canada-24663215",
+            c5:"",
+            c6:"",
+            c15:""
+        });
+    
+
+
+
+
+
+ End comScore Tag 
+ START Nielsen Online SiteCensus V6.0 
+ COPYRIGHT 2010 Nielsen Online 
+
+        (function () {
+            var d = new Image(1, 1);
+            d.onerror = d.onload = function () {
+                d.onerror = d.onload = null;
+            };
+            d.src = [('https:' == document.location.protocol ? 'https:' : 'http:') + "//secure-us.imrworldwide.com/cgi-bin/m?ci=us-804789h&amp;cg=0&amp;cc=1&amp;si=", escape(window.location.href), "&amp;rp=",
+            escape(document.referrer), "&amp;ts=compact&amp;rnd=", (new Date()).getTime()].join('');
+        })();
+    
+
+
+
+
+
+ END Nielsen Online SiteCensus V6.0 
+ Effective Measure BBCCOM-1195 
+
+      (function() {
+        var em = document.createElement('script'); em.type = 'text/javascript'; em.async = true;
+        em.src = ('https:' == document.location.protocol ? 'https://me-ssl' : 'http://me-cdn') + '.effectivemeasure.net/em.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(em, s);
+      })();
+    
+
+
+
+
+
+ End Effective Measure 
+   if (typeof require !== 'undefined') { require(['istats-1'], function(istats){ istats.track('external', { region: document.getElementById('blq-main') }); istats.track('download', { region: document.getElementById('blq-main') }); }); }  <![CDATA[ <div id="blq-panel-promo" class="blq-masthead-container"></div> ]]> <![CDATA[ <div id="blq-panel-more" class="blq-masthead-container  blq-clearfix" xml:lang="en-GB" dir="ltr"> <div class="blq-panel-container panel-paneltype-more"> <div class="panel-header"> <h2> <a href="http://www.bbc.co.uk/a-z/">  More&hellip;  </a> </h2>  <a href="http://www.bbc.co.uk/a-z/" class="panel-header-links panel-header-link">Full A-Z<span class="blq-hide"> of BBC sites</span></a>  </div> <div class="panel-component panel-links">       <ul>   <li> <a href="http://www.bbc.co.uk/cbbc/"  >CBBC</a> </li>    <li> <a href="http://www.bbc.co.uk/cbeebies/"  >CBeebies</a> </li>    <li> <a href="http://www.bbc.co.uk/comedy/"  >Comedy</a> </li>   </ul>  <ul>   <li> <a href="http://www.bbc.co.uk/food/"  >Food</a> </li>    <li> <a href="http://www.bbc.co.uk/history/"  >History</a> </li>    <li> <a href="http://www.bbc.co.uk/learning/"  >Learning</a> </li>   </ul>  <ul>   <li> <a href="http://www.bbc.co.uk/music/"  >Music</a> </li>    <li> <a href="http://www.bbc.co.uk/science/"  >Science</a> </li>    <li> <a href="http://www.bbc.co.uk/nature/"  >Nature</a> </li>   </ul>  <ul>   <li> <a href="http://www.bbc.co.uk/local/"  >Local</a> </li>    <li> <a href="http://www.bbc.co.uk/travelnews/"  >Travel News</a> </li>   </ul>   </div> </div> ]]>
+ shared/foot 
+
+	bbc.fmtj.common.removeNoScript({});
+	bbc.fmtj.common.tabs.createTabs({});
+
+ hi/news/foot.inc 
+ Chartbeat Web Analytics code - start 
+
+var _sf_async_config={};
+/** CONFIGURATION START **/
+_sf_async_config.uid = 50924; /** Chartbeat BBC id **/
+_sf_async_config.domain = "bbc.co.uk";/** BBC domain being tracked **/
+_sf_async_config.sections = "us-and-canada";
+<!-- if page is an index, add the edition to the path -->
+
+  _sf_async_config.path = "/news/world-us-canada-24663215";
+
+/** CONFIGURATION END **/
+(function(){
+  function loadChartbeat() {
+    window._sf_endpt=(new Date()).getTime();
+    var e = document.createElement("script");
+    e.setAttribute("language", "javascript");
+    e.setAttribute("type", "text/javascript");
+    e.setAttribute('src', '//static.chartbeat.com/js/chartbeat.js');
+    document.body.appendChild(e);
+  }
+  var oldonload = window.onload;
+  window.onload = (typeof window.onload != "function") ?
+     loadChartbeat : function() { oldonload(); loadChartbeat(); };
+})();
+
+ Chartbeat Web Analytics code - end 
+ shared/foot_media_asset 
+ #CREAM hi news international foot.inc 

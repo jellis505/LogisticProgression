@@ -1,0 +1,294 @@
+htmlvar NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);John F. Tate - Campaign for Liberty This site is optimized with the Yoast WordPress SEO plugin v1.4.15 - http://yoast.com/wordpress/seo/  / Yoast WordPress SEO plugin. [if IE]>
+<link rel='stylesheet' id='mailchimpSF_ie_css-css'  href='http://cdn1.campaignforliberty.org/wp-content/plugins/mailchimp/css/ie.css.gzip?ver=3.6.1' type='text/css' media='all' />
+<![endif]
+/* <![CDATA[ */
+var mailchimpSF = {"ajax_url":"http:\/\/www.campaignforliberty.org\/"};
+/* ]]> */
+
+		jQuery(function($) {
+			$('.date-pick').datepicker({
+				autoFocusNextInput: true,
+				constrainInput: false,
+				changeMonth: true,
+				changeYear: true,
+				beforeShow: function(input, inst) { $('#ui-datepicker-div').addClass('show'); },
+				dateFormat: 'yy/mm/dd',
+			});
+
+			d = new Date();
+			$('.birthdate-pick').datepicker({
+				autoFocusNextInput: true,
+				constrainInput: false,
+				changeMonth: true,
+				changeYear: false,
+				minDate: new Date(d.getFullYear(), 1-1, 1),
+				maxDate: new Date(d.getFullYear(), 12-1, 31),
+				beforeShow: function(input, inst) { $('#ui-datepicker-div').removeClass('show'); },
+				dateFormat: 'mm/dd',
+			});
+
+
+		});
+	
+          div.printfriendly {
+            margin: 12px 12px 12px 12px;;
+          }
+          div.printfriendly a, div.printfriendly a:link, div.printfriendly a:visited {
+            text-decoration: none;
+            font-size: 14px;
+            color: #6D9F00;
+            vertical-align: bottom;
+            border: none;
+          }
+
+          .printfriendly a:hover {
+            cursor: pointer;
+          }
+
+          .printfriendly a img  {
+            border: none;
+            padding:0;
+            margin-right: 6px;
+            display:inline-block;
+            box-shadow: none;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+          }
+          .printfriendly a span{
+            vertical-align: bottom;
+          }
+          .pf-alignleft {
+            float: left;
+          }
+          .pf-alignright {
+            float: right;
+          }
+          div.pf-aligncenter {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+          }
+        
+          .printfriendly {
+            display: none;
+          }
+         Woo Custom Styling 
+body {background-repeat:no-repeat;background-position:top center;border-top:4px solid #000000;}
+#header {background-repeat:no-repeat;background-position:top center;margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px;border:0px solid ;}
+#logo .site-title a {font:normal 40px/1em 'PT Serif', arial, sans-serif;color:#222222;}
+#logo .site-description {font:italic 14px/1em 'PT Serif', arial, sans-serif;color:#999999;}
+body, p { font:normal 14px/1.5em Arial, sans-serif;color:#555555; }
+h1 { font:normal 28px/1.5em 'PT Serif', arial, sans-serif;color:#222222; }h2 { font:normal 24px/1.5em 'PT Serif', arial, sans-serif;color:#222222; }h3 { font:normal 20px/1.5em 'PT Serif', arial, sans-serif;color:#222222; }h4 { font:normal 16px/1.5em 'PT Serif', arial, sans-serif;color:#222222; }h5 { font:normal 14px/1.5em 'PT Serif', arial, sans-serif;color:#222222; }h6 { font:normal 12px/1.5em 'PT Serif', arial, sans-serif;color:#222222; }
+.post .title, .page .title, .post .title a:link, .post .title a:visited, .page .title a:link, .page .title a:visited {font:normal 24px/1.2em 'PT Serif', arial, sans-serif;color:#ad210b;}
+.post-meta { font:normal 11px/1.5em 'PT Serif', arial, sans-serif;color:#868686; }
+.entry, .entry p{ font:normal 16px/1.5em 'PT Serif', arial, sans-serif;color:#555555; }
+.post-more {font:normal 12px/1.5em Arial, sans-serif;color:#868686;border-top:4px solid #e6e6e6;border-bottom:1px solid #e6e6e6;}
+#post-author, #connect {border-top:1px solid #e6e6e6;border-bottom:4px solid #e6e6e6;background-color:#fafafa}
+.nav-entries, .wp-pagenavi, .woo-pagination {border-top:1px solid #e6e6e6;border-bottom:4px solid #e6e6e6; padding: 12px 0px; }
+.nav-entries a, .wp-pagenavi a:link, .wp-pagenavi a:visited, .wp-pagenavi .current, .wp-pagenavi .on, .wp-pagenavi a:hover, .wp-pagenavi span.extend, .wp-pagenavi span.pages, .woo-pagination { font:italic 12px/1em 'PT Serif', arial, sans-serif;color:#777777; }
+.wp-pagenavi a:link, .wp-pagenavi a:visited, .woo-pagination a, .woo-pagination a:hover, .wp-pagenavi span.extend, .wp-pagenavi span.pages, .wp-pagenavi span.current {color:#777777!important}
+.widget h3 {font:normal 20px/1.5em PT Serif;color:#87774a;border-bottom:0px solid #e6e6e6;margin-bottom:0;}
+.widget_recent_comments li, #twitter li { border-color: #e6e6e6;}
+.widget p, .widget .textwidget { font:normal 12px/1.5em Arial, sans-serif;color:#555555; }
+.widget {font:normal 12px/1.5em Arial, sans-serif;color:#555555;border-radius:0px;-moz-border-radius:0px;-webkit-border-radius:0px;}
+#tabs .inside li a { font:bold 12px/1.5em 'PT Serif', arial, sans-serif;color:#555555; }
+#tabs .inside li span.meta, #tabs ul.wooTabs li a { font:normal 11px/1.5em "Trebuchet MS", Tahoma, sans-serif;color:#777777; }
+.nav a, #navigation ul.rss a { font:normal 14px/1em Georgia, serif;color:#555555; }
+#navigation {border-top:0px solid #dbdbdb;border-bottom:0px solid #dbdbdb;border-left:0px solid #dbdbdb;border-right:0px solid #dbdbdb;border-radius:0px; -moz-border-radius:0px; -webkit-border-radius:0px;}
+#top .nav a { font:normal 14px/1em Arial, sans-serif;color:#ddd; }
+#footer, #footer p { font:normal 11px/1em Arial, sans-serif;color:#C5B78E; }
+#footer {border-top:0px solid #dbdbdb;border-bottom:0px solid ;border-left:0px solid ;border-right:0px solid ;border-radius:0px; -moz-border-radius:0px; -webkit-border-radius:0px;}
+.magazine #loopedSlider .content h2.title a { font:bold 24px/1em Arial, sans-serif;color:#ffffff; }
+.magazine #loopedSlider .content .excerpt p { font:normal 12px/1.5em Arial, sans-serif;color:#cccccc; }
+.business #loopedSlider .content h2 { font:bold 24px/1em Arial, sans-serif;color:#ffffff; }
+.business #loopedSlider .content h2.title a { font:bold 24px/1em Arial, sans-serif;color:#ffffff; }
+#wrapper .business #loopedSlider .content p { font:normal 12px/1.5em Arial, sans-serif;color:#cccccc; }
+.archive_header h1 { font:normal 18px/1em Arial, sans-serif;color:#555555; }
+.archive_header {border-bottom:5px solid #e6e6e6;}
+ /Woo Custom Styling  Google Webfonts  WooCommerce Version  Woo Shortcodes CSS  Custom Stylesheet 
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-37732233-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ?  'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+
+
+
+
+Login
+Sign up
+Profile
+Logout
+Contact
+
+
+
+
+
+
+
+Campaign for Liberty
+Reclaim the Republic. Restore the Constitution.
+ /#logo 
+ /#header 
+
+Home
+About
+Resources
+Videos
+Community
+Store
+Donate!
+
+ /#navigation 
+
+
+
+Home » About Campaign for Liberty » Staff » John F. Tate 
+John F. Tate
+
+
+ 
+
+#main-sidebar-container {width: auto !important;}
+#main {width: 710px !important; margin-right:10px;}
+
+ #content Starts 
+
+
+ #main Starts 
+
+
+John F. Tate 
+President
+John is the President of Campaign for Liberty, a grassroots lobbying organization dedicated to the principles of individual liberty, constitutional government, sound money, free markets, and a noninterventionist foreign policy.
+Since its founding in June of 2008, Campaign for Liberty has grown to over 500,000 active members nationwide and has led the effort for passage of Congressman Ron Paul’s bill to require a full audit of the Federal Reserve.
+John has spent the last 28 years working in the political, lobbying, and non-profit world in the areas of high dollar fundraising, direct mail, political strategy, grassroots activism , state and federal legislation, and non-profit management.
+He is the founder and President of JFT Consulting, Inc., a consulting firm that specializes in political strategy, fundraising, and grassroots lobbying. John also served as the Campaign Manager for the Ron Paul 2012 Presidential Campaign Committee and as National Political Director for the 2008 Ron Paul Presidential Campaign.
+Prior to joining Campaign for Liberty, John served as the Vice President, Membership for the Leadership Institute. In this role, he headed up a department of LI staff that contacted and visited supporters nationwide to show them and raise funds for special targeted LI programs. In his 4 years at LI, this program raised nearly $4 million. He also taught at many of LIs schools.
+Before joining LI, John spent 14 years with the National Right to Work Committee, serving as Vice President from 1998 to 2004. As Vice President, he oversaw all state and federal lobbying efforts, public relations, the affiliated state and federal PACs for Right to Work, and a direct mail and telemarketing fundraising operation that raised more than $23 million to combat Big Labor’s coercive power over workers.
+In 1996, John was the GOP nominee for Congress in Virginia’s 2nd district.
+Prior to his work at National Right to Work, John was Executive Director of Right to Work organizations in California and Delaware and served as a legislative aide on Capitol Hill.
+John is a long-time political activist in Virginia and National politics. He was Chairman of the Rules committee at the 1994 Virginia Republican State Convention and has worked on numerous local, state, and national campaigns around the country.
+John is a graduate of the University of Virginia with a B.A. in History.
+Print PDF  /.entry 
+
+ /.post 
+ /#main 
+
+
+Get Local
+
+
+Find local news, eventsand groups
+
+
+
+
+
+ 
+
+
+
+How do I get involved?
+
+
+
+
+
+
+
+Stay connected
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /#sidebar 
+ /#main-sidebar-container 
+ /#content 
+
+
+
+
+
+Terms of Use
+Help
+Contact
+ 
+
+© Copyright 2013 Campaign for Liberty 
+
+
+ /#footer  
+ /#wrapper 
+/.fix
+
+          var pfHeaderImgUrl = '';
+          var pfHeaderTagline = '';
+          var pfdisableClickToDel = '1';
+          var pfHideImages = '0';
+          var pfImageDisplayStyle = 'right';
+          var pfDisableEmail = '0';
+          var pfDisablePDF = '0';
+          var pfDisablePrint = '0';
+          var pfCustomCSS = '';
+
+          // PrintFriendly
+          var e = document.createElement('script'); e.type="text/javascript";
+		  if('https:' == document.location.protocol) {
+			js='https://pf-cdn.printfriendly.com/ssl/main.js'
+		  }
+		  else{
+			js='http://cdn.printfriendly.com/printfriendly.js'
+		  }
+          e.src = js;
+          document.getElementsByTagName('head')[0].appendChild(e);
+      
+
+
+
+/* <![CDATA[ */
+var woocommerce_params = {"countries":"{\"US\":{\"AL\":\"Alabama\",\"AK\":\"Alaska\",\"AZ\":\"Arizona\",\"AR\":\"Arkansas\",\"CA\":\"California\",\"CO\":\"Colorado\",\"CT\":\"Connecticut\",\"DE\":\"Delaware\",\"DC\":\"District Of Columbia\",\"FL\":\"Florida\",\"GA\":\"Georgia\",\"HI\":\"Hawaii\",\"ID\":\"Idaho\",\"IL\":\"Illinois\",\"IN\":\"Indiana\",\"IA\":\"Iowa\",\"KS\":\"Kansas\",\"KY\":\"Kentucky\",\"LA\":\"Louisiana\",\"ME\":\"Maine\",\"MD\":\"Maryland\",\"MA\":\"Massachusetts\",\"MI\":\"Michigan\",\"MN\":\"Minnesota\",\"MS\":\"Mississippi\",\"MO\":\"Missouri\",\"MT\":\"Montana\",\"NE\":\"Nebraska\",\"NV\":\"Nevada\",\"NH\":\"New Hampshire\",\"NJ\":\"New Jersey\",\"NM\":\"New Mexico\",\"NY\":\"New York\",\"NC\":\"North Carolina\",\"ND\":\"North Dakota\",\"OH\":\"Ohio\",\"OK\":\"Oklahoma\",\"OR\":\"Oregon\",\"PA\":\"Pennsylvania\",\"RI\":\"Rhode Island\",\"SC\":\"South Carolina\",\"SD\":\"South Dakota\",\"TN\":\"Tennessee\",\"TX\":\"Texas\",\"UT\":\"Utah\",\"VT\":\"Vermont\",\"VA\":\"Virginia\",\"WA\":\"Washington\",\"WV\":\"West Virginia\",\"WI\":\"Wisconsin\",\"WY\":\"Wyoming\"}}","select_state_text":"Select an option\u2026","plugin_url":"http:\/\/www.campaignforliberty.org\/wp-content\/plugins\/woocommerce","ajax_url":"\/\/www.campaignforliberty.org\/wp-admin\/admin-ajax.php","ajax_loader_url":"http:\/\/www.campaignforliberty.org\/wp-content\/plugins\/woocommerce\/assets\/images\/ajax-loader.gif","required_rating_text":"Please select a rating","review_rating_required":"yes","required_text":"required","update_order_review_nonce":"1c6c6f31f0","apply_coupon_nonce":"8c90beba8f","option_guest_checkout":"yes","checkout_url":"\/\/www.campaignforliberty.org\/wp-admin\/admin-ajax.php?action=woocommerce-checkout","is_checkout":"0","update_shipping_method_nonce":"8853357ec7","add_to_cart_nonce":"7c29273370"};
+/* ]]> */
+
+
+
+/* <![CDATA[ */
+var fedex = {"siteurl":"http:\/\/www.campaignforliberty.org","ajax_nonce":"fea0496eaf","residential_customer":"","admin":"no"};
+/* ]]> */
+
+
+
+/* <![CDATA[ */
+jQuery(document).ready( function($) {
+	$("ul.menu").not(":has(li)").closest('div').prev('h3.widget-title').hide();
+});
+/* ]]> */
+
+if(!NREUMQ.f){NREUMQ.f=function(){NREUMQ.push(["load",new Date().getTime()]);var e=document.createElement("script");e.type="text/javascript";e.src=(("http:"===document.location.protocol)?"http:":"https:")+"//"+"js-agent.newrelic.com/nr-100.js";document.body.appendChild(e);if(NREUMQ.a)NREUMQ.a();};NREUMQ.a=window.onload;window.onload=NREUMQ.f;};NREUMQ.push(["nrfj","beacon-5.newrelic.com","b1672ed7e6","2088255","Z10AZEtRXRVWVhYMCV4XI1NNWVwIGEUDAgM=",0,604,new Date().getTime(),"","","","",""]);if(!NREUMQ.f){NREUMQ.f=function(){NREUMQ.push(["load",new Date().getTime()]);var e=document.createElement("script");e.type="text/javascript";e.src=(("http:"===document.location.protocol)?"http:":"https:")+"//"+"js-agent.newrelic.com/nr-100.js";document.body.appendChild(e);if(NREUMQ.a)NREUMQ.a();};NREUMQ.a=window.onload;window.onload=NREUMQ.f;};NREUMQ.push(["nrfj","beacon-5.newrelic.com","b1672ed7e6","2088255","Z10AZEtRXRVWVhYMCV4XN0JQH1oIU1AaSxZYSA==",0,17,new Date().getTime(),"","","","",""]); Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using memcached
+Database Caching 12/15 queries in 0.014 seconds using memcached
+Object Caching 1293/1300 objects using memcached
+Content Delivery Network via Amazon Web Services: S3: cdn5.campaignforliberty.org
+Application Monitoring using New Relic
+
+ Served from: www.campaignforliberty.org @ 2013-10-29 10:32:03 by W3 Total Cache 
