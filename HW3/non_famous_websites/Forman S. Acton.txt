@@ -3394,7 +3394,7 @@ window.$Nav && $Nav.declare('config.swmStyleData',{});
 window.$Nav && $Nav.declare('config.ajaxProximity', [141,7,60,150]);
 
 
- navp-aqfb9hzazd7a9F0P6oHKcrI31J57U/BfZOQSJt8BpY6+Jc1EkeV5KRZNBU6aBQzafVa6Hb3TojA= rid-0V0ZZQR8EQGD3JXMF5E8 (Tue Oct 29 08:15:27 2013) 
+ navp-OZcuS2NwavuHj+cKHQy1F7Mc7QX2nwtPTzMJAlLsIifQm/u7fBakZpE5zzXss1/N1nKPiLYoiGA= rid-15KKJD27CWBKCMTKCR73 (Tue Oct 29 13:38:22 2013) 
 <!--
     .nav-searchfield-width {
       padding: 0 2px 0 43px;
@@ -3552,7 +3552,7 @@ window.$Nav && $Nav.declare('config.subnavFlyoutUrl',
 window.$Nav && $Nav.declare('config.readyOnATF', false);
 
 window.$Nav && $Nav.declare('config.dynamicMenuArgs',
-  {"rid":"0V0ZZQR8EQGD3JXMF5E8","isPrime":0,"primeMenuWidth":310});
+  {"rid":"15KKJD27CWBKCMTKCR73","isPrime":0,"primeMenuWidth":310});
 
 window.$Nav && $Nav.declare('config.signOutText',
   null);
@@ -3722,7 +3722,7 @@ Used
 
 Paperback
 
-        Order in the next 7 hours to get it by Wednesday, Oct 30.
+        Order in the next 2 hours to get it by Wednesday, Oct 30.
 
             Only 1 left in stock - order soon.
     FREE Shipping on orders over $35
@@ -3755,7 +3755,7 @@ Hardcover
 
 $137.12
 
-$34.00
+$34.29
 
 
 
@@ -3797,7 +3797,7 @@ Used
 
 Paperback
 
-        Order in the next 7 hours to get it by Wednesday, Oct 30.
+        Order in the next 1 hour to get it by Wednesday, Oct 30.
 
             Only 12 left in stock - order soon.
     FREE Shipping on orders over $35
@@ -3812,7 +3812,7 @@ $12.11
 
 
 
-$8.51
+$8.50
 
 $6.81
 
@@ -3995,12 +3995,12 @@ amznJQ.onReady('popover', function() {
               var searchImage = imgDiv.find('img.twisterRow').attr('src');
 
 	      return '/gp/twister/search-popover/searchpopover-variation-matrix.html?id=' + parent + '&child=' + child 
-		     + '&searchImage=' + searchImage + '&store=' + store + '&endlessPopover=1&qid=1383059727&sr=' 
+		     + '&searchImage=' + searchImage + '&store=' + store + '&endlessPopover=1&qid=1383079101&sr=' 
 		     + srParam + '&dimKey=' + dimKey + '&m=' + merchantID;
             } else {
               var parent = $(trigger).attr('name').split('|')[1];
               return '/gp/twister/search-popover/searchpopover-variation-matrix.html?id=' + parent + '&store=' + store 
-                     + '&qid=1383059727&sr=' + srParam + '&dimKey=' + dimKey + '&m=' + merchantID;
+                     + '&qid=1383079101&sr=' + srParam + '&dimKey=' + dimKey + '&m=' + merchantID;
             }
         }
         var srre = new RegExp("[\/?&]sr=([^&#]*)");
@@ -4094,7 +4094,7 @@ See search results for author  "Forman S. Acton"  in Books
 
 
   amzn.sx.utils.jsDepMgr.when('jQuery', 'search-trackingInfo-init', function($) {
-    $.pageContext = {"isUnsupportedRequest":false,"isApplicationFailure":false,"rid":"DAB8D1CE4C4846378282","qid":"1383059727","pageStructure":"results","pageApp":"gp/search","baseRH":"n%3A283155%2Cp_82%3AB001IYTXGY","browseLadder":"n%3A283155","node":"283155","searchAlias":"stripbooks","searchAliasDisplayName":"Books","csrfToken":"I/z+cNmh1M6bBRfImiGl+FMI0BDvxpQFfLany6i95ek","searchSkeletonKey":"results--searchTemplate listLayout so_us_en  --left-nav"};
+    $.pageContext = {"isUnsupportedRequest":false,"isApplicationFailure":false,"rid":"3616D0C6416B441D9CA3","qid":"1383079101","pageStructure":"results","pageApp":"gp/search","baseRH":"n%3A283155%2Cp_82%3AB001IYTXGY","browseLadder":"n%3A283155","node":"283155","searchAlias":"stripbooks","searchAliasDisplayName":"Books","csrfToken":"9+5x/CyhmZFaEVsnqzVTFocSyJKdL+9DxKVZZMbHPiQ","searchSkeletonKey":"results--searchTemplate listLayout so_us_en  --left-nav"};
   });
 
 
@@ -5219,7 +5219,7 @@ Guidelines
 
          $.hybridAjax.init({
              "intReq" : "0" == '1' ? 1 : 0,
-             "initRid": "DAB8D1CE4C4846378282",
+             "initRid": "3616D0C6416B441D9CA3",
              "streamDelimiter" : "-&-&-&",
              "useIFrameForAjax": $.browser.msie ? 1 : 0,
              "contentType" : "hae",
@@ -5250,7 +5250,7 @@ Like
 
 
 
-1383059727
+1383079102
 false
 -1
 0
@@ -5271,7 +5271,7 @@ if (typeof window.amznJQ != 'undefined') {
 
   amznJQ.onCompletion('amznJQ.criticalFeature', function() {
     amznJQ.available("share-with-friends-js-new", function() {
-      var popoverParams = { url: "/gp/pdp/taf/dpPop.html?ie=UTF8&contentID=B001IYTXGY&contentName=page&contentType=author&contentURI=%2FForman-S.-Acton%2Fe%2FB001IYTXGY%2Ffblink&emailCaptionStrID=&emailCustomMsgStrID=&emailDescStrID=&emailSubjectStrID=&emailTemplate=%2Fgp%2Fentity-alerts%2Fshare-email-template&forceSprites=1&id=&imageURL=http%3A%2F%2Fg-ecx.images-amazon.com%2Fimages%2FG%2F01%2Fentity%2Fshare%2Fauthor-pages_120x120._SY75_SX75_V198658434_.gif&isDynamicSWF=0&isEmail=0&learnMoreButton=&parentASIN=&placementID=nu_pe9Bsb1NHT00S&ra=taf&referer=http%253A%252F%252Fwww.amazon.com%252Fmn%252Flanding%252FB001IYTXGY&relatedAccounts=amazondeals%2Camazonmp3&suppressPurchaseReqLogin=&titleText=Amazon%27s%20Forman%20S.%20Acton%20Page&tt=sh&viaAccount=amazon", title: "Share this page via Email" , closeText: "Close", isCompact:  false, token: "C33E35C51633307EDD8D5196459CE007DE2D13D9"};
+      var popoverParams = { url: "/gp/pdp/taf/dpPop.html?ie=UTF8&contentID=B001IYTXGY&contentName=page&contentType=author&contentURI=%2FForman-S.-Acton%2Fe%2FB001IYTXGY%2Ffblink&emailCaptionStrID=&emailCustomMsgStrID=&emailDescStrID=&emailSubjectStrID=&emailTemplate=%2Fgp%2Fentity-alerts%2Fshare-email-template&forceSprites=1&id=&imageURL=http%3A%2F%2Fg-ecx.images-amazon.com%2Fimages%2FG%2F01%2Fentity%2Fshare%2Fauthor-pages_120x120._SY75_SX75_V198658434_.gif&isDynamicSWF=0&isEmail=0&learnMoreButton=&parentASIN=&placementID=nu_-YbCsb1WXVMAZ&ra=taf&referer=http%253A%252F%252Fwww.amazon.com%252Fmn%252Flanding%252FB001IYTXGY&relatedAccounts=amazondeals%2Camazonmp3&suppressPurchaseReqLogin=&titleText=Amazon%27s%20Forman%20S.%20Acton%20Page&tt=sh&viaAccount=amazon", title: "Share this page via Email" , closeText: "Close", isCompact:  false, token: "C33E35C51633307EDD8D5196459CE007DE2D13D9"};
       amz_taf_triggers.swftext1 = popoverParams;
       amz_taf_generatePopover("swftext1", false);
 
@@ -6199,7 +6199,7 @@ text-decoration:none !important;
         // Constructs the tooltip and sets necessary variables
         var constructTooltip = function () {
             if(! $.browser.msie) {
-                $.get("http://fls-na.amazon.com/1/action-impressions/1/OE/cust-rec/action/sign_in_tooltip_:1?marketplaceId=ATVPDKIKX0DER&session=192-1587980-4468566&requestId=18GWZD8PRAC1YXE5D66A");   
+                $.get("http://fls-na.amazon.com/1/action-impressions/1/OE/cust-rec/action/sign_in_tooltip_:1?marketplaceId=ATVPDKIKX0DER&session=181-3847349-3711735&requestId=19YY9QBDEM980MVR60NA");   
             }
             
             var css = {};
@@ -6481,8 +6481,8 @@ Conditions of UsePrivacy NoticeInterest-Based Ads© 1996-2013, Amazon.com, Inc. 
 
     }())
 
- whfh-aqfb9hzazd7a9F0P6oHKcrI31J57U/BfZOQSJt8BpY6+Jc1EkeV5KRZNBU6aBQzafVa6Hb3TojA= rid-0V0ZZQR8EQGD3JXMF5E8 
-(function(a,b){a.attachEvent?a.attachEvent("onload",b):a.addEventListener&&a.addEventListener("load",b,!1)})(window,function(){setTimeout(function(){var el=document.getElementById("sis_pixel_r2");el&&(el.innerHTML='<iframe id="DAsis" src="//s.amazon-adsystem.com/iu3?d=amazon.com&slot=navFooter&a2=0101a1823ca3d5d46ce03d4502edf28f095b20f780c29eddcddebefb2933fa9c1e98&old_oo=0&cb=1383059727624" width="1" height="1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>')},300)}); footer tilu 
+ whfh-OZcuS2NwavuHj+cKHQy1F7Mc7QX2nwtPTzMJAlLsIifQm/u7fBakZpE5zzXss1/N1nKPiLYoiGA= rid-15KKJD27CWBKCMTKCR73 
+(function(a,b){a.attachEvent?a.attachEvent("onload",b):a.addEventListener&&a.addEventListener("load",b,!1)})(window,function(){setTimeout(function(){var el=document.getElementById("sis_pixel_r2");el&&(el.innerHTML='<iframe id="DAsis" src="//s.amazon-adsystem.com/iu3?d=amazon.com&slot=navFooter&a2=0101a1823ca3d5d46ce03d4502edf28f095b20f780c29eddcddebefb2933fa9c1e98&old_oo=0&cb=1383079102139" width="1" height="1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>')},300)}); footer tilu 
 
 
 

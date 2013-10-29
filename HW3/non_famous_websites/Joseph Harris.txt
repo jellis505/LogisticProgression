@@ -532,7 +532,7 @@ try{
 
 
 st_go({'blog':'13554671','v':'wpcom','tz':'-4','user_id':'0','post':'9','subd':'josephdharris57'});
-ex_go({'crypt':'UE40eW5QN0p8M2Y/RE1LVmwrVi5vQS5fVFtfdHBbPyw1VXIrU3hWLHhzVndTdktBX0ddJnpXRjVaOTd6fj1YMX4ydzRUSk0wbVRfODlnNUZzfl9PdnZMcjNGdHlVSHhwTXRPdGpiTGJOWkRqbmlXQVM5S3hEOFI/SHU0a2UtOT14TU02Z1hVSiVsT2hNJW55aVpZJVpVP3lpYjVwZ0MtZmJiNTl4M2puTzcuYzc4fiVRXU9+dE14SWExX1s4K2Nkam4vQmddZkRXbEE4T1Q0R3ZIdFQmTllHfG0zJnZhcGNCKzBbfkt1NGxfUnVzVGxQVk04SXY0bF9XbEJVSm4='});
+ex_go({'crypt':'UE40eW5QN0p8M2Y/RE1LVmwrVi5vQS5fVFtfdHBbPyw1VXIrU3hWLHhzVndTdktBX0ddJnpXRjVaOTd6fj1YMX4ydzRUSk0wbVRfODlnNUZzfl9PdnZMcjNGdHlVSHhwTXRPdGpiTGJ+cix2Xy01Zm1NWGttcl9sNGxhVSZ4cS9MVDc4YVJ6amsxSnJtdy5Ldm9qNjlfWFVaMS4uLnxvM3FfdCtMMmNnY11qWS1rOFtNU3B4cC9MJkZLJmssN3BfSFBUTUUvMi1hTn4yY3M2fFR1bl1DQ0oxR1QsekJqV0g3Nzg0OFJ0LEdYVU9CN2JXRC0sR1RhTTNiQlVrTzU='});
 addLoadEvent(function(){linktracker_init('13554671',9);});
 	
 
