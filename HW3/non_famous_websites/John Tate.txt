@@ -1,4 +1,4 @@
-htmlvar NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);John F. Tate - Campaign for Liberty This site is optimized with the Yoast WordPress SEO plugin v1.4.15 - http://yoast.com/wordpress/seo/  / Yoast WordPress SEO plugin. [if IE]>
+htmlvar NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);About Campaign for Liberty - Campaign for Liberty This site is optimized with the Yoast WordPress SEO plugin v1.4.15 - http://yoast.com/wordpress/seo/  / Yoast WordPress SEO plugin. [if IE]>
 <link rel='stylesheet' id='mailchimpSF_ie_css-css'  href='http://cdn1.campaignforliberty.org/wp-content/plugins/mailchimp/css/ie.css.gzip?ver=3.6.1' type='text/css' media='all' />
 <![endif]
 /* <![CDATA[ */
@@ -149,8 +149,8 @@ Donate!
 
 
 
-Home » About Campaign for Liberty » Staff » John F. Tate 
-John F. Tate
+Home » About Campaign for Liberty 
+About Campaign for Liberty
 
 
  
@@ -164,63 +164,36 @@ John F. Tate
  #main Starts 
 
 
-John F. Tate 
-President
-John is the President of Campaign for Liberty, a grassroots lobbying organization dedicated to the principles of individual liberty, constitutional government, sound money, free markets, and a noninterventionist foreign policy.
-Since its founding in June of 2008, Campaign for Liberty has grown to over 500,000 active members nationwide and has led the effort for passage of Congressman Ron Paul’s bill to require a full audit of the Federal Reserve.
-John has spent the last 28 years working in the political, lobbying, and non-profit world in the areas of high dollar fundraising, direct mail, political strategy, grassroots activism , state and federal legislation, and non-profit management.
-He is the founder and President of JFT Consulting, Inc., a consulting firm that specializes in political strategy, fundraising, and grassroots lobbying. John also served as the Campaign Manager for the Ron Paul 2012 Presidential Campaign Committee and as National Political Director for the 2008 Ron Paul Presidential Campaign.
-Prior to joining Campaign for Liberty, John served as the Vice President, Membership for the Leadership Institute. In this role, he headed up a department of LI staff that contacted and visited supporters nationwide to show them and raise funds for special targeted LI programs. In his 4 years at LI, this program raised nearly $4 million. He also taught at many of LIs schools.
-Before joining LI, John spent 14 years with the National Right to Work Committee, serving as Vice President from 1998 to 2004. As Vice President, he oversaw all state and federal lobbying efforts, public relations, the affiliated state and federal PACs for Right to Work, and a direct mail and telemarketing fundraising operation that raised more than $23 million to combat Big Labor’s coercive power over workers.
-In 1996, John was the GOP nominee for Congress in Virginia’s 2nd district.
-Prior to his work at National Right to Work, John was Executive Director of Right to Work organizations in California and Delaware and served as a legislative aide on Capitol Hill.
-John is a long-time political activist in Virginia and National politics. He was Chairman of the Rules committee at the 1994 Virginia Republican State Convention and has worked on numerous local, state, and national campaigns around the country.
-John is a graduate of the University of Virginia with a B.A. in History.
+About Campaign for Liberty 
+Statement of Principles
+Americans inherit from our ancestors a glorious tradition of freedom and resistance to oppression.  Our country has long been admired by the rest of the world for her great example of liberty and prosperity—a light shining in the darkness of tyranny.
+But many Americans today are frustrated.  The political choices they are offered give them no real choice at all.  For all their talk of “change,” neither major political party as presently constituted challenges the status quo in any serious way.  Neither treats the Constitution with anything but contempt.  Neither offers any kind of change in monetary policy.  Neither wants to make the reductions in government that our crushing debt burden demands.  Neither talks about bringing American troops home not just from Iraq but from around the world.  Our country is going bankrupt, and none of these sensible proposals are even on the table.
+This destructive bipartisan consensus has suffocated American political life for many years.  Anyone who tries to ask fundamental questions instead of cosmetic ones is ridiculed or ignored.
+That is why the Campaign for Liberty was established: to highlight the neglected but common-sense principles we champion and reinsert them into the American political conversation.
+The U.S. Constitution is at the heart of what the Campaign for Liberty stands for, since the very least we can demand of our government is fidelity to its own governing document.  Claims that our Constitution was meant to be a “living document” that judges may interpret as they please are fraudulent, incompatible with republican government, and without foundation in the constitutional text or the thinking of the Framers.  Thomas Jefferson spoke of binding our rulers down from mischief by the chains of the Constitution, and we are proud to follow in his distinguished lineage.
+With our Founding Fathers, we also believe in a noninterventionist foreign policy.  Inspired by the old Robert Taft wing of the Republican Party, we are convinced that the American people cannot remain free and prosperous with 700 military bases around the world, troops in 130 countries, and a steady diet of war propaganda.  Our military overstretch is undermining our national defense and bankrupting our country.
+We believe that the free market, reviled by people who do not understand it, is the most just and humane economic system and the greatest engine of prosperity the world has ever known.
+We believe with Ludwig von Mises, Henry Hazlitt, and F.A. Hayek that central banking distorts economic decisionmaking and misleads entrepreneurs into making unsound investments.  Hayek won the Nobel Prize for showing how central banks’ interference with interest rates sets the stage for economic downturns.  And the central bank’s ability to create money out of thin air transfers wealth from the most vulnerable to those with political pull, since it is the latter who receive the new money before the price increases it brings in its wake have yet occurred.  For economic and moral reasons, therefore, we join the great twentieth-century economists in opposing the Federal Reserve System, which has reduced the value of the dollar by 95 percent since it began in 1913.
+We oppose the dehumanizing assumption that all issues that divide us must be settled at the federal level and forced on every American community, whether by activist judges, a power-hungry executive, or a meddling Congress.  We believe in the humane alternative of local self-government, as called for in our Constitution.
+We oppose the transfer of American sovereignty to supranational organizations in which the American people possess no elected representatives.  Such compromises of our country’s independence run counter to the principles of the American Revolution, which was fought on behalf of self-government and local control.  Most of these organizations have a terrible track record even on their own terms: how much poverty have the World Bank and the International Monetary Fund actually alleviated, for example?  The peoples of the world can interact with each other just fine in the absence of bureaucratic intermediaries that undermine their sovereignty.
+We believe that freedom is an indivisible whole, and that it includes not only economic liberty but civil liberties and privacy rights as well, all of which are historic rights that our civilization has cherished from time immemorial.
+Our stances on other issues can be deduced from these general principles.
+Our country is ailing.  That is the bad news.  The good news is that the remedy is so simple and attractive: a return to the principles our Founders taught us.  Respect for the Constitution, the rule of law, individual liberty, sound money, and a noninterventionist foreign policy constitute the foundation of the Campaign for Liberty.
 Print PDF  /.entry 
 
  /.post 
  /#main 
 
+About
 
-Get Local
-
-
-Find local news, eventsand groups
-
-
+Faq
+Our Principles
+Staff
 
 
-
- 
-
-
-
-How do I get involved?
-
-
-
-
-
-
-
-Stay connected
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+CONTACT INFORMATION Campaign for Liberty 5211 Port Royal Road, Suite 310 Springfield, VA 22151
+Phone: (703) 865-7162 Fax: (703) 865-7549 Contact us online
+ 
  /#sidebar 
  /#main-sidebar-container 
  /#content 
@@ -283,12 +256,12 @@ jQuery(document).ready( function($) {
 });
 /* ]]> */
 
-if(!NREUMQ.f){NREUMQ.f=function(){NREUMQ.push(["load",new Date().getTime()]);var e=document.createElement("script");e.type="text/javascript";e.src=(("http:"===document.location.protocol)?"http:":"https:")+"//"+"js-agent.newrelic.com/nr-100.js";document.body.appendChild(e);if(NREUMQ.a)NREUMQ.a();};NREUMQ.a=window.onload;window.onload=NREUMQ.f;};NREUMQ.push(["nrfj","beacon-5.newrelic.com","b1672ed7e6","2088255","Z10AZEtRXRVWVhYMCV4XI1NNWVwIGEUDAgM=",0,604,new Date().getTime(),"","","","",""]);if(!NREUMQ.f){NREUMQ.f=function(){NREUMQ.push(["load",new Date().getTime()]);var e=document.createElement("script");e.type="text/javascript";e.src=(("http:"===document.location.protocol)?"http:":"https:")+"//"+"js-agent.newrelic.com/nr-100.js";document.body.appendChild(e);if(NREUMQ.a)NREUMQ.a();};NREUMQ.a=window.onload;window.onload=NREUMQ.f;};NREUMQ.push(["nrfj","beacon-5.newrelic.com","b1672ed7e6","2088255","Z10AZEtRXRVWVhYMCV4XN0JQH1oIU1AaSxZYSA==",0,17,new Date().getTime(),"","","","",""]); Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+if(!NREUMQ.f){NREUMQ.f=function(){NREUMQ.push(["load",new Date().getTime()]);var e=document.createElement("script");e.type="text/javascript";e.src=(("http:"===document.location.protocol)?"http:":"https:")+"//"+"js-agent.newrelic.com/nr-100.js";document.body.appendChild(e);if(NREUMQ.a)NREUMQ.a();};NREUMQ.a=window.onload;window.onload=NREUMQ.f;};NREUMQ.push(["nrfj","beacon-5.newrelic.com","b1672ed7e6","2088255","Z10AZEtRXRVWVhYMCV4XI1NNWVwIGEEHCBZcWRZVFEBSAVI=",0,643,new Date().getTime(),"","","","",""]);if(!NREUMQ.f){NREUMQ.f=function(){NREUMQ.push(["load",new Date().getTime()]);var e=document.createElement("script");e.type="text/javascript";e.src=(("http:"===document.location.protocol)?"http:":"https:")+"//"+"js-agent.newrelic.com/nr-100.js";document.body.appendChild(e);if(NREUMQ.a)NREUMQ.a();};NREUMQ.a=window.onload;window.onload=NREUMQ.f;};NREUMQ.push(["nrfj","beacon-5.newrelic.com","b1672ed7e6","2088255","Z10AZEtRXRVWVhYMCV4XN0JQH1oIU1AaSxZYSA==",0,9,new Date().getTime(),"","","","",""]); Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
 
 Page Caching using memcached
-Database Caching 12/15 queries in 0.014 seconds using memcached
-Object Caching 1293/1300 objects using memcached
+Database Caching 2/30 queries in 0.034 seconds using memcached
+Object Caching 1406/1438 objects using memcached
 Content Delivery Network via Amazon Web Services: S3: cdn5.campaignforliberty.org
 Application Monitoring using New Relic
 
- Served from: www.campaignforliberty.org @ 2013-10-29 10:32:03 by W3 Total Cache 
+ Served from: www.campaignforliberty.org @ 2013-10-29 15:56:30 by W3 Total Cache 

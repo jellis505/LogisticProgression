@@ -1,4 +1,4 @@
-html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"[if lt IE 7 ]> <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class="ie ie6"> <![endif][if IE 7 ]>    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class="ie ie7"> <![endif][if IE 8 ]>    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class="ie ie8"> <![endif][if IE 9 ]>    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class="ie ie9"> <![endif][if (gt IE 9)|!(IE)]><!<![endif] PageID 3051 - published by OpenText Web Site Management 10.1 - 10.1.2.391 Brooklyn College | Faculty Profile[if IE 6]>
+html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"[if lt IE 7 ]> <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class="ie ie6"> <![endif][if IE 7 ]>    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class="ie ie7"> <![endif][if IE 8 ]>    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class="ie ie8"> <![endif][if IE 9 ]>    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class="ie ie9"> <![endif][if (gt IE 9)|!(IE)]><!<![endif] PageID 322 - published by OpenText Web Site Management 10.1 - 10.1.2.391 Brooklyn College | About[if IE 6]>
             <link rel="stylesheet" type="text/css" href="http://www.brooklyn.cuny.edu/web/css/ie6.css" media="all" />
         <![endif]<script language="javascript" type="text/javascript" src="http://www.brooklyn.cuny.edu/web/js/jquery.reverseorder.packed.js"></script>
 .admissions_feature_submit label     {color:#525252;}
@@ -287,170 +287,100 @@ pageTracker._trackPageview();
  END HEADER 
  
 
-       headline_parent = "Faculty Profile";  
+       headline_parent = "About";  
+
+
+
+ START OPTIONAL PAGE PHOTO 
+
+
+
+
+Teamwork on the Quad.
 
 
 
 
 
-HomeAcademicsFacultyBrooklyn College Faculty
-Faculty Details
-
-<h1>Faculty Details</h1>
-
-
-
- 
-<!-- 
-function makeMailLink(id, server) { 
-var textValue = '<nobr><a href="mailto:' + id + '@' + server + '">\n' + id + 
-'<img src="http://www.brooklyn.cuny.edu/directory/images/at_new.gif" border="0" align="absbottom">\n'+ server + '</a></nobr>'; 
-//alert (textValue); 
-return textValue; 
-} 
-// --> 
-
- <div id="sidebar">
-sidebar </div>
-Julie Agoos
-Professor 
-English
-
-
- <h3> 
-Contact Information</h3>
-
-<b>Department:</b> English<br />
-Location: 3108   Boylan Hall
-Phone: 718.951.4274        
-Fax: 718.951.4612        
-Email:
-document.write (makeMailLink("jagoos","brooklyn.cuny.edu"));
-
-
-
-Julie Agoos is the author of three collections of poetry.  Above the Land (1987), selected by James Merrill as winner of the Yale Younger Poets Prize, also received the Towson State University Prize for Literature. Calendar Year was published by the Sheep Meadow Press in 1996, and Property, for which she received the Brooklyn College/CUNY Creative Achivement Award in 2006, was published by Ausable Press in 2008. Agoos has been a resident Fellow of The Frost Place and was a member of the creative writing faculty at Princeton University for eight years. She came to Brooklyn College in 1994 and teaches courses in creative writing/poetry in both the undergraduate English Department and the M.F.A. Poetry Program. She also teaches courses in Victorian poetry, modern British and Irish poetry, and special topics tutorials in reading and writing, such as poetry and the source and the poetics of hell.
-
-Show Scholarly Activities and Professional Accomplishments
-
- Education: 
-M.A., The Johns Hopkins University - 1983 (The Writing Seminars)
-B.A. (magna cum laude), Harvard University - 1979 (English and American Literature and Language)
-Areas of Expertise: 
-Professor Agoos' primary interest is in dramatic and narrative modes of poetry, and in lyric strategies for the long poem. She is also interested in exploring, in book form, the ways in which  poems overlap and infiltrate each other to create a sustained form beyond the forms of individual lyrics.
-
-Books and Publications
-  
-"Fire and Ice," an essay commissioned by the Josef Albers Foundation for the Cork University Museum catalogue for "Sacred Modernism," a retrospective of work by Josef Albers opening on April 5, Cork City, Ireland.  (Books and Publications: Forthcoming Publications) 2012
-
-Property, a collection of poems. Ausable/Copper Canyon Press.  (Books and Publications: Book) 2008
- 
- 
-Poems. An Ausable Reader. Ausable Press.  (Books and Publications: Chapter) 2008
- 
- 
-Poems. Under the Rock Umbrella: Contemporary American Poets, 1951-1971 anthology. Mercer University Press.  (Books and Publications: Chapter) 2007
- 
- 
-Poems. A Poem a Day anthology. Steerforth Press.  (Books and Publications: Chapter) 2006
- 
- 
-The Gift of Light, Tribute to Donald Sheehan (festschrift). Swamp Press.  (Books and Publications: Chapter) 2003
- 
- 
-Foreword to Rattle, by Eloise Bruce. CavanKerry Press.  (Books and Publications: Other Article) 2002
- 
- 
-Poems and critical comment. The Breath of Parted Lips anthology. CavanKerry Press.  (Books and Publications: Chapter) 1999
-
-Calendar Year, a collection of poems comprising four interpenetrating sequences. The Sheep Press.  (Books and Publications: Book) 1997
-
-Above the Land, poems, winner of the Yale Series of Younger Poets Award (selected by James Merrill) and the Towson State University Prize for Literature, YUP.  (Books and Publications: Book) 1987
-
-Creative Work
-  
-Poems from the series "Satires of Circumstance." Notre Dame Review, January.  2012
- 
- 
-Poetry reading, Turnstyle Poetry Series of the Affiliated CUNY Writing Programs.  2010
- 
- 
-Poetry reading for the New York Academy of Poets. New York Public Library, Mulberry Street Branch.  2009
- 
- 
-Poetry reading with Ausable Press authors. New York Arts Club.  2009
- 
- 
-Poetry reading, Blacksmith Poetry Series, Cambridge, Mass.  2009
- 
- 
-Poetry reading, Nyack Center Women of Leadership and Vision Honoree ceremony.  2009
- 
- 
-Poetry reading, The Wolfe Institute, Brooklyn College.  2008
- 
- 
-Reading, St. Johnsbury Athenaeum, St. Johnsbury, Vt.  2008
- 
- 
-Staged reading of Property, directed by Darrell Larson. Riverspace Arts Center.  2008
-
-Awards, Honors and Fellowships
-  
-Tow Professorship Award, Brooklyn College.  (Awards and Honors) 2008
- 
- 
-Creative Achievement Award, Brooklyn College.  (Awards and Honors) 2006
- 
- 
-Robert Frost Place Residency Fellowship.  (Grants and Fellowships) 1989
- 
- 
-Towson State University Prize for Literature.  (Awards and Honors) 1988
- 
- 
-Yale Series of Younger Poets Award.  (Awards and Honors) 1987
- 
- 
-Briggs Literary Fellowship for one year of travel to Florence, Italy. Department of English, Harvard University.  (Awards and Honors) 1979
- 
- 
-Grolier Poetry Prize, Grolier Book Shop, Cambridge, Mass.  (Awards and Honors) 1979
- 
- 
-Lloyd McKim Garrison Poetry Prize, Department of English, Harvard University.  (Awards and Honors) 1979
-
-Conferences, Seminars and Symposiums
-  
-"The Long Poem" panel, AWP Conference. Washington, D.C., March 2011 (upcoming).  (Conferences, Seminars and Symposiums: Invited Talk) 2011
-
-Professional Leadership
-  
-Member, Borough President Marty Markowitz's Commmittee to select a new Brooklyn Poet Laureate.  (Professional Leadership: Committee Service) 2010
-
-Community Activities
-  
-Hopper House Art Center Book Fair, Nyack, N.Y.  2008
-
-Other Professional Activities
-  
-Judge, The Hopwood Poetry Contest, University of Michigan, March/April.  2012
+Soccer is one of seven sports available for our men.
 
 
 
 
 
- [ BACK TO FACULTY PROFILES ]
+Our campus is one of the most beautiful in the country.
 
 
 
-Back to Top
 
+
+At the forefront of discovery.
+
+
+
+ END OPTIONAL PAGE PHOTO 
+
+
+Home
+About Brooklyn College
+
+About Brooklyn College
+Brooklyn College is an integral part of the civic, urban and artistic energy of New York and uses the entire city as a living classroom that broadens our students’ understanding of the world around them. 
+For more than 80 years, the college has been attracting a wide variety of motivated students — many of them immigrants or the children of immigrants who wish to better their lives through a superb education. They come because of the college’s renowned faculty of academics, professionals and artists who are among the best in their field. They know they will be learning on a campus considered one of the most beautiful in the country, with well-equipped facilities, studios, smart classrooms, and production and practice rooms — all with a highly affordable tuition. 
+Brooklyn College has a student enrollment of 16,524 students — 13,099 undergraduates and 3,425 graduates who come from 150 nations and speak 105 languages.
+The college offers 120 undergraduate and graduate degree programs in the creative arts; humanities; social, behavioral and natural sciences; mathematics; education and business. Admissions criteria have become increasingly selective over the last decade, with a mean SAT score of 1134 for 2011. More than 4,000 students received bachelor’s and master’s degrees, as well as advanced certificates, at our last Commencement Exercises.
+Academic Opportunities
+Students seeking a highly challenging academic program beyond the college’s rigorous overall program are invited to apply to the Macaulay Honors College at Brooklyn College and the specialized programs in the Honors Academy. Admission into these programs is very competitive and offers tremendous benefits, which may include opportunities to engage in academically rigorous activities throughout the city and across the globe, free tuition and laptops, stipends for travel and much more.
+For undergraduate students, the college’s highly regarded Core Curriculum creates a firm foundation in the liberal arts and sciences. Our strong advisement program guides them throughout their college years. Even before their first semester begins, freshmen are introduced to the First College Year, which helps them transition from high school to college through summer bridge programs and with Learning Communities that strengthen bonds between them and with the faculty. Preprofessional programs are available for students interested in engineering, law, medicine, optometry and podiatry.
+Special programs for graduate students are provided as well. The Graduate Investment Program offers travel grants that support attendance at domestic and international conferences, research grants that fund supplies and materials, and workshops on topics of specific importance to graduate students — grant writing, thesis assistance and many more. Brooklyn College is also an active part of graduate-focused CUNY programs, including the New York City Louis Stokes Alliance for Minority Participation, the Bridges to the Doctorate Program and the Latin/Greek Institute.
+The college encourages students to study abroad through special academic programs. Students have explored medicine in China, participated in archaeological digs in Israel and Iceland, studied political systems in Argentina, made documentary films in India, and sharpened their artistic skills in Italy and France, just to name a few. They often assist in their professors’ research, engaging in cutting-edge investigations while exploring a part of the world they may not have seen on their own.
+A World-Class Faculty
+Brooklyn College professors are award winners and recipients of national funding from institutions such as NASA, the National Science Foundation, the National Institutes of Health and the Department of Education. The faculty includes two Pulitzer Prize winners — journalist Paul Moses and historian Edwin Burrows — and two Pulitzer Prize nominees — historian Michael Rawson and composer Tania León. Ursula Oppens, a Grammy Award–nominated concert pianist and contemporary American music performer; Mac Wellman, an Obie Award–winning playwright; and Kristoff Diaz, a Tony Award–nominated playwright, are also on the faculty. Other illustrious faculty members include political scientist Alex Vitale, sociologist Carolina Bank Muñoz, NIH $1.7 million grant-winner and psychologist Anthony Sclafani, internationally recognized computer theorist Rohit Parikh, esteemed audiologist Shlomo Silman, leading expert in microalgae biotechnology Juergen Polle, and political scientist and author Corey Robin.
+Student Life
+Student life at Brooklyn College is active, diverse and multifaceted. Our students are engaged in more than 100 student clubs and organizations spanning a broad range of cultural, ethnic, community, media, artistic, social action, religious and other special interests. More than one dozen fraternities and sororities bring Greek life to campus. Intramural sports are popular, and the college’s award-winning basketball, cross country, soccer, softball, tennis and volleyball teams compete at the Division III level of the National Collegiate Athletic Association. 
+Building for the Future
+This spring, the Brooklyn College broke ground for a new center for the performing arts, which will provide a fitting home for its award-winning performance programs. The college is also deep into the planning stages for a new state-of-the-art science complex.
 
  #main 
 
+
+Our CampusFast FactsAdministrationInitiatives, Plans and PoliciesInternational EducationResearchOur Past, Our FutureOffices and ServicesContact Us
+
+
+ #sidebar 
+
+      $(document).ready(function(){
+        
+         var headline = headline_parent; //from base 
+         
+        $("#sidebar ul.subpage a").each(function(){
+          if ($(this).text()== headline) {
+            $(this).addClass("selected");
+          }
+        });
+        if ($('#sidebar ul.subpage').length > 1) {
+          var item_found = false;
+          $('#sidebar ul.subpage').each(function() {
+            $selected_item = $(this).find('li a.selected');
+  
+            if ($selected_item.text() == '' && item_found == true) {
+              // sub list item
+              item_found = false;
+              $(this).insertAfter('#sidebar #subnav.subpage li a.selected');
+            } else if ($selected_item.text() == '') {
+              // empty item
+              $(this).attr('id','').css('display','none');
+            } else {
+              // selected list item
+              $(this).attr('id','subnav');
+              item_found = true;
+            }
+          });
+        }
+      });
+
+
  #content_container 
- 
  START FOOTER - on every page 
 
 
@@ -489,15 +419,13 @@ Watch our videos on YouTube
 Visit us on Facebook
 
 
-                    ©   
+                    © 2013  
         All Rights Reserved Brooklyn College
         2900 Bedford Avenue, Brooklyn, NY 11210
         718.951.5000
      
 
-ipadress is-$ipAddress";
-?>
-
+ipadress is-10.0.10.1
 
 
  #footer 

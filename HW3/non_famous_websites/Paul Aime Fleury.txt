@@ -104,7 +104,7 @@ ui_click: true
 }
 
 Share
-Learn about removing the ads from this memorial...Birth: May 31,  1887Upper FallsBaltimore CountyMaryland, USADeath: Jul. 14,  1974Upper FallsBaltimore CountyMaryland, USAPaul Aime' Fleury III was born on Woodbine Farm in Upper Falls, Baltimore county, Maryland. He died on Woodbine Farm 87 years later. He married Esther McAlister of Greenville, SC (died 1954), and they had seven children -- Paul IV, Charles, Mary Virginia, William, Alexander, Lewis and Esther. During his lifetime, he was both an attorney and an engineer. He raised horses and Shetland ponies, and is in the State of Maryland Jousting Hall of Fame, training children who became state jousting champions.   Family links:  Spouse:  Esther McAlister Fleury (1887 - 1954)*  Children:  Mary Virginia Fleury Emory (1917 - 2004)*  William Earle Fleury (1920 - 2011)* *Calculated relationship Burial:
+Learn about sponsoring this memorial...Birth: May 31,  1887Upper FallsBaltimore CountyMaryland, USADeath: Jul. 14,  1974Upper FallsBaltimore CountyMaryland, USAPaul Aime' Fleury III was born on Woodbine Farm in Upper Falls, Baltimore county, Maryland. He died on Woodbine Farm 87 years later. He married Esther McAlister of Greenville, SC (died 1954), and they had seven children -- Paul IV, Charles, Mary Virginia, William, Alexander, Lewis and Esther. During his lifetime, he was both an attorney and an engineer. He raised horses and Shetland ponies, and is in the State of Maryland Jousting Hall of Fame, training children who became state jousting champions.   Family links:  Spouse:  Esther McAlister Fleury (1887 - 1954)*  Children:  Mary Virginia Fleury Emory (1917 - 2004)*  William Earle Fleury (1920 - 2011)* *Calculated relationship Burial:
 Saint Stephens Catholic Church Cemetery
 KingsvilleBaltimore CountyMaryland, USA Created by: Tom Emory, Jr.Record added: Feb 01, 2006
 Find A Grave Memorial# 13201014
@@ -126,11 +126,9 @@ Kathleen Fleury Bilbrey
  Added: Feb. 25, 2006
 
    AdvertisementAccuracy Disclaimer and Terms of Use  
- Displaying tribalFusion Ad <!--
-e9 = new Object();
-e9.size = "728x90,468x60";
-//-->
+ Displaying adify Ad  BEGIN JS TAG - RON 728x90 ATF < - DO NOT MODIFY 
 
+ END TAG 
 
 
 Advertisement BEGIN JS TAG - RON 160x600 ATF < - DO NOT MODIFY 

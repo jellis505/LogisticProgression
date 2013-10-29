@@ -11,17 +11,37 @@ import json
 from bs4 import BeautifulSoup
 import time
 
-# I found this hack around for doing a google search from the url below, altered slightly
+# I found this hack around for doing a google search from the url below, altered slightly only
 # http://stackoverflow.com/questions/1657570/google-search-from-a-python-app
 
 def getgoogleurl(search,siteurl=False):
+    # Description: This program creates the url that we want to search google with
+    # I found this hack around for doing a google search from the url below, altered slightly only
+    # http://stackoverflow.com/questions/1657570/google-search-from-a-python-app
+    # Inputs:
+    #   - search = The search query
+    # Outputs:
+    #   - query_url = The url that is used to query google
+
+
     if siteurl==False:
         return 'http://www.google.com/search?q='+urllib2.quote(search)+'&oq='+urllib2.quote(search)
     else:
         return 'http://www.google.com/search?q=site:'+urllib2.quote(siteurl)+'%20'+urllib2.quote(search)+'&oq=site:'+urllib2.quote(siteurl)+'%20'+urllib2.quote(search)
 
+
+
 def getgooglelinks(search,siteurl=False):
-   #google returns 403 without user agent
+    #Description: This function takes a query and returns the links from the first page of google results
+    # I found this hack around for doing a google search from the url below, altered slightly only
+    # http://stackoverflow.com/questions/1657570/google-search-from-a-python-app
+    # Inputs:
+    #   - search = The search query to search google with
+    #   - siteurl = A site if we want to limit our search query.
+    # Outputs:
+    #   - links = A list of the links that are given on the front page of google
+
+   #google returns 403 without user agent,
    headers = {'User-agent':'Mozilla/11.0'}
    req = urllib2.Request(getgoogleurl(search,siteurl),None,headers)
    site = urllib2.urlopen(req)
@@ -54,8 +74,16 @@ def getgooglelinks(search,siteurl=False):
                   links.append(link)
       return links
 
+
 # Get the real webpage of the professor
 def ReturnHomepage(links):
+    # Description: This function takes the links that are extracted from google search and then
+    # eliminates all of the wikipedia based links, because that is where we got our data.
+    # and returns the links that are .edu based, hopefully the one that is for the base homepage.
+    # Inputs:
+    #   - links = The list of links
+    # Outputs:
+    #   - education_links = The good links that we should try to use
 
     # Remove all links with wikipedia
     good_links = []
@@ -73,7 +101,19 @@ def ReturnHomepage(links):
     
     return education_links
 
+
 def DownloadWebpage(edu_links,query):
+    # Description: This function takes the links from the education and non-wikipedia pages, and the query name,
+    # Then downloads the homepage or "about", "bio", style page from the given professor.
+    # Inputs:
+    #   - edu_links = The links that we should look through for downloading
+    #   - query = The query that was used to generate the links
+    # Outputs:
+    #   - None
+    # Actions:
+    #   - outputs a file to the path "../non_famous_websites/<query>.txt" that should have the bio data about the people
+    # that are available
+
     # This will download and write out the webpage of the dude we want
 
     low_length = 1000
@@ -94,7 +134,7 @@ def DownloadWebpage(edu_links,query):
     text = soup.get_text()
     str_text = text.encode('utf-8')
     
-    # Now let's also try to see if there is a "bio" link
+    # Now let's also try to see if there is a "bio" link, these are the possible names
     bio_link_names = ["bio", 
     "about", 
     "about me", 
@@ -111,7 +151,7 @@ def DownloadWebpage(edu_links,query):
             if link.string.lower() in bio_link_names:
                 bio_link = link["href"]
                 print bio_link[0:2]
-                if bio_link[0:2] != "htt" and (bio_link.find(".pdf") == -1):
+                if bio_link[0:3] != "htt" and (bio_link.find(".pdf") == -1):
                     bio_link = link_to_use + bio_link
                 break
             
