@@ -1,0 +1,37 @@
+Joe Ellis and Jessica Ouyang
+HW 3
+
+FILES INCLUDED:
+
+unstructured/
+	evaluate.py
+	get_dates.py
+	predictions.txt	
+
+--------------------
+
+COMPILATION:
+
+--------------------
+
+RUNNING:
+
+Unstructured prediction:
+
+python unstructured/get_dates.py non_famous_people.txt non_famous_websites/
+Optional third argument: year to use as default if unable to predict
+
+python unstructured/evaluate.py non_famous_birthdays.txt unstructured/predictions.txt
+This also outputs the average over gold labels.  The average from training can be used as the default year for testing (see above); otherwise the default is the average predicted year.
+
+--------------------
+
+TASK DESCRIPTION:
+
+We used FreeBase for the structured data and professors' webpages for the unstructured data.  For the unstructured data, we got the gold labels from Wikipedia but did not use Wikipedia for predicting the birthdays.  As discussed with Andrew, we only predicted birth years and used 75 professors, with 60 for training and 15 for testing.
+
+--------------------
+
+EXPERIMENTS:
+
+We achieve 26.67% accuracy on our test set.

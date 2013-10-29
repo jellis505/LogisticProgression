@@ -60,6 +60,7 @@ def main(args):
     # Predict birth years for all webpages in a directory
     # args - args[1] expected to be the list of people
     #      - args[2] expected to be the name of the directory
+    #      - args[3] if present is the year to use if no year can be predicted
     # writes predicted years to 'predictions.txt'
     
     if len(args) < 3:
@@ -99,6 +100,8 @@ def main(args):
 
     f = open('predictions.txt', 'w')
     average_date = int(float(date_sum) / num_dates + 0.5) # if no birthdate found for a professor, guess the average over the ones that were found
+    if len(args) == 4:
+        average_date = args[3] # if default year was given, use it
     for date in found_dates:
         if date:
             print >>f, date
