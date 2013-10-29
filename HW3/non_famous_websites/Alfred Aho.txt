@@ -1,0 +1,84 @@
+
+      Alfred V. Aho's webpage
+    
+
+
+
+
+
+ ALFRED V. AHO 
+
+
+Alfred V. Aho is the Lawrence Gussman Professor of Computer Science
+at Columbia University.
+
+
+
+Office
+
+Room 513 Computer Science Building
+
+
+Past Classes
+
+CS 3261:
+Computer Science Theory, Fall 2012
+CS 6998:
+Advanced Topics in Programming Languages and Compilers, Fall 2012
+CS 4115:
+Programming Languages and Translators, Spring 2013
+
+Books
+Publications
+Bio
+
+PhD Students
+
+Gaurav Kc: Defending Software Against Process-Subversion Attacks
+Krysta Svore: Achieving Reliable, Scalable, Fault-tolerant Quantum Computing
+Marc Eaddy: An Empirical Assessment of the Crosscutting Concern Problem
+
+
+
+Invited Talks
+
+
+Unnatural Language Processing, SSST-3, NAACL HLT, 2009
+
+Teaching Compilers, SIGCSE 2010
+
+The Quintessential Questions of Computer Science, Bell Labs, 2011
+
+C, the Enduring Legacy of Dennis Ritchie, Bell Labs, 2012.  
+    Text of talk.
+
+Computational Thinking in Programming Language Design, NEC Labs, Princeton, 2013
+
+Quantum Computer Compilers, UMBC, Maryland, 2013
+
+
+Interviews
+
+
+Simons Foundation: Science Lives: Alfred Aho
+
+ComputerWorld Interview with Alfred V. Aho
+
+
+Patents
+
+
+ Gaurav S. Kc and Alfred V. Aho, Detecting and Preventing Malcode Execution, #7,971,255, June 28, 2011
+
+Languages and Compilers Research Group
+Columbia University Department of Computer Science
+Department of Computer Science
+Columbia University
+513 Computer Science Building
+Mail Code 0401
+1214 Amsterdam Avenue
+New York, NY 10027
+212 939-7067
+Fax: 212 666-0140
+aho@@cs.columbia.edu
+

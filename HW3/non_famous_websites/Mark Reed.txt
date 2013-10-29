@@ -1,0 +1,1040 @@
+html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"
+
+  var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);
+Faculty Directory | Yale School of Engineering & Applied Science
+  
+  
+
+
+
+  
+
+[if IE]>
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/zen/zen/ie.css?N" />
+<![endif]
+[if IE 7]>
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/yaleseas/ie7.css?N" />
+<![endif]
+[if IE 8]>
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/yaleseas/ie8.css?N" />
+<![endif]
+[if IE 9]>
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/yaleseas/ie9.css?N" />
+<![endif]
+  
+
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","googleanalytics":{"trackOutgoing":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"},"lightbox2":{"rtl":0,"file_path":"\/(\\w\\w\/)sites\/default\/files","default_image":"\/sites\/all\/modules\/contrib\/lightbox2\/images\/brokenimage.jpg","border_size":10,"font_color":"000","box_color":"fff","top_position":"","overlay_opacity":"0.8","overlay_color":"000","disable_close_click":1,"resize_sequence":0,"resize_speed":400,"fade_in_speed":400,"slide_down_speed":600,"use_alt_layout":0,"disable_resize":0,"disable_zoom":0,"force_show_nav":0,"show_caption":1,"loop_items":0,"node_link_text":"View Image Details","node_link_target":0,"image_count":"Image !current of !total","video_count":"Video !current of !total","page_count":"Page !current of !total","lite_press_x_close":"press \u003ca href=\"#\" onclick=\"hideLightbox(); return FALSE;\"\u003e\u003ckbd\u003ex\u003c\/kbd\u003e\u003c\/a\u003e to close","download_link_text":"","enable_login":false,"enable_contact":false,"keys_close":"c x 27","keys_previous":"p 37","keys_next":"n 39","keys_zoom":"z","keys_play_pause":"32","display_image_size":"original","image_node_sizes":"()","trigger_lightbox_classes":"","trigger_lightbox_group_classes":"","trigger_slideshow_classes":"","trigger_lightframe_classes":"","trigger_lightframe_group_classes":"","custom_class_handler":0,"custom_trigger_classes":"","disable_for_gallery_lists":true,"disable_for_acidfree_gallery_lists":true,"enable_acidfree_videos":true,"slideshow_interval":5000,"slideshow_automatic_start":true,"slideshow_automatic_exit":true,"show_play_pause":true,"pause_on_next_click":false,"pause_on_previous_click":true,"loop_slides":false,"iframe_width":600,"iframe_height":400,"iframe_border":1,"enable_video":0},"cufonSelectors":[{"selector":"#header-title h1","options":{"fontFamily":"Yale Design Roman","hover":0}}]});
+//--><!]]>
+
+  [if lt IE 9]>
+  <script type="text/javascript" src="/sites/all/themes/yaleseas/js/ie8.js"></script>
+  <![endif]
+
+
+  
+
+    
+          Skip to Navigation
+    	
+	
+		    
+		
+			
+										  /.logo 
+		  /#logo-title 
+		  /#header-inner 
+
+              <div id="header-blocks" class="region region-header">
+                   </div>   /#header-blocks 
+      		
+		
+		
+				    
+		        
+
+  
+  
+    Facebook
+Twitter
+Flickr
+  
+
+  
+  /block-inner, /block 
+  
+
+  
+  
+    
+  Departments
+People
+News & Events
+Alumni
+
+  
+
+  
+  /block-inner, /block 
+  
+
+  
+  
+    
+
+ 
+
+
+
+
+
+
+  
+
+  
+  /block-inner, /block 
+  
+
+      I AM A
+  
+  
+    
+  Prospective Undergraduate Student
+Prospective Graduate Student
+Current Student
+Alumnus
+Member of the Media
+
+  
+
+  
+  /block-inner, /block 
+		      /.stick-inner /#sticky_footer 
+			
+		
+			        
+	            
+
+  
+  
+    
+  Undergraduate Study
+Graduate Study
+Faculty & Research
+Interdisciplinary Communities
+About
+
+  
+
+  
+  /block-inner, /block 
+	          /#header-blocks 
+	      		  /#nav-group 
+		
+		          	<div id="primary" class="clear-block">
+                      </div>  /#primary 
+         
+		
+
+									Faculty & Research
+        			
+      /#header-inner, /#header 
+	
+
+	        
+            
+
+  
+  
+    
+  Departments
+Faculty Directory
+Interdisciplinary Research Priorities
+Research Areas
+Facilities, Cores, & Centers
+Faculty Openings
+
+  
+
+  
+  /block-inner, /block 
+
+				    
+		        
+
+  
+  
+      
+
+  
+  /block-inner, /block 
+		     //#left_undernav 
+		
+          /#sidebar-left-inner, /#sidebar-left 
+      
+    
+
+      			
+
+		
+	
+	    
+		
+
+        				         	Faculty Directory
+				    
+		
+
+        
+                  
+                        
+                                                /#content-header 
+        
+        
+          
+    
+      
+      
+
+  
+          
+                  
+            Departments          
+                        
+          
+ <Any>Biomedical EngineeringChemical and Environmental EngineeringElectrical EngineeringMechanical Engineering and Materials Science
+
+        
+      
+          
+                  
+            Search faculty          
+                        
+          
+ 
+
+        
+      
+        
+      
+    
+  
+
+
+
+    
+  
+  
+      
+          
+        
+  
+                
+  
+  
+  
+                Charles Ahn
+  
+  
+  
+                Professor
+  
+  
+  
+          
+        Departments:
+      
+                Mechanical Engineering & Materials Science
+  
+  
+  
+                view more...
+  
+    
+      
+        
+  
+                
+  
+  
+  
+                Eric I. Altman
+  
+  
+  
+                Professor
+  
+  
+  
+          
+        Departments:
+      
+                Chemical & Environmental Engineering
+  
+  
+  
+                view more...
+  
+    
+      
+        
+  
+                
+  
+  
+  
+                Michelle L. Bell
+  
+  
+  
+                Professor
+  
+  
+  
+          
+        Departments:
+      
+                Chemical & Environmental Engineering
+  
+  
+  
+                view more...
+  
+    
+      
+        
+  
+                
+  
+  
+  
+                Beth Anne Bennett
+  
+  
+  
+                Lecturer
+  
+  
+  
+          
+        Departments:
+      
+                Mechanical Engineering & Materials Science
+  
+  
+  
+                view more...
+  
+    
+      
+        
+  
+                
+  
+  
+  
+                Gaboury Benoit
+  
+  
+  
+                Professor
+  
+  
+  
+          
+        Departments:
+      
+                Chemical & Environmental Engineering
+  
+  
+  
+                view more...
+  
+    
+      
+        
+  
+                
+  
+  
+  
+                David Bercovici
+  
+  
+  
+                Professor
+  
+  
+  
+          
+        Departments:
+      
+                Mechanical Engineering & Materials Science
+  
+  
+  
+                view more...
+  
+    
+      
+        
+  
+                
+  
+  
+  
+                Joerg Bewersdorf
+  
+  
+  
+                Assistant Professor
+  
+  
+  
+          
+        Departments:
+      
+                Biomedical Engineering
+  
+  
+  
+                view more...
+  
+    
+      
+        
+  
+                
+  
+  
+  
+                Henry Bolanos
+  
+  
+  
+                Lecturer
+  
+  
+  
+          
+        Departments:
+      
+                Engineering & Applied Science
+  
+  
+  
+                view more...
+  
+    
+      
+        
+  
+                
+  
+  
+  
+                Eric Brown
+  
+  
+  
+                Assistant Professor
+  
+  
+  
+          
+        Departments:
+      
+                Mechanical Engineering & Materials Science
+  
+  
+  
+                view more...
+  
+    
+      
+        
+  
+                
+  
+  
+  
+                Stuart Campbell
+  
+  
+  
+                Assistant Professor
+  
+  
+  
+          
+        Departments:
+      
+                Biomedical Engineering
+  
+  
+  
+                view more...
+  
+    
+      
+        
+  
+                
+  
+  
+  
+                Richard E. Carson
+  
+  
+  
+                Professor
+  
+  
+  
+          
+        Departments:
+      
+                Biomedical Engineering
+  
+  
+  
+                view more...
+  
+    
+      
+        
+  
+                
+  
+  
+  
+                Judy J. Cha
+  
+  
+  
+                Assistant Professor
+  
+  
+  
+          
+        Departments:
+      
+                Mechanical Engineering & Materials Science
+  
+  
+  
+                view more...
+  
+    
+      
+        
+  
+                
+  
+  
+  
+                Michael Choma
+  
+  
+  
+                Assistant Professor
+  
+  
+  
+          
+        Departments:
+      
+                Biomedical Engineering
+  
+  
+  
+                view more...
+  
+    
+      
+        
+  
+                
+  
+  
+  
+                R. Todd Constable
+  
+  
+  
+                Professor
+  
+  
+  
+          
+        Departments:
+      
+                Biomedical Engineering
+  
+  
+  
+                view more...
+  
+    
+      
+        
+  
+                
+  
+  
+  
+                Robin A. de Graaf
+  
+  
+  
+                Associate Professor
+  
+  
+  
+          
+        Departments:
+      
+                Biomedical Engineering
+  
+  
+  
+                view more...
+  
+    
+      
+        
+  
+                
+  
+  
+  
+                Juan Fernandez de la Mora
+  
+  
+  
+                Professor
+  
+  
+  
+          
+        Departments:
+      
+                Mechanical Engineering & Materials Science
+  
+  
+  
+                view more...
+  
+    
+      
+        
+  
+                
+  
+  
+  
+                Aaron M. Dollar
+  
+  
+  
+                Assistant Professor
+  
+  
+  
+          
+        Departments:
+      
+                Mechanical Engineering & Materials Science
+  
+  
+  
+                view more...
+  
+    
+      
+        
+  
+                
+  
+  
+  
+                Eric Dufresne
+  
+  
+  
+                Associate Professor
+  
+  
+  
+          
+        Departments:
+      
+                Mechanical Engineering & Materials Science
+  
+  
+  
+                view more...
+  
+    
+      
+        
+  
+                
+  
+  
+  
+                James Duncan
+  
+  
+  
+                Professor
+  
+  
+  
+          
+        Departments:
+      
+                Biomedical Engineering & Electrical Engineering
+  
+  
+  
+                view more...
+  
+    
+      
+        
+  
+                
+  
+  
+  
+                Menachem Elimelech
+  
+  
+  
+                Professor
+  
+  
+  
+          
+        Departments:
+      
+                Chemical & Environmental Engineering
+  
+  
+  
+                view more...
+  
+    
+      
+        
+  
+                
+  
+  
+  
+                Tarek Fahmy
+  
+  
+  
+                Associate Professor
+  
+  
+  
+          
+        Departments:
+      
+                Biomedical Engineering
+  
+  
+  
+                view more...
+  
+    
+      
+        
+  
+                
+  
+  
+  
+                Rong Fan
+  
+  
+  
+                Assistant Professor
+  
+  
+  
+          
+        Departments:
+      
+                Biomedical Engineering
+  
+  
+  
+                view more...
+  
+    
+      
+        
+  
+                
+  
+  
+  
+                Abbas Firoozabadi
+  
+  
+  
+                Adjunct Professor
+  
+  
+  
+          
+        Departments:
+      
+                Chemical & Environmental Engineering
+  
+  
+  
+                view more...
+  
+    
+      
+        
+  
+                
+  
+  
+  
+                Alessandro Gomez
+  
+  
+  
+                Professor
+  
+  
+  
+          
+        Departments:
+      
+                Mechanical Engineering & Materials Science
+  
+  
+  
+                view more...
+  
+    
+      
+        
+  
+                
+  
+  
+  
+                Anjelica Gonzalez
+  
+  
+  
+                Assistant Professor
+  
+  
+  
+          
+        Departments:
+      
+                Biomedical Engineering
+  
+  
+  
+                view more...
+  
+    
+      
+        
+  
+                
+  
+  
+  
+                Gary L. Haller
+  
+  
+  
+                Professor
+  
+  
+  
+          
+        Departments:
+      
+                Chemical & Environmental Engineering
+  
+  
+  
+                view more...
+  
+    
+      
+        
+  
+                
+  
+  
+  
+                Jung Han
+  
+  
+  
+                Professor
+  
+  
+  
+          
+        Departments:
+      
+                Electrical Engineering
+  
+  
+  
+                view more...
+  
+    
+      
+        
+  
+                
+  
+  
+  
+                Wenjun Hu
+  
+  
+  
+                Assistant Professor
+  
+  
+  
+          
+        Departments:
+      
+                Electrical Engineering
+  
+  
+  
+                view more...
+  
+    
+      
+        
+  
+                
+  
+  
+  
+                Jay Humphrey
+  
+  
+  
+                Professor
+  
+  
+  
+          
+        Departments:
+      
+                Biomedical Engineering
+  
+  
+  
+                view more...
+  
+    
+      
+        
+  
+                
+  
+  
+  
+                D.S. Fahmeed Hyder
+  
+  
+  
+                Professor
+  
+  
+  
+          
+        Departments:
+      
+                Biomedical Engineering
+  
+  
+  
+                view more...
+  
+    
+      
+  
+       
+1 of 3
+››
+  
+  
+  
+  
+  
+         
+
+        
+        
+        /#content-inner, /#content 
+
+    	
+      /#main-inner, /#main 
+	
+	
+    	
+      
+
+        
+          
+
+  
+  
+    School of Engineering & Applied Science | Yale UniversityDunham Laboratory, Room 222 • 10 Hillhouse Avenue • U.S. Mail: P.O. Box 208267 • New Haven, CT 06520–8267 • Phone 203–432–4200  
+
+  
+  /block-inner, /block 
+  
+
+  
+  
+    Site Map
+Privacy Policy
+Disclaimer
+Security
+Copyright
+  
+
+  
+  /block-inner, /block 
+
+        /#footer-inner, /#footer 
+    
+	
+
+    /#page-inner, /#page 
+
+  
+  
+
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-6012795-1"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+
+if(!NREUMQ.f){NREUMQ.f=function(){NREUMQ.push(["load",new Date().getTime()]);var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src="https://js-agent.newrelic.com/nr-100.js";document.body.appendChild(e);if(NREUMQ.a)NREUMQ.a();};NREUMQ.a=window.onload;window.onload=NREUMQ.f;};NREUMQ.push(["nrf2","beacon-1.newrelic.com","b072cc8ed8",121209,"Z1VXZBAFXUdXBkUPX14fdFMWDVxaGRNYA0dDb0VRBQE=",0,2242,new Date().getTime()]);
+
+

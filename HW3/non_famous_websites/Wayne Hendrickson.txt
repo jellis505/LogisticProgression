@@ -1,0 +1,121 @@
+html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" <html xmlns="http://www.w3.org/1999/xhtml"> Wayne Hendrickson Lab
+
+
+ HEADER 
+
+
+
+
+
+
+Hendrickson Laboratory
+
+
+
+
+
+
+
+
+Wayne A. Hendrickson, Columbia University
+
+
+
+
+
+ END HEADER 
+
+&nbsp
+
+ BODY 
+
+ NAVIGATION 
+
+
+Research
+Publications
+Structures
+People
+Links
+
+
+
+
+
+Contact
+   202 Black Building
+         650 West 168th Street
+         New York, NY 10032
+         (212)305-3456
+         Email wayne @xtl.cumc.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;columbia.edu 
+
+
+ END NAVIGATION 
+  MAIN CONTENT 
+
+
+
+
+
+Membrane Receptorsand Cellular Signaling
+
+
+
+
+
+
+
+
+
+Viral Proteinsand HIV Infection
+
+
+
+
+
+
+
+
+
+Molecular Chaperonesand Protein Folding
+
+
+
+
+
+
+
+
+
+
+
+Membrane Proteinsand Structural Genomics
+
+
+
+
+
+
+
+
+
+Diffraction Methodsand Synchrotron Radiation
+
+
+
+
+
+
+
+
+
+
+
+
+System administrator contact
+ 
+
+
+
+ END MAIN CONTENT 
+ END BODY 

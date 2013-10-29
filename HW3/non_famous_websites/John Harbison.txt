@@ -1,0 +1,297 @@
+html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
+
+MIT Music Program: Faculty/Staff - John Harbison
+
+ common meta tags 
+ common meta tags 
+
+
+
+
+
+
+
+
+ scripts and styles 
+ scripts and styles 
+ 
+ 
+ 
+ 
+ 
+
+
+[if lt IE 7.]>
+<link rel="stylesheet" href="/music/styles/music_ie6.css" type="text/css" media="all" />
+<![endif]
+[if IE]>
+<link rel="stylesheet" href="/music/styles/music_ie.css" type="text/css" media="all" />
+<![endif]
+
+
+
+
+
+
+
+
+   skip link 
+   skip link 
+
+  
+
+   back to top anchor 
+   back to top anchor 
+
+
+ divprepage 
+
+ outer shell  on home page, this contains the photo as a background image 
+
+
+   container for page content 
+  
+
+     header area 
+    
+      
+       search 
+
+  
+    
+    
+    
+    
+    
+    
+    
+      
+        Search
+        
+        
+      
+    
+  
+ divsearch 
+
+     divheader 
+
+     body area 
+    
+
+       navigation 
+      
+
+  
+
+    About
+
+    Prospective Students
+
+      
+
+        FAQ
+
+        Admission Supplements
+
+      
+
+    
+
+    Academics
+
+      
+
+        Degree Programs
+
+        Music Subjects
+
+      
+
+    
+
+    Performance
+
+      
+
+        Private Study/Emerson
+
+        For Instrumentalists
+
+          
+
+            Symphony Orchestra
+
+            Wind Ensemble
+
+            Chamber Music Society
+
+          
+
+        
+
+        For Vocalists
+
+          
+
+            Concert Choir
+
+            Chamber Chorus
+
+          
+
+        
+
+        Jazz 
+
+          
+
+            Festival Jazz Ensemble
+
+          
+
+        
+
+        World Music
+
+          
+
+            Gamelan Galak Tika
+
+            Rambax
+
+          
+
+        
+
+        Concert Series
+
+        Facilities
+
+      
+
+    
+
+    Alumni
+
+      
+
+        Our Alumni
+
+        Events
+
+        Mailing List
+
+        Giving Opportunities
+
+      
+
+    
+
+    Faculty/Staff
+
+  
+
+ divnavigation 
+
+
+
+       content 
+      
+        Faculty/Staff
+         center column 
+        
+          John Harbison, Institute Professor. M.F.A., Princeton University. Composer John Harbison (b.1938) is among America's most distinguished artistic figures. The recipient of numerous awards and honors (including the prestigious MacArthur Foundation's "genius" award and the Pulitzer Prize), Harbison has composed music for most of America's premiere musical institutions, including the Metropolitan Opera (The Great Gatsby, 1999), the Chicago Symphony, Boston Symphony, New York Philharmonic, and the Chamber Music Society of Lincoln Center. His works include four string quartets, five symphonies, a ballet, three operas, a cantata, and numerous chamber and choral works, more than sixty of which have been recorded on leading labels such as Harmonia Mundi, New World, Deutsche Grammophon, Albany, Centaur, Decca, and  Koch. Recent major premieres include Symphony No. 5 (Boston Symphony Orchestra), Gatsby Suite  (Aspen Festival Orchestra), Milosz Songs (New York Philharmonic with Dawn Upshaw), Concerto for Bass Viol (for fifteen orchestras), But Mary Stood (Cantata Singers, Boston), and Umbrian Landscape  (Chicago Chamber Musicians). Harbison's present composition projects include a chamber ensemble setting of texts by Louise Glück (a Koussevitsky commission) and of Alice Munro (for the Metropolitan Opera Orchestra), as well as a double concerto for violin and 'cello (for the Boston Symphony) and his fifth string quartet (for the Pro Arte Quartet). Mr. Harbison has been composer-in-residence with the Pittsburgh Symphony, the Los Angeles Philharmonic, the American Academy in Rome, and numerous festivals, including Tanglewood, Marlboro, and Aspen. He received degrees from Harvard and Princeton before joining the Massachusetts Institute of Technology, where he is currently Institute Professor, the highest academic distinction offered resident faculty. He is Acting Artistic Director of Emmanuel Music (Boston), co-Artistic Director of the Token Creek Chamber Music Festival, and President of the Copland Fund.  Harbison's music is published exclusively by Associated Music Publishers.  A complete works list can be found at www.schirmer.com.
+          Back to Academic List
+         divcentercolumn 
+         sidebar 
+        
+          
+          Contact:
+            harbison@mit.edu
+          Videos
+          Harbison On MIT Students
+          Harbison On Composing
+         divsidebar 
+       divtext 
+
+     divbody 
+
+
+     footer 
+    
+
+
+
+   calendar link 
+
+  
+
+    Events Calendar
+
+   divcallink 
+
+
+
+  
+
+    
+
+    Music and Theater Arts, 4-246, 77 Mass. Ave.
+
+      Cambridge, MA  02139-4307
+
+      (617) 253-3210  |  mta-request@mit.edu
+
+    Map / Parking / Directions
+
+   centercolumn 
+
+
+
+  
+
+    
+
+      News and Events
+
+      Subscribe to the Events Calendar
+	  
+      SHASS Listening Room
+
+      Office of the Arts
+
+      Lewis Music Library
+
+      Contact Us
+
+      Site Credits 
+    
+
+   rightcolumn 
+
+ divfooter 
+
+
+
+
+   divpagearea 
+
+ divoutershell 
+
+
+
+
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+
+try {
+var pageTracker = _gat._getTracker("UA-8393975-1");
+pageTracker._trackPageview();
+} catch(err) {}
+
+
+
+
+

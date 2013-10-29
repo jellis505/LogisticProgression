@@ -1,0 +1,145 @@
+html InstanceBegin template="/Templates/ahar.dwt" codeOutsideHTMLIsLocked="false"  InstanceBeginEditable name="doctitle" Simon Schama - Faculty - Department of Art History and Archaeology - Columbia University InstanceEndEditable [if IE]><link rel="stylesheet" type="text/css" media="screen" href="/cu/arthistory/styles/ie.css"/><![endif] InstanceBeginEditable name="head"  InstanceEndEditable 
+
+
+
+Columbia University in the City of New York
+Department of Art History and Archaeology
+
+
+
+
+About
+
+Directions & Maps
+Administration
+Hours
+Department Newsletter
+
+
+Faculty
+
+Full-time Faculty
+Lecturers
+Adjuncts
+Emeriti
+Faculty Areas of Focus
+
+
+Courses
+
+Fall 2013
+Spring 2014
+Art Humanities
+Past Courses
+
+
+
+Undergraduate
+
+Major Requirements
+Senior Thesis
+Honors & Awards
+Travel Seminars
+Planning Sheets & Forms
+
+
+Graduate
+
+MA in Art History
+MA in Modern Art (MODA)
+The PhD Program
+Current PhD Students
+Classical Studies
+Planning Sheets & Forms
+
+
+Resources
+
+Media Center
+Wallach Art Gallery
+Archaeology at Columbia
+Renaissance Consortium
+
+
+Calendar
+
+Forums & Special Series
+
+
+
+
+
+ InstanceBeginEditable name="content" 
+Simon Schama
+University Professor 
+17th-century Dutch Art; European Cultural and Environmental History
+      M.A., Cambridge Christ College, 1969
+Contact Information
+Email: esend('sms53','columbia');
+      Office: 522 Fayerweather Hall
+      Office Hours: Contact by email
+Biography
+Simon Schama is University Professor of Art History and History. He taught history at Cambridge (Christ's College), (1966-76) Oxford (Brasenose College) (1976-1980) and art history and history at Harvard (1980-1993) before coming to Columbia. He has also taught at the Ecole des Hautes Etudes en Sciences Sociales and has delivered the George Macaulay Trevelyan Lectures at Cambridge, the Tanner Lectures (at both Harvard: "Random Access Memory" and Oxford: "Rembrandt and Rubens"), the Finzi-Contini Lecture at Yale on the epic tradition in English history, and the Andrew Mellon Lectures on the Visual Arts at the National Gallery in Washington on "Really Old Masters: Late Style from Titian to de Kooning." 
+His books have been translated into fifteen languages and include Patriots and Libeators: Revolution and Government in the Netherlands 1780-1813 (1977); Two Rothschilds and the Land of Israel (1979); The Embarrassment of Riches: An Interpretation of Dutch Culture in the Golden Age (1987); Citizens: A Chronicle of the French Revolution (1989); Landscape and Memory (1995); Rembrandt's Eyes (1999); the History of Britain trilogy (2000-2002); Rough Crossings: Britain, the Slaves and the American Revolution (2006); and The Power of Art (2007). In 1991 he published the twinned novellas, Dead Certainties: Unwarranted Speculations. 
+His books have won the Wolfson Award for History, the W.H Smith Prize for Literature, the National Academy of Arts and Letters Award for Literature, and most recently for Rough Crossings the National Book Critics' Circle Award for Non-Fiction (2007). He has been an essayist and critic for The New Yorker since 1994, his art criticism winning the National Magazine Award in 1996. His art essays have also been collected and published as Hang-Ups, Essays on Painting (Mostly). 
+His television work for the BBC and PBS as writer-presenter includes two films on Rembrandt; a five part series based on Landscape and Memory; the award-winning, Emmy-nominated "A History of Britain"; a film on Tolstoy; a ninety minute adaptation of Rough Crossings; and most recently the eight part series "The Power of Art." A stage version of Rough Crossings for Headlong Theatre, written by Caryl Phillips and directed by Rupert Goold, opened in London at the end of September 2007.  His work on a four part series for BBC and PBS, "The American Future: A History" aired around the presidential election of 2008.    
+Selected Publications
+Rough Crossings: Britain, the Slaves and the American Revolution. Publisher: Ecco, May 2006.
+Hang-Ups: A Collection of Essays on Art. BBC Books, 2004.
+A History of Britain vol 3 The Fate of the Empire, Talk Miramax Books, 2002.
+Rembrandt's Eyes, Knopf, 2001.
+A History of Britain vol 2 The British Wars, Talk Miramax Books, 2001.
+A History of Britain vol I The Edge of the World 3500 B.C.–1603 A.D., Talk Miramax Books, 2000.
+The Embarrassment of Riches: An Interpretation of Dutch Culture in the Golden Age, Vintage Books, 1997.
+Landscape and Memory, Vintage Books, 1996.
+Dead Certainties, Vintage Books, 1992.
+Patriots and Liberators: Revolution in the Netherlands 1780–1813, Vintage Books, 1992.
+Citizens: A Chronicle of the French Revolution, Vintage Books, 1990.
+ InstanceEndEditable 
+ InstanceBeginEditable name="sidebar" 
+ InstanceEndEditable 
+
+
+
+
+
+Home
+Media Center
+Contact Us
+
+
+Mailing Address:
+      Art History and Archaeology
+      Columbia University
+      826 Schermerhorn Hall
+      1190 Amsterdam Ave.
+      New York, NY 10027
+
+
+Main Office:
+      826 Schermerhorn Hall
+      Phone: (212) 854-4505
+      Fax: (212) 854-7329
+
+
+Barnard Art History Office:
+      The Diana Center, Suite 500
+      Phone: (212) 854-2118
+      Fax: (212) 854-8442
+Website
+
+
+
+
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-18703794-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+
+ InstanceEnd 

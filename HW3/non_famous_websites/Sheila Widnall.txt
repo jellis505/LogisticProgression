@@ -1,0 +1,252 @@
+HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" InstanceBegin template="/Templates/bio_faculty.dwt" codeOutsideHTMLIsLocked="false"  InstanceBeginEditable name="doctitle" ESD Faculty Bio InstanceEndEditable  InstanceBeginEditable name="head"  InstanceEndEditable 
+
+
+
+
+
+
+
+
+
+Pressroom | Site 
+                    Map | Contact | Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ About
+ Academics
+ Research
+ People
+ News 
+                & Events 
+ Resources
+ Opportunities
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ ESD Faculty 
+                & Teaching Staff
+
+
+ 
+ Awards
+
+
+ 
+
+
+
+ 
+Books 
+                    by ESD Faculty
+
+
+ 
+
+
+
+ 
+ESD 
+                    Faculty Blogs
+
+
+ 
+
+
+
+ESD-affiliated Faculty & 
+                Staff
+ESD Alumni
+ESD PhD Students
+ESD Administration & Staff
+
+ 
+People | Faculty 
+                & Teaching Staff 
+ 
+              
+
+ #BeginEditable "name" 
+Sheila 
+                                          Widnall  #EndEditable  #BeginEditable "position" 
+Institute 
+                                            Professor
+                                            Professor of Aeronautics 
+                                            and Astronautics and  
+                                          Engineering Systems
+ #EndEditable  #BeginEditable "bio" 
+Dr. 
+                      Widnall received her Sc.D. from MIT.
+She 
+                      has served as Associate Provost, MIT, and as Secretary of 
+                      the Air Force. As Secretary of the Air Force, Dr. Widnall 
+                      was responsible for all affairs of the Department of the 
+                      Air Force including recruiting, organizing, training, administration, 
+                      logistical support, maintenance, and welfare of personnel. 
+                      During this time, the Air Force issued its long range vision 
+                      statement: Global Engagement: A Vision for the 21st Century 
+                      Air Force, which defined the path from the air and space 
+                      force of today to the space and air force of the next century. 
+                      Dr. Widnall was also responsible for research and development 
+                      and other activities prescribed by the President or the 
+                      Secretary of Defense. She co-chaired the Department of Defense 
+                      Task Force on Sexual Harassment and Discrimination. She 
+                      later stepped down to resume teaching.
+Since 
+                      returning to MIT, she has been active in the Lean Aerospace 
+                      Initiative, with special emphasis on the space and policy 
+                      focus teams. Her research activities in fluid dynamics have 
+                      included the following: boundary layer stability, unsteady 
+                      hydrodynamic loads on fully wetted and supercavitating hydrofoils 
+                      of finite span, unsteady lifting-surface theory, unsteady 
+                      air forces on oscillating cylinders in subsonic and supersonic 
+                      flow, unsteady leading-edge vortex separation from slender 
+                      delta wings, tip-vortex aerodynamics, helicopter noise, 
+                      aerodynamics of high-speed ground transportation vehicles, 
+                      vortex stability, aircraft-wake studies, turbulence, and 
+                      transition. Her teaching activities have included undergraduate 
+                      dynamics and aerodynamics, graduate level aerodynamics of 
+                      wings and bodies, aeroelasticity, acoustics and aerodynamic 
+                      noise, and aerospace vehicle vibration. She 
+                      was a member of the Columbia accident investigation board 
+                      and she was inducted into the Women's 
+                      Hall of Fame in 2003.
+
+Books Published: 
+Books 
+                      Published by Sheila Widnall
+Related News:                    
+Sheila Widnall named an American Institute of Aeronautics and Astronautics (AIAA) Honorary Fellow
+Sheila 
+                      Widnall wins National Academy of Engineering's Arthur M. 
+                      Bueche Award
+Three 
+                      honorary degrees for Widnall – April 7, 2008
+Sheila 
+                      Widnall Delivers Third Annual Brunel Lecture: The Columbia 
+                      Tragedy - System-Level Issues for Engineering. Click 
+                      here to 
+                      see Professor Widnall's presentation on MIT World. – December 
+                      2003
+LAI 
+                      Book Receives IAA Award – November 7, 2003 
+The 
+                      Columbia Tragedy: System-Level Issues for Engineering 
+                      – November 4, 2003
+Sheila 
+                      Widnall Inducted into National Women's Hall of Fame 
+                      – October 9, 2003
+Widnall 
+                      inducted into the National Women's Hall of Fame – October 
+                      2003
+Widnall 
+                      Appointed to Columbia Accident Investigation Board – February 
+                      18, 2003
+Professors 
+                      de Neufville, Widnall and ESD supporters named to Massport 
+                      security advisory council – January 2003
+Click here for archived news items
+ #EndEditable 
+
+
+
+ 
+  #BeginEditable "photo" 
+
+ #EndEditable   #BeginEditable "contact" 
+
+Contact 
+                                          info:
+Sheila 
+                                        Widnall
+77 Massachusetts Ave.
+                                          Building 33-411
+                                          Cambridge, MA 02139-4307
+Phone: 
+                                      617.253.3595
+                                          Email to: sheila 
+                                          "at" mit.edu
+
+ #EndEditable  
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+
+
+
+<!--
+	document.write('<img src="/axs/ax.pl?mode=img&ref=');
+	document.write( escape( document.referrer ) );
+	document.write('" height="1" width="1" style="display:none" alt="" />');
+// -->
+
+
+ InstanceEnd 

@@ -1,0 +1,64 @@
+html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"MIT Economics : Peter Diamond
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-26321842-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+
+
+
+
+
+HOME
+About
+People
+Graduate Program
+Undergraduate Program
+Events and Seminars
+Centers
+
+
+
+Home
+		    		 > People
+		    		 > Peter Diamond
+
+
+
+
+
+
+
+
+
+
+Peter Diamond
+CV (Download PDF)
+Courses
+Papers
+Books
+
+
+
+Peter Diamond
+Contact Information
+Phone: (617) 253-3363
+Fax: (617) 253-7804
+Email: pdiamond@mit.edu
+Address: MIT Department of Economics77 Massachusetts AvenueBldg E17-208Cambridge MA 02139
+Support Staff: John Arditi Phone: (617) 253-8887 Email: arditi@mit.edu
+ 
+
+
+
+
+
+Contents of this site &copy 2013 Massachusetts Institute of Technology Department of Economics. All rights reserved.
+
+
+
