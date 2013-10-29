@@ -30,7 +30,13 @@ def SeperateDate(date_string):
 def ReturnNameandBirth(name_file,birthday_file):
     # Description:  This function reads in the birthdays and names from the files,
     # and then returns a tuple of the values
-    
+    # Inputs:
+    #   -name_file = The path to the name_file (new line seperated)
+    #   -birthday_file = The path to the file containing the birthdays (new line sepereated)
+    # Outputs:
+    #   - names = list of the names from the file
+    #   - bday = list of the birthdays for each name
+
     n = open(name_file,"r")
     b = open(birthday_file, "r")
     raw_name_lines = n.readlines()

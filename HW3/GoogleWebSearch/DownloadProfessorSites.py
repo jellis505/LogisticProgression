@@ -181,12 +181,10 @@ def DownloadWebpage(edu_links,query):
     return
 
 if __name__ == "__main__":
-    
-    # Education links are good
-    #query = sys.argv[1]
-    #links = getgooglelinks(query)
-    #edu_links = ReturnHomepage(links)
-    #DownloadWebpage(edu_links,query)
+    # Description: This function downloads all of the "about" or homepage webpages from a group of professors that are
+    # listed in the file at the path relative to this file, "../non_famous_people.txt".  This will then download the
+    # desired webpages, and download them to the directory of "../non_famous_websites", and name them the same as the
+    # names from the namefile described above with the ".txt" extension
     
     # This file holds all of the errors and queries that for some reason don't work
     g = open("errors_downloading.txt","w")
