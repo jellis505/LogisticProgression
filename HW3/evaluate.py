@@ -13,7 +13,7 @@ def main(args):
     goldf = open(args[1])
     predictedf = open(args[2])
     
-    gold_years = [int(x.strip().split(r'-')[2]) for x in goldf.readlines()[:-1]]
+    gold_years = [int(x.strip().split(r'-')[2]) for x in goldf.readlines()]
     predicted_years = [int(x.strip()) for x in predictedf.readlines()]
 
     goldf.close()
