@@ -175,7 +175,7 @@ def DownloadWebpage(edu_links,query):
         print "Downloading: ", link_to_use
         
     # Create filename to save the file
-    filename = os.path.join("../","non_famous_websites",query + ".txt")
+    filename = os.path.join("non_famous_websites",query + ".txt")
     with open(filename,'w') as f:
         f.write(str_text)
     

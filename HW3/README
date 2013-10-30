@@ -51,16 +51,19 @@ Structured Prediction:
 
 1.) ./RunProblem1.py <name_file> <birth_date_file> <prediction_output_file>
     - Ex: "./RunProblem1.py famous_names_train.txt famous_dates_train.txt structured/predicted_train.txt"
+    - This function finds the dates of birth for each of the names, and the outputs the predicted dates to the given
+      file
 
 2.) ./structured/evaluate_struct.py <gold_dates_file> <predicted_dates_file>
     - Ex: "./structured/evaluate_struct.py famous_dates_test.txt structured/predicted_test.txt"
+    - This function prints out the day-level, month-level, and year-level accuracy of the found results.
 
 Web Scraping:
 
 - All commands should be run from the HW3 directory
 
 1.) ./GoogleWebSearch <person_file>
-    - No inputs for this function, all of the paths are hard coded, it will read in from
+    - Ex: "./GoogleWebSearch/DownloadProfessorSites.py non_famous_people.txt"
 
 Unstructured prediction:
 
