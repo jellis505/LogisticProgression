@@ -2,6 +2,24 @@ Joe Ellis and Jessica Ouyang
 HW 3
 
 FILES INCLUDED:
+FreeBase/
+    Api_Key.txt = The file that holds the api key for FreeBase
+    pyFreeBase.py = Python Module for interacting with FreeBase
+
+GoogleWebSearch/
+    DownloadProfessorSites.py = Python Script for finding "About" webpages from the professors
+    errors_downloading.txt = Any professors that we had errors downloading
+
+RunProblem1.py = The program that runs problem 1 and creates an output file based on FreeBase search
+famous_dates_train.txt = File holds the birth dates of famous people, used in training
+famous_names_train.txt = File holds the names of famous people, used in training
+famous_dates_test.txt = File holds the birth dates of famous people, used in testing
+famous_dates_train.txt = File holds the birth names of famous people, used in testing
+non_famous_birthdays.txt = File holds the birthdays of non-famous people used in training
+non_famous_birthdays_test.txt = File holds the birthdays of non-famous people used in testing
+non_famous_people.txt = File holds the names of non-famous people used in training
+non_famous_people_test.txt = File holds the names of non-famous people used in testing
+
 
 unstructured/
 	evaluate.py

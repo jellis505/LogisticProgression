@@ -55,11 +55,26 @@ def GetDayError(ground_truth,found_data):
     #   - error = The number of days we are off by our guess
     
     # estimating that each month has 30 days
-    err_mon = 30*(ground_truth[0]-found_data[0])
-    err_day = (ground_truth[0]-found_data[0])
-    err_y = 365*(ground_truth[0]-found_data[0])
+    err_mon = 30*(abs(ground_truth[0]-found_data[0]))
+    err_day = (abs(ground_truth[1]-found_data[1]))
+    err_y = 365*(abs(ground_truth[2]-found_data[2]))
     return err_mon + err_day + err_y
-    
+
+
+def OutputPredictedDates(day_list,month_list,year_list,output_file):
+    # Description: This function outputs the predicted birthdays to a file
+    # Inputs:
+    #   - day_list = list that holds the predicted days
+    #   - month_list = list that holds the predicted months
+    #   - year_list = list that holds the predicted years
+    # Outputs:
+    #   - output_file = the file that we try to output too
+
+    with open(output_file,"w") as f:
+        for day,month,year in zip(day_list,month_list,year_list):
+            output_string = "%02d-%02d-%04d\n" % (month,day,year)
+            f.write(output_string)
+
 
 if __name__ == "__main__":
     # Description: This function runs the test for finding birthdays from structured data,
@@ -67,10 +82,12 @@ if __name__ == "__main__":
     # Inputs:
     #   - name_file = The new lined seperated file that contains the names
     #   - birthday_file = The new lined seperated file that contains the birthdays
+    #   - Output_file = The file for the outputted predictions to go
     
     # Read in the inputs
     name_file = sys.argv[1]
     birthday_file = sys.argv[2]
+    output_file = sys.argv[3]
     
     # Read in the files for analysis
     names,bday = ReturnNameandBirth(name_file,birthday_file)
@@ -81,6 +98,9 @@ if __name__ == "__main__":
     free_base = FreeBase()
     
     # This list will hold the error in days
+    month_list = []
+    day_list = []
+    year_list = []
     error_days = []
     correct = 0
     missed = 0
@@ -90,13 +110,21 @@ if __name__ == "__main__":
         month, day, year = free_base.GetBirthday(result)
         error = GetDayError((g_month, g_day,g_year),(month,day,year))
         error_days.append(error)
-        
+
+        # Append to the lists to output to the predicted files
+        month_list.append(month)
+        day_list.append(day)
+        year_list.append(year)
+
         # Count up to see the number of correct and the number of errors
         if error == 0:
             correct += 1
         else:
             missed += 1
-    
+
+    # This outputs predicted results to a file
+    OutputPredictedDates(month_list,day_list,year_list,output_file)
+
     # Output the results to the screen
     print "We correctly found %d birthdays out of %d for %f accuracy" % (correct, correct + missed, correct / float(correct + missed))
     print "The total number of days in error was: %d" % sum(error_days)

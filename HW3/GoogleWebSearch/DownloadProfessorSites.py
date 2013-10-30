@@ -205,6 +205,5 @@ if __name__ == "__main__":
             except:
                 g.write(query)
                 g.write("\n")
-                raw_input("Press Enter")
             print "Waiting 2 seconds"
             time.sleep(2)
