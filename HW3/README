@@ -11,6 +11,7 @@ GoogleWebSearch/
     errors_downloading.txt = Any professors that we had errors downloading
 
 RunProblem1.py = The program that runs problem 1 and creates an output file based on FreeBase search
+
 famous_dates_train.txt = File holds the birth dates of famous people, used in training
 famous_names_train.txt = File holds the names of famous people, used in training
 famous_dates_test.txt = File holds the birth dates of famous people, used in testing
@@ -20,19 +21,46 @@ non_famous_birthdays_test.txt = File holds the birthdays of non-famous people us
 non_famous_people.txt = File holds the names of non-famous people used in training
 non_famous_people_test.txt = File holds the names of non-famous people used in testing
 
+requirements.txt = The pip installer file for installing the necessary libraries
 
 unstructured/
 	evaluate.py
 	get_dates.py
 	predictions.txt	
 
+structured/
+    evaluate_stuct.py = Evaluate the result of structed data output
+    predicted_train.txt = The predicted dates for the train set
+    predicted_test.txt = The predicted dates of the test set
+
 --------------------
 
 COMPILATION:
 
+All libraries used come directly with the python distribution except for BeautifulSoup4, which should be installed using
+the pip installer.
+    - When in the HW3 directory in the terminal type "pip install -r requirements.txt"
+
 --------------------
 
 RUNNING:
+
+Structured Prediction:
+
+- All commands should be run from the HW3 directory
+
+1.) ./RunProblem1.py <name_file> <birth_date_file> <prediction_output_file>
+    - Ex: "./RunProblem1.py famous_names_train.txt famous_dates_train.txt structured/predicted_train.txt"
+
+2.) ./structured/evaluate_struct.py <gold_dates_file> <predicted_dates_file>
+    - Ex: "./structured/evaluate_struct.py famous_dates_test.txt structured/predicted_test.txt"
+
+Web Scraping:
+
+- All commands should be run from the HW3 directory
+
+1.) ./GoogleWebSearch <person_file>
+    - No inputs for this function, all of the paths are hard coded, it will read in from
 
 Unstructured prediction:
 

@@ -12,6 +12,7 @@ from bs4 import BeautifulSoup
 import time
 
 # I found this hack around for doing a google search from the url below, altered slightly only
+# The two functions below for spoofing google were taken from the link below
 # http://stackoverflow.com/questions/1657570/google-search-from-a-python-app
 
 def getgoogleurl(search,siteurl=False):
@@ -185,14 +186,18 @@ if __name__ == "__main__":
     # listed in the file at the path relative to this file, "../non_famous_people.txt".  This will then download the
     # desired webpages, and download them to the directory of "../non_famous_websites", and name them the same as the
     # names from the namefile described above with the ".txt" extension
-    
+    # Inputs:
+    #   - name_file = New-Line seperated file that holds the name of the people to search for
+
+    name_file = sys.argv[1]
+
     # This file holds all of the errors and queries that for some reason don't work
-    g = open("errors_downloading.txt","w")
+    g = open("GoogleWebSearch/errors_downloading.txt","w")
     
     # Now this function will download and find the bio pages for everyone
     # in our list
     
-    with open('../non_famous_people.txt','r') as f:
+    with open(name_file,'r') as f:
         raw_lines = f.readlines()
         lines = [line.rstrip("\n") for line in raw_lines]
         for query in lines:
