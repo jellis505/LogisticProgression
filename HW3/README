@@ -23,6 +23,9 @@ non_famous_people_test.txt = File holds the names of non-famous people used in t
 
 requirements.txt = The pip installer file for installing the necessary libraries
 
+non_famous_webistes/
+	directory of the websites that were downloaded for each professor
+
 unstructured/
 	evaluate.py
 	get_dates.py
