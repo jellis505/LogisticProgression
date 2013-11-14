@@ -9,6 +9,7 @@ import subprocess as sub
 from gdata.youtube import service
 import json
 from bs4 import BeautifulSoup
+import urllib, urllib2
 
 # Class for interacting with youtube
 class YouTubeUtils():
@@ -39,7 +40,8 @@ class YouTubeUtils():
 
 		output = sub.Popen(execpath + " -o " 
 									+ o_option 
-									+ " --write-info-json " 
+									+ " --write-info-json "
+									+ " --write-auto-sub " 
 									+ url, 
 									shell=True)
 		output.communicate()
@@ -72,12 +74,23 @@ class YouTubeUtils():
 		
 		return names_and_comments
 
+	def GetTranscriptforVideo(self, vid_id):
+		# This is modified from the python package available at 
+		# https://github.com/lasupermarmota/getyoutubecc/blob/master/getyoutubecc.py
+		lang = "en"
+		cc_url = "http://gdata.youtube.com/api/timedtext?v=" + vid_id + "&lang=" + lang
+		print "queried url is: ", cc_url
+		print urllib.urlopen(cc_url).read()
+		return
+
+
 
 
 
 ### The Main run portion of the code ###
 if __name__ == "__main__":
 	ydl = YouTubeUtils("./YouTube_Downloader/youtube-dl", "YouTubeVideos")
-	#ydl.DownloadVideo("http://www.youtube.com/watch?v=lQGDqH6rHII")
-	ydl.GetCommentsforVideo("lQGDqH6rHII")
+	ydl.DownloadVideo("http://www.youtube.com/watch?v=yiQ4THK5qV8")
+	#ydl.GetCommentsforVideo("lQGDqH6rHII")
+	#ydl.GetTranscriptforVideo("lQGDqH6rHII")
 
