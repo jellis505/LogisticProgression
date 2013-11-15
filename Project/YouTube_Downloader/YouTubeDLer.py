@@ -74,6 +74,8 @@ class YouTubeUtils():
 		
 		return names_and_comments
 
+
+	# This function is not used
 	def GetTranscriptforVideo(self, vid_id):
 		# This is modified from the python package available at 
 		# https://github.com/lasupermarmota/getyoutubecc/blob/master/getyoutubecc.py
@@ -83,6 +85,14 @@ class YouTubeUtils():
 		print urllib.urlopen(cc_url).read()
 		return
 
+	def GetVidsforUser(self,username):
+		# This function finds the video for a given user
+		video_user_url = "https://gdata.youtube.com/feeds/api/users/"
+		query_url = video_user_url + username + "/uploads"
+		print query_url
+		print urllib2.urlopen(query_url).read()
+		return
+
 
 
 
@@ -90,7 +100,8 @@ class YouTubeUtils():
 ### The Main run portion of the code ###
 if __name__ == "__main__":
 	ydl = YouTubeUtils("./YouTube_Downloader/youtube-dl", "YouTubeVideos")
-	ydl.DownloadVideo("http://www.youtube.com/watch?v=yiQ4THK5qV8")
+	#ydl.DownloadVideo("http://www.youtube.com/watch?v=yiQ4THK5qV8")
 	#ydl.GetCommentsforVideo("lQGDqH6rHII")
 	#ydl.GetTranscriptforVideo("lQGDqH6rHII")
+	ydl.GetVidsforUser("DisneyMovieTrailers")
 
