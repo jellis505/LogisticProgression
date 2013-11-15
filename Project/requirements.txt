@@ -1,0 +1,4 @@
+gdata
+urllib2
+BeautifulSoup4
+urllib
