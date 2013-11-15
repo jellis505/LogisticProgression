@@ -45,7 +45,7 @@ class YouTubeUtils():
 		output = sub.Popen(execpath + " -o " 
 									+ o_option 
 									+ " --write-info-json "
-									+ " --write-auto-sub " 
+									+ " --all-subs " 
 									+ url, 
 									shell=True)
 		output.communicate()
@@ -83,9 +83,9 @@ class YouTubeUtils():
 		with open(output_file, "w") as f:
 			for name,comment in names_and_comments:
 				f.write(name.encode("ascii", "ignore"))
-				f.write(" : ")
+				f.write(" ::: ")
 				if comment:
-					f.write(comment.encode("ascii", "ignore"))
+					f.write(comment.encode("ascii", "ignore").replace("\n", " "))
 				f.write("\n")
 		
 		return names_and_comments
@@ -233,6 +233,7 @@ def run(argv):
 			ydl.GetCommentsforVideo(vid_id)
 
 		print "Finished Downloading"
+	
 	return 
 
 
