@@ -62,16 +62,23 @@ def CropandAlignFace(image,eye_left,eye_right,offset_pct,dest_sz):
 	print M
 
 	warped_image = cv2.warpAffine(image,M,(image.shape[0],image.shape[1]))
-	cv2.imshow("warp_image",warped_image)
-	cv2.waitKey(0)
+	
+	# Debug Purposes
+	#cv2.imshow("warp_image",warped_image)
+	#cv2.waitKey(0)
 	# crop the rotated image
   	crop_xy = (eye_left[1] - scale*offset_h, eye_left[0] - scale*offset_v)
  	crop_size = (dest_sz[0]*scale, dest_sz[1]*scale)
-
+ 	print warped_image.shape
  	warped_image = warped_image[int(crop_xy[0]):int(crop_xy[0]+crop_size[0]), int(crop_xy[1]):int(crop_xy[1]+crop_size[1])]
- 	cv2.imshow("warp_images",warped_image)
- 	cv2.waitKey(0)
- 	#return warped_image 
+ 	
+ 	# Debug Purposes
+ 	#cv2.imshow("warp_images",warped_image)
+ 	#cv2.waitKey(0)
+ 	#return warped_image
+ 	print crop_xy
+ 	print crop_size 
+ 	print warped_image.shape
  	return cv2.resize(warped_image,dest_sz)
 
 
@@ -183,19 +190,16 @@ def GetSkinMask(img,frame_num,output_dir, skin_thresh_lower_used=None, skin_thre
 
 if __name__ == "__main__":
 	####This section is for debug purposes only#####
-	image_file = sys.argv[1]
-	frame = cv2.imread(image_file)
-	skin_thresh_lower_used, skin_thresh_upper_used = DetectFacesandOutput(frame,10,'test_pic')
-	GetSkinMask(frame,10,'test_pic',skin_thresh_lower_used,skin_thresh_upper_used)
-	quit()
-
-
-
-
+	#image_file = sys.argv[1]
+	#frame = cv2.imread(image_file)
+	#skin_thresh_lower_used, skin_thresh_upper_used = DetectFacesandOutput(frame,10,'test_pic')
+	#GetSkinMask(frame,10,'test_pic',skin_thresh_lower_used,skin_thresh_upper_used)
+	#quit()
+	####
 
 	# This program will detect the faces and save them to a file for the given videos that we have
 	video_file = sys.argv[1]
-	#output_dir = sys.argv[2]
+	output_dir = sys.argv[2]
 
 	# This is the opencv video capture object
 	cap = cv2.VideoCapture(video_file)
