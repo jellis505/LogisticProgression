@@ -32,6 +32,7 @@ def CropandAlignFace(image,eye_left,eye_right,offset_pct,dest_sz):
   	eye_direction = (eye_right[0] - eye_left[0], eye_right[1] - eye_left[1])
   	# calc rotation angle in radians
   	rotation = -math.atan2(float(eye_direction[1]),float(eye_direction[0]))
+  	print rotation
 	dist = math.sqrt((eye_left[0]-eye_right[0])*(eye_left[0]-eye_right[0])+(eye_left[1]-eye_right[1])*(eye_left[1]-eye_right[1]))
 
 	# reference eye-width, or how far apart they actually have to be
@@ -44,7 +45,7 @@ def CropandAlignFace(image,eye_left,eye_right,offset_pct,dest_sz):
 
   	# Now that we have the scale factor, let's rotate the image and perform an affine warp on it
   	center = eye_left
-  	angle = rotation
+  	angle = -rotation
   	nx,ny = x,y = center
 	sx=sy=1.0
 	cosine = math.cos(angle)
@@ -59,17 +60,19 @@ def CropandAlignFace(image,eye_left,eye_right,offset_pct,dest_sz):
 	# Affine transform matrix
 	M = np.array([[a,b,c],[d,e,f]])
 	print M
-	raw_input("Press Enter")
 
 	warped_image = cv2.warpAffine(image,M,(image.shape[0],image.shape[1]))
+	cv2.imshow("warp_image",warped_image)
+	cv2.waitKey(0)
 	# crop the rotated image
-  	crop_xy = (eye_left[0] - scale*offset_h, eye_left[1] - scale*offset_v)
+  	crop_xy = (eye_left[1] - scale*offset_h, eye_left[0] - scale*offset_v)
  	crop_size = (dest_sz[0]*scale, dest_sz[1]*scale)
 
  	warped_image = warped_image[int(crop_xy[0]):int(crop_xy[0]+crop_size[0]), int(crop_xy[1]):int(crop_xy[1]+crop_size[1])]
-
- 	return warped_image 
- 	#return cv2.resize(warped_image,dest_sz)
+ 	cv2.imshow("warp_images",warped_image)
+ 	cv2.waitKey(0)
+ 	#return warped_image 
+ 	return cv2.resize(warped_image,dest_sz)
 
 
 def DetectFacesandOutput(frame,frame_num,output_dir):
@@ -88,21 +91,20 @@ def DetectFacesandOutput(frame,frame_num,output_dir):
 	for i,(x,y,w,h) in enumerate(faces):
 		roi_face = frame[y:y+h, x:x+w]
 		roi_gray = gray[y:y+h, x:x+w]
-		
+
 		# Here let's find the eye points using the cascade classifier
 		eyes = eye_cascade.detectMultiScale(roi_gray)
 		if len(eyes) == 2:
 			# Let's rotate the image so that they all appear the same
 			if eyes[0][0] < eyes[1][0]:
-				right_eye = (eyes[0][0]+x+int(eyes[0][2]/float(2)),eyes[0][1]+x+int(eyes[0][3]/float(2)))
-				left_eye = (eyes[1][0]+x+int(eyes[1][2]/float(2)),eyes[1][1]+x+int(eyes[1][3]/float(2)))
+				right_eye = (eyes[0][0]+x+int(eyes[0][2]/float(2)),eyes[0][1]+y+int(eyes[0][3]/float(2)))
+				left_eye = (eyes[1][0]+x+int(eyes[1][2]/float(2)),eyes[1][1]+y+int(eyes[1][3]/float(2)))
 			else:
-				right_eye = (eyes[1][0]+x+int(eyes[1][2]/float(2)),eyes[1][1]+x+int(eyes[1][3]/float(2)))
-				left_eye = (eyes[0][0]+x+int(eyes[0][2]/float(2)),eyes[0][1]+x+int(eyes[0][3]/float(2)))
+				right_eye = (eyes[1][0]+x+int(eyes[1][2]/float(2)),eyes[1][1]+y+int(eyes[1][3]/float(2)))
+				left_eye = (eyes[0][0]+x+int(eyes[0][2]/float(2)),eyes[0][1]+y+int(eyes[0][3]/float(2)))
 
 			# Here we will crop the face to get the faces_aligned based on the news video
 			cropped_face = CropandAlignFace(frame,right_eye,left_eye,(0.2,0.2),(desired_size,desired_size))
-
 
 			# Now that we have the face let's detect the faces and then output them to the directory
 			image_name = "%05d_%02d.png" % (frame_num,i)
@@ -180,9 +182,20 @@ def GetSkinMask(img,frame_num,output_dir, skin_thresh_lower_used=None, skin_thre
 	return skin_mask
 
 if __name__ == "__main__":
+	####This section is for debug purposes only#####
+	image_file = sys.argv[1]
+	frame = cv2.imread(image_file)
+	skin_thresh_lower_used, skin_thresh_upper_used = DetectFacesandOutput(frame,10,'test_pic')
+	GetSkinMask(frame,10,'test_pic',skin_thresh_lower_used,skin_thresh_upper_used)
+	quit()
+
+
+
+
+
 	# This program will detect the faces and save them to a file for the given videos that we have
 	video_file = sys.argv[1]
-	output_dir = sys.argv[2]
+	#output_dir = sys.argv[2]
 
 	# This is the opencv video capture object
 	cap = cv2.VideoCapture(video_file)
