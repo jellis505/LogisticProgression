@@ -64,7 +64,7 @@ def cut_video(segments,videofile,output_dir,file_id):
 		# Create Wavfile
 		cut_vid_wav_path = reader.ReplaceExt(cut_vid_path,".wav")
 		command = 'ffmpeg -y -i ' + cut_vid_path + \
-					' -acodec pcm_s16le -ac 1 ' + cut_vid_wav_path
+					' ' + cut_vid_wav_path
 		print command
 		return_code = sub.call(command,shell=True)
 
