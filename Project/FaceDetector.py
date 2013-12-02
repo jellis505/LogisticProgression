@@ -64,8 +64,8 @@ def CropandAlignFace(image,eye_left,eye_right,offset_pct,dest_sz):
 	warped_image = cv2.warpAffine(image,M,(image.shape[0],image.shape[1]))
 	
 	# Debug Purposes
-	#cv2.imshow("warp_image",warped_image)
-	#cv2.waitKey(0)
+	cv2.imshow("warp_image",warped_image)
+	cv2.waitKey(0)
 	# crop the rotated image
   	crop_xy = (eye_left[1] - scale*offset_h, eye_left[0] - scale*offset_v)
  	crop_size = (dest_sz[0]*scale, dest_sz[1]*scale)
@@ -73,8 +73,8 @@ def CropandAlignFace(image,eye_left,eye_right,offset_pct,dest_sz):
  	warped_image = warped_image[int(crop_xy[0]):int(crop_xy[0]+crop_size[0]), int(crop_xy[1]):int(crop_xy[1]+crop_size[1])]
  	
  	# Debug Purposes
- 	#cv2.imshow("warp_images",warped_image)
- 	#cv2.waitKey(0)
+ 	cv2.imshow("warp_images",warped_image)
+ 	cv2.waitKey(0)
  	#return warped_image
  	print crop_xy
  	print crop_size 
