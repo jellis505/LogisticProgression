@@ -5,6 +5,7 @@
 
 ### Necessary python libraries ###
 import os, sys, getopt
+import shutil
 import subprocess as sub
 from gdata.youtube import service
 import json
@@ -19,6 +20,11 @@ class YouTubeUtils():
 		
 		#These set up the class variables of where the downloader is 
 		self.path_to_youtubedl = path_to_youtubedl
+
+		# Get the path to the Change_Size.py script which is also in the youtube_dl directory
+		pos = path_to_youtubedl.rfind("youtube-dl")
+		self.path_to_changesize = path_to_youtubedl[:pos] + "ChangeSize.py"
+
 		self.download_dir = download_dir
 
 		# Set up the youtube client, let's see if we can do it without log in
@@ -45,11 +51,35 @@ class YouTubeUtils():
 		output = sub.Popen(execpath + " -o " 
 									+ o_option 
 									+ " --write-info-json "
-									+ " --all-subs " 
+									+ " --all-subs "
+									+ " --write-auto-sub "
+									+ " --sub-lang en "
 									+ url, 
 									shell=True)
 		output.communicate()
 		print "Just downloaded the video and info at %s" % url
+
+		# Now we need to resize the video, which is possible using the ChangeSize.py script
+		execpath = self.path_to_changesize
+		video_file = os.path.join(download_dir,vid_id + ".mp4")
+		video_file_bak = os.path.join(download_dir,vid_id + "_bak.mp4")
+		output = sub.Popen(execpath + " -i " + video_file
+									+ " -o " + video_file_bak,
+									shell=True)
+		output.communicate()
+		print "Just Resized the video"
+
+		# Now move the video back to the original file
+		shutil.copy2(video_file_bak,video_file)
+		os.remove(video_file_bak)
+		files = os.listdir(download_dir)
+		
+		for file_ in files:
+			if ((".srt" in file_) and not (".en.srt" in file_)):
+				os.remove(os.path.join(download_dir,file_))
+
+		print "Removed all of the other language subtitles besides english that were downloaded"
+
 		return
 
 	def GetCommentsforVideo(self, vid_id):

@@ -56,6 +56,7 @@ def change_size(pathtovideo,pathto_new_video,SAR,DAR,old_x,old_y, start_time, du
 	
 	# Here is where we will change the aspect ratio and resize the video
 	perform_transcoding = True;
+	dont_use_aspect = False
 	if (SAR[0] == SAR[1]) and (old_x != 640):
 		if (DAR[0] == 16) and (DAR[1] == 9):
 			# Now set up the parameters for the ffmpeg call
@@ -64,6 +65,9 @@ def change_size(pathtovideo,pathto_new_video,SAR,DAR,old_x,old_y, start_time, du
 		elif (DAR[0] == 4) and (DAR[1] == 3):
 			aspect_str = '%d:%d' % (DAR[0], DAR[1]);
 			size_str = '%d:%d' % (640,480);
+		elif (SAR == (0,0) and DAR == (0,0)):
+			size_str = '%d:%d' % (640,480);
+			aspect_str = '%d:%d' % (4,3);
 		else:
 			print 'This aspect ratio is unrecongized not changing the video'		
 			perform_transcoding = False;
@@ -72,20 +76,19 @@ def change_size(pathtovideo,pathto_new_video,SAR,DAR,old_x,old_y, start_time, du
 		print 'This video is already standard definition doing nothing to change it'
 		perform_transcoding = False;
 
-	
 	if perform_transcoding == True and start_time == None and duration == None: 
 		# Now do the actual command to change the video
-		subprocess.Popen(['ffmpeg','-y', '-i', pathtovideo, '-aspect', aspect_str,'-s',size_str, '-r','29.97', pathto_new_video])
-	
+		output = subprocess.Popen(['ffmpeg','-y', '-i', pathtovideo, '-aspect', aspect_str,'-s',size_str, '-r','29.97', pathto_new_video])
+		output.communicate()
 	elif perform_transcoding == True and start_time != None and duration == None: 
 		# Now do the actual command to change the video
-		subprocess.Popen(['ffmpeg','-y', '-i', pathtovideo, '-aspect', aspect_str,'-s',size_str, '-r','29.97', '-ss', start_time, pathto_new_video])
-	
+		output = subprocess.Popen(['ffmpeg','-y', '-i', pathtovideo, '-aspect', aspect_str,'-s',size_str, '-r','29.97', '-ss', start_time, pathto_new_video])
+		output.communicate()
 	elif perform_transcoding == True and start_time != None and duration != None: 
 		# Now do the actual command to change the video
-		subprocess.Popen(['ffmpeg','-y', '-i', pathtovideo, '-aspect', aspect_str,'-s',size_str, '-r', '29.97', '-ss', start_time, '-t', duration, pathto_new_video])
-	
-	return;
+		output = subprocess.Popen(['ffmpeg','-y', '-i', pathtovideo, '-aspect', aspect_str,'-s',size_str, '-r', '29.97', '-ss', start_time, '-t', duration, pathto_new_video])
+		output.communicate()
+	return
 
 
 if __name__ == '__main__':
