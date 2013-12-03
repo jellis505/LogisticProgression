@@ -140,8 +140,17 @@ def run(argv):
 
 	cut_video(segments,video_file,output_vid_segs_dir,file_id)
 
-
+	# Now we need to output a file that has the time segments available
+	output_seg_time_file = os.path.join(output_vid_segs_dir,file_id + ".times")
+	with open(output_seg_time_file, "w") as f:
+		for i,segment in enumerate(segments):
+			output = "%03d,%.2f,%.2f\n" % (i,segment[0],segment[0]+segment[1])
+			f.write(output)
+			
 	# TODO: NEED TO REMOVE THE AUDIO FILES THAT ARE NOT NEEDED BUT CREATED
+	os.remove(raw_file)
+
+
 	print "Finished Processing Video: %s" % file_id
 
 if __name__ == "__main__":
