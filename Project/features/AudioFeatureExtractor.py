@@ -7,7 +7,7 @@
 
 #### Import Libraries ######
 import os, sys, getopt
-sys.path.append("utility")
+sys.path.append("../utility")
 import FileReader as reader
 from scipy.io import wavfile
 import numpy as np
