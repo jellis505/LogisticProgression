@@ -4,9 +4,11 @@
 
 ##### Libraries ##########
 # These are the import libraries
-import os, sys, math
+import os, sys, math, getopt
 import cv2
 import numpy as np 
+sys.path.append("../utility")
+import FileReader as reader
 from skimage.feature import local_binary_pattern
 ##########################
 
@@ -14,8 +16,13 @@ from skimage.feature import local_binary_pattern
 ########## Global Variables ########
 # These are the global variables we will use here
 global face_cascade
-face_cascade = cv2.CascadeClassifier('/usr/local/share/OpenCV/haarcascades/haarcascade_frontalface_default.xml')
+face_cascade = cv2.CascadeClassifier('/usr/local/share/OpenCV/haarcascades/haarcascade_frontalface_alt.xml')
 eye_cascade = cv2.CascadeClassifier('/usr/local/share/OpenCV/haarcascades/haarcascade_eye.xml')
+left_eye_cascade = cv2.CascadeClassifier('/usr/local/share/OpenCV/haarcascades/haarcascade_mcs_lefteye.xml')
+right_eye_cascade = cv2.CascadeClassifier('/usr/local/share/OpenCV/haarcascades/haarcascade_mcs_righteye.xml')
+mouth_cascade = cv2.CascadeClassifier('/usr/local/share/OpenCV/haarcascades/haarcascade_mcs_mouth.xml')
+nose_cascade = cv2.CascadeClassifier('/usr/local/share/OpenCV/haarcascades/haarcascade_mcs_nose.xml')
+
 
 global skin_threshs
 g_skin_thresh_lower = np.array([0,133,77])
@@ -32,7 +39,6 @@ def CropandAlignFace(image,eye_left,eye_right,offset_pct,dest_sz):
   	eye_direction = (eye_right[0] - eye_left[0], eye_right[1] - eye_left[1])
   	# calc rotation angle in radians
   	rotation = -math.atan2(float(eye_direction[1]),float(eye_direction[0]))
-  	print rotation
 	dist = math.sqrt((eye_left[0]-eye_right[0])*(eye_left[0]-eye_right[0])+(eye_left[1]-eye_right[1])*(eye_left[1]-eye_right[1]))
 
 	# reference eye-width, or how far apart they actually have to be
@@ -59,35 +65,35 @@ def CropandAlignFace(image,eye_left,eye_right,offset_pct,dest_sz):
 
 	# Affine transform matrix
 	M = np.array([[a,b,c],[d,e,f]])
-	print M
 
-	warped_image = cv2.warpAffine(image,M,(image.shape[0],image.shape[1]))
+	# Now we need to calculate what the borders of the image should be
+	warped_image = cv2.warpAffine(image,M,(1000,1000))
 	
+	#cv2.imwrite("warped_image.png",warped_image)
 	# Debug Purposes
-	cv2.imshow("warp_image",warped_image)
-	cv2.waitKey(0)
+	#cv2.imshow("warp_image",warped_image)
+	#cv2.waitKey(0)
 	# crop the rotated image
   	crop_xy = (eye_left[1] - scale*offset_h, eye_left[0] - scale*offset_v)
  	crop_size = (dest_sz[0]*scale, dest_sz[1]*scale)
- 	print warped_image.shape
  	warped_image = warped_image[int(crop_xy[0]):int(crop_xy[0]+crop_size[0]), int(crop_xy[1]):int(crop_xy[1]+crop_size[1])]
  	
  	# Debug Purposes
- 	cv2.imshow("warp_images",warped_image)
- 	cv2.waitKey(0)
+ 	#cv2.imshow("warp_images",warped_image)
+ 	#cv2.waitKey(0)
  	#return warped_image
- 	print crop_xy
- 	print crop_size 
- 	print warped_image.shape
  	return cv2.resize(warped_image,dest_sz)
 
+def DetectFacesandOutput_old(frame,frame_num,output_dir):
+	# First version of this function
 
-def DetectFacesandOutput(frame,frame_num,output_dir):
-	# Passes in the frame in numpy format
-	#transform the image to gray scale 
 	gray = cv2.cvtColor(frame,cv2.COLOR_BGR2GRAY)
 	faces = face_cascade.detectMultiScale(gray, 1.3, 5)
 	
+	# Prune the faces so we only use the larger ones
+	good_faces = [face for face in faces if face[2]*face[3] > 5000]
+	print "Found Faces are", len(good_faces)
+
 	# Assume square faces
 	desired_size = 100
 
@@ -95,7 +101,7 @@ def DetectFacesandOutput(frame,frame_num,output_dir):
 	means = []
 	stds = []
 
-	for i,(x,y,w,h) in enumerate(faces):
+	for i,(x,y,w,h) in enumerate(good_faces):
 		roi_face = frame[y:y+h, x:x+w]
 		roi_gray = gray[y:y+h, x:x+w]
 
@@ -111,12 +117,22 @@ def DetectFacesandOutput(frame,frame_num,output_dir):
 				left_eye = (eyes[0][0]+x+int(eyes[0][2]/float(2)),eyes[0][1]+y+int(eyes[0][3]/float(2)))
 
 			# Here we will crop the face to get the faces_aligned based on the news video
-			cropped_face = CropandAlignFace(frame,right_eye,left_eye,(0.2,0.2),(desired_size,desired_size))
+
+			########DEBUG -- To look at the detected faces and images
+			#fileName = "%d.png" % (i)
+			#cv2.rectangle(frame,(x,y),(x+w,y+h),(255,0,0))
+			#cv2.rectangle(frame,(right_eye[0]-10,right_eye[1]-10),(right_eye[0]+10,right_eye[1]+10), (0,255,0))
+			#cv2.rectangle(frame,(left_eye[0]-10,left_eye[1]-10),(left_eye[0]+10,left_eye[1]+10), (0,255,0))
+			#cv2.imwrite(fileName,frame)
+			#raw_input("Press Enter")
+			#########
+
+			cropped_face = CropandAlignFace(frame,right_eye,left_eye,(0.3,0.3),(desired_size,desired_size))
 
 			# Now that we have the face let's detect the faces and then output them to the directory
 			image_name = "%05d_%02d.png" % (frame_num,i)
 			output_path = os.path.join(output_dir,image_name)
-			#cv2.imwrite(output_path,roi_face)
+			cv2.imwrite(output_path,cropped_face)
 
 			# Let's resize the roi_face and then calculate the LBP features
 			x_size, y_size, depth = roi_face.shape
@@ -147,6 +163,112 @@ def DetectFacesandOutput(frame,frame_num,output_dir):
 	
 	else:
 		return None, None
+
+
+
+def DetectFacesandOutput(frame,frame_num,output_dir):
+	# Passes in the frame in numpy format
+	#transform the image to gray scale 
+	gray = cv2.cvtColor(frame,cv2.COLOR_BGR2GRAY)
+	faces = face_cascade.detectMultiScale(gray, 1.3, 5)
+	
+	# Prune the faces so we only use the larger ones
+	good_faces = [face for face in faces if face[2]*face[3] > 5000]
+	print "Found Faces are", len(good_faces)
+
+	# Assume square faces
+	desired_size = 100
+
+	# List of vector means and standard deviations
+	means = []
+	stds = []
+
+	for i,(x,y,w,h) in enumerate(good_faces):
+		roi_face = frame[y:y+h, x:x+w]
+		roi_gray = gray[y:y+h, x:x+w]
+
+		# Here we have found the mouth, right eyes, left eyes, and noses at different scales
+		right_eyes = right_eye_cascade.detectMultiScale(roi_gray,maxSize=(h/6,w/6))
+		left_eyes = left_eye_cascade.detectMultiScale(roi_gray,maxSize=(h/6,w/6))
+		mouths = mouth_cascade.detectMultiScale(roi_gray,maxSize=(h/6,w/6))
+		noses = nose_cascade.detectMultiScale(roi_gray,maxSize=(h/6,w/6))
+		
+		# Now let's get the average positions of the detections
+		np_r_eye = np.array(right_eyes)
+		np_l_eyes = np.array(left_eyes)
+		np_mouths = np.array(mouths)
+		np_noses = np.array(noses)
+		
+		# Now we need to find the average position of each point
+		if len(np_r_eye) != 0:
+			r_eye_pos = (int(np.mean(np_r_eye[:,0])+np.mean(np_r_eye[:,2])/2),int(np.mean(np_r_eye[:,1])+np.mean(np_r_eye[:,3])/2))
+		else:
+			r_eye_pos = (None,None)
+		
+		if len(np_l_eyes) != 0:
+			l_eye_pos = (int(np.mean(np_l_eyes[:,0])+np.mean(np_l_eyes[:,2])/2),int(np.mean(np_l_eyes[:,1])+np.mean(np_l_eyes[:,3])/2))
+		else:
+			l_eye_pos = (None,None)
+
+		if len(np_mouths) != 0:
+			mouth_pos = (int(np.mean(np_mouths[:,0])+np.mean(np_mouths[:,2])/2),int(np.mean(np_mouths[:,1])+np.mean(np_mouths[:,3])/2))
+		else:
+			mouth_pos = (None,None)
+
+		if len(np_noses) != 0:
+			nose_pos = (int(np.mean(np_noses[:,0])+np.mean(np_noses[:,2])/2),int(np.mean(np_noses[:,1])+np.mean(np_noses[:,3])/2))
+		else:
+			nose_pos = (None,None)
+
+		# Let's make sure that they are close to right
+		#cv2.circle(roi_face,r_eye_pos,3,(255,0,0))
+		#cv2.circle(roi_face,l_eye_pos,3,(255,0,0))
+		#cv2.circle(roi_face,nose_pos,3,(255,0,0))
+		#cv2.circle(roi_face,mouth_pos,3,(255,0,0))
+		#print " The right eye is at", right_eyes
+		#for right_eye in right_eyes:
+		#	print right_eye
+		#	cv2.rectangle(roi_face,(right_eye[0],right_eye[1]),(right_eye[0]+right_eye[2],right_eye[1]+right_eye[3]), (255,0,0)) 
+		#print " The left eye is at", left_eyes
+		for left_eye in left_eyes: 
+			cv2.rectangle(roi_face,(left_eye[0],left_eye[1]),(left_eye[0]+left_eye[2],left_eye[1]+left_eye[3]), (255,0,0)) 
+		print " The mouth is at", mouths
+		#for mouth in mouths: 
+		#	cv2.rectangle(roi_face,(mouth[0],mouth[1]),(mouth[0]+mouth[2],mouth[1]+mouth[3]), (255,0,0)) 
+		#print " The nose is at ", noses
+		#for nose in noses:
+		#	cv2.rectangle(roi_face,(nose[0],nose[1]),(nose[0]+nose[2],nose[1]+nose[3]),(255,0,0))
+		#cv2.imwrite('test.png',roi_face)
+		#raw_input("Press Enter")
+		# Here let's extract the 
+
+		cv2.imwrite("test.png",roi_face)
+		raw_input("Press Enter")
+	
+		#cropped_face = CropandAlignFace(frame,right_eye,left_eye,(0.3,0.3),(desired_size,desired_size))
+
+		# Now that we have the face let's detect the faces and then output them to the directory
+		#image_name = "%05d_%02d.png" % (frame_num,i)
+		#output_path = os.path.join(output_dir,image_name)
+		#cv2.imwrite(output_path,cropped_face)
+
+		# Let's resize the roi_face and then calculate the LBP features
+		#x_size, y_size, depth = roi_face.shape
+		#x_ratio = desired_size/float(x_size)
+		#y_ratio = desired_size/float(y_size)
+		#new_image = cv2.resize(gray,(desired_size,desired_size))
+
+		# To get an accurate skin detector let's take a look at the middle fo the frame and the skin colors
+		#roi_skin_face = frame[y+(0.2*h):y+(0.8*h), x+(0.2*w): x+(0.8*w)]
+		#roi_skin_face = cropped_face
+		#cv2.imwrite(output_path,roi_skin_face)
+		#roi_skin_face = cv2.cvtColor(roi_skin_face,cv2.COLOR_BGR2YCR_CB)
+
+		# Get the means and standard deviation
+		#means.append(np.array([np.mean(roi_skin_face[:,:,0]),np.mean(roi_skin_face[:,:,1]),np.mean(roi_skin_face[:,:,2])]))
+		#stds.append(np.array([np.std(roi_skin_face[:,:,0]),np.std(roi_skin_face[:,:,1]),np.std(roi_skin_face[:,:,2])]))
+
+	return None,None
 
 def ExtractLBPFeatures(img):
 	# This function extracts LBP features from a given image
@@ -198,8 +320,45 @@ if __name__ == "__main__":
 	####
 
 	# This program will detect the faces and save them to a file for the given videos that we have
-	video_file = sys.argv[1]
-	output_dir = sys.argv[2]
+	argv = sys.argv[1:]
+	###### INPUT PARSER ############
+	try:
+		opts, args = getopt.getopt(argv,'hi:o:')
+	except getopt.GetoptError:
+		print "You did something wrong"
+		sys.exit(0)
+
+	video_file = None
+	output_dir = None
+	for opt, arg in opts:
+		if opt in ("-h"):
+			print "HELP!"
+			sys.exit(0)
+		elif opt in ("-i"):
+			video_file = arg
+		elif opt in ("-o"):
+			output_dir = arg
+	###################################
+
+
+	##### Run the Video Face Extractor #######
+	# Make sure that the inputs are proper
+	if not (video_file and output_dir):
+		print "You didn't input enough inputs!"
+		sys.exit(0)
+
+	# Create the folder to contain the faces, based off of the video file name
+	video_title = reader.GetFileOnly(video_file)
+	video_title = reader.ReplaceExt(video_title, "")
+	face_directory = os.path.join(output_dir,video_title)
+	if not os.path.exists(face_directory):
+		os.makedirs(face_directory)
+
+	# Debug Only
+	#print video_title
+	#print face_directory
+	#quit()
+
 
 	# This is the opencv video capture object
 	cap = cv2.VideoCapture(video_file)
@@ -215,10 +374,12 @@ if __name__ == "__main__":
 
 			frame_num = cap.get(1)
 			# We will downsample to only process every 30 seconds
-			if frame_num % 30 == 0:
-				skin_thresh_lower_used, skin_thresh_upper_used = DetectFacesandOutput(frame,frame_num,output_dir)
-				GetSkinMask(frame,frame_num,output_dir,skin_thresh_lower_used,skin_thresh_upper_used)
+			if frame_num % 10 == 0:
+				print "Frame Number is: ", frame_num
+				skin_thresh_lower_used, skin_thresh_upper_used = DetectFacesandOutput(frame,frame_num,face_directory)
+				#GetSkinMask(frame,frame_num,output_dir,skin_thresh_lower_used,skin_thresh_upper_used)
 
 		else:
 			print "Done Processing the video"
 			break
+	#####################################

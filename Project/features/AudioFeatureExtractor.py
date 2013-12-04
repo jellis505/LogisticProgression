@@ -12,6 +12,7 @@ import FileReader as reader
 from scipy.io import wavfile
 import numpy as np
 import MFCC
+import matplotlib.pyplot as plt
 
 ##### Global Variables #######
 
@@ -73,6 +74,9 @@ class AudioExtractor():
 
 			# Take the power of each element making the complex go away
 			fft_pow = np.abs(fftx ** 2)
+			freqs = (range(FFT_SIZE * self.samp_rate) / FFT_SIZE
+			self.saveFFTImage(fft_pow,freqs,"/home/jellis/Project_Data/fft.png")
+			raw_input("Press Enter")
 
 			# Find the largest element in the array
 			max_freq_index = fft_pow.argmax()
@@ -96,22 +100,68 @@ class AudioExtractor():
 		# Return each of these values
 		return max_val,min_val,mean_val,std_val
 
+	def SaveFFTImage(fft_pow,freqs,filepath):
+		plt.plot(freqs,fft_pow)
+		plt.ylabel("Power Spectrum")
+		plt.xlabel("Frequencies")
+		plt.savefig(filepath)
 
+## ENDCLASS
 
+def run(argv):
+	# This function runs CoreExtraction for an entire segmented video
+	# Now let's parse the arguements
+	try:
+		opts, args = getopt.getopt(argv,'hi:o:')
+	except getopt.GetoptError:
+		print "You did something wrong"
+		sys.exit(0)
 
+	# Parse the arguements in
+	wav_dir = None
+	output_dir = None
+	for opt, arg in opts:
+		if opt in ('-h'):
+			print "HELP!"
+			sys.exit(0)
+		elif opt in ('-i'):
+			wav_dir = arg
+		elif opt in ('-o'):
+			output_dir = arg
 
+	# Check to make sure that the output are sufficient
+	if not (wav_dir and output_dir):
+		print "You did not include either the video_dir or the output_dir"
+		sys.exit(0)
 
+	# Check to see if the executable function is installed on this machine
+	if not os.path.exists(execpath):
+		print "You need the CoreExtraction executable, talk to the News Rover team at Columbia University"
+		sys.exit(0)
 
+	# Let's get all of the videos here that are in the directory
+	files = os.listdir(wav_dir)
+	wavs = [file_ for file_ in files if ".wav" in file_]
+	wav_paths = [os.path.join(wav_dir,wav) for wav in wavs]
 
+	# Now let's loop through the videos and process them
+	
+	# DEBUG 
+	print wav_paths
 
+	for wav_path in wav_paths:
+		# Create the output files
+		file_only = reader.GetFileOnly(wav_path)
+		file_no_ext = reader.ReplaceExt(file_only,".audio_feat")
+		output_path = os.path.join(output_dir,file_no_ext)
 
+		# Here is where we extract the features
+		ae = AudioExtractor(wav_path)
+		mfccs = ae.CalculateMFCCs()
+		fund_freqs = ae.ExtractPitchfromFrames()
+		
 
+	return
 
-
-
-
-
-
-
-
-
+if __name__ == "__main__":
+	sys.argv
