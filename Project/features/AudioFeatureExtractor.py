@@ -12,10 +12,6 @@ import FileReader as reader
 from scipy.io import wavfile
 import numpy as np
 import MFCC
-
-# This portion allows us to use matplotlib without the display variable set
-import matplotlib
-matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 ##### Global Variables #######
@@ -79,11 +75,10 @@ class AudioExtractor():
 			# Take the power of each element making the complex go away
 			fft_pow = np.abs(fftx ** 2)
 			freqs = (np.arange(FFT_SIZE) * self.samp_rate) / FFT_SIZE
-			self.SaveFFTImage(fft_pow,freqs,"/home/jellis/Project_Data/fft.png")
-			raw_input("Press Enter")
+			#self.SaveFFTImage(fft_pow,freqs,"/home/jellis/Project_Data/fft.png")
 
 			# Find the largest element in the array
-			max_freq_index = fft_pow.argmax()
+			max_freq_index = fft_pow[0:int(FFT_SIZE/2)].argmax()
 
 			# Now let's transfrom this back into frequency domain
 			fund_freq = (max_freq_index * self.samp_rate) / FFT_SIZE
@@ -162,6 +157,7 @@ def run(argv):
 		ae = AudioExtractor(wav_path)
 		mfccs = ae.CalculateMFCCs()
 		fund_freqs = ae.ExtractPitchfromFrames()
+		print fund_freqs
 
 	return
 
