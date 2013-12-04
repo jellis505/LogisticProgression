@@ -12,6 +12,10 @@ import FileReader as reader
 from scipy.io import wavfile
 import numpy as np
 import MFCC
+
+# This portion allows us to use matplotlib without the display variable set
+import matplotlib
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 ##### Global Variables #######
@@ -40,8 +44,8 @@ class AudioExtractor():
 		return mean_volume, std_data
 
 	def hamming(self,n):
-		#Stolen from the MFCC code
-    	return 0.54 - 0.46 * cos(2 * pi / n * (arange(n) + 0.5))
+		val = 0.54 - 0.46 * cos(2 * pi / n * (np.arange(n) + 0.5))
+		return val 
 
 	def ExtractPitchfromFrames(self,frame_secs=0.02,frame_overlap_secs=0.01):
 		# This function will extract the fundamental frequency and put it into a numpy array
@@ -74,8 +78,8 @@ class AudioExtractor():
 
 			# Take the power of each element making the complex go away
 			fft_pow = np.abs(fftx ** 2)
-			freqs = (range(FFT_SIZE * self.samp_rate) / FFT_SIZE
-			self.saveFFTImage(fft_pow,freqs,"/home/jellis/Project_Data/fft.png")
+			freqs = (np.arange(FFT_SIZE) * self.samp_rate) / FFT_SIZE
+			self.SaveFFTImage(fft_pow,freqs,"/home/jellis/Project_Data/fft.png")
 			raw_input("Press Enter")
 
 			# Find the largest element in the array
@@ -100,11 +104,14 @@ class AudioExtractor():
 		# Return each of these values
 		return max_val,min_val,mean_val,std_val
 
-	def SaveFFTImage(fft_pow,freqs,filepath):
-		plt.plot(freqs,fft_pow)
-		plt.ylabel("Power Spectrum")
-		plt.xlabel("Frequencies")
-		plt.savefig(filepath)
+	def SaveFFTImage(self,fft_pow,freqs,filepath):
+		fig = plt.figure()
+		ax = fig.add_subplot(111)
+		ax.plot(freqs,fft_pow)
+		ax.ylabel("Power Spectrum")
+		ax.xlabel("Frequencies")
+		ax.savefig(filepath)
+		return
 
 ## ENDCLASS
 
@@ -134,11 +141,6 @@ def run(argv):
 		print "You did not include either the video_dir or the output_dir"
 		sys.exit(0)
 
-	# Check to see if the executable function is installed on this machine
-	if not os.path.exists(execpath):
-		print "You need the CoreExtraction executable, talk to the News Rover team at Columbia University"
-		sys.exit(0)
-
 	# Let's get all of the videos here that are in the directory
 	files = os.listdir(wav_dir)
 	wavs = [file_ for file_ in files if ".wav" in file_]
@@ -152,16 +154,16 @@ def run(argv):
 	for wav_path in wav_paths:
 		# Create the output files
 		file_only = reader.GetFileOnly(wav_path)
-		file_no_ext = reader.ReplaceExt(file_only,".audio_feat")
-		output_path = os.path.join(output_dir,file_no_ext)
+		file_aud_ext = reader.ReplaceExt(file_only,".audio_feat")
+		output_path = os.path.join(output_dir,file_aud_ext)
 
 		# Here is where we extract the features
+		print output_path
 		ae = AudioExtractor(wav_path)
 		mfccs = ae.CalculateMFCCs()
 		fund_freqs = ae.ExtractPitchfromFrames()
-		
 
 	return
 
 if __name__ == "__main__":
-	sys.argv
+	run(sys.argv[1:])
