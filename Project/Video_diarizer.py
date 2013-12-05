@@ -138,7 +138,11 @@ def run(argv):
 	if not os.path.exists(output_vid_segs_dir):
 		os.makedirs(output_vid_segs_dir)
 
-	cut_video(segments,video_file,output_vid_segs_dir,file_id)
+	####### Video Cutting ########
+	# This is for if we just want to use the smaller non-connected speech segments
+	cut_video(person_segs,video_file,output_vid_segs_dir,file_id)
+	# This is for if we want to use the diarization results
+	#cut_video(segments,video_file,output_vid_segs_dir,file_id)
 
 	# Now we need to output a file that has the time segments available
 	output_seg_time_file = os.path.join(output_vid_segs_dir,file_id + ".times")
