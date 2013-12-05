@@ -51,7 +51,7 @@ class AudioExtractor():
 		FRAME_LEN = int(frame_secs*self.samp_rate)
 		FRAME_OV = int(frame_overlap_secs*self.samp_rate)
 		x = self.wav_data
-		FFT_SIZE = 2048                         # How many points for FFT
+		FFT_SIZE = 8192                         # How many points for FFT
 		# This is only used if we want a hamming window on the frame
 		#WINDOW = self.hamming(FRAME_LEN)
 		
@@ -61,7 +61,10 @@ class AudioExtractor():
 			x = np.mean(x,axis=1)
 
 		# Find the number of frames we will have
-		f0s = []
+		low_freq = 1500
+		total_f0s = []
+		low_f0s = []
+		upper_f0s = []
 		frames = (len(x) - FRAME_LEN) / FRAME_OV + 1
 		for i in range(frames):
 			
@@ -78,15 +81,67 @@ class AudioExtractor():
 			#self.SaveFFTImage(fft_pow,freqs,"/home/jellis/Project_Data/fft.png")
 
 			# Find the largest element in the array
-			max_freq_index = fft_pow[0:int(FFT_SIZE/2)].argmax()
+			total_max_freq_index = fft_pow[0:int(FFT_SIZE/2)].argmax()
+			under_max_freq_index = fft_pow[0:int(low_freq/(self.samp_rate/FFT_SIZE))].argmax()
+			upper_max_freq_index = int(low_freq/(self.samp_rate/FFT_SIZE))+fft_pow[int(low_freq/(self.samp_rate/FFT_SIZE)):int(FFT_SIZE/2)].argmax()
 
 			# Now let's transfrom this back into frequency domain
-			fund_freq = (max_freq_index * self.samp_rate) / FFT_SIZE
+			fund_freq = (total_max_freq_index * self.samp_rate) / FFT_SIZE
+			low_fund_freq = (under_max_freq_index * self.samp_rate) / FFT_SIZE
+			upper_fund_freq = (upper_max_freq_index * self.samp_rate) / FFT_SIZE
 
 			# Add our fundamental frequency to the list of frequencies
-			f0s.append(fund_freq)
+			low_f0s.append(low_fund_freq)
+			upper_f0s.append(upper_fund_freq)
+			total_f0s.append(fund_freq)
 
-		return np.array(f0s)
+		return np.array(low_f0s), np.array(total_f0s), np.array(upper_f0s)
+
+	def ExtractEnergyfromFrames(self,frame_secs=0.02,frame_overlap_secs=0.01):
+		# This function will extract the fundamental frequency and put it into a numpy array
+		# so that we can explore the pitch frequencies present within a signal
+
+		# Values for calculating the samples
+		FRAME_LEN = int(frame_secs*self.samp_rate)
+		FRAME_OV = int(frame_overlap_secs*self.samp_rate)
+		x = self.wav_data
+		FFT_SIZE = 8192                         # How many points for FFT
+		# This is only used if we want a hamming window on the frame
+		#WINDOW = self.hamming(FRAME_LEN)
+		
+		# We need to make sure that there exists only one channel in the stream, 
+		# if there is more then we take the mean of all the channels for our data
+		if x.ndim > 1:
+			x = np.mean(x,axis=1)
+
+		# Find the number of frames we will have
+		low_freq = 1500
+		mark = 250 # This is the mark for getting energy below as a feature, this was shown in some 
+		# audio emtion detection literature
+		bin_width = self.samp_rate / FFT_SIZE
+		below_mark_e = []
+		total_e = []
+		frames = (len(x) - FRAME_LEN) / FRAME_OV + 1
+		for i in range(frames):
+			# This is the window that we will process on
+			window = x[i*FRAME_OV : i*FRAME_OV + FRAME_LEN]
+
+			# Now let's find the fft of x
+			# The added FFT_SIZE variable zero padds the input so that we get more granularity in the fft
+			fftx = np.fft.fft(window, FFT_SIZE)
+
+			# Take the power of each element making the complex go away
+			fft_pow = np.abs(fftx ** 2)
+			freqs = (np.arange(FFT_SIZE) * self.samp_rate) / FFT_SIZE
+
+			low_energy = np.sum(fft_pow[0:int(mark/bin_width)])*bin_width
+			energy = np.sum(fft_pow[0:int(FFT_SIZE/2)])*bin_width
+
+			below_mark_e.append(low_energy)
+			total_e.append(energy)
+
+		return np.array(below_mark_e), np.array(total_e) 
+
 
 	def GetFeaturesfromSeries(self,x):
 		# This function takes a series of values and returns the:
@@ -97,7 +152,7 @@ class AudioExtractor():
 		std_val = np.std(x)
 
 		# Return each of these values
-		return max_val,min_val,mean_val,std_val
+		return [max_val,min_val,mean_val,std_val]
 
 	def SaveFFTImage(self,fft_pow,freqs,filepath):
 		fig = plt.figure()
@@ -147,17 +202,32 @@ def run(argv):
 	print wav_paths
 
 	for wav_path in wav_paths:
+		
+		# Extract the features
+		ae = AudioExtractor(wav_path)
+		mfccs = ae.CalculateMFCCs()
+		low_fund_freqs,fund_freqs,upper_fund_freqs = ae.ExtractPitchfromFrames()
+		low_E, total_E = ae.ExtractEnergyfromFrames()
+		
+		# Now that we have the total frames for this wavfile let's create the audio feature
+		audio_feat = []
+		audio_feat.extend(ae.GetFeaturesfromSeries(low_fund_freqs))
+		audio_feat.extend(ae.GetFeaturesfromSeries(fund_freqs))
+		audio_feat.extend(ae.GetFeaturesfromSeries(upper_fund_freqs))
+		audio_feat.extend(ae.GetFeaturesfromSeries(low_E))
+		audio_feat.extend(ae.GetFeaturesfromSeries(total_E))
+		for i in range(mfccs.shape[1]):
+			audio_feat.extend(ae.GetFeaturesfromSeries(mfccs[i,:]))
+		a_feat = np.array(audio_feat)
+
 		# Create the output files
 		file_only = reader.GetFileOnly(wav_path)
 		file_aud_ext = reader.ReplaceExt(file_only,".audio_feat")
 		output_path = os.path.join(output_dir,file_aud_ext)
 
 		# Here is where we extract the features
-		print output_path
-		ae = AudioExtractor(wav_path)
-		mfccs = ae.CalculateMFCCs()
-		fund_freqs = ae.ExtractPitchfromFrames()
-		print fund_freqs
+		# Now let's save the feature that we have just extracted from this audio segment using 
+		np.savetxt(output_path,a_feat,delimiter=",")
 
 	return
 
