@@ -344,6 +344,19 @@ def ConnectSpkrSegs(person_segs):
     segments.append(spkr_seg)
     return segments 
 
+def ReadFaceFile(filepath):
+    with open(filepath,"r") as f:
+        raw_lines = f.readlines()
+        lines = [line.rstrip("\n") for line in raw_lines]
+        faces = []
+        for line in lines:
+            raw_parts = line.split("\t")
+            parts = [int(part) for part in raw_parts]
+            faces.append(parts)
+
+    return faces
+
+
     
 if __name__ == "__main__":
     # This is only used to debug the reader functionality of the function above

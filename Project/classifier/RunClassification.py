@@ -11,8 +11,6 @@ from sklearn import svm
 import numpy as np
 sys.path.append('../utility')
 import FileReader as reader
-import math
-
 
 
 def CollectAudioFeats(audio_dir):
@@ -34,7 +32,33 @@ def CollectAudioFeats(audio_dir):
 	return data_array,uni_ids
 
 def CollectVideoFeats(video_dir):
-	pass
+	# Let's collect the video features
+	dirs = [os.path.join(video_dir, o) for o in os.listdir(video_dir)]
+	ids = [reader.GetFileOnly(o) for o in dirs]
+
+	# Now let's get the features for each video
+	feature_dirs = [os.path.join(o,"features") for o in dirs]
+	face_files = [os.path.join(a,b + ".face") for a,b in zip(dirs,ids)]
+
+	for feat_dir,face_file in zip(feature_dirs,face_files):
+		# Let's Read in the face file
+		faces = reader.ReadFaceFile(face_file)
+
+		# This portion of code will analyze the face files, and decide which are good faces
+		# that contain the features that we want to use, we need to do this because we want faces to be 
+		# consistent and only use the main face for feature extraction
+		detected_face_frames = [face[0] for face in faces]
+		detected_face_frames = list(set(detected_face_frames))
+		faces_by_frame = [[] for f in detected_face_frames]
+		for face in faces:
+			faces_by_frame[detected_face_frames.index(face[0])].append(face)
+		faces_by_frame.sort()
+		
+		# Now let's track the motion of the faces, and we will only use the images from the good faces
+		
+
+
+	return None,None
 
 def GetGroundTruth(gt_dir):
 	files = [os.path.join(gt_dir,o) for o in os.listdir(gt_dir)]
@@ -111,14 +135,23 @@ def FeatureNormalization(feats):
 	return norm_feats
 
 def GetGoodVideos(gt,uni_ids):
-	# This returns the videos that we have marked as very good
-	# 
+	# This returns the videos that we have marked as very good,
+	good_indexs = []
+	for i,id_ in enumerate(uni_ids):
+		if gt[id_]["Good?"] == 1:
+			good_indexs.append(i)
+	return good_indexs
 
 
 if __name__ == "__main__":
 	# Main function runs classification
 	audio_dir = "/home/jellis/Project_Data/audio_features"
 	gt_dir = "/home/jellis/Project_Data/ground_truth"
+	video_dir = "/home/jellis/Project_Data/core_extraction"
+	video_feats, ids = CollectVideoFeats(video_dir) 
+	quit()
+
+
 	audio_feats,uni_ids = CollectAudioFeats(audio_dir)
 	gt = GetGroundTruth(gt_dir)
 	
@@ -127,8 +160,6 @@ if __name__ == "__main__":
 	# Find the good indices for the np array
 	good_indices = [i for i,id_ in enumerate(uni_ids) if id_[0:id_.rfind("_")] in ["fcSJd9BfqSk","Oo0GGfpPzOA","z5vLvo9yXpA"]]
 	
-	great_videos = 
-
 	# Now check the audio feats from the ones that we actually have
 	curr_audio_feats = audio_feats[good_indices,:]
 	norm_audio_feats = FeatureNormalization(curr_audio_feats)
@@ -136,19 +167,32 @@ if __name__ == "__main__":
 	# Return the labels
 	raw_binary_gt, raw_3way_gt = CreateGTArrays(gt,uni_tests)
 
+
+	# This portion is for only if we want to use the videos marked good
+	# These are the videos that we marked as good videos
+	#great_videos = GetGoodVideos(gt,uni_tests)
+	#print len(great_videos)
+	#norm_audio_feats = norm_audio_feats[great_videos,:]
+	#raw_binary_gt = raw_binary_gt[great_videos]
+	#raw_3way_gt = raw_3way_gt[great_videos]
+
+
 	####### This section of the code is for multiple tests ###########
 	# Let's create the C and rbf values to figure out what is the best
-	C_arr = 10 ** np.arange(-5,5,dtype=float)
-	gamma_arr = 10 ** np.arange(-5,5,dtype=float)
-	print gamma_arr
-	test_nums = 30
+	C_arr = 2 ** np.arange(0,10,dtype=float)
+	gamma_arr = 2 ** np.arange(-10,0,dtype=float)
+	test_nums = 100
+
+	max_acc = 0
+	max_C = 0
+	max_gamma = 0
 
 	for i in range(len(C_arr)):
 		for j in range(len(gamma_arr)):
 			acc_vec = np.zeros(test_nums)
 			for k in range(test_nums):
 				# Seperate the Training and Testing
-				train,train_l,test,test_l = SepTrainandTest(norm_audio_feats,raw_3way_gt,0.7)
+				train,train_l,test,test_l = SepTrainandTest(norm_audio_feats,raw_3way_gt,0.9)
 
 				# Now train the SVM
 				svm_clf = trainSVM(train,train_l,C_arr[i],"rbf",gamma_arr[j])
@@ -157,7 +201,17 @@ if __name__ == "__main__":
 				pred_labels,acc = testSVM(svm_clf,test,test_l)
 				acc_vec[k] = acc
 
+			# Check to see if this is the best configuration
+			if np.mean(acc_vec) > max_acc:
+				max_acc = np.mean(acc_vec)
+				max_C = C_arr[i]
+				max_gamma = gamma_arr[j]
+
 			print "The Mean Acc for C=%f and gamma=%f is %f" % (C_arr[i],gamma_arr[j],np.mean(acc_vec))
+
+	print "The max accuracy is: ", max_acc
+	print "The best C is: ", max_C
+	print "The best gamma is: ", max_gamma
 
 
 
