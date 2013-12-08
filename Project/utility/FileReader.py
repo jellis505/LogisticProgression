@@ -356,7 +356,14 @@ def ReadFaceFile(filepath):
 
     return faces
 
-
+def ReadFaceFeatures(facefile):
+    with open(facefile,"r") as f:
+        lines = f.readlines()
+        line = lines[0].rstrip("\n")
+        line = line[1:-1]
+        parts = line.split(",")
+        array = [int(part) for part in parts]
+        return array
     
 if __name__ == "__main__":
     # This is only used to debug the reader functionality of the function above
