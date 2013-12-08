@@ -1,0 +1,15 @@
+outlets,1
+on,1
+.,1
+outlets_on,1
+on_.,1
+outlets_on_.,1
+lex0_count,3.0
+lex0_total,0.158375
+lex0_max,0.091125
+lex0_last,0.015
+lex1_count,2.0
+lex1_total,0.0068
+lex1_max,0.0098
+lex1_last,0.0094
+num_negations,0

@@ -1,0 +1,15 @@
+club,1
+or,1
+.,1
+club_or,1
+or_.,1
+club_or_.,1
+lex0_count,2.0
+lex0_total,0.628
+lex0_max,0.883
+lex0_last,0.478
+lex1_count,2.0
+lex1_total,0.317
+lex1_max,0.223
+lex1_last,0.156
+num_negations,0
