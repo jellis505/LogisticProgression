@@ -1,0 +1,15 @@
+necessarily,1
+want,1
+.,1
+necessarily_want,1
+want_.,1
+necessarily_want_.,1
+lex0_count,0.0
+lex0_total,-0.107
+lex0_max,0.0
+lex0_last,0.0
+lex1_count,1.0
+lex1_total,0.0838
+lex1_max,0.2638
+lex1_last,0.2638
+num_negations,0
