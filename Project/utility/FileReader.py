@@ -363,7 +363,7 @@ def ReadFaceFeatures(facefile):
         line = line[1:-1]
         parts = line.split(",")
         array = [int(part) for part in parts]
-        return array
+        return array[0:896]
     
 if __name__ == "__main__":
     # This is only used to debug the reader functionality of the function above
