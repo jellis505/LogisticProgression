@@ -204,30 +204,33 @@ def run(argv):
 	for wav_path in wav_paths:
 		
 		# Extract the features
-		ae = AudioExtractor(wav_path)
-		mfccs = ae.CalculateMFCCs()
-		low_fund_freqs,fund_freqs,upper_fund_freqs = ae.ExtractPitchfromFrames()
-		low_E, total_E = ae.ExtractEnergyfromFrames()
-		
-		# Now that we have the total frames for this wavfile let's create the audio feature
-		audio_feat = []
-		audio_feat.extend(ae.GetFeaturesfromSeries(low_fund_freqs))
-		audio_feat.extend(ae.GetFeaturesfromSeries(fund_freqs))
-		audio_feat.extend(ae.GetFeaturesfromSeries(upper_fund_freqs))
-		audio_feat.extend(ae.GetFeaturesfromSeries(low_E))
-		audio_feat.extend(ae.GetFeaturesfromSeries(total_E))
-		for i in range(mfccs.shape[1]):
-			audio_feat.extend(ae.GetFeaturesfromSeries(mfccs[i,:]))
-		a_feat = np.array(audio_feat)
+		try:
+			ae = AudioExtractor(wav_path)
+			mfccs = ae.CalculateMFCCs()
+			low_fund_freqs,fund_freqs,upper_fund_freqs = ae.ExtractPitchfromFrames()
+			low_E, total_E = ae.ExtractEnergyfromFrames()
+			
+			# Now that we have the total frames for this wavfile let's create the audio feature
+			audio_feat = []
+			audio_feat.extend(ae.GetFeaturesfromSeries(low_fund_freqs))
+			audio_feat.extend(ae.GetFeaturesfromSeries(fund_freqs))
+			audio_feat.extend(ae.GetFeaturesfromSeries(upper_fund_freqs))
+			audio_feat.extend(ae.GetFeaturesfromSeries(low_E))
+			audio_feat.extend(ae.GetFeaturesfromSeries(total_E))
+			for i in range(mfccs.shape[1]):
+				audio_feat.extend(ae.GetFeaturesfromSeries(mfccs[i,:]))
+			a_feat = np.array(audio_feat)
 
-		# Create the output files
-		file_only = reader.GetFileOnly(wav_path)
-		file_aud_ext = reader.ReplaceExt(file_only,".audio_feat")
-		output_path = os.path.join(output_dir,file_aud_ext)
+			# Create the output files
+			file_only = reader.GetFileOnly(wav_path)
+			file_aud_ext = reader.ReplaceExt(file_only,".audio_feat")
+			output_path = os.path.join(output_dir,file_aud_ext)
 
-		# Here is where we extract the features
-		# Now let's save the feature that we have just extracted from this audio segment using 
-		np.savetxt(output_path,a_feat,delimiter=",")
+			# Here is where we extract the features
+			# Now let's save the feature that we have just extracted from this audio segment using
+			np.savetxt(output_path,a_feat,delimiter=",")
+		except:
+			print "This file was corrupted: ", wav_path
 
 	return
 

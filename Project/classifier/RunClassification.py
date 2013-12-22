@@ -192,29 +192,48 @@ def trainSVM(train,train_labels,C=1,kernel="rbf",gamma=1,probability_val=False):
 
 def testSVM_max_vote(svm_clf,test,test_labels,get_probs=False):
 	# This tests the accuracy of the built classifier
-	maj_pred_labels = []
-	for test1 in test:
-		
-		# Get the predicted labels
-		pred_labels = svm_clf.predict(test1)
-		
-		# Find the majority class
-		zero_class_sum = np.sum(pred_labels == 0)
-		neg_class_sum = np.sum(pred_labels == -1)
-		pos_class_sum = np.sum(pred_labels == 1)
+	if get_probs == False:
+		maj_pred_labels = []
+		for test1 in test:
+			
+			# Get the predicted labels
+			pred_labels = svm_clf.predict(test1)
+			
+			# Find the majority class
+			zero_class_sum = np.sum(pred_labels == 0)
+			neg_class_sum = np.sum(pred_labels == -1)
+			pos_class_sum = np.sum(pred_labels == 1)
 
-		if (pos_class_sum >= zero_class_sum) and (pos_class_sum >= neg_class_sum):
-			maj_pred_labels.append(1.0)
-		elif (neg_class_sum >= zero_class_sum) and (neg_class_sum >= pos_class_sum):
-			maj_pred_labels.append(-1.0)
+			if (pos_class_sum >= zero_class_sum) and (pos_class_sum >= neg_class_sum):
+				maj_pred_labels.append(1.0)
+			elif (neg_class_sum >= zero_class_sum) and (neg_class_sum >= pos_class_sum):
+				maj_pred_labels.append(-1.0)
+			else:
+				maj_pred_labels.append(0.0)
+
+		# Now find out how many of our majority voted labels work
+		correct = np.sum(np.array(maj_pred_labels) == np.array(test_labels))
+
+		acc = correct / float(len(test_labels))
+		return maj_pred_labels, acc
+
+	else:
+		if not (0 in test_labels):
+			prob_vals = np.zeros((len(test_labels),2))
+			perc_pred_labels = []
+			for i,test1 in enumerate(test):
+				pred_labels = svm_clf.predict(test1)
+				prob_vals[i,0] = np.sum(pred_labels == -1) / float(len(pred_labels))
+				prob_vals[i,1] = np.sum(pred_labels == 1) / float(len(pred_labels))
 		else:
-			maj_pred_labels.append(0.0)
-
-	# Now find out how many of our majority voted labels work
-	correct = np.sum(np.array(maj_pred_labels) == np.array(test_labels))
-
-	acc = correct / float(len(test_labels))
-	return maj_pred_labels, acc
+			prob_vals = np.zeros((len(test_labels),3))
+			perc_pred_labels = []
+			for i,test1 in enumerate(test):
+				pred_labels = svm_clf.predict(test1)
+				prob_vals[i,0] = np.sum(pred_labels == -1) / float(len(pred_labels))
+				prob_vals[i,1] = np.sum(pred_labels == 0) / float(len(pred_labels))
+				prob_vals[i,1] = np.sum(pred_labels == 1) / float(len(pred_labels))
+		return prob_vals
 
 
 
@@ -248,7 +267,7 @@ def SepTrainandTest(feats,labels,split):
 	
 	return train,train_labels,test,test_labels
 
-def SepTrainandTest2(feats_list,labels,split):
+def SepTrainandTest2(feats_list,audio_feats,labels,split):
 	# This is the second version of train and test split that actually uses the 
 	if split > 1 or split < 0:
 		print "You moron you can't split data you don't have"
@@ -275,7 +294,11 @@ def SepTrainandTest2(feats_list,labels,split):
 	# Create the face features used for training values for this given work
 	train_SVM,train_l = CreateSVMTrainFeats(train,train_labels)
 
-	return train_SVM,train_l,test,test_labels
+	# Now let's get the audio portion of the content
+	audio_train = audio_feats[train_index,:]
+	audio_test = audio_feats[test_index,:]
+
+	return train_SVM,train_l,test,test_labels,audio_train,audio_test,train,train_labels
 
 def CreateSVMTrainFeats(train_list,labels):
 	train = train_list[0]
@@ -384,9 +407,9 @@ if __name__ == "__main__":
 	raw_binary_gt, raw_3way_gt = CreateGTArrays(gt,video_uni_ids)
 
 	# Now let's start the tests
-	C_arr = 2 ** np.arange(2,7,dtype=float)
-	gamma_arr = 2 ** np.arange(-8,-3,dtype=float)
-	test_nums = 10
+	C_arr = 2 ** np.arange(4,6,dtype=float)
+	gamma_arr = 2 ** np.arange(-10,-8,dtype=float)
+	test_nums = 20
 
 	max_acc = 0
 	max_C = 0
@@ -400,14 +423,30 @@ if __name__ == "__main__":
 				print "Processing test %d for C=%f and gamma=%f" % (k,C_arr[i],gamma_arr[j])
 				
 				##### THIS IS SINGLE CLASS CLASSIFICATION ########
+				'''
 				# Seperate the Training and Testing
-				train,train_l,test,test_l = SepTrainandTest2(norm_video_feats_list,raw_binary_gt,0.8)
+				train,train_l,test,test_l = SepTrainandTest3(norm_video_feats_list,raw_binary_gt,0.8)
 
 				# Now train the SVM
 				svm_clf = trainSVM(train,train_l,C_arr[i],"rbf",gamma_arr[j])
 				# Now test the values
 				pred_labels,acc = testSVM_max_vote(svm_clf,test,test_l)
 				acc_vec[k] = acc
+				'''
+
+				# Seperate the Training and Testing
+				train_SVM,train_l,test,test_l,audio_train,audio_test,train,train_labels = SepTrainandTest3(norm_video_feats_list,raw_binary_gt,0.8)
+
+				# Now train the SVM
+				vid_svm_clf = trainSVM(train_SVM,train_l,C_arr[i],"rbf",gamma_arr[j])
+				audio_svm_clf = trainSVM(audio_train,train_l,C_arr[i],"rbf",gamma_arr[j], True)
+
+				pred_labels,acc = testSVM_max_vote(svm_clf,test,test_l)
+				
+
+
+				acc_vec[k] = acc
+
 
 				# Check to see if this is the best configuration
 			if np.mean(acc_vec) > max_acc:
@@ -420,6 +459,7 @@ if __name__ == "__main__":
 			#print pred_labels
 			#print test_l
 			#raw_input("Press Enter")
+	print acc_vec
 	print "The max accuracy is: ", max_acc
 	print "The best C is: ", max_C
 	print "The best gamma is: ", max_gamma
