@@ -186,7 +186,7 @@ def CreateGTArrays(gt,uni_ids):
 def trainSVM(train,train_labels,C=1,kernel="rbf",gamma=1,probability_val=False):
 	# This trains the parameters, see the scikit-learn documentation for usage
 	svm_clf = svm.SVC(C,kernel,0,gamma,probability=probability_val)
-	#print svm_clf
+	print svm_clf
 	svm_clf.fit(train,train_labels)
 	return svm_clf
 
@@ -219,20 +219,29 @@ def testSVM_max_vote(svm_clf,test,test_labels,get_probs=False):
 
 	else:
 		if not (0 in test_labels):
-			prob_vals = np.zeros((len(test_labels),2))
+			prob_vals = np.zeros((len(test),2))
 			perc_pred_labels = []
 			for i,test1 in enumerate(test):
 				pred_labels = svm_clf.predict(test1)
-				prob_vals[i,0] = np.sum(pred_labels == -1) / float(len(pred_labels))
-				prob_vals[i,1] = np.sum(pred_labels == 1) / float(len(pred_labels))
+				if len(pred_labels) == 0:
+					prob_vals[i,0] = 0.5
+					prob_vals[i,1] = 0.5
+				else:
+					prob_vals[i,0] = np.sum(pred_labels == -1) / float(len(pred_labels))
+					prob_vals[i,1] = np.sum(pred_labels == 1) / float(len(pred_labels))
 		else:
-			prob_vals = np.zeros((len(test_labels),3))
+			prob_vals = np.zeros((len(test),3))
 			perc_pred_labels = []
 			for i,test1 in enumerate(test):
 				pred_labels = svm_clf.predict(test1)
-				prob_vals[i,0] = np.sum(pred_labels == -1) / float(len(pred_labels))
-				prob_vals[i,1] = np.sum(pred_labels == 0) / float(len(pred_labels))
-				prob_vals[i,1] = np.sum(pred_labels == 1) / float(len(pred_labels))
+				if len(pred_labels) == 0:
+					prob_vals[i,0] = 0.33
+					prob_vals[i,1] = 0.33
+					prob_vals[i,2] = 0.33
+				else:
+					prob_vals[i,0] = np.sum(pred_labels == -1) / float(len(pred_labels))
+					prob_vals[i,1] = np.sum(pred_labels == 0) / float(len(pred_labels))
+					prob_vals[i,1] = np.sum(pred_labels == 1) / float(len(pred_labels))
 		return prob_vals
 
 
@@ -332,7 +341,7 @@ def FeatureNormalization(feats):
 
 	for i in range(norm_feats.shape[0]):
 		norm_feats[i,:] = (feats[i,:] - mean_feats) / std_feats
-	return norm_feats
+	return norm_feats,mean_feats,std_feats
 
 def GetGoodVideos(gt,uni_ids):
 	# This returns the videos that we have marked as very good,
