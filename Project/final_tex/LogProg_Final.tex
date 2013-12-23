@@ -26,11 +26,12 @@
 \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
 \linespread{1.05} % Line spacing - Palatino needs more space between lines
 \usepackage{microtype} % Slightly tweak font spacing for aesthetics
+\usepackage{array}
 
 \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
 \usepackage{multicol} % Used for the two-column layout of the document
 \usepackage[hang, small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under/above floats in tables or figures
-\usepackage{booktabs} % Horizontal rules in tables
+%\usepackage{booktabs} % Horizontal rules in tables
 \usepackage{float} % Required for tables and figures in the multi-column environment - they need to be placed in specific locations with the [H] (e.g. \begin{table}[H])
 \usepackage{hyperref} % For hyperlinks in the PDF
 \usepackage{color} % For color that is supposed to used for debugging
@@ -182,15 +183,37 @@ As stated above, we then found the mean and standard deviation of each feature a
 \section{Classification}
 Jessica
 
+BTW audio classifier is RBF, and video classifier is linear.
+
+
 %------------------------------------------------
 % ---- Experiments
 %------------------------------------------------
 
 \section{Experiments}
-Joe
+To explore how well single modalities within each video, or the combination of the modailities could predict the sentiment in the videos we seperated our 434 annotated videos into a train and test set.  We seperated 3 downloaded YouTube video as training, and 3 of the videos as testing.
+We also downloaded 5 seperate videos that we utilized for co-training, and this is described below.
+
 
 \subsection{Single Classifier}
-Joe and Jessica
+The results of each classifier on our 50/50 train and test split of the annotated data can be seen below in Table \ref{tab:SingleResults}.
+
+\begin{table}[H]
+\centering
+\caption{Classifier Accuracies}
+\label{tab:SingleResults}
+\begin{tabular}{| c | c |} 
+\hline
+ Modality & Accuracy \\ \hline \hline
+Audio & 0.6025 \\ \hline
+Visual & 0.5427 \\ \hline
+Text & {\color{red}0.0000} \\ \hline
+Majority Vote & {\color{red}0.0000} \\ \hline
+\end{tabular}
+\end{table}
+
+As we can see here, classification of sentiment using the audio present in the videos is the most succesful classification strategy.
+However, when we combine the classifiers that have been trained for each of these modalities even with a simple majority voting scheme we are able to achieve greater classifier accuracy.
 
 \subsection{Co-Training Classification}
 Joe and Jessica
