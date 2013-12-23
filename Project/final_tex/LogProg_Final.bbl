@@ -1,0 +1,35 @@
+\begin{thebibliography}{1}
+
+\bibitem{FineBrothers}
+Fine Brothers.
+\newblock Fine brother's youtube channel, December 2013.
+
+\bibitem{huj}
+Marijn Huijbregts.
+\newblock Segmentation, diarization, and speech transcription: Suprise data
+  unraveled, 2008.
+
+\bibitem{Lowe}
+David~G. Lowe.
+\newblock Distinctive image features from scale-invariant keypoints.
+\newblock {\em International Journal of Computer Vision}, 60:91--110, 2004.
+
+\bibitem{youtubedl}
+et~al. Ricardo Garcia~Gonazalez.
+\newblock youtube-dl, December 2013.
+
+\bibitem{flandmark}
+Michal U{\v{r}}i{\v{c}}{\'{a}}{\v{r}}, Vojt~{\v{e}}ch Franc, and V{\'{a}}clav
+  Hlav{\'{a}}{\v{c}}.
+\newblock Detector of facial landmarks learned by the structured output {SVM}.
+\newblock In Gabriela Csurka and Jos{\'{e}} Braz, editors, {\em VISAPP '12:
+  Proceedings of the 7th International Conference on Computer Vision Theory and
+  Applications}, volume~1, pages 547--556, Portugal, February 2012. SciTePress
+  --- Science and Technology Publications.
+
+\bibitem{violajones}
+Paul Viola and Michael Jones.
+\newblock Robust real-time object detection.
+\newblock In {\em International Journal of Computer Vision}, 2001.
+
+\end{thebibliography}
