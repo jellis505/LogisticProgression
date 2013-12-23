@@ -89,7 +89,7 @@ def GetDistancetoDecisionFunction(svm_clf,feats):
 
 def ReturnSamples(a_list,v_list,unlabeled_ids,percent):
 	# Find the samples that are most represenative of each section
-	percent = percent/4.;
+	percent = percent/2.;
 	num_samples = int(np.floor(len(a_list)*percent))
 	print num_samples
 	new_neg_train_labels = []
@@ -186,6 +186,7 @@ def run(argv):
 	# Now get the untrained labels
 	if not unlabeled_file:
 		u_audio_feat, u_video_feat_list, unlabeled_ids = GetUnlabeledFeatures(audio_feats,video_feats,train_ids,audio_uni_ids,video_uni_ids,test_ids)
+	print "The number of unlabeled videos is: ", len(unlabeled_ids)
 
 	# Now let's get the proper labels for the training
 	raw_binary_gt, raw_3way_gt = CreateGTArrays(gt,train_ids)
@@ -207,7 +208,7 @@ def run(argv):
 	print Y
 	print np.mean(Y)
 	gamma = np.mean(Y)
-	audio_svm_clf = trainSVM(train_audio,labels,4,"rbf",.0005,False)
+	audio_svm_clf = trainSVM(train_audio,labels,8,"rbf",.007)
 	##############################
 
 	#### Train the Video SVM #####
@@ -241,7 +242,7 @@ def run(argv):
 	print Y
 	print np.mean(Y)
 	gamma = np.mean(Y)
-	vid_svm_clf = trainSVM(train_video_SVM,train_labels,8,"rbf",.001)
+	vid_svm_clf = trainSVM(train_video_SVM,train_labels,8,"linear",.0007)
 	################################
 
 	###### Get UnLabeled Audio Probability ####
@@ -259,7 +260,7 @@ def run(argv):
 
 	###### Get Unlabeled Video Probability ####
 	u_norm_video_feats_list = []
-	for feat in train_video:
+	for feat in u_norm_video_feats_list:
 		norm_feat = np.zeros(feat.shape)
 		for z in range(feat.shape[0]):
 			norm_feat[z,:] = (feat[z,:] - total_mean) / total_std
@@ -272,8 +273,8 @@ def run(argv):
 	else:
 		video_probs = testSVM_max_vote(vid_svm_clf,u_norm_video_feats_list,[-1,0,1],True)
 		#video_probs = testSVM_max_vote2(vid_svm_clf,u_norm_video_feats_list,[-1,1],True)
-	for i in range(len(v_dist_to_desc)):
-		print v_dist_to_desc[i]
+	#for i in range(len(v_dist_to_desc)):
+	#	print v_dist_to_desc[i]
 	###########################################
 
 	#### Video Selection (Audio) #####
@@ -292,9 +293,53 @@ def run(argv):
 
 	#### Get the positive samples to add #####
 	pos,neg = ReturnSamples(a_rising,v_rising,unlabeled_ids,0.2)
+	pos = set(pos)
+	neg = set(neg)
+
+	print len(pos)
+	print len(neg)
 
 	##### Now Create the new output files ####
+	output_ids = train_ids + list(pos) + list(neg)
+	output_labels = list(labels) + [1 for i in range(len(pos))] + [-1 for i in range(len(neg))]
+	use = [1 for i in output_labels]
+	non_used_ids = [u_id for u_id in unlabeled_ids if u_id not in output_ids]
+	output_ids = output_ids + non_used_ids
+	output_labels = output_labels + [0 for i in non_used_ids]
+	use = use + [-1 for i in non_used_ids]
 
+	print len(output_labels)
+	print len(output_ids)
+	print len(use)
+
+	# Output to a file to use for co-training
+	OutputUnlabeledFile(output_ids,True,output_labels,use,output_newtrain_file)
+
+	#### This section runs the training
+	test_audio = CreateTrainFeatures(audio_feats,audio_uni_ids,test_ids)
+	test_video = CreateTrainFeatures(video_feats,video_uni_ids,test_ids)
+	# Now let's get the proper labels for the testing
+	raw_binary_gt_test, raw_3way_gt_test = CreateGTArrays(gt_test,test_ids)
+
+	##### Get Accuracy over Audio Files #########
+	norm_test_audio = np.zeros(test_audio.shape)
+	for i in range(norm_test_audio.shape[0]):
+		norm_test_audio[i,:] = (test_audio[i,:] - mean_audio) / std_audio
+	a_pred_labels,acc = testSVM(audio_svm_clf,norm_test_audio,raw_binary_gt_test,False)
+	print a_pred_labels
+	print "The Audio Classification Accuracy is: ", acc
+	##############################################
+
+	##### Get the Accuracy over Visual Features###
+	norm_test_video_list = []
+	for feat in test_video:
+		norm_feat = np.zeros(feat.shape)
+		for z in range(feat.shape[0]):
+			norm_feat[z,:] = (feat[z,:] - total_mean) / total_std
+		norm_test_video_list.append(norm_feat)
+	video_pred_labels, acc = testSVM_max_vote(vid_svm_clf,norm_test_video_list,raw_binary_gt_test,False)
+	print video_pred_labels
+	print "The Video Classification Accuracy is: ", acc
 
 	return
 
